@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Doc Rock's AI Pulse</title>
+<meta name="description" content="A friendly, no-jargon roundup of what's happening in AI today — for creators and small business owners.">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-row">
+    <div class="brand">
+      <span class="brand-mark">AI</span>
+      <div class="brand-text">
+        <h1>Doc Rock's AI Pulse</h1>
+        <p class="tagline">What's new in AI, explained like a human</p>
+      </div>
+    </div>
+    <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Switch to dark mode">
+      <span aria-hidden="true">🌙</span>
+    </button>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <section id="status-banner" class="status-banner" aria-live="polite">
+    <p id="status-text" class="status-text">Loading the latest update…</p>
+  </section>
+
+  <section class="controls">
+    <div class="control-row">
+      <label for="search-input" class="visually-hidden">Search news</label>
+      <input
+        type="search"
+        id="search-input"
+        class="search-input"
+        placeholder="Search headlines and summaries…"
+        autocomplete="off"
+      >
+    </div>
+
+    <div class="control-row">
+      <div id="category-filters" class="category-filters" role="tablist" aria-label="Filter by category">
+        <button type="button" class="pill is-active" data-category="all" role="tab" aria-selected="true">All</button>
+      </div>
+    </div>
+
+    <div class="control-row">
+      <label for="archive-select" class="archive-label">Previous editions:</label>
+      <select id="archive-select" class="archive-select">
+        <option value="">Loading editions…</option>
+      </select>
+    </div>
+  </section>
+
+  <main id="content">
+    <div id="loading-state" class="state-message">
+      <p>Fetching the latest AI news…</p>
+    </div>
+
+    <div id="empty-state" class="state-message" hidden>
+      <p>No news yet for this edition. Check back soon!</p>
+    </div>
+
+    <div id="error-state" class="state-message" hidden>
+      <p>Couldn't load the news feed right now. Try refreshing the page in a bit.</p>
+    </div>
+
+    <div id="no-results-state" class="state-message" hidden>
+      <p>No stories match your search or filter. Try clearing one of them.</p>
+    </div>
+
+    <div id="categories-container"></div>
+  </main>
+
+  <footer class="site-footer">
+    <p>Built by Doc Rock &middot; AI news, summarized for humans &middot; no login, no tracking, just the pulse.</p>
+  </footer>
+
+</div>
+
+<script src="assets/app.js"></script>
+</body>
+</html>
