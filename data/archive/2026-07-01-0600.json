@@ -1,0 +1,78 @@
+{
+  "generated_at_iso": "2026-07-01T06:00:00-04:00",
+  "generated_label": "Wednesday, July 1 · 6:00 AM ET",
+  "edition": "morning",
+  "categories": [
+    {
+      "id": "claude-anthropic",
+      "title": "Claude & Anthropic",
+      "items": [
+        {
+          "headline": "A top-tier Claude model, Fable 5, is back online after the U.S. lifted export controls",
+          "summary": "The U.S. government had forced Anthropic to pull its powerful Claude Fable 5 model offline in mid-June over security concerns. Those restrictions have now been lifted, and as of July 1 Fable 5 is available again worldwide across Claude.ai, Claude Code, and Claude Cowork.",
+          "why_it_matters": "If you'd noticed Claude's most capable model quietly disappear last month, it's back — Pro, Max, and Team subscribers get it included for up to half their weekly usage through July 7, then through usage credits after that.",
+          "link": "https://www.anthropic.com/news/redeploying-fable-5",
+          "source": "Anthropic",
+          "tag": "Product Update"
+        },
+        {
+          "headline": "California cuts a deal to give all its state and local agencies Claude at half price",
+          "summary": "Governor Gavin Newsom announced a first-of-its-kind partnership that lets every California state agency — plus cities and counties — use Anthropic's Claude assistant at a 50% discount, with free staff training included.",
+          "why_it_matters": "It's a strong signal that AI assistants are becoming standard workplace tools, not a novelty — and if you sell to or work with local government, expect Claude to start showing up in those offices.",
+          "link": "https://www.gov.ca.gov/2026/06/29/governor-newsom-announces-a-first-of-its-kind-partnership-providing-anthropic-tools-to-state-agencies-and-improving-services-for-californians/",
+          "source": "California Governor's Office",
+          "tag": "Policy"
+        }
+      ]
+    },
+    {
+      "id": "ai-industry",
+      "title": "Wider AI World",
+      "items": [
+        {
+          "headline": "Microsoft makes its AI Copilot a standard part of Microsoft 365 for small businesses",
+          "summary": "As of July 1, Microsoft 365 Business Standard and Premium plans come with Copilot — Microsoft's AI assistant that works inside Word, Excel, Outlook, and Teams — built in as a permanent standard feature rather than a separate paid add-on.",
+          "why_it_matters": "If your business runs on Microsoft 365, the AI features are now part of the plan you already pay for instead of an extra purchase — worth a look at your subscription so you're actually using what you're now getting.",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/28/introducing-microsoft-365-business-with-copilot-the-new-standard-for-small-business/",
+          "source": "Microsoft 365 Blog",
+          "tag": "Product Update"
+        },
+        {
+          "headline": "Proton's privacy-first AI chatbot, Lumo, adds image generation and photo recognition",
+          "summary": "Proton — the company behind privacy-focused Proton Mail — upgraded its Lumo chatbot so it can now create images and 'read' photos you upload, while sticking to its promise not to log or train on your conversations.",
+          "why_it_matters": "If you like the idea of an AI assistant but worry about your data being stored or used to train models, Lumo is a more private alternative for everyday tasks like drafting — and now basic image work too.",
+          "link": "https://techcrunch.com/2026/06/30/lumo-protons-privacy-focused-ai-chatbot-gets-an-upgrade/",
+          "source": "TechCrunch",
+          "tag": "Product Update"
+        }
+      ]
+    },
+    {
+      "id": "creator-tools",
+      "title": "Tools & Tips for Creators and Small Biz",
+      "items": [
+        {
+          "headline": "Acti puts an AI assistant right inside your phone's keyboard",
+          "summary": "A new app called Acti replaces your phone's keyboard (on iOS and Android) with one that has AI built in, so you can translate, rewrite, or run custom shortcuts inside any app — email, messages, social — without switching over to a separate AI app. You set up shortcuts by describing what you want in plain English.",
+          "why_it_matters": "For solo creators and small business owners answering messages and comments all day, having AI help right in the keyboard — instead of copy-pasting into a separate chatbot — can shave real time off replies and captions.",
+          "link": "https://techcrunch.com/2026/06/30/acti-puts-ai-agents-directly-into-your-smartphone-keyboard/",
+          "source": "TechCrunch",
+          "tag": "Product Update"
+        },
+        {
+          "headline": "Riverside can now turn your videos and podcasts into newsletters automatically",
+          "summary": "Riverside, the remote video and podcast recording tool, added an AI feature that takes an episode you've already recorded and turns it into a written newsletter you can send to your audience.",
+          "why_it_matters": "This is repurposing on autopilot — one recording becomes a video, a podcast, and now an email newsletter, exactly the 'make it once, publish it everywhere' workflow that saves solo creators hours every week.",
+          "link": "https://techcrunch.com/2026/06/30/podcasting-platform-riverside-enters-the-newsletter-publishing-game/",
+          "source": "TechCrunch",
+          "tag": "Product Update"
+        }
+      ]
+    },
+    {
+      "id": "content-social",
+      "title": "Content & Social Media Pulse",
+      "items": []
+    }
+  ]
+}
