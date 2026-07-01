@@ -1,6 +1,6 @@
 {
-  "generated_at_iso": "2026-06-30T06:00:00-04:00",
-  "generated_label": "Tuesday, June 30 · 6:00 AM ET",
+  "generated_at_iso": "2026-07-01T06:00:00-04:00",
+  "generated_label": "Wednesday, July 1 · 6:00 AM ET",
   "edition": "morning",
   "categories": [
     {
@@ -8,44 +8,20 @@
       "title": "Claude & Anthropic",
       "items": [
         {
-          "headline": "Anthropic launches Claude Sonnet 5 — strong performance at a much lower price",
-          "summary": "Anthropic released Claude Sonnet 5, a new mid-tier model that gets close to the performance of its priciest model (Opus 4.8) but costs a lot less. It's now the default model on Free and Pro plans.",
-          "why_it_matters": "If you use Claude for writing, research, or automating tasks, you're now getting better results for free or for the same subscription price you're already paying — no action needed on your end.",
-          "link": "https://www.anthropic.com/news/claude-sonnet-5",
+          "headline": "A top-tier Claude model, Fable 5, is back online after the U.S. lifted export controls",
+          "summary": "The U.S. government had forced Anthropic to pull its powerful Claude Fable 5 model offline in mid-June over security concerns. Those restrictions have now been lifted, and as of July 1 Fable 5 is available again worldwide across Claude.ai, Claude Code, and Claude Cowork.",
+          "why_it_matters": "If you'd noticed Claude's most capable model quietly disappear last month, it's back — Pro, Max, and Team subscribers get it included for up to half their weekly usage through July 7, then through usage credits after that.",
+          "link": "https://www.anthropic.com/news/redeploying-fable-5",
           "source": "Anthropic",
           "tag": "Product Update"
         },
         {
-          "headline": "Claude Science: a new AI workbench for researchers",
-          "summary": "Anthropic launched a beta app called Claude Science that brings research tools, science databases, and AI assistance into one workspace for scientists working on biology, chemistry, and related fields.",
-          "why_it_matters": "Not a everyday tool for most small businesses, but worth knowing about if you create content covering AI-in-science or work with research-heavy clients — it shows Anthropic is building specialized tools beyond the general chatbot.",
-          "link": "https://www.anthropic.com/news/claude-science-ai-workbench",
-          "source": "Anthropic",
-          "tag": "Product Update"
-        },
-        {
-          "headline": "Claude Tag lets teams \"tag\" Claude right inside Slack",
-          "summary": "Anthropic introduced Claude Tag, a way to bring Claude into a Slack channel like a team member — you @-mention it with a request, and it works through the task and replies in the thread, remembering context from the channel over time.",
-          "why_it_matters": "If you run a small team and live in Slack, this is a preview of where AI assistants are headed: less \"open a new chat window,\" more \"just ask in the channel you're already in.\" Currently limited to Claude Team and Enterprise plans.",
-          "link": "https://www.anthropic.com/news/introducing-claude-tag",
-          "source": "Anthropic",
-          "tag": "Product Update"
-        },
-        {
-          "headline": "Anthropic pauses planned billing change for its developer tools",
-          "summary": "Anthropic had announced that usage of its Claude Agent SDK and headless \"claude -p\" tool would move to separate, pay-as-you-go billing starting June 15. They've now paused that change — for now, nothing changes for Pro, Max, Team, or Enterprise subscribers.",
-          "why_it_matters": "If you or someone on your team uses Claude's developer tools to build automations, your existing subscription still covers that usage — you don't need to budget for a surprise bill increase yet.",
-          "link": "https://www.digitalapplied.com/blog/anthropic-claude-credit-overhaul-june-15-2026",
-          "source": "Digital Applied",
-          "tag": "Pricing"
-        },
-        {
-          "headline": "Apple will let iPhone owners choose Claude to power Siri and Apple Intelligence",
-          "summary": "At WWDC 2026, Apple announced a new \"Extensions\" system for iOS 27 that lets you pick a third-party AI — including Claude, ChatGPT, or Gemini — to handle Siri requests, Writing Tools, and other built-in AI features on your iPhone.",
-          "why_it_matters": "This is the first time Claude will be a built-in option on the iPhone instead of something you have to open a separate app for. Full rollout is expected around September 2026 with new iPhones, on iPhone 15 Pro and later.",
-          "link": "https://www.macrumors.com/2026/05/05/ios-27-third-party-chatbots-apple-intelligence/",
-          "source": "MacRumors",
-          "tag": "Platform Change"
+          "headline": "California cuts a deal to give all its state and local agencies Claude at half price",
+          "summary": "Governor Gavin Newsom announced a first-of-its-kind partnership that lets every California state agency — plus cities and counties — use Anthropic's Claude assistant at a 50% discount, with free staff training included.",
+          "why_it_matters": "It's a strong signal that AI assistants are becoming standard workplace tools, not a novelty — and if you sell to or work with local government, expect Claude to start showing up in those offices.",
+          "link": "https://www.gov.ca.gov/2026/06/29/governor-newsom-announces-a-first-of-its-kind-partnership-providing-anthropic-tools-to-state-agencies-and-improving-services-for-californians/",
+          "source": "California Governor's Office",
+          "tag": "Policy"
         }
       ]
     },
@@ -54,36 +30,20 @@
       "title": "Wider AI World",
       "items": [
         {
-          "headline": "OpenAI previews GPT-5.6, its next model family",
-          "summary": "OpenAI gave a limited preview of GPT-5.6, available in three tiers (Sol, Terra, and Luna) trading off power, speed, and price. It's currently only available to select partners through the API, with wider ChatGPT access expected soon.",
-          "why_it_matters": "Nothing to do yet if you're a ChatGPT user — this isn't in the app yet — but expect a wider rollout and likely a new \"best available\" model option in the coming weeks.",
-          "link": "https://openai.com/index/previewing-gpt-5-6-sol/",
-          "source": "OpenAI",
+          "headline": "Microsoft makes its AI Copilot a standard part of Microsoft 365 for small businesses",
+          "summary": "As of July 1, Microsoft 365 Business Standard and Premium plans come with Copilot — Microsoft's AI assistant that works inside Word, Excel, Outlook, and Teams — built in as a permanent standard feature rather than a separate paid add-on.",
+          "why_it_matters": "If your business runs on Microsoft 365, the AI features are now part of the plan you already pay for instead of an extra purchase — worth a look at your subscription so you're actually using what you're now getting.",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/28/introducing-microsoft-365-business-with-copilot-the-new-standard-for-small-business/",
+          "source": "Microsoft 365 Blog",
           "tag": "Product Update"
         },
         {
-          "headline": "Google walks back some of the new Gemini usage limits after user backlash",
-          "summary": "Google recently switched the Gemini app from simple daily limits to a 'compute-based' system, where complex prompts (like video generation) use up your quota faster than simple text questions. After complaints that people were hitting limits too fast, Google capped how much a single prompt can use and promised clearer usage breakdowns.",
-          "why_it_matters": "If you use Gemini's free or Pro plan for content tasks, watch your usage meter — heavier features like video or long chats now drain your weekly quota faster than they used to.",
-          "link": "https://9to5google.com/2026/05/28/gemini-new-usage-limits/",
-          "source": "9to5Google",
-          "tag": "Platform Change"
-        },
-        {
-          "headline": "Survey: most small business owners use AI daily, but confidence — not access — is the real gap",
-          "summary": "A new Bluehost study found 87% of small business owners now use at least one AI tool, but only 20% feel highly confident using it well. Owners who feel confident with AI are about three times more likely to see a revenue boost from it.",
-          "why_it_matters": "The lesson here isn't \"use more AI tools\" — it's \"get genuinely comfortable with the ones you have.\" Picking one task to automate and sticking with it tends to beat bouncing between five different AI apps.",
-          "link": "https://www.prnewswire.com/news-releases/bluehost-launches-inaugural-market-study-on-state-of-small-business-ai-confidence-in-the-us-302810857.html",
-          "source": "PR Newswire / Bluehost",
-          "tag": "Research"
-        },
-        {
-          "headline": "Salesforce buys AI customer-service company Fin for $3.6 billion",
-          "summary": "Salesforce is acquiring Fin (formerly Intercom), an AI tool that automatically resolves about three-quarters of customer support questions across chat, email, and other channels, folding it into its Agentforce product line.",
-          "why_it_matters": "Expect AI customer-support tools to get cheaper and easier to set up over the next year as big players like Salesforce push \"ready to deploy\" packages aimed specifically at small and mid-size businesses, not just big enterprises.",
-          "link": "https://www.salesforce.com/news/press-releases/2026/06/15/salesforce-signs-definitive-agreement-to-acquire-fin/",
-          "source": "Salesforce Newsroom",
-          "tag": "Pricing"
+          "headline": "Proton's privacy-first AI chatbot, Lumo, adds image generation and photo recognition",
+          "summary": "Proton — the company behind privacy-focused Proton Mail — upgraded its Lumo chatbot so it can now create images and 'read' photos you upload, while sticking to its promise not to log or train on your conversations.",
+          "why_it_matters": "If you like the idea of an AI assistant but worry about your data being stored or used to train models, Lumo is a more private alternative for everyday tasks like drafting — and now basic image work too.",
+          "link": "https://techcrunch.com/2026/06/30/lumo-protons-privacy-focused-ai-chatbot-gets-an-upgrade/",
+          "source": "TechCrunch",
+          "tag": "Product Update"
         }
       ]
     },
@@ -92,35 +52,19 @@
       "title": "Tools & Tips for Creators and Small Biz",
       "items": [
         {
-          "headline": "DaVinci Resolve 21 ships with a big batch of new AI editing tools",
-          "summary": "Blackmagic Design officially released DaVinci Resolve 21, adding AI tools like IntelliSearch (find clips by describing what's in them), automatic subtitle generation, AI-assisted refocusing after the fact, and blemish/skin touch-up tools. Most of these are in the free version.",
-          "why_it_matters": "If you edit in Resolve, this update is worth installing — searching your footage by describing it instead of scrubbing through clips alone can save real editing time, and it's free.",
-          "link": "https://www.blackmagicdesign.com/products/davinciresolve/whatsnew",
-          "source": "Blackmagic Design",
+          "headline": "Acti puts an AI assistant right inside your phone's keyboard",
+          "summary": "A new app called Acti replaces your phone's keyboard (on iOS and Android) with one that has AI built in, so you can translate, rewrite, or run custom shortcuts inside any app — email, messages, social — without switching over to a separate AI app. You set up shortcuts by describing what you want in plain English.",
+          "why_it_matters": "For solo creators and small business owners answering messages and comments all day, having AI help right in the keyboard — instead of copy-pasting into a separate chatbot — can shave real time off replies and captions.",
+          "link": "https://techcrunch.com/2026/06/30/acti-puts-ai-agents-directly-into-your-smartphone-keyboard/",
+          "source": "TechCrunch",
           "tag": "Product Update"
         },
         {
-          "headline": "Canva AI 2.0 turns one-shot AI images into fully editable designs",
-          "summary": "Canva's new \"Magic Layers\" feature takes a flat AI-generated image and breaks it into separate, editable layers — text you can actually edit, objects you can move — instead of a flat picture you're stuck with. It's already been used over nine million times since launch.",
-          "why_it_matters": "This solves the classic AI-image problem of getting a great-looking graphic with a typo or a logo you can't fix. Now you can generate an image and then actually edit it like a normal Canva design.",
-          "link": "https://www.canva.com/newsroom/news/magic-layers/",
-          "source": "Canva Newsroom",
-          "tag": "Product Update"
-        },
-        {
-          "headline": "CapCut rolls out a fuller AI editing suite: auto-edit, 130+ caption languages, AI avatars",
-          "summary": "CapCut's 2026 AI Suite includes Auto-Edit (which proposes a rough cut of pacing and transitions automatically), instant captions in 130+ languages, and AI avatars for making videos without being on camera.",
-          "why_it_matters": "If you make short-form content for TikTok or Reels and don't have editing help, Auto-Edit can hand you a roughly 70%-finished timeline to clean up instead of starting from a blank one — a real time-saver for solo creators.",
-          "link": "https://www.capcut.com/resource/new-release",
-          "source": "CapCut",
-          "tag": "Product Update"
-        },
-        {
-          "headline": "Ecamm adds Dual Mode for recording horizontal and vertical video at the same time",
-          "summary": "Ecamm (formerly Ecamm Live) now lets you build your standard YouTube-style horizontal layout and a vertical TikTok/Instagram/Shorts-ready layout in the very same live recording session, with independent camera and overlay control for each.",
-          "why_it_matters": "This is a real time-saver for solo streamers: no more recording your stream once and then re-editing it into vertical clips afterward — you can produce both formats live, ready to post.",
-          "link": "https://www.ecamm.com/mac/ecammlive/whatsnew.html",
-          "source": "Ecamm",
+          "headline": "Riverside can now turn your videos and podcasts into newsletters automatically",
+          "summary": "Riverside, the remote video and podcast recording tool, added an AI feature that takes an episode you've already recorded and turns it into a written newsletter you can send to your audience.",
+          "why_it_matters": "This is repurposing on autopilot — one recording becomes a video, a podcast, and now an email newsletter, exactly the 'make it once, publish it everywhere' workflow that saves solo creators hours every week.",
+          "link": "https://techcrunch.com/2026/06/30/podcasting-platform-riverside-enters-the-newsletter-publishing-game/",
+          "source": "TechCrunch",
           "tag": "Product Update"
         }
       ]
@@ -128,40 +72,7 @@
     {
       "id": "content-social",
       "title": "Content & Social Media Pulse",
-      "items": [
-        {
-          "headline": "Instagram brings its teleprompter tool into the main app",
-          "summary": "Instagram added a built-in teleprompter to its main camera (it was previously only in the separate Edits app). You can upload or write a script that scrolls on-screen near the camera lens while you record, with adjustable speed.",
-          "why_it_matters": "This is a free, no-extra-app way to keep eye contact with the camera while following a script — useful for tutorials, product explainers, or any talking-head Reel where you don't want to memorize lines.",
-          "link": "https://www.socialmediatoday.com/news/instagram-introduces-teleprompter-tool/821564/",
-          "source": "Social Media Today",
-          "tag": "Platform Change"
-        },
-        {
-          "headline": "Meta launches an AI \"creator assistant\" chatbot on Facebook",
-          "summary": "Meta rolled out a conversational AI assistant for Facebook creators that answers questions like \"when should I post?\" or \"what are people saying in my comments?\" using your own account's performance data. It's currently available to eligible creators in the US, Canada, and India.",
-          "why_it_matters": "Instead of digging through Facebook's analytics dashboard, you can just ask plain questions about your own page's performance — handy if you cross-post your YouTube content to Facebook and want quick insights without the spreadsheet work.",
-          "link": "https://techcrunch.com/2026/06/04/meta-rolls-out-a-new-ai-creator-assistant-on-facebook/",
-          "source": "TechCrunch",
-          "tag": "Platform Change"
-        },
-        {
-          "headline": "YouTube adds AI podcast recommendations and an \"Auto speed\" listening mode",
-          "summary": "YouTube Premium added an AI tool that recommends podcasts based on your mood or shows you already like, plus an \"Auto speed\" feature that automatically slows down dense talking and speeds up slower stretches. Currently rolling out on Android, with iOS coming later.",
-          "why_it_matters": "If you publish a podcast or talk-heavy show on YouTube, these discovery and listening features are another reason YouTube is becoming a serious podcast platform — not just a video site — worth knowing if podcast distribution is part of your content plan.",
-          "link": "https://techcrunch.com/2026/05/28/youtube-adds-new-podcast-features-including-an-ai-recommendation-tool-and-auto-speed/",
-          "source": "TechCrunch",
-          "tag": "Platform Change"
-        },
-        {
-          "headline": "Twitch rolls out Auto Clips, Stream Summaries, and 2K streaming for creators",
-          "summary": "Announced at TwitchCon Rotterdam, Twitch is rolling out 2K (1440p) streaming to all Partners and Affiliates, an Auto Clips tool that automatically finds and captions highlight moments from your stream, and Stream Summaries that recap a broadcast for viewers catching up late.",
-          "why_it_matters": "Auto Clips alone is a big deal for solo streamers — Twitch says streamers using it end up with a shareable clip after 85% of streams, versus 50% for everyone else, which means more bite-sized social content with zero extra editing effort.",
-          "link": "https://blog.twitch.tv/en/2026/05/30/everything-we-announced-at-twitchcon-rotterdam-2026/",
-          "source": "Twitch Blog",
-          "tag": "Product Update"
-        }
-      ]
+      "items": []
     }
   ]
 }
