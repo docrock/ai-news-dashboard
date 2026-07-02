@@ -37,6 +37,7 @@ Each run: `cd ~/Docrock/ai-news-dashboard && git pull`, follow `docs/digest-buil
 
 ## Open TODOs
 
+- [ ] **Build out `docs/improvement-spec.md`** (written 2026-07-01): Track A = score digest items for video/social/community potential + act-now flags; Track B = turn the copy-team skill into a "Doc Rock Studio" plugin with a single brand canon; Track C = create the script-writer skill + copywriter overhaul; Track D = wire the full content pipeline. Start with Track A.
 - [ ] **Clone the repo on Darth Nihilus** (Doc's other Mac): `git clone https://github.com/docrock/ai-news-dashboard.git ~/Docrock/ai-news-dashboard` — hasn't happened yet as of 2026-06-30.
 - [ ] Nudge the two scheduled-task cron times by 1 hour when DST ends (~2026-11-01).
 - [ ] Run `/design-sync` in a Claude Code session rooted here to pull Doc's design system in and restyle the dashboard to match his brand once it's set up in Claude Design.
