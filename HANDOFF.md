@@ -49,8 +49,8 @@ All four 2026-07-02 routine-QA items cleared same day: PR #3 (routine fixes) and
 
 ### Backlog
 
-- [ ] **Build out `docs/improvement-spec.md`** (written 2026-07-01): Track B = "Doc Rock Studio" plugin with a single brand canon; Track C = script-writer skill + copywriter overhaul; Track D = content pipeline. (Track A shipped in full 2026-07-02 — UI with the restyle, schema + §3.5 scoring rubric same day; scored editions start with the next run.)
-- [ ] **Clone the repo on Darth Nihilus** (Doc's other Mac): `git clone https://github.com/docrock/ai-news-dashboard.git ~/Docrock/ai-news-dashboard` — hasn't happened yet as of 2026-06-30.
+- [ ] **Build out `docs/improvement-spec.md`** (written 2026-07-01): only **Track D** (content-pipeline conveniences + weekly review of whether scoring predicts what Doc makes) remains. Track A shipped in full 2026-07-02 (UI + schema/rubric). Track B shipped 2026-07-02 as `doc-rock-studio@docrock-marketplace` (repo: `~/claude-plugins/docrock-marketplace`, private GitHub `docrock/docrock-marketplace`) — a conductor (`studio`) + `script-writer`, with Doc's standing order enforced: **all public-facing copy routes through the copy-doctor plugin**. Track C's script-writer shipped inside the studio; its "copywriter overhaul" was superseded by the copy-doctor plugin Doc built the same day.
+- [ ] **Clone/install on Darth Nihilus** (Doc's other Mac): `git clone https://github.com/docrock/ai-news-dashboard.git ~/Docrock/ai-news-dashboard`, then `/plugin marketplace add docrock/docrock-marketplace`, `/plugin install copy-doctor@docrock-marketplace`, `/plugin install doc-rock-studio@docrock-marketplace`.
 - [x] ~~Nudge the two scheduled-task cron times by 1 hour when DST ends (~2026-11-01)~~ — obsolete once PR #3 lands: editions derive from the run's local hour, so cron drift relative to ET no longer mislabels anything. The cron times themselves can stay put.
 
 Done:
