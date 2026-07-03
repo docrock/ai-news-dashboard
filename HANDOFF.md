@@ -43,12 +43,13 @@ Each run: `cd ~/Docrock/ai-news-dashboard && git pull`, follow `docs/digest-buil
 
 ## Open TODOs
 
-- [ ] **Build the brand restyle** (next up): recreate the Claude Design prototype in `index.html` / `assets/style.css` / `assets/app.js`, following `UI-README.md` exactly. Tokens: `pulse-tokens.css`; fonts: `assets/fonts.css` (load fonts → tokens → component CSS); comps: `design-source/`. Includes Track A's UI: opportunity badges (≥7 threshold), act-now cards, the "⚡ Action needed" pill, and the new loading/empty/error/no-results states. Verify old archive editions still render (no `opportunity` fields → zero badges/strips).
-- [ ] **Build out `docs/improvement-spec.md`** (written 2026-07-01): Track A's remaining half = schema (`docs/SCHEMA.md`) + scoring rubric in the builder playbook, so the automation starts producing scored editions (the UI half ships with the restyle above). Track B = "Doc Rock Studio" plugin with a single brand canon; Track C = script-writer skill + copywriter overhaul; Track D = content pipeline.
+- [ ] **Build out `docs/improvement-spec.md`** (written 2026-07-01): Track A's remaining half = schema (`docs/SCHEMA.md`) + scoring rubric in the builder playbook, so the automation starts producing scored editions (the UI half shipped with the restyle, 2026-07-02). Track B = "Doc Rock Studio" plugin with a single brand canon; Track C = script-writer skill + copywriter overhaul; Track D = content pipeline.
 - [ ] **Clone the repo on Darth Nihilus** (Doc's other Mac): `git clone https://github.com/docrock/ai-news-dashboard.git ~/Docrock/ai-news-dashboard` — hasn't happened yet as of 2026-06-30.
 - [ ] Nudge the two scheduled-task cron times by 1 hour when DST ends (~2026-11-01).
 
-Done: ~~Restyle prototype via Claude Design~~ — produced in the "Doc Rock's AI Pulse Redesign" project and hand-exported into this repo 2026-07-02 (`/design-login` isn't available in non-interactive sessions, so the files came over manually; see `UI-README.md`).
+Done:
+- ~~Restyle prototype via Claude Design~~ — produced in the "Doc Rock's AI Pulse Redesign" project and hand-exported into this repo 2026-07-02 (`/design-login` isn't available in non-interactive sessions, so the files came over manually; see `UI-README.md`).
+- ~~Build the brand restyle~~ — shipped 2026-07-02: `index.html` / `assets/style.css` / `assets/app.js` rebuilt per `UI-README.md`, including Track A's UI (badges, act-now cards, ⚡ pill). Verified light/dark/mobile + old archives in a local preview.
 
 ## Working-directory note
 

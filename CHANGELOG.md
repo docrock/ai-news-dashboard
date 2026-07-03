@@ -4,7 +4,11 @@ Notable changes to Doc Rock's AI Pulse. The routine twice-daily digest data refr
 
 ## 2026-07-02
 
+### Changed
+- **Restyle built and shipped**: `index.html`, `assets/style.css`, and `assets/app.js` rebuilt against the Claude Design handoff (`UI-README.md` + `pulse-tokens.css`). New masthead with logotype, dateline bar, Montserrat/Bitter type, category icons, responsive card grid, redesigned states with skeleton loading, and Track A's UI: opportunity badges (🎬/📣/🏖️ at score ≥ 7), act-now cards with action strips, and the "⚡ Action needed" filter pill with live count. Old editions without `opportunity` data render unchanged (verified against the July 1 morning archive). Also fixed en route: `hidden` attribute vs `display:flex` conflict on state panels; edition badge now tolerates values beyond morning/midday.
+
 ### Added
+- `.claude/launch.json` — local preview server config for build verification.
 - **Claude Design restyle handoff landed** (from the "Doc Rock's AI Pulse Redesign" project, exported manually and dropped into the repo):
   - `UI-README.md` — the build guide: region-by-region specs, all four card variants (base, badges, act-now, act-now + badges), states, interactions, icon paths. Authoritative for the new look, alongside `design-source/`.
   - `pulse-tokens.css` — complete design-token sheet from the Doc Rock Design System: light values in `:root`, dark overrides in `[data-theme="dark"]`, matching the site's existing theme mechanism.
