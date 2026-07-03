@@ -2,6 +2,11 @@
 
 Notable changes to Doc Rock's AI Pulse. The routine twice-daily digest data refreshes are **not** logged here — that's the site working as designed (see the git history of `data/` if you ever need them).
 
+## 2026-07-03
+
+### Changed
+- **Automation made truly unattended.** Root cause of the daily permission stops: the scheduled task session roots in `~/claude-plugins/travel-marketplace`, not this repo, so the project-level allowlist added 2026-07-02 was never consulted. Fixes: authoritative permission rules moved to user level (`~/.claude/settings.json`, wildcarded and `-C`-scoped to this repo) so they apply regardless of the session's working directory; 26 AI Pulse remnants stripped out of travel-marketplace's `settings.local.json` to de-commingle the two projects; the task prompt rewritten to use only standalone commands (chained `&&`/`if-then` never match allow rules). The **midday refresh was disabled** — one reliable daily run at **3:05 AM HST** replaces the two slots that were fighting over the edition field. (Automation details live in `HANDOFF.md`, not here, since these are outside-the-repo config.)
+
 ## 2026-07-02
 
 ### Changed

@@ -29,23 +29,33 @@ A twice-daily, no-jargon AI news dashboard for Doc Rock's audience (Gen X / olde
 
 ## Automation
 
-Two local scheduled tasks (managed via the `schedule` skill, stored under `~/.claude/scheduled-tasks/`):
+**One** local scheduled task (stored under `~/.claude/scheduled-tasks/`), as of 2026-07-03:
 
-- **`ai-pulse-morning-refresh`** — ~12:05 AM HST (≈6:00 AM ET). `edition: "morning"`.
-- **`ai-pulse-midday-refresh`** — ~6:00 AM HST (≈12:00 PM ET). `edition: "midday"`.
+- **`ai-pulse-morning-refresh`** — daily at **3:05 AM HST** (cron `0 3 * * *`, local time). Publishes one edition; the edition value (morning/midday/evening) is derived from the local hour by the playbook.
+- **`ai-pulse-midday-refresh`** — **disabled** 2026-07-03. Two tasks were fighting over the edition field on late fires; one reliable daily run is simpler. It can be re-enabled later via the `scheduled-tasks` tools if a second slot is ever wanted.
 
-Each run: `cd ~/Docrock/ai-news-dashboard && git pull`, follow `docs/digest-builder-instructions.md` (live web search, archive old edition, write new `digest.json`), then commit + push to `main`. Push = deploy (GitHub Pages serves `main` root automatically).
+Each run drives git with `git -C ~/Docrock/ai-news-dashboard ...` (never `cd`), follows `docs/digest-builder-instructions.md` (freshness guard, local-time stamps, live web search, archive, score, validate), then commits + pushes to `main`. Push = deploy.
+
+### Why the runs kept stopping for approval (root cause, fixed 2026-07-03)
+
+The scheduled task session roots in **`~/claude-plugins/travel-marketplace`**, not this repo (the scheduler has no per-task working-directory control). Claude Code evaluates permission rules against the *session's* project settings, so the good rules in this repo's `.claude/settings.json` were **never consulted** — and travel-marketplace's `settings.local.json` had only literal, timestamp-embedded grants that never match twice. Fix:
+
+- **Authoritative permission rules now live at USER level** (`~/.claude/settings.json`), so they apply no matter which directory the task roots in. They're wildcarded (`git -C ~/Docrock/ai-news-dashboard commit -m:*`, `cp … data/archive/:*`, `python3 -m json.tool:*`, `WebFetch`, `Edit/Write` scoped to `…/ai-news-dashboard/data/**`) so timestamped commands stop re-prompting. Every git rule is `-C`-scoped to this one repo, so the global scope is still tight.
+- The AI Pulse remnants (26 of them) were stripped out of `travel-marketplace/.claude/settings.local.json` so the two projects are no longer commingled.
+- The task prompt was rewritten: standalone commands only (no `&&`/`;`/`if-then`, which never match allow rules), unattended-aware, Sonnet 5 / High mode requested.
 
 **Caveats:**
-- These only fire while the Claude app is open on this Mac. Closed at fire time → runs on next launch instead.
-- Cron times are Hawaii-local, computed from ET. **They'll need a 1-hour nudge when US DST changes** (next: 2026-11-01).
-- First runs may pause for tool-permission prompts (web search, git push) — click "Run now" on each task once to pre-approve.
+- The task only fires while the Claude app is open on this Mac. Closed at 3 AM → runs on next launch.
+- After these changes, do a one-time **"Run now"** on the task once (the scheduler also stores per-task approvals) to seed anything the user-level rules don't already cover, then it should be fully hands-off.
+- **Model:** the prompt requests Sonnet 5 / High. Scheduled runs otherwise use the app's model at fire time — there's no per-task model field in the scheduler, so if a run must be Sonnet 5, set the app's model accordingly.
 
 ## Open TODOs
 
 ### For Doc to review
 
-All four 2026-07-02 routine-QA items cleared same day: PR #3 (routine fixes) and PR #2 (restyle + viewer-local timestamps) merged and live; the permissions allowlist applied with Doc's explicit approval (`.claude/settings.json`, committed); the "Morning · 11:12 PM ET" mislabel self-heals on the next run. Unattended runs should now complete prompt-free — check the first couple of runs' summaries to confirm.
+- **Do a one-time "Run now" on `ai-pulse-morning-refresh`** so it seeds any last per-task approvals, then confirm the next 3 AM run's summary shows no permission stops. The 2026-07-03 fix (see Automation → root cause) moved the permission rules to user level and de-commingled travel-marketplace, which the earlier 2026-07-02 project-level allowlist couldn't fix (the task never roots in this repo).
+
+Earlier (2026-07-02) routine-QA items — PR #3 (routine fixes) and PR #2 (restyle + viewer-local timestamps) merged and live; the project-level allowlist was committed but turned out to be in the wrong scope (superseded by the user-level rules above); the "Morning · 11:12 PM ET" mislabel self-heals on the next run.
 
 ### Backlog
 
