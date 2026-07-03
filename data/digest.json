@@ -1,6 +1,6 @@
 {
-  "generated_at_iso": "2026-07-02T23:12:00-04:00",
-  "generated_label": "Thursday, July 2 · 11:12 PM ET",
+  "generated_at_iso": "2026-07-03T07:57:04-10:00",
+  "generated_label": "Friday, July 3 · 7:57 AM HST",
   "edition": "morning",
   "categories": [
     {
@@ -8,20 +8,20 @@
       "title": "Claude & Anthropic",
       "items": [
         {
-          "headline": "Anthropic's powerful Fable 5 model is switched back on worldwide",
-          "summary": "On July 1, Anthropic brought Claude Fable 5 — one of its most capable models — back online for everyone, after the U.S. government lifted the export restrictions it had placed on the model in mid-June. It's available again across Claude.ai, Claude Code, and Claude Cowork, and is being re-enabled on the Amazon, Google, and Microsoft cloud platforms.",
-          "why_it_matters": "If you'd lost access to a top-tier Claude model over the past few weeks, it's back — and the whole episode is a reminder not to build your business around a single AI tool, since access can shift fast when regulators get involved.",
-          "link": "https://www.anthropic.com/news/redeploying-fable-5",
-          "source": "Anthropic",
-          "tag": "Product Update"
-        },
-        {
-          "headline": "Anthropic explains the safety guardrails it built before bringing Fable 5 back",
-          "summary": "Anthropic detailed the fix behind Fable 5's return: a new safety 'classifier' (an AI filter that spots and blocks dangerous requests) that it says stops the specific misuse technique regulators were worried about in over 99% of cases. It also proposed a shared industry scorecard — the Cyber Jailbreak Severity scale, built with Amazon, Microsoft, and Google — for rating how serious an AI 'jailbreak' (a trick that gets around an AI's safety rules) actually is.",
-          "why_it_matters": "It's a rare plain-language look at how AI companies try to make powerful tools safe enough to keep online — useful context if you've ever wondered whether the AI you depend on could suddenly be pulled over safety concerns.",
-          "link": "https://www.anthropic.com/news/fable-safeguards-jailbreak-framework",
-          "source": "Anthropic",
-          "tag": "Policy"
+          "headline": "Claude in Chrome leaves beta — it's now available to everyone on a paid plan",
+          "summary": "Anthropic flipped Claude in Chrome to \"generally available\" on July 1. It's a browser extension that lets Claude work right inside your Chrome tabs — reading a page, filling in a form, or pulling details out of what's on screen — instead of you copying and pasting into a separate chat window. It had been in invite-only beta since April; now anyone on a paid Claude plan (Pro, Max, Team, or Enterprise) can just turn it on.",
+          "why_it_matters": "This is one of the most 'show, don't tell' AI features around for a small business owner: instead of babysitting a chatbot in another tab, you let Claude do busywork where you already are — comparing prices across open tabs, pulling info off a booking page, or filling a repetitive web form. It's exactly the kind of everyday AI help that's easy to demo and easy to actually use.",
+          "link": "https://support.claude.com/en/articles/12012173-get-started-with-claude-in-chrome",
+          "source": "Anthropic (Claude Help Center)",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 7,
+            "social": 6,
+            "community": 7,
+            "act_now": true,
+            "action_note": "On your Pro or Max plan this week, install the Claude in Chrome extension and run it on one real task (pull details off a page or fill a web form), then record a Saturday demo showing what it nailed and where you had to step in.",
+            "angle": "I let Claude drive my Chrome for a week — here is what it nailed and where I grabbed the wheel back"
+          }
         }
       ]
     },

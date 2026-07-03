@@ -1,0 +1,32 @@
+{
+  "generated_at_iso": "2026-07-02T23:12:00-04:00",
+  "generated_label": "Thursday, July 2 · 11:12 PM ET",
+  "edition": "morning",
+  "categories": [
+    {
+      "id": "claude-anthropic",
+      "title": "Claude & Anthropic",
+      "items": [
+        {
+          "headline": "Anthropic's powerful Fable 5 model is switched back on worldwide",
+          "summary": "On July 1, Anthropic brought Claude Fable 5 — one of its most capable models — back online for everyone, after the U.S. government lifted the export restrictions it had placed on the model in mid-June. It's available again across Claude.ai, Claude Code, and Claude Cowork, and is being re-enabled on the Amazon, Google, and Microsoft cloud platforms.",
+          "why_it_matters": "If you'd lost access to a top-tier Claude model over the past few weeks, it's back — and the whole episode is a reminder not to build your business around a single AI tool, since access can shift fast when regulators get involved.",
+          "link": "https://www.anthropic.com/news/redeploying-fable-5",
+          "source": "Anthropic",
+          "tag": "Product Update"
+        },
+        {
+          "headline": "Anthropic explains the safety guardrails it built before bringing Fable 5 back",
+          "summary": "Anthropic detailed the fix behind Fable 5's return: a new safety 'classifier' (an AI filter that spots and blocks dangerous requests) that it says stops the specific misuse technique regulators were worried about in over 99% of cases. It also proposed a shared industry scorecard — the Cyber Jailbreak Severity scale, built with Amazon, Microsoft, and Google — for rating how serious an AI 'jailbreak' (a trick that gets around an AI's safety rules) actually is.",
+          "why_it_matters": "It's a rare plain-language look at how AI companies try to make powerful tools safe enough to keep online — useful context if you've ever wondered whether the AI you depend on could suddenly be pulled over safety concerns.",
+          "link": "https://www.anthropic.com/news/fable-safeguards-jailbreak-framework",
+          "source": "Anthropic",
+          "tag": "Policy"
+        }
+      ]
+    },
+    { "id": "ai-industry", "title": "Wider AI World", "items": [] },
+    { "id": "creator-tools", "title": "Tools & Tips for Creators and Small Biz", "items": [] },
+    { "id": "content-social", "title": "Content & Social Media Pulse", "items": [] }
+  ]
+}
