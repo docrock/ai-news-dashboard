@@ -43,12 +43,9 @@ Each run: `cd ~/Docrock/ai-news-dashboard && git pull`, follow `docs/digest-buil
 
 ## Open TODOs
 
-### For Doc to review (queued 2026-07-02, after routine QA)
+### For Doc to review
 
-- [ ] **Merge [PR #3](https://github.com/docrock/ai-news-dashboard/pull/3)** — routine fixes (machine-local time policy, freshness guard, git -C ground rules). Best merged before the next scheduled run so the routines stop doing ET math and edition flip-flops.
-- [ ] **Merge [PR #2](https://github.com/docrock/ai-news-dashboard/pull/2)** — the restyle + viewer-local timestamps. Goes live on merge.
-- [ ] **Approve the permissions allowlist** — a proposed project `.claude/settings.json` (repo-scoped git + JSON-validation commands) that removes the routines' remaining approval prompts. Claude is blocked from granting itself permissions, so it needs Doc's explicit go: say "apply the allowlist" in a session rooted here.
-- [ ] **FYI, no action:** the live digest currently reads "Morning edition · 11:12 PM ET" — two late-fired routines fought over the edition field. It self-heals on the next successful run.
+All four 2026-07-02 routine-QA items cleared same day: PR #3 (routine fixes) and PR #2 (restyle + viewer-local timestamps) merged and live; the permissions allowlist applied with Doc's explicit approval (`.claude/settings.json`, committed); the "Morning · 11:12 PM ET" mislabel self-heals on the next run. Unattended runs should now complete prompt-free — check the first couple of runs' summaries to confirm.
 
 ### Backlog
 
