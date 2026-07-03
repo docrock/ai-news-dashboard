@@ -30,7 +30,8 @@
 ```
 
 Notes:
-- `edition` is `"morning"` (6am ET run) or `"midday"` (12pm ET run).
+- `edition` is `"morning"`, `"midday"`, or `"evening"` — derived from the run's local hour (see instructions §5), never from the schedule slot name.
+- `generated_at_iso` is the authoritative timestamp (full ISO 8601 with the run machine's local UTC offset). The dashboard converts it to each visitor's own timezone in the browser; `generated_label` is only a text fallback.
 - Category ids are fixed (always all 4 present, even if an item list is empty).
 - `tag` is a short label like "Product Update", "Research", "Tutorial", "Platform Change", "Opinion/Analysis".
 - Every item MUST have a working `link`.
