@@ -327,6 +327,32 @@
 
   /* ---------------- Status banner (dateline bar) ---------------- */
 
+  // Show the edition's timestamp in the VIEWER's own timezone
+  // (generated_at_iso is authoritative). The stored generated_label
+  // is only the fallback for a missing or unparseable ISO stamp.
+  function formatLocalLabel(iso, fallback) {
+    if (iso) {
+      var dt = new Date(iso);
+      if (!isNaN(dt.getTime())) {
+        try {
+          return dt
+            .toLocaleString(undefined, {
+              weekday: "long",
+              month: "long",
+              day: "numeric",
+              hour: "numeric",
+              minute: "2-digit",
+              timeZoneName: "short"
+            })
+            .replace(" at ", " · ");
+        } catch (e) {
+          /* fall through to the stored label */
+        }
+      }
+    }
+    return fallback;
+  }
+
   function renderStatusBanner() {
     var d = state.digest;
     if (!d) return;
@@ -345,7 +371,7 @@
       editionClass = "edition-badge--special";
     }
 
-    var html = "Updated " + escapeHtml(d.generated_label);
+    var html = "Updated " + escapeHtml(formatLocalLabel(d.generated_at_iso, d.generated_label));
     if (editionLabel) {
       html +=
         '<span class="edition-badge ' + editionClass + '">' +

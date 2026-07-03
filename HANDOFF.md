@@ -43,9 +43,18 @@ Each run: `cd ~/Docrock/ai-news-dashboard && git pull`, follow `docs/digest-buil
 
 ## Open TODOs
 
+### For Doc to review (queued 2026-07-02, after routine QA)
+
+- [ ] **Merge [PR #3](https://github.com/docrock/ai-news-dashboard/pull/3)** — routine fixes (machine-local time policy, freshness guard, git -C ground rules). Best merged before the next scheduled run so the routines stop doing ET math and edition flip-flops.
+- [ ] **Merge [PR #2](https://github.com/docrock/ai-news-dashboard/pull/2)** — the restyle + viewer-local timestamps. Goes live on merge.
+- [ ] **Approve the permissions allowlist** — a proposed project `.claude/settings.json` (repo-scoped git + JSON-validation commands) that removes the routines' remaining approval prompts. Claude is blocked from granting itself permissions, so it needs Doc's explicit go: say "apply the allowlist" in a session rooted here.
+- [ ] **FYI, no action:** the live digest currently reads "Morning edition · 11:12 PM ET" — two late-fired routines fought over the edition field. It self-heals on the next successful run.
+
+### Backlog
+
 - [ ] **Build out `docs/improvement-spec.md`** (written 2026-07-01): Track A's remaining half = schema (`docs/SCHEMA.md`) + scoring rubric in the builder playbook, so the automation starts producing scored editions (the UI half shipped with the restyle, 2026-07-02). Track B = "Doc Rock Studio" plugin with a single brand canon; Track C = script-writer skill + copywriter overhaul; Track D = content pipeline.
 - [ ] **Clone the repo on Darth Nihilus** (Doc's other Mac): `git clone https://github.com/docrock/ai-news-dashboard.git ~/Docrock/ai-news-dashboard` — hasn't happened yet as of 2026-06-30.
-- [ ] Nudge the two scheduled-task cron times by 1 hour when DST ends (~2026-11-01).
+- [x] ~~Nudge the two scheduled-task cron times by 1 hour when DST ends (~2026-11-01)~~ — obsolete once PR #3 lands: editions derive from the run's local hour, so cron drift relative to ET no longer mislabels anything. The cron times themselves can stay put.
 
 Done:
 - ~~Restyle prototype via Claude Design~~ — produced in the "Doc Rock's AI Pulse Redesign" project and hand-exported into this repo 2026-07-02 (`/design-login` isn't available in non-interactive sessions, so the files came over manually; see `UI-README.md`).

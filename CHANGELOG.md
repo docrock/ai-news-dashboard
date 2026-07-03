@@ -5,6 +5,7 @@ Notable changes to Doc Rock's AI Pulse. The routine twice-daily digest data refr
 ## 2026-07-02
 
 ### Changed
+- **Timestamps now display in each visitor's own timezone**: the dashboard renders `generated_at_iso` via the browser locale, so Doc sees HST at home and whatever's local when traveling; the stored `generated_label` is only a fallback. Paired with routine fixes (PR #3): the builder playbook now uses machine-local time (no more ET math), derives edition from the local run hour (morning/midday/evening), skips runs when the digest is under 4 hours old, and uses `git -C` ground rules so unattended runs stop stalling on approval prompts.
 - **Restyle built and shipped**: `index.html`, `assets/style.css`, and `assets/app.js` rebuilt against the Claude Design handoff (`UI-README.md` + `pulse-tokens.css`). New masthead with logotype, dateline bar, Montserrat/Bitter type, category icons, responsive card grid, redesigned states with skeleton loading, and Track A's UI: opportunity badges (🎬/📣/🏖️ at score ≥ 7), act-now cards with action strips, and the "⚡ Action needed" filter pill with live count. Old editions without `opportunity` data render unchanged (verified against the July 1 morning archive). Also fixed en route: `hidden` attribute vs `display:flex` conflict on state panels; edition badge now tolerates values beyond morning/midday.
 
 ### Added
