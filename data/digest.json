@@ -1,6 +1,6 @@
 {
-  "generated_at_iso": "2026-07-01T18:37:00-04:00",
-  "generated_label": "Wednesday, July 1 · 6:37 PM ET",
+  "generated_at_iso": "2026-07-02T23:12:00-04:00",
+  "generated_label": "Thursday, July 2 · 11:12 PM ET",
   "edition": "midday",
   "categories": [
     {
@@ -8,20 +8,20 @@
       "title": "Claude & Anthropic",
       "items": [
         {
-          "headline": "Anthropic's new Claude Sonnet 5 is faster, cheaper, and now the default",
-          "summary": "Anthropic released Claude Sonnet 5, its most capable mid-tier model yet — the company says it performs close to its top-end Opus model while costing a lot less. It's now the default model for Free and Pro users on Claude.ai, with introductory pricing of $2 per million tokens in and $10 per million out (a token is the small chunk of text AI is billed by) through August 31.",
-          "why_it_matters": "If you use Claude for writing, brainstorming, or research, you're likely already on the better, faster model at no extra cost — and if you or your developer builds anything on Claude, the temporary lower pricing makes it cheaper to run through the summer.",
-          "link": "https://www.anthropic.com/news/claude-sonnet-5",
+          "headline": "Anthropic's powerful Fable 5 model is switched back on worldwide",
+          "summary": "On July 1, Anthropic brought Claude Fable 5 — one of its most capable models — back online for everyone, after the U.S. government lifted the export restrictions it had placed on the model in mid-June. It's available again across Claude.ai, Claude Code, and Claude Cowork, and is being re-enabled on the Amazon, Google, and Microsoft cloud platforms.",
+          "why_it_matters": "If you'd lost access to a top-tier Claude model over the past few weeks, it's back — and the whole episode is a reminder not to build your business around a single AI tool, since access can shift fast when regulators get involved.",
+          "link": "https://www.anthropic.com/news/redeploying-fable-5",
           "source": "Anthropic",
           "tag": "Product Update"
         },
         {
-          "headline": "Anthropic launches Claude Science, a research workbench for scientists",
-          "summary": "Anthropic introduced Claude Science, a specialized workspace that connects Claude to more than 60 scientific databases and prebuilt tools for fields like genomics and protein research, aimed at helping researchers run and fact-check computational experiments in one place.",
-          "why_it_matters": "This one is built for lab researchers rather than small business owners, but it's a clear signal Anthropic is tailoring Claude for specific professions — a hint that more industry-specific 'Claude for ___' tools are on the way.",
-          "link": "https://www.anthropic.com/news/claude-science-ai-workbench",
+          "headline": "Anthropic explains the safety guardrails it built before bringing Fable 5 back",
+          "summary": "Anthropic detailed the fix behind Fable 5's return: a new safety 'classifier' (an AI filter that spots and blocks dangerous requests) that it says stops the specific misuse technique regulators were worried about in over 99% of cases. It also proposed a shared industry scorecard — the Cyber Jailbreak Severity scale, built with Amazon, Microsoft, and Google — for rating how serious an AI 'jailbreak' (a trick that gets around an AI's safety rules) actually is.",
+          "why_it_matters": "It's a rare plain-language look at how AI companies try to make powerful tools safe enough to keep online — useful context if you've ever wondered whether the AI you depend on could suddenly be pulled over safety concerns.",
+          "link": "https://www.anthropic.com/news/fable-safeguards-jailbreak-framework",
           "source": "Anthropic",
-          "tag": "Product Update"
+          "tag": "Policy"
         }
       ]
     },
