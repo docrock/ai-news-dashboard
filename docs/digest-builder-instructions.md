@@ -105,7 +105,7 @@ Read `docs/SCHEMA.md` for the exact JSON shape before writing anything. Key rule
 The current `data/digest.json` (the one about to be replaced) must be preserved first:
 
 1. Read the current `data/digest.json` in full.
-2. Determine its timestamp from its own `generated_at_iso` field and format a filename as `data/archive/<YYYY-MM-DD-HHmm>.json` (24-hour clock, ET time, e.g. `2026-06-30-0600.json`).
+2. Determine its timestamp from its own `generated_at_iso` field and format a filename as `data/archive/<YYYY-MM-DD-HHmm>.json` (24-hour clock, in that timestamp's own local time as written, e.g. `2026-07-02-1745.json`).
 3. Write a copy of the current digest's exact content to that new archive file path.
 4. Read `data/archive/index.json` (an array). Prepend a new entry to the **front** of the array:
    `{ "file": "data/archive/<YYYY-MM-DD-HHmm>.json", "label": "<short label, e.g. 'Tue Jun 30 · 6:00 AM ET'>" }`
@@ -115,32 +115,48 @@ The current `data/digest.json` (the one about to be replaced) must be preserved 
 
 Skip the archiving step only if `data/digest.json` does not exist yet (i.e., this truly is the very first run ever) — in that case there's nothing to archive.
 
-## 5. Setting `edition` and `generated_label`
+## 5. Setting `edition`, timestamps, and labels — machine-local time, no timezone math
 
-- Determine the actual current date/time in US Eastern time when you run.
-- If your run is the ~6:00 AM ET job: `"edition": "morning"`.
-- If your run is the ~12:00 PM ET job: `"edition": "midday"`.
-- `generated_at_iso`: full ISO 8601 timestamp with ET offset, e.g. `"2026-06-30T06:00:00-04:00"` (use `-04:00` for EDT / `-05:00` for EST depending on time of year) or the closest accurate timestamp to actual run time.
-- `generated_label`: human-friendly, format `"<Weekday>, <Month> <Day> · <H:MM AM/PM> ET"`, e.g. `"Tuesday, June 30 · 6:00 AM ET"` for morning or `"Tuesday, June 30 · 12:00 PM ET"` for midday.
-- Use the same date/time basis for the archive filename and label described in section 4.
+**Never compute US Eastern time (or any other remote timezone).** Run `date` and use the machine's own local time everywhere below. The dashboard converts `generated_at_iso` into each visitor's own timezone in their browser, so the stored label is only a fallback for very old browsers.
+
+- `generated_at_iso`: the actual current date/time of the run, full ISO 8601 **with the machine's local UTC offset** (`date +%Y-%m-%dT%H:%M:%S%z` gives it directly), e.g. `"2026-07-02T17:45:00-10:00"`. Never round or fake this to match a schedule slot — it must be honest.
+- `edition`: derive from the **local hour** of the run, regardless of which scheduled task fired:
+  - before 11:00 → `"morning"`
+  - 11:00–16:59 → `"midday"`
+  - 17:00 or later → `"evening"`
+  A morning-slot task that fires late in the evening publishes an `"evening"` edition. The task name never overrides the clock.
+- `generated_label`: human-friendly, from the same local time: `"<Weekday>, <Month> <Day> · <H:MM AM/PM> <TZ>"`, e.g. `"Thursday, July 2 · 5:45 PM HST"` (`date +%Z` gives the timezone abbreviation).
+- The archive filename and label in section 4 use this same local-time basis.
+
+### 5.1 Freshness guard — skip instead of double-publishing
+
+**Before doing any research**: read the current `data/digest.json` `generated_at_iso`. If it is **less than 4 hours old**, stop and publish nothing — no commit, no edits to the existing digest (do not "fix" its `edition` field). A late-fired schedule catching up right behind another edition simply skips its turn; that is designed behavior, not a failure. The only exception is a truly major breaking story that cannot wait — in that case publish a normal, complete new edition per all the rules above.
+
+### 5.2 Git ground rules (every git command in this playbook)
+
+- Always invoke git as `git -C ~/Docrock/ai-news-dashboard <subcommand>` — never `cd` into the repo first (a `cd`-prefixed compound command triggers an extra safety prompt on unattended runs).
+- Before touching anything: `git -C ~/Docrock/ai-news-dashboard switch main` then `git -C ~/Docrock/ai-news-dashboard pull origin main`. If the working copy was left on some other branch by an interactive session, switching to main is the fix — never commit digest data to any branch except `main`, and leave other branches exactly as you found them.
+- Keep commands simple and standalone (one git command per shell invocation, no `&&` chains) — chained commands defeat the pre-approved permission rules and each one triggers a fresh prompt.
 
 ## 6. Validate before finishing
+
+Use simple, standalone commands (one per shell invocation — no `&&` chains, no `cd`), e.g. `python3 -m json.tool data/digest.json` and `grep -ri "creator economy" data/`:
 
 - Confirm `data/digest.json` is valid JSON (all 4 categories present, every item has all 6 required fields).
 - Confirm `data/archive/index.json` is valid JSON (an array, newest entry first, ≤30 entries).
 - Confirm every `link` in the new digest is a real URL you fetched/saw in search results — not guessed.
-- Spot-check that no item copy contains the phrase "creator economy."
+- Spot-check that no item copy contains the phrase "creator economy" (the grep above should return nothing).
 
 ## 7. Commit and push
 
-Once the files are written and validated:
+Once the files are written and validated, run these as three separate commands (per the git ground rules in section 5.2 — no `cd`, no chaining):
 
 ```bash
-git add data/digest.json data/archive/index.json data/archive/<YYYY-MM-DD-HHmm>.json
-git commit -m "Refresh AI news digest — <generated_label>"
-git push origin main
+git -C ~/Docrock/ai-news-dashboard add data/digest.json data/archive/index.json data/archive/<YYYY-MM-DD-HHmm>.json
+git -C ~/Docrock/ai-news-dashboard commit -m "Refresh AI news digest — <generated_label>"
+git -C ~/Docrock/ai-news-dashboard push origin main
 ```
 
-Example commit message: `Refresh AI news digest — Tuesday, June 30 · 12:00 PM ET`
+Example commit message: `Refresh AI news digest — Thursday, July 2 · 5:45 PM HST`
 
 This is a static GitHub Pages site with no backend, so pushing to `main` is the entire deployment step — no build, no server restart needed.
