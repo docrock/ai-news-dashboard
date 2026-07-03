@@ -1,0 +1,52 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(date:*)",
+      "Bash(ls:*)",
+      "Bash(grep:*)",
+      "Bash(python3 -m json.tool:*)",
+
+      "Bash(git status:*)",
+      "Bash(git log:*)",
+      "Bash(git branch:*)",
+      "Bash(git diff:*)",
+      "Bash(git show:*)",
+      "Bash(git rev-parse:*)",
+      "Bash(git fetch origin:*)",
+      "Bash(git switch main:*)",
+      "Bash(git checkout main:*)",
+      "Bash(git pull origin main:*)",
+      "Bash(git add data/:*)",
+      "Bash(git commit -m:*)",
+      "Bash(git push origin main:*)",
+
+      "Bash(git -C ~/Docrock/ai-news-dashboard status:*)",
+      "Bash(git -C ~/Docrock/ai-news-dashboard log:*)",
+      "Bash(git -C ~/Docrock/ai-news-dashboard branch:*)",
+      "Bash(git -C ~/Docrock/ai-news-dashboard diff:*)",
+      "Bash(git -C ~/Docrock/ai-news-dashboard show:*)",
+      "Bash(git -C ~/Docrock/ai-news-dashboard rev-parse:*)",
+      "Bash(git -C ~/Docrock/ai-news-dashboard fetch origin:*)",
+      "Bash(git -C ~/Docrock/ai-news-dashboard switch main:*)",
+      "Bash(git -C ~/Docrock/ai-news-dashboard checkout main:*)",
+      "Bash(git -C ~/Docrock/ai-news-dashboard pull origin main:*)",
+      "Bash(git -C ~/Docrock/ai-news-dashboard add data/:*)",
+      "Bash(git -C ~/Docrock/ai-news-dashboard commit -m:*)",
+      "Bash(git -C ~/Docrock/ai-news-dashboard push origin main:*)",
+
+      "Bash(git -C /Users/docrock/Docrock/ai-news-dashboard status:*)",
+      "Bash(git -C /Users/docrock/Docrock/ai-news-dashboard log:*)",
+      "Bash(git -C /Users/docrock/Docrock/ai-news-dashboard branch:*)",
+      "Bash(git -C /Users/docrock/Docrock/ai-news-dashboard diff:*)",
+      "Bash(git -C /Users/docrock/Docrock/ai-news-dashboard show:*)",
+      "Bash(git -C /Users/docrock/Docrock/ai-news-dashboard rev-parse:*)",
+      "Bash(git -C /Users/docrock/Docrock/ai-news-dashboard fetch origin:*)",
+      "Bash(git -C /Users/docrock/Docrock/ai-news-dashboard switch main:*)",
+      "Bash(git -C /Users/docrock/Docrock/ai-news-dashboard checkout main:*)",
+      "Bash(git -C /Users/docrock/Docrock/ai-news-dashboard pull origin main:*)",
+      "Bash(git -C /Users/docrock/Docrock/ai-news-dashboard add data/:*)",
+      "Bash(git -C /Users/docrock/Docrock/ai-news-dashboard commit -m:*)",
+      "Bash(git -C /Users/docrock/Docrock/ai-news-dashboard push origin main:*)"
+    ]
+  }
+}
