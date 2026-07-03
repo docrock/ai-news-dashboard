@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="_ds/doc-rock-design-system-853e2b7d-e8b2-4f00-830c-34e5b5e2961e/tokens/fonts.css">
+  <link rel="stylesheet" href="_ds/doc-rock-design-system-853e2b7d-e8b2-4f00-830c-34e5b5e2961e/tokens/colors.css">
+  <link rel="stylesheet" href="_ds/doc-rock-design-system-853e2b7d-e8b2-4f00-830c-34e5b5e2961e/tokens/typography.css">
+  <link rel="stylesheet" href="_ds/doc-rock-design-system-853e2b7d-e8b2-4f00-830c-34e5b5e2961e/tokens/spacing.css">
+  <link rel="stylesheet" href="_ds/doc-rock-design-system-853e2b7d-e8b2-4f00-830c-34e5b5e2961e/tokens/effects.css">
+  <script src="_ds/doc-rock-design-system-853e2b7d-e8b2-4f00-830c-34e5b5e2961e/_ds_bundle.js"></script>
+</helmet>
+<article style="position: relative; overflow: hidden; display: flex; flex-direction: column; background: {{ cardBg }}; border: 1px solid var(--border); border-left: {{ accentEdge }}; border-radius: var(--radius-lg); box-shadow: {{ cardShadow }}; padding: 22px 24px 20px 24px; transition: transform var(--dur) var(--ease); width: 100%; box-sizing: border-box;" style-hover="transform: translateY(-2px);">
+
+  <sc-if value="{{ isAct }}" hint-placeholder-val="{{ false }}">
+    <div style="display: flex; align-items: flex-start; gap: 12px; background: linear-gradient(135deg, #D90816, #8207C5); margin: -22px -24px 18px -24px; padding: 13px 24px 14px 20px;">
+      <span style="font-size: 20px; line-height: 1.2;" aria-hidden="true">⚡</span>
+      <div style="display: flex; flex-direction: column; gap: 3px;">
+        <span style="font-family: var(--font-sans); font-weight: var(--fw-heavy); font-size: 11.5px; letter-spacing: 0.16em; text-transform: uppercase; color: rgba(255,255,255,0.92);">Action needed</span>
+        <span style="font-family: var(--font-body); font-weight: var(--fw-medium); font-size: 15.5px; line-height: 1.5; color: var(--white);">{{ actionNote }}</span>
+      </div>
+    </div>
+  </sc-if>
+
+  <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin: 0 0 12px 0;">
+    <span style="display: inline-block; font-family: var(--font-sans); font-weight: var(--fw-bold); font-size: 11.5px; letter-spacing: 0.06em; text-transform: uppercase; line-height: 1.2; padding: 5px 10px; border-radius: var(--radius-sm); background: var(--pulse-tag-bg, rgba(189,78,249,0.16)); color: var(--pulse-tag-text, var(--purple-bright));">{{ tag }}</span>
+    <span style="font-family: var(--font-sans); font-weight: var(--fw-semibold); font-size: 13px; color: var(--text-muted);">{{ source }}</span>
+  </div>
+
+  <h3 style="margin: 0 0 10px 0; font-family: var(--font-sans); font-weight: var(--fw-heavy); font-size: 20px; line-height: 1.32; letter-spacing: -0.01em; text-wrap: pretty;">
+    <a href="{{ href }}" target="_blank" rel="noopener" style="color: var(--heading); text-decoration: none; transition: color var(--dur) var(--ease);" style-hover="color: var(--link); text-decoration: underline; text-underline-offset: 3px;">{{ headline }}</a>
+  </h3>
+
+  <p style="margin: 0 0 16px 0; font-family: var(--font-body); font-weight: var(--fw-regular); font-size: 16px; line-height: 1.65; color: var(--text); text-wrap: pretty;">{{ summary }}</p>
+
+  <sc-if value="{{ whyPanel }}" hint-placeholder-val="{{ true }}">
+    <div style="background: var(--pulse-why-bg, rgba(167,19,246,0.12)); border-left: 3px solid var(--pulse-why-border, var(--purple-bright)); border-radius: 0 var(--radius-sm) var(--radius-sm) 0; padding: 12px 16px 13px 16px; margin: 0 0 16px 0;">
+      <span style="display: block; font-family: var(--font-sans); font-weight: var(--fw-heavy); font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--pulse-why-label, var(--purple-bright)); margin: 0 0 5px 0;">Why it matters</span>
+      <span style="display: block; font-family: var(--font-body); font-style: italic; font-size: 15.5px; line-height: 1.6; color: var(--text);">{{ why }}</span>
+    </div>
+  </sc-if>
+  <sc-if value="{{ whyInline }}" hint-placeholder-val="{{ false }}">
+    <p style="border-left: 3px solid var(--pulse-why-border, var(--purple-bright)); padding: 2px 0 2px 14px; margin: 0 0 16px 0; font-family: var(--font-body); font-style: italic; font-size: 15.5px; line-height: 1.6; color: var(--text);"><span style="font-family: var(--font-sans); font-style: normal; font-weight: var(--fw-heavy); font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--pulse-why-label, var(--purple-bright));">Why it matters: </span>{{ why }}</p>
+  </sc-if>
+
+  <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-top: auto;">
+    <a href="{{ href }}" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; gap: 6px; font-family: var(--font-sans); font-weight: var(--fw-bold); font-size: 14px; color: var(--link); text-decoration: none; padding: 4px 0; min-height: 24px;" style-hover="text-decoration: underline; text-underline-offset: 3px;">Read more <span aria-hidden="true" style="font-size: 15px;">→</span></a>
+    <sc-if value="{{ hasBadges }}" hint-placeholder-val="{{ false }}">
+      <div style="display: flex; flex-wrap: wrap; gap: 8px; margin-left: auto;">
+        <sc-for list="{{ badges }}" as="b" hint-placeholder-count="0">
+          <span style="display: inline-flex; align-items: center; gap: 6px; padding: 5px 12px; border-radius: var(--radius-pill); background: var(--pulse-badge-bg, rgba(255,255,255,0.06)); border: 1px solid var(--pulse-badge-border, rgba(255,255,255,0.14)); font-family: var(--font-sans); font-weight: var(--fw-bold); font-size: 12px; letter-spacing: 0.02em; color: var(--text); white-space: nowrap;"><span aria-hidden="true">{{ b.emoji }}</span>{{ b.label }}</span>
+        </sc-for>
+      </div>
+    </sc-if>
+  </div>
+</article>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{
+  &quot;$preview&quot;: { &quot;width&quot;: 560, &quot;height&quot;: 420 },
+  &quot;item&quot;: { &quot;editor&quot;: null, &quot;tsType&quot;: &quot;{ headline: string; summary: string; why: string; link: string; source: string; tag: string; badges?: string[]; actionNote?: string }&quot; },
+  &quot;whyStyle&quot;: { &quot;editor&quot;: &quot;enum&quot;, &quot;options&quot;: [&quot;panel&quot;, &quot;inline&quot;], &quot;default&quot;: &quot;panel&quot;, &quot;tsType&quot;: &quot;\&quot;panel\&quot; | \&quot;inline\&quot;&quot;, &quot;section&quot;: &quot;Card&quot; },
+  &quot;showBadges&quot;: { &quot;editor&quot;: &quot;boolean&quot;, &quot;default&quot;: true, &quot;tsType&quot;: &quot;boolean&quot;, &quot;section&quot;: &quot;Card&quot; }
+}">
+class Component extends DCLogic {
+  renderVals() {
+    const it = this.props.item ?? {};
+    const BADGE_DEFS = {
+      video: { emoji: "🎬", label: "Video idea" },
+      social: { emoji: "📣", label: "Post it" },
+      community: { emoji: "🏖️", label: "Sandbox share" }
+    };
+    const badgeKeys = Array.isArray(it.badges) ? it.badges : [];
+    const badges = badgeKeys.map(k => BADGE_DEFS[k]).filter(Boolean);
+    const showBadges = this.props.showBadges ?? true;
+    const hasBadges = showBadges && badges.length > 0;
+
+    const actionNote = it.actionNote || null;
+    const isAct = !!actionNote;
+
+    const whyStyle = this.props.whyStyle ?? "panel";
+    const whyPanel = whyStyle !== "inline";
+
+    return {
+      tag: it.tag ?? "Update",
+      source: it.source ?? "",
+      headline: it.headline ?? "",
+      summary: it.summary ?? "",
+      why: it.why ?? "",
+      href: it.link ?? "#",
+      badges,
+      hasBadges,
+      actionNote,
+      isAct,
+      whyPanel,
+      whyInline: !whyPanel,
+      cardBg: isAct ? "var(--pulse-act-surface, #310718)" : "var(--surface)",
+      accentEdge: isAct ? "6px solid var(--red)" : "1px solid var(--border)",
+      cardShadow: isAct ? "var(--shadow-glow), var(--shadow-sm)" : "var(--shadow-sm)"
+    };
+  }
+}
+</script>
+</body>
+</html>
