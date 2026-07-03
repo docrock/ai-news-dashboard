@@ -1,0 +1,67 @@
+/* ============================================================
+   Doc Rock's AI Pulse — self-hosted fonts
+   Place this file next to the fonts/ folder (both under assets/).
+   Load BEFORE pulse-tokens.css.
+   ============================================================ */
+
+/* ---- Montserrat (display / UI) — variable, 100–900 ---- */
+@font-face {
+  font-family: "Montserrat";
+  src: url("fonts/Montserrat-Variable.woff2") format("woff2-variations"),
+       url("fonts/Montserrat-Variable.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("fonts/Montserrat-Italic-Variable.woff2") format("woff2-variations"),
+       url("fonts/Montserrat-Italic-Variable.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* ---- Bitter (body) ---- */
+@font-face {
+  font-family: "Bitter";
+  src: url("fonts/Bitter-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Bitter";
+  src: url("fonts/Bitter-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Bitter";
+  src: url("fonts/Bitter-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Bitter";
+  src: url("fonts/Bitter-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Bitter";
+  src: url("fonts/Bitter-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Bitter";
+  src: url("fonts/Bitter-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}

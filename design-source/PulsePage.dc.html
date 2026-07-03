@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="_ds/doc-rock-design-system-853e2b7d-e8b2-4f00-830c-34e5b5e2961e/tokens/fonts.css">
+  <link rel="stylesheet" href="_ds/doc-rock-design-system-853e2b7d-e8b2-4f00-830c-34e5b5e2961e/tokens/colors.css">
+  <link rel="stylesheet" href="_ds/doc-rock-design-system-853e2b7d-e8b2-4f00-830c-34e5b5e2961e/tokens/typography.css">
+  <link rel="stylesheet" href="_ds/doc-rock-design-system-853e2b7d-e8b2-4f00-830c-34e5b5e2961e/tokens/spacing.css">
+  <link rel="stylesheet" href="_ds/doc-rock-design-system-853e2b7d-e8b2-4f00-830c-34e5b5e2961e/tokens/effects.css">
+  <script src="_ds/doc-rock-design-system-853e2b7d-e8b2-4f00-830c-34e5b5e2961e/_ds_bundle.js"></script>
+</helmet>
+<div style="container-type: inline-size; background: var(--bg); color: var(--text); font-family: var(--font-body); min-height: 100%; -webkit-font-smoothing: antialiased; transition: background-color var(--dur-slow) var(--ease);">
+
+  <header style="position: relative; overflow: hidden; background: var(--grad-warm);">
+    <div style="position: absolute; inset: 0; background: var(--glow-violet); pointer-events: none;"></div>
+    <div style="position: relative; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 10px; padding: clamp(26px, 3cqw, 44px) 64px clamp(24px, 2.6cqw, 38px) 64px;">
+      <img src="assets/doc-rock-logotype.png" alt="doc rock" style="height: clamp(20px, 1.4cqw + 15px, 34px); width: auto; opacity: 0.95;">
+      <div style="display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: clamp(10px, 1.2cqw, 16px);">
+        <span aria-hidden="true" style="display: inline-flex; align-items: center; justify-content: center; width: clamp(38px, 2cqw + 30px, 54px); height: clamp(38px, 2cqw + 30px, 54px); border-radius: 12px; background: var(--grad-hot); color: var(--white); font-family: var(--font-sans); font-weight: var(--fw-black); font-size: clamp(14px, 0.8cqw + 11px, 20px); letter-spacing: 0.04em; box-shadow: var(--shadow-glow);">AI</span>
+        <h1 style="margin: 0; font-family: var(--font-sans); font-weight: var(--fw-black); font-size: clamp(25px, 2.1cqw + 17px, 45px); line-height: 1.05; letter-spacing: -0.01em; text-transform: uppercase; color: var(--white);">Doc Rock's AI Pulse</h1>
+      </div>
+      <p style="margin: 0; font-family: var(--font-body); font-style: italic; font-size: clamp(15px, 0.5cqw + 13px, 19px); line-height: 1.5; color: rgba(255,255,255,0.88);">What's new in AI, explained like a human</p>
+    </div>
+    <button type="button" aria-label="{{ toggleAria }}" title="{{ toggleAria }}" style="position: absolute; top: 16px; right: 16px; width: 46px; height: 46px; border-radius: var(--radius-pill); border: 1px solid rgba(255,255,255,0.28); background: rgba(255,255,255,0.14); backdrop-filter: blur(8px); font-size: 19px; line-height: 1; cursor: pointer; display: flex; align-items: center; justify-content: center; transition: background var(--dur) var(--ease), transform var(--dur-fast) var(--ease);" style-hover="background: rgba(255,255,255,0.24); transform: translateY(-2px);">{{ toggleIcon }}</button>
+    <div aria-hidden="true" style="position: relative; height: 3px; background: var(--grad-hot);"></div>
+  </header>
+
+  <div style="background: var(--surface); border-bottom: 1px solid var(--border);">
+    <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 10px 14px; padding: 11px 20px;">
+      <span style="font-family: var(--font-sans); font-weight: var(--fw-bold); font-size: 12.5px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--text-muted);">Updated {{ updatedLabel }}</span>
+      <span style="display: inline-block; padding: 4px 12px; border-radius: var(--radius-pill); background: {{ editionBg }}; color: var(--white); font-family: var(--font-sans); font-weight: var(--fw-bold); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; line-height: 1.3;">{{ editionLabel }}</span>
+    </div>
+  </div>
+
+  <div style="max-width: 1080px; margin: 0 auto; padding: 0 clamp(16px, 2cqw, 28px);">
+
+    <div style="display: flex; flex-direction: column; gap: 14px; padding: clamp(18px, 2cqw, 26px) 0 6px 0;">
+      <div style="display: flex; flex-wrap: wrap; align-items: flex-end; gap: 12px 18px;">
+        <div style="position: relative; flex: 1 1 300px; min-width: 240px;">
+          <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="var(--text-muted)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="position: absolute; left: 14px; top: 50%; transform: translateY(-50%); width: 18px; height: 18px;"><path d="M11 4a7 7 0 1 0 0 14a7 7 0 1 0 0-14M16.2 16.2L21 21"></path></svg>
+          <input type="search" value="{{ query }}" onChange="{{ onQuery }}" placeholder="Search headlines and summaries…" aria-label="Search news" style="width: 100%; box-sizing: border-box; min-height: 48px; padding: 12px 16px 12px 42px; font-family: var(--font-sans); font-weight: var(--fw-medium); font-size: 15px; color: var(--text); background: var(--surface); border: 1px solid var(--border-strong); border-radius: var(--radius-md); transition: border-color var(--dur) var(--ease), box-shadow var(--dur) var(--ease);" style-focus="outline: none; border-color: var(--purple-bright); box-shadow: 0 0 0 3px rgba(189,78,249,0.25);">
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 6px; flex: 0 1 250px; min-width: 210px;">
+          <label for="pulse-archive" style="font-family: var(--font-sans); font-weight: var(--fw-bold); font-size: 11.5px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--text-muted);">Previous editions</label>
+          <select id="pulse-archive" style="width: 100%; box-sizing: border-box; min-height: 48px; padding: 12px 14px; font-family: var(--font-sans); font-weight: var(--fw-medium); font-size: 15px; color: var(--text); background: var(--surface); border: 1px solid var(--border-strong); border-radius: var(--radius-md); cursor: pointer;">
+            <option>Latest edition (this one)</option>
+            <option>Wednesday, July 1 · Morning</option>
+            <option>Tuesday, June 30 · Midday</option>
+            <option>Tuesday, June 30 · Morning</option>
+            <option>Monday, June 29 · Midday</option>
+          </select>
+        </div>
+      </div>
+      <div role="tablist" aria-label="Filter by category" style="display: flex; flex-wrap: wrap; gap: 8px;">
+        <sc-for list="{{ pills }}" as="p" hint-placeholder-count="6">
+          <button type="button" role="tab" aria-selected="{{ p.selected }}" onClick="{{ p.onPick }}" style="display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 9px 18px; border-radius: var(--radius-pill); border: {{ p.border }}; background: {{ p.bg }}; color: {{ p.color }}; box-shadow: {{ p.shadow }}; font-family: var(--font-sans); font-weight: var(--fw-bold); font-size: 14px; line-height: 1.2; cursor: pointer; white-space: nowrap; transition: transform var(--dur-fast) var(--ease);" style-hover="transform: translateY(-2px);">
+            {{ p.label }}
+            <sc-if value="{{ p.count }}" hint-placeholder-val="{{ false }}">
+              <span style="display: inline-flex; align-items: center; justify-content: center; min-width: 20px; height: 20px; padding: 0 6px; border-radius: var(--radius-pill); background: {{ p.chipBg }}; color: {{ p.chipColor }}; font-size: 11.5px; font-weight: var(--fw-heavy);">{{ p.count }}</span>
+            </sc-if>
+          </button>
+        </sc-for>
+      </div>
+    </div>
+
+    <main style="padding: 22px 0 8px 0;">
+      <sc-if value="{{ noResults }}" hint-placeholder-val="{{ false }}">
+        <div style="display: flex; flex-direction: column; align-items: center; text-align: center; gap: 14px; background: var(--surface); border: 1px dashed var(--border-strong); border-radius: var(--radius-xl); padding: 52px 28px; margin: 8px 0 24px 0;">
+          <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="var(--pulse-tag-text, var(--purple-bright))" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width: 34px; height: 34px;"><path d="M11 4a7 7 0 1 0 0 14a7 7 0 1 0 0-14M16.2 16.2L21 21M8.5 11h5"></path></svg>
+          <p style="margin: 0; font-family: var(--font-body); font-size: 17px; line-height: 1.6; color: var(--text); max-width: 44ch;">No stories match your search or filter. Try clearing one of them.</p>
+          <button type="button" onClick="{{ onClearAll }}" style="min-height: 44px; padding: 10px 22px; border-radius: var(--radius-pill); border: none; background: var(--pulse-pill-active-bg, var(--purple-deep)); color: var(--white); font-family: var(--font-sans); font-weight: var(--fw-heavy); font-size: 14px; cursor: pointer; transition: transform var(--dur-fast) var(--ease), box-shadow var(--dur) var(--ease);" style-hover="transform: translateY(-2px); box-shadow: var(--shadow-sm);">Clear search &amp; filters</button>
+        </div>
+      </sc-if>
+
+      <sc-for list="{{ visibleCategories }}" as="cat" hint-placeholder-count="2">
+        <section data-screen-label="{{ cat.title }}" style="margin: 0 0 clamp(28px, 3cqw, 42px) 0;">
+          <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 12px; border-bottom: 2px solid var(--border); padding: 0 0 10px 0; margin: 0 0 18px 0;">
+            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="var(--pulse-tag-text, var(--purple-bright))" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width: 22px; height: 22px; flex: none;"><path d="{{ cat.icon }}"></path></svg>
+            <h2 style="margin: 0; font-family: var(--font-sans); font-weight: var(--fw-heavy); font-size: clamp(17px, 0.5cqw + 15px, 21px); line-height: 1.25; letter-spacing: 0.04em; text-transform: uppercase; color: var(--heading);">{{ cat.title }}</h2>
+            <span style="display: inline-block; padding: 4px 11px; border-radius: var(--radius-pill); background: var(--pulse-tag-bg, rgba(189,78,249,0.16)); color: var(--pulse-tag-text, var(--purple-bright)); font-family: var(--font-sans); font-weight: var(--fw-bold); font-size: 12px; letter-spacing: 0.04em;">{{ cat.countLabel }}</span>
+          </div>
+          <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr)); gap: 18px; align-items: stretch;">
+            <sc-for list="{{ cat.items }}" as="item" hint-placeholder-count="2">
+              <dc-import name="PulseCard" item="{{ item }}" why-style="{{ whyStyle }}" show-badges="{{ showBadges }}" hint-size="100%,380px" style="width: 100%;"></dc-import>
+            </sc-for>
+          </div>
+        </section>
+      </sc-for>
+    </main>
+
+    <footer style="border-top: 1px solid var(--border); padding: 24px 0 42px 0; text-align: center;">
+      <p style="margin: 0; font-family: var(--font-body); font-style: italic; font-size: 14.5px; line-height: 1.6; color: var(--text-muted);">Built by Doc Rock · AI news, summarized for humans · no login, no tracking, just the pulse.</p>
+    </footer>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{
+  &quot;$preview&quot;: { &quot;width&quot;: 1240, &quot;height&quot;: 900 },
+  &quot;theme&quot;: { &quot;editor&quot;: &quot;enum&quot;, &quot;options&quot;: [&quot;light&quot;, &quot;dark&quot;], &quot;default&quot;: &quot;dark&quot;, &quot;tsType&quot;: &quot;\&quot;light\&quot; | \&quot;dark\&quot;&quot;, &quot;section&quot;: &quot;Page&quot; },
+  &quot;edition&quot;: { &quot;editor&quot;: &quot;enum&quot;, &quot;options&quot;: [&quot;midday&quot;, &quot;morning&quot;], &quot;default&quot;: &quot;midday&quot;, &quot;tsType&quot;: &quot;\&quot;midday\&quot; | \&quot;morning\&quot;&quot;, &quot;section&quot;: &quot;Page&quot; },
+  &quot;updatedLabel&quot;: { &quot;editor&quot;: &quot;text&quot;, &quot;default&quot;: &quot;Wednesday, July 1 · 6:37 PM ET&quot;, &quot;tsType&quot;: &quot;string&quot;, &quot;section&quot;: &quot;Page&quot; },
+  &quot;whyStyle&quot;: { &quot;editor&quot;: &quot;enum&quot;, &quot;options&quot;: [&quot;panel&quot;, &quot;inline&quot;], &quot;default&quot;: &quot;panel&quot;, &quot;tsType&quot;: &quot;\&quot;panel\&quot; | \&quot;inline\&quot;&quot;, &quot;section&quot;: &quot;Cards&quot; },
+  &quot;showBadges&quot;: { &quot;editor&quot;: &quot;boolean&quot;, &quot;default&quot;: true, &quot;tsType&quot;: &quot;boolean&quot;, &quot;section&quot;: &quot;Cards&quot; }
+}">
+class Component extends DCLogic {
+  state = { filter: "all", query: "" };
+
+  data() {
+    return [
+      {
+        id: "claude-anthropic",
+        title: "Claude & Anthropic",
+        icon: "M12 3l2.2 6.8L21 12l-6.8 2.2L12 21l-2.2-6.8L3 12l6.8-2.2z",
+        items: [
+          { headline: "Anthropic's new Claude Sonnet 5 is faster, cheaper, and now the default", summary: "Anthropic released Claude Sonnet 5, its most capable mid-tier model yet. It performs close to the top-end Opus model while costing a lot less, and it's now the default for Free and Pro users, with introductory API pricing through August 31.", why: "If you use Claude for writing, brainstorming, or research, you're already on the better, faster model at no extra cost. If you or your developer builds anything on Claude, the intro pricing makes it cheaper to run through the summer.", link: "https://www.anthropic.com/news/claude-sonnet-5", source: "Anthropic", tag: "Product Update", badges: ["video", "social"], actionNote: "Building on the Claude API? Lock in Sonnet 5's intro pricing before it ends August 31." },
+          { headline: "Claude Science: a new AI workbench for researchers", summary: "Anthropic launched a beta app called Claude Science that brings research tools, science databases, and AI assistance into one workspace for scientists working on biology, chemistry, and related fields.", why: "Not an everyday tool for most small businesses, but worth knowing if you cover AI in science or work with research-heavy clients. It shows Anthropic is building specialized tools beyond the general chatbot.", link: "https://www.anthropic.com/news/claude-science-ai-workbench", source: "Anthropic", tag: "Product Update" },
+          { headline: "Claude Tag lets teams \"tag\" Claude right inside Slack", summary: "Anthropic introduced Claude Tag, a way to bring Claude into a Slack channel like a team member. You @-mention it with a request, it works through the task and replies in the thread, and it remembers context from the channel over time.", why: "If you run a small team and live in Slack, this is a preview of where AI assistants are headed: less \"open a new chat window,\" more \"just ask in the channel you're already in.\" Currently limited to Claude Team and Enterprise plans.", link: "https://www.anthropic.com/news/introducing-claude-tag", source: "Anthropic", tag: "Product Update" },
+          { headline: "Anthropic pauses planned billing change for its developer tools", summary: "Anthropic had announced that its Claude Agent SDK and headless \"claude -p\" tool would move to separate, pay-as-you-go billing starting June 15. That change is now paused; nothing changes for Pro, Max, Team, or Enterprise subscribers.", why: "If you or someone on your team uses Claude's developer tools to build automations, your existing subscription still covers that usage. No need to budget for a surprise bill increase yet.", link: "https://www.digitalapplied.com/blog/anthropic-claude-credit-overhaul-june-15-2026", source: "Digital Applied", tag: "Pricing" },
+          { headline: "Apple will let iPhone owners choose Claude to power Siri and Apple Intelligence", summary: "At WWDC 2026, Apple announced an \"Extensions\" system for iOS 27 that lets you pick a third-party AI, including Claude, ChatGPT, or Gemini, to handle Siri requests, Writing Tools, and other built-in AI features on your iPhone.", why: "This is the first time Claude will be a built-in option on the iPhone instead of a separate app. Full rollout is expected around September 2026 with new iPhones, on iPhone 15 Pro and later.", link: "https://www.macrumors.com/2026/05/05/ios-27-third-party-chatbots-apple-intelligence/", source: "MacRumors", tag: "Platform Change", badges: ["social"] }
+        ]
+      },
+      {
+        id: "ai-industry",
+        title: "Wider AI World",
+        icon: "M12 3a9 9 0 1 0 0 18a9 9 0 1 0 0-18M3 12h18M12 3a15.3 15.3 0 0 1 0 18a15.3 15.3 0 0 1 0-18",
+        items: [
+          { headline: "OpenAI previews GPT-5.6, its next model family", summary: "OpenAI gave a limited preview of GPT-5.6, available in three tiers (Sol, Terra, and Luna) trading off power, speed, and price. It's currently only available to select partners through the API, with wider ChatGPT access expected soon.", why: "Nothing to do yet if you're a ChatGPT user, since this isn't in the app. Expect a wider rollout and likely a new \"best available\" model option in the coming weeks.", link: "https://openai.com/index/previewing-gpt-5-6-sol/", source: "OpenAI", tag: "Product Update" },
+          { headline: "Google walks back some of the new Gemini usage limits after user backlash", summary: "Google recently switched the Gemini app from simple daily limits to a compute-based system, where complex prompts (like video generation) use up your quota faster than text questions. After complaints, Google capped how much a single prompt can use and promised clearer usage breakdowns.", why: "If you use Gemini's free or Pro plan for content tasks, watch your usage meter. Heavier features like video or long chats now drain your weekly quota faster than they used to.", link: "https://9to5google.com/2026/05/28/gemini-new-usage-limits/", source: "9to5Google", tag: "Platform Change" },
+          { headline: "Survey: most small business owners use AI daily, but confidence is the real gap", summary: "A new Bluehost study found 87% of small business owners now use at least one AI tool, but only 20% feel highly confident using it well. Owners who feel confident with AI are about three times more likely to see a revenue boost from it.", why: "The lesson here isn't \"use more AI tools,\" it's \"get genuinely comfortable with the ones you have.\" Picking one task to automate and sticking with it beats bouncing between five different AI apps.", link: "https://www.prnewswire.com/news-releases/bluehost-launches-inaugural-market-study-on-state-of-small-business-ai-confidence-in-the-us-302810857.html", source: "PR Newswire / Bluehost", tag: "Research", badges: ["social"] },
+          { headline: "Salesforce buys AI customer-service company Fin for $3.6 billion", summary: "Salesforce is acquiring Fin (formerly Intercom), an AI tool that automatically resolves about three quarters of customer support questions across chat, email, and other channels, folding it into its Agentforce product line.", why: "Expect AI customer-support tools to get cheaper and easier to set up over the next year, as big players push \"ready to deploy\" packages aimed at small and mid-size businesses, not just big enterprises.", link: "https://www.salesforce.com/news/press-releases/2026/06/15/salesforce-signs-definitive-agreement-to-acquire-fin/", source: "Salesforce Newsroom", tag: "Pricing" }
+        ]
+      },
+      {
+        id: "creator-tools",
+        title: "Tools & Tips for Creators and Small Biz",
+        icon: "M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z",
+        items: [
+          { headline: "DaVinci Resolve 21 ships with a big batch of new AI editing tools", summary: "Blackmagic Design released DaVinci Resolve 21, adding AI tools like IntelliSearch (find clips by describing what's in them), automatic subtitle generation, AI-assisted refocusing, and blemish touch-up tools. Most of these are in the free version.", why: "If you edit in Resolve, this update is worth installing. Searching your footage by describing it instead of scrubbing through clips can save real editing time, and it's free.", link: "https://www.blackmagicdesign.com/products/davinciresolve/whatsnew", source: "Blackmagic Design", tag: "Product Update", badges: ["video", "community"] },
+          { headline: "Canva AI 2.0 turns one-shot AI images into fully editable designs", summary: "Canva's new \"Magic Layers\" feature takes a flat AI-generated image and breaks it into separate, editable layers: text you can actually edit, objects you can move. It has already been used over nine million times since launch.", why: "This solves the classic AI-image problem of a great-looking graphic with a typo you can't fix. Now you can generate an image and then actually edit it like a normal Canva design.", link: "https://www.canva.com/newsroom/news/magic-layers/", source: "Canva Newsroom", tag: "Product Update", badges: ["community"] },
+          { headline: "CapCut rolls out a fuller AI editing suite: auto-edit, 130+ caption languages, AI avatars", summary: "CapCut's 2026 AI Suite includes Auto-Edit (which proposes a rough cut of pacing and transitions automatically), instant captions in 130+ languages, and AI avatars for making videos without being on camera.", why: "If you make short-form content for TikTok or Reels without editing help, Auto-Edit can hand you a roughly 70%-finished timeline to clean up instead of a blank one. A real time-saver for solo creators.", link: "https://www.capcut.com/resource/new-release", source: "CapCut", tag: "Product Update" },
+          { headline: "Ecamm adds Dual Mode for recording horizontal and vertical video at the same time", summary: "Ecamm now lets you build your standard YouTube-style horizontal layout and a vertical TikTok, Instagram, or Shorts-ready layout in the very same live recording session, with independent camera and overlay control for each.", why: "A real time-saver for solo streamers: no more recording your stream once and re-editing it into vertical clips afterward. You can produce both formats live, ready to post.", link: "https://www.ecamm.com/mac/ecammlive/whatsnew.html", source: "Ecamm", tag: "Product Update", badges: ["video"], actionNote: "Update Ecamm and build a vertical layout this week, then record Saturday's stream in Dual Mode." }
+        ]
+      },
+      {
+        id: "content-social",
+        title: "Content & Social Media Pulse",
+        icon: "M3 11l18-5v12L3 13v-2zM11.6 16.8a3 3 0 1 1-5.8-1.6",
+        items: [
+          { headline: "Instagram brings its teleprompter tool into the main app", summary: "Instagram added a built-in teleprompter to its main camera (it was previously only in the separate Edits app). You can upload or write a script that scrolls on-screen near the camera lens while you record, with adjustable speed.", why: "A free, no-extra-app way to keep eye contact with the camera while following a script. Useful for tutorials, product explainers, or any talking-head Reel where you don't want to memorize lines.", link: "https://www.socialmediatoday.com/news/instagram-introduces-teleprompter-tool/821564/", source: "Social Media Today", tag: "Platform Change", badges: ["social"] },
+          { headline: "Meta launches an AI \"creator assistant\" chatbot on Facebook", summary: "Meta rolled out a conversational AI assistant for Facebook creators that answers questions like \"when should I post?\" or \"what are people saying in my comments?\" using your own account's performance data. It's available to eligible creators in the US, Canada, and India.", why: "Instead of digging through Facebook's analytics dashboard, you can just ask plain questions about your own page's performance. Handy if you cross-post YouTube content to Facebook and want quick insights without the spreadsheet work.", link: "https://techcrunch.com/2026/06/04/meta-rolls-out-a-new-ai-creator-assistant-on-facebook/", source: "TechCrunch", tag: "Platform Change" },
+          { headline: "YouTube adds AI podcast recommendations and an \"Auto speed\" listening mode", summary: "YouTube Premium added an AI tool that recommends podcasts based on your mood or shows you already like, plus an \"Auto speed\" feature that slows down dense talking and speeds up slower stretches. Rolling out on Android first, with iOS coming later.", why: "If you publish a podcast or talk-heavy show on YouTube, these features are another reason YouTube is becoming a serious podcast platform, not just a video site. Worth knowing if podcast distribution is part of your content plan.", link: "https://techcrunch.com/2026/05/28/youtube-adds-new-podcast-features/", source: "TechCrunch", tag: "Platform Change" },
+          { headline: "Twitch rolls out Auto Clips, Stream Summaries, and 2K streaming for creators", summary: "Announced at TwitchCon Rotterdam: Twitch is rolling out 2K (1440p) streaming to all Partners and Affiliates, an Auto Clips tool that automatically finds and captions highlight moments, and Stream Summaries that recap a broadcast for viewers catching up late.", why: "Auto Clips alone is a big deal for solo streamers. Twitch says streamers using it end up with a shareable clip after 85% of streams, versus 50% for everyone else. More bite-sized social content with zero extra editing.", link: "https://blog.twitch.tv/en/2026/05/30/everything-we-announced-at-twitchcon-rotterdam-2026/", source: "Twitch Blog", tag: "Product Update", badges: ["video"] }
+        ]
+      }
+    ];
+  }
+
+  renderVals() {
+    const cats = this.data();
+    const q = this.state.query.trim().toLowerCase();
+    const filter = this.state.filter;
+
+    const matches = (it) => {
+      if (q && !(it.headline.toLowerCase().includes(q) || it.summary.toLowerCase().includes(q))) return false;
+      if (filter === "act" && !it.actionNote) return false;
+      return true;
+    };
+
+    let visible = cats
+      .filter(c => filter === "all" || filter === "act" || c.id === filter)
+      .map(c => {
+        const items = c.items.filter(matches);
+        const n = items.length;
+        return { ...c, items, countLabel: n === 1 ? "1 story" : n + " stories" };
+      });
+    const filtering = q !== "" || filter !== "all";
+    if (filtering) visible = visible.filter(c => c.items.length > 0);
+    const noResults = visible.every(c => c.items.length === 0);
+    if (noResults) visible = [];
+
+    const actCount = cats.reduce((s, c) => s + c.items.filter(i => i.actionNote).length, 0);
+
+    const defs = [
+      { id: "all", label: "All" },
+      ...cats.map(c => ({ id: c.id, label: c.title })),
+      { id: "act", label: "⚡ Action needed", hot: true, count: actCount }
+    ];
+    const pills = defs.map(d => {
+      const selected = filter === d.id;
+      return {
+        label: d.label,
+        count: d.count || null,
+        selected: String(selected),
+        onPick: () => this.setState({ filter: d.id }),
+        bg: selected
+          ? (d.hot ? "var(--red)" : "var(--pulse-pill-active-bg, var(--purple-deep))")
+          : (d.hot ? "var(--pulse-hot-soft, rgba(247,38,52,0.14))" : "var(--surface)"),
+        color: selected ? "#ffffff" : (d.hot ? "var(--pulse-hot-text, var(--red-salmon))" : "var(--text)"),
+        border: selected
+          ? "1px solid transparent"
+          : (d.hot ? "1px solid var(--pulse-hot-border, rgba(247,38,52,0.38))" : "1px solid var(--border-strong)"),
+        shadow: selected ? (d.hot ? "var(--shadow-glow)" : "0 6px 16px rgba(130,7,197,0.28)") : "none",
+        chipBg: selected ? "rgba(255,255,255,0.25)" : "var(--pulse-hot-chip, rgba(247,38,52,0.22))",
+        chipColor: selected ? "#ffffff" : "var(--pulse-hot-text, var(--red-salmon))"
+      };
+    });
+
+    const theme = this.props.theme ?? "dark";
+    const edition = this.props.edition ?? "midday";
+
+    return {
+      pills,
+      visibleCategories: visible,
+      noResults,
+      query: this.state.query,
+      onQuery: (e) => this.setState({ query: e.target.value }),
+      onClearAll: () => this.setState({ query: "", filter: "all" }),
+      toggleIcon: theme === "light" ? "🌙" : "☀️",
+      toggleAria: theme === "light" ? "Switch to dark mode" : "Switch to light mode",
+      updatedLabel: this.props.updatedLabel ?? "Wednesday, July 1 · 6:37 PM ET",
+      editionLabel: edition === "morning" ? "Morning edition" : "Midday edition",
+      editionBg: edition === "morning" ? "var(--pulse-pill-active-bg, var(--purple-deep))" : "var(--red)",
+      whyStyle: this.props.whyStyle ?? "panel",
+      showBadges: this.props.showBadges ?? true
+    };
+  }
+}
+</script>
+</body>
+</html>
