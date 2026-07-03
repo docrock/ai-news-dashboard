@@ -18,7 +18,15 @@
           "why_it_matters": "1 sentence on what this means for a beginner, small business owner, or content creator",
           "link": "https://...",
           "source": "Anthropic Blog",
-          "tag": "Product Update"
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 8,
+            "social": 6,
+            "community": 9,
+            "act_now": true,
+            "action_note": "One imperative sentence: what to do, where, and why now.",
+            "angle": "Suggested content hook (only when a score is 7+)"
+          }
         }
       ]
     },
@@ -35,6 +43,10 @@ Notes:
 - Category ids are fixed (always all 4 present, even if an item list is empty).
 - `tag` is a short label like "Product Update", "Research", "Tutorial", "Platform Change", "Opinion/Analysis".
 - Every item MUST have a working `link`.
+- `opportunity` is **optional and backward compatible** — items and whole editions without it render exactly as before (no badges, no act-now treatment). All NEW editions should include it on every item, scored per instructions §3.5:
+  - `video`, `social`, `community`: integers 0–10, Doc's content-opportunity lens. The dashboard shows quiet badges at score ≥ 7 (🎬 Video idea / 📣 Post it / 🏖️ Sandbox share) and never displays the raw numbers.
+  - `act_now`: boolean, independent of the scores — it means "Doc should DO something soon," not "make content about this." When `true`, `action_note` is **required**: one imperative sentence (what to do, where, why now). The dashboard renders it as the loud "⚡ Action needed" strip.
+  - `angle`: optional one-line suggested content hook; include it when any score is 7+.
 
 ## data/archive/index.json (history list, newest first)
 

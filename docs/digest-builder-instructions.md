@@ -88,6 +88,45 @@ Aim for roughly 4-7 items per category where the news genuinely supports it. It 
 
 Each item also needs a short `tag` — reuse one of: "Product Update", "Research", "Tutorial", "Platform Change", "Opinion/Analysis", "Pricing", "Policy" — or another short (1-3 word) label in the same style if none of those fit.
 
+## 3.5 Score every item through Doc's lens (the `opportunity` object)
+
+Every item that passed the section 3 quality bar gets an `opportunity` object (exact shape in `docs/SCHEMA.md`). Two ground rules before the rubric:
+
+- **Scoring never justifies inclusion.** The include/exclude decision already happened in section 3. If you catch yourself inflating a score to make a weak item feel worth publishing, cut the item instead.
+- **Be stingy.** Most items land 3–6 on most axes. An 8+ should feel like Doc would drop what he's doing. Roughly one act-now flag per day across ALL categories is normal; several per edition means the bar is too low.
+
+### `video` (0–10) — could this carry a Doc Rock YouTube video?
+
+Score up for: direct hits on Doc's beats (DaVinci Resolve, Ecamm / livestreaming, AI tools for content creators, YouTube platform changes); demoable on screen (he can *show* it, not just talk about it); a timely window (covering it this week beats next month); tutorial potential ("here's how to actually use this" beats "this exists").
+
+Anchors: **8–10** = drop-what-you're-doing video. **5–7** = solid candidate or a segment in a roundup. **0–4** = not video material.
+
+### `social` (0–10) — worth a quick take on socials?
+
+Score up for: conversation starters, hot-off-the-press news, strong-opinion potential; things explainable in two sentences without a screen share. Big-but-generic news that every AI account will post scores mid at best — unless Doc has a distinct angle on it.
+
+### `community` (0–10) — worth sharing in the Creator Sandbox Community?
+
+Score up for: immediately practical for members (solo creators and small business owners in their 40s–60s); discussion-prompt potential ("has anyone tried this?"); fits a "try this this week" nudge for the Saturday Zoom crowd.
+
+The bar is **usefulness, not newsworthiness** — a small tool update members would actually use outranks a splashy funding story.
+
+### `act_now` + `action_note` — flag the things Doc must DO
+
+Set `act_now: true` only when Doc should take a concrete action soon:
+
+- A platform he uses shipped a feature he should enable or test (YouTube, Ecamm, Claude, DaVinci Resolve).
+- A deadline or window: intro pricing ending, a beta opening, a deprecation landing.
+- Something he relies on changed behavior in a way that affects his workflow or channel.
+
+Qualifies: "YouTube rolls out Collaboration tags," "Fable 5 is back online," "Sonnet 5 intro pricing runs through Aug 31." Does not qualify: research papers, funding rounds, rumors, anything Doc can't act on this week.
+
+When `act_now` is true, `action_note` is **required**: one imperative sentence naming the specific move — what to do, where, and why now (e.g. "Update Ecamm and build a vertical layout this week, then record Saturday's stream in Dual Mode."). `act_now` is independent of the three scores — it means "do something in your business," not "make content about this."
+
+### `angle` — optional head start
+
+When any score is 7+, add a one-line suggested content hook in `angle` (e.g. "I tested YouTube's new collab tag so you don't have to"). Written in Doc's voice, no em dashes. Omit it otherwise.
+
 ## 4. Output format — build the new digest.json
 
 Read `docs/SCHEMA.md` for the exact JSON shape before writing anything. Key rules:
@@ -98,7 +137,7 @@ Read `docs/SCHEMA.md` for the exact JSON shape before writing anything. Key rule
   2. `{ "id": "ai-industry", "title": "Wider AI World", "items": [...] }`
   3. `{ "id": "creator-tools", "title": "Tools & Tips for Creators and Small Biz", "items": [...] }`
   4. `{ "id": "content-social", "title": "Content & Social Media Pulse", "items": [...] }`
-- Each item: `headline`, `summary`, `why_it_matters`, `link`, `source`, `tag` — all required, all strings.
+- Each item: `headline`, `summary`, `why_it_matters`, `link`, `source`, `tag` — all required, all strings — plus the `opportunity` object from section 3.5 (include it on every new item; the field is optional only so old archived editions keep rendering).
 
 ### Archiving step — do this BEFORE writing the new digest.json
 
@@ -143,6 +182,7 @@ Skip the archiving step only if `data/digest.json` does not exist yet (i.e., thi
 Use simple, standalone commands (one per shell invocation — no `&&` chains, no `cd`), e.g. `python3 -m json.tool data/digest.json` and `grep -ri "creator economy" data/`:
 
 - Confirm `data/digest.json` is valid JSON (all 4 categories present, every item has all 6 required fields).
+- Confirm every item's `opportunity` object is well-formed: `video`/`social`/`community` are integers 0–10, and wherever `act_now` is `true` there is a non-empty imperative `action_note` (section 3.5).
 - Confirm `data/archive/index.json` is valid JSON (an array, newest entry first, ≤30 entries).
 - Confirm every `link` in the new digest is a real URL you fetched/saw in search results — not guessed.
 - Spot-check that no item copy contains the phrase "creator economy" (the grep above should return nothing).
