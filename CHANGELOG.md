@@ -1,6 +1,14 @@
 # Changelog
 
-Notable changes to Doc Rock's AI Pulse. The routine twice-daily digest data refreshes are **not** logged here — that's the site working as designed (see the git history of `data/` if you ever need them).
+Notable changes to Doc Rock's AI Pulse. The routine daily digest data refreshes are **not** logged here — that's the site working as designed (see the git history of `data/` if you ever need them).
+
+## 2026-07-04
+
+### Changed
+- **Digest automation migrated to a Claude Code cloud routine (repo-side prep).** The daily refresh moves off the macOS Desktop scheduled task — which only fired while the Claude app was open on Doc's Mac, rooted its session in an unrelated repo (so this repo's permission rules were never consulted), and needed a stack of workarounds — to a cloud routine that clones this repo and runs the playbook directly. Routine config (created via the UI, not in this repo): repo `docrock/ai-news-dashboard`; daily ~3:07 AM HST; env var `TZ=Pacific/Honolulu`; network access **Full** (the playbook fetches arbitrary news domains to verify links; the default "Trusted" policy returns 403 for those); unrestricted branch push enabled so it pushes to `main` (push = deploy); model = Doc's choice. `docs/digest-builder-instructions.md` is now cloud-native: plain `git` commands from the repo root (no more `-C` absolute-path anchoring or no-chaining rules — those only existed to satisfy local pre-approved permission prompts), once-daily wording, and a note that the run sets `TZ=Pacific/Honolulu`. The **local Desktop task `ai-pulse-morning-refresh` and the user-level permission wildcards in `~/.claude/settings.json` are deprecated** — remove both after the first green cloud run.
+
+### Added
+- `docs/routine-prompt.md` — the exact text to paste into the cloud routine's Instructions box.
 
 ## 2026-07-03
 

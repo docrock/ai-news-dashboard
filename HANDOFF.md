@@ -4,7 +4,7 @@ Read this first if you're picking up this project cold (new session, new machine
 
 ## What this is
 
-A twice-daily, no-jargon AI news dashboard for Doc Rock's audience (Gen X / older Millennial solo entrepreneurs and content creators): Claude/Anthropic news first, plus wider AI industry, creator/small-biz tools, and content & social platform news. Static site, no backend.
+A daily, no-jargon AI news dashboard for Doc Rock's audience (Gen X / older Millennial solo entrepreneurs and content creators): Claude/Anthropic news first, plus wider AI industry, creator/small-biz tools, and content & social platform news. Static site, no backend.
 
 - **Live site:** https://docrock.github.io/ai-news-dashboard/
 - **Repo:** https://github.com/docrock/ai-news-dashboard (public, standalone — separate `.git` from HQ)
@@ -19,6 +19,7 @@ A twice-daily, no-jargon AI news dashboard for Doc Rock's audience (Gen X / olde
 | `data/archive/` + `data/archive/index.json` | Past editions, newest first, capped at 30. |
 | `docs/SCHEMA.md` | Exact JSON shape for digest + archive files. Source of truth if anything conflicts. |
 | `docs/digest-builder-instructions.md` | Self-contained playbook a fresh Claude session follows to research and publish a new edition. |
+| `docs/routine-prompt.md` | The exact text pasted into the cloud routine's Instructions box. |
 | `README.md` | Quick orientation + manual-refresh instructions. |
 | `UI-README.md` | Build guide for the brand restyle (Claude Design handoff). Region specs, card variants, states, icons. |
 | `pulse-tokens.css` | Design-token sheet from the Doc Rock Design System — light `:root` + `[data-theme="dark"]` overrides. Load after `assets/fonts.css`. |
@@ -29,31 +30,34 @@ A twice-daily, no-jargon AI news dashboard for Doc Rock's audience (Gen X / olde
 
 ## Automation
 
-**One** local scheduled task (stored under `~/.claude/scheduled-tasks/`), as of 2026-07-03:
+**Source of truth (as of 2026-07-04): a Claude Code cloud routine.** The routine clones this repo fresh, follows `docs/digest-builder-instructions.md` end to end (freshness guard, local-time stamps, live web search, archive, score, validate), then commits + pushes to `main`. Push = deploy. The routine's Instructions box is the exact text of `docs/routine-prompt.md`.
 
-- **`ai-pulse-morning-refresh`** — daily at **3:05 AM HST** (cron `0 3 * * *`, local time). Publishes one edition; the edition value (morning/midday/evening) is derived from the local hour by the playbook.
-- **`ai-pulse-midday-refresh`** — **disabled** 2026-07-03. Two tasks were fighting over the edition field on late fires; one reliable daily run is simpler. It can be re-enabled later via the `scheduled-tasks` tools if a second slot is ever wanted.
+Routine configuration:
 
-Each run drives git with `git -C ~/Docrock/ai-news-dashboard ...` (never `cd`), follows `docs/digest-builder-instructions.md` (freshness guard, local-time stamps, live web search, archive, score, validate), then commits + pushes to `main`. Push = deploy.
+- **Repo:** `docrock/ai-news-dashboard`
+- **Schedule:** daily at **~3:07 AM HST**
+- **Environment variable:** `TZ=Pacific/Honolulu` — so `date` in the cloud container returns Doc's Hawaii local time and the playbook's machine-local-time rules keep working unchanged
+- **Network access:** **Full** — the playbook fetches arbitrary news domains to verify every link; the default "Trusted" policy returns 403 for those
+- **Permissions:** "Allow unrestricted branch pushes" enabled for this repo, so the run can push straight to `main` (push = deploy). Leaving it off is a valid alternative: each edition then lands as a PR for review instead.
+- **Model:** Doc's choice (set when creating/editing the routine)
+- **Connectors:** none — remove all connectors from the routine's environment
 
-### Why the runs kept stopping for approval (root cause, fixed 2026-07-03)
+### Deprecated: the local Desktop scheduled task
 
-The scheduled task session roots in **`~/claude-plugins/travel-marketplace`**, not this repo (the scheduler has no per-task working-directory control). Claude Code evaluates permission rules against the *session's* project settings, so the good rules in this repo's `.claude/settings.json` were **never consulted** — and travel-marketplace's `settings.local.json` had only literal, timestamp-embedded grants that never match twice. Fix:
+The previous automation — the macOS Desktop scheduled task **`ai-pulse-morning-refresh`** (under `~/.claude/scheduled-tasks/`, 3:05 AM HST) plus the **user-level permission wildcards** in `~/.claude/settings.json` that kept it unattended — is **deprecated**. It only fired while the Claude app was open on Doc's Mac, rooted its session in the unrelated `travel-marketplace` repo (so this repo's permission rules were never consulted), and needed a pile of workarounds (`git -C` absolute-path anchoring, user-level wildcards, a disabled second task, DST cron nudges). **Remove both after the first green cloud run**: delete the `ai-pulse-morning-refresh` task and strip the AI-Pulse wildcards from `~/.claude/settings.json`. (`ai-pulse-midday-refresh` was already disabled 2026-07-03.)
 
-- **Authoritative permission rules now live at USER level** (`~/.claude/settings.json`), so they apply no matter which directory the task roots in. They're wildcarded (`git -C ~/Docrock/ai-news-dashboard commit -m:*`, `cp … data/archive/:*`, `python3 -m json.tool:*`, `WebFetch`, `Edit/Write` scoped to `…/ai-news-dashboard/data/**`) so timestamped commands stop re-prompting. Every git rule is `-C`-scoped to this one repo, so the global scope is still tight.
-- The AI Pulse remnants (26 of them) were stripped out of `travel-marketplace/.claude/settings.local.json` so the two projects are no longer commingled.
-- The task prompt was rewritten: standalone commands only (no `&&`/`;`/`if-then`, which never match allow rules), unattended-aware, Sonnet 5 / High mode requested.
+### Downstream coupling: doc-rock-studio reads digest.json
 
-**Caveats:**
-- The task only fires while the Claude app is open on this Mac. Closed at 3 AM → runs on next launch.
-- After these changes, do a one-time **"Run now"** on the task once (the scheduler also stores per-task approvals) to seed anything the user-level rules don't already cover, then it should be fully hands-off.
-- **Model:** the prompt requests Sonnet 5 / High. Scheduled runs otherwise use the app's model at fire time — there's no per-task model field in the scheduler, so if a run must be Sonnet 5, set the app's model accordingly.
+The `doc-rock-studio` "content sprint" (in `docrock/docrock-marketplace`) reads this dashboard's `digest.json`. Now that the digest is published from the cloud instead of written into a local clone, the studio should read the **published URL** — `https://docrock.github.io/ai-news-dashboard/data/digest.json` — not a local clone, which will go stale. This also makes the studio machine-independent.
+
+- [ ] **TODO (in `docrock/docrock-marketplace` — that repo is not on this machine):** point the content sprint at `https://docrock.github.io/ai-news-dashboard/data/digest.json` instead of the local clone's `data/digest.json`.
 
 ## Open TODOs
 
 ### For Doc to review
 
-- **Do a one-time "Run now" on `ai-pulse-morning-refresh`** so it seeds any last per-task approvals, then confirm the next 3 AM run's summary shows no permission stops. The 2026-07-03 fix (see Automation → root cause) moved the permission rules to user level and de-commingled travel-marketplace, which the earlier 2026-07-02 project-level allowlist couldn't fix (the task never roots in this repo).
+- **Create the cloud routine** (claude.ai/code/routines → New → Remote, or `/schedule`) with the configuration in the Automation section above, pasting `docs/routine-prompt.md` as the Instructions. Run it once, read the transcript (green ≠ success), confirm a commit hit `main` and the site updated — then delete the local `ai-pulse-morning-refresh` task and remove the AI-Pulse permission wildcards from `~/.claude/settings.json`.
+- ~~Do a one-time "Run now" on `ai-pulse-morning-refresh`~~ — superseded by the cloud routine migration (2026-07-04); the whole Desktop-task approach is deprecated.
 
 Earlier (2026-07-02) routine-QA items — PR #3 (routine fixes) and PR #2 (restyle + viewer-local timestamps) merged and live; the project-level allowlist was committed but turned out to be in the wrong scope (superseded by the user-level rules above); the "Morning · 11:12 PM ET" mislabel self-heals on the next run.
 
