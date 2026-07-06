@@ -1,6 +1,6 @@
 # Digest Builder Instructions
 
-This document is the complete, self-contained playbook for refreshing **Doc Rock's AI Pulse** dashboard. It is meant to be run by a Claude agent session that has **no memory of any prior conversation** — everything you need to do the job correctly is written here. You will be invoked twice a day (roughly 6:00 AM ET and 12:00 PM ET) starting from a fresh clone of this repo.
+This document is the complete, self-contained playbook for refreshing **Doc Rock's AI Pulse** dashboard. It is meant to be run by a Claude agent session that has **no memory of any prior conversation** — everything you need to do the job correctly is written here. You run once daily as an unattended Claude Code cloud routine, starting from a fresh clone of this repo; the edition value is derived from the run's local hour (section 5).
 
 If anything here conflicts with `docs/SCHEMA.md`, **SCHEMA.md wins** — it's the source of truth for the JSON shape. This doc explains the *process*; SCHEMA.md defines the *data format*.
 
@@ -158,12 +158,14 @@ Skip the archiving step only if `data/digest.json` does not exist yet (i.e., thi
 
 **Never compute US Eastern time (or any other remote timezone).** Run `date` and use the machine's own local time everywhere below. The dashboard converts `generated_at_iso` into each visitor's own timezone in their browser, so the stored label is only a fallback for very old browsers.
 
+The run sets `TZ=Pacific/Honolulu`, so `date` returns Doc's Hawaii local time — keep using machine-local time everywhere below, and never compute another timezone.
+
 - `generated_at_iso`: the actual current date/time of the run, full ISO 8601 **with the machine's local UTC offset** (`date +%Y-%m-%dT%H:%M:%S%z` gives it directly), e.g. `"2026-07-02T17:45:00-10:00"`. Never round or fake this to match a schedule slot — it must be honest.
-- `edition`: derive from the **local hour** of the run, regardless of which scheduled task fired:
+- `edition`: derive from the **local hour** of the run, regardless of when the schedule was supposed to fire:
   - before 11:00 → `"morning"`
   - 11:00–16:59 → `"midday"`
   - 17:00 or later → `"evening"`
-  A morning-slot task that fires late in the evening publishes an `"evening"` edition. The task name never overrides the clock.
+  A run that fires late in the evening publishes an `"evening"` edition. The schedule never overrides the clock.
 - `generated_label`: human-friendly, from the same local time: `"<Weekday>, <Month> <Day> · <H:MM AM/PM> <TZ>"`, e.g. `"Thursday, July 2 · 5:45 PM HST"` (`date +%Z` gives the timezone abbreviation).
 - The archive filename and label in section 4 use this same local-time basis.
 
@@ -173,9 +175,8 @@ Skip the archiving step only if `data/digest.json` does not exist yet (i.e., thi
 
 ### 5.2 Git ground rules (every git command in this playbook)
 
-- Always invoke git as `git -C ~/Docrock/ai-news-dashboard <subcommand>` — never `cd` into the repo first (a `cd`-prefixed compound command triggers an extra safety prompt on unattended runs).
-- Before touching anything: `git -C ~/Docrock/ai-news-dashboard switch main` then `git -C ~/Docrock/ai-news-dashboard pull origin main`. If the working copy was left on some other branch by an interactive session, switching to main is the fix — never commit digest data to any branch except `main`, and leave other branches exactly as you found them.
-- Keep commands simple and standalone (one git command per shell invocation, no `&&` chains) — chained commands defeat the pre-approved permission rules and each one triggers a fresh prompt.
+- Run every git command from the repo root, as plain `git <subcommand>`.
+- Before touching anything: `git switch main` then `git pull origin main`. If the working copy was left on some other branch, switching to main is the fix — never commit digest data to any branch except `main`, and leave other branches exactly as you found them.
 
 ## 6. Validate before finishing
 
@@ -189,12 +190,12 @@ Use simple, standalone commands (one per shell invocation — no `&&` chains, no
 
 ## 7. Commit and push
 
-Once the files are written and validated, run these as three separate commands (per the git ground rules in section 5.2 — no `cd`, no chaining):
+Once the files are written and validated, run (from the repo root, per the git ground rules in section 5.2):
 
 ```bash
-git -C ~/Docrock/ai-news-dashboard add data/digest.json data/archive/index.json data/archive/<YYYY-MM-DD-HHmm>.json
-git -C ~/Docrock/ai-news-dashboard commit -m "Refresh AI news digest — <generated_label>"
-git -C ~/Docrock/ai-news-dashboard push origin main
+git add data/digest.json data/archive/index.json data/archive/<YYYY-MM-DD-HHmm>.json
+git commit -m "Refresh AI news digest — <generated_label>"
+git push origin main
 ```
 
 Example commit message: `Refresh AI news digest — Thursday, July 2 · 5:45 PM HST`
