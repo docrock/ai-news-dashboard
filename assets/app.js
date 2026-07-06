@@ -47,6 +47,11 @@
     { key: "community", emoji: "🏖️", label: "Sandbox share" }
   ];
 
+  // Cards worth scripting — the studio's own "Pulse → video" gate:
+  // a video score of 7+ or an act-now flag. The 🎬 Generate script button
+  // copies a ready-to-paste /studio prompt for these items only.
+  var SCRIPT_VIDEO_THRESHOLD = 7;
+
   var state = {
     digest: null,
     archiveIndex: [],
@@ -317,6 +322,91 @@
 
   function isActItem(item) {
     return !!(item.opportunity && item.opportunity.act_now);
+  }
+
+  // Show the Generate script button on items the studio treats as
+  // script-worthy: video >= 7 or act_now (mirrors the SKILL's flywheel gate).
+  function isScriptable(item) {
+    var opp = item.opportunity;
+    return !!(opp && (opp.video >= SCRIPT_VIDEO_THRESHOLD || opp.act_now));
+  }
+
+  // Build the exact text pasted into Claude Code. `/studio` routes it to the
+  // script-writer; the fields match the studio Intake (headline / summary /
+  // link / angle / opportunity scores).
+  function buildStudioPrompt(item) {
+    var opp = item.opportunity || {};
+    var lines = [
+      "/studio turn this AI Pulse item into a video script.",
+      "",
+      "Headline: " + (item.headline || ""),
+      "Summary: " + (item.summary || ""),
+      "Why it matters: " + (item.why_it_matters || ""),
+      "Angle: " + (opp.angle || "(none suggested — use your own take)"),
+      "Source: " + (item.link || ""),
+      "Scores — video " + (opp.video || 0) + "/10, social " +
+        (opp.social || 0) + "/10, community " + (opp.community || 0) + "/10"
+    ];
+    if (opp.act_now && opp.action_note) {
+      lines.push("Act now: " + opp.action_note);
+    }
+    return lines.join("\n");
+  }
+
+  // Copy helper: async Clipboard API where available (GitHub Pages is HTTPS),
+  // with a legacy execCommand fallback. Resolves true/false for UI feedback.
+  function copyText(text) {
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      return navigator.clipboard.writeText(text).then(
+        function () { return true; },
+        function () { return legacyCopy(text); }
+      );
+    }
+    return Promise.resolve(legacyCopy(text));
+  }
+
+  function legacyCopy(text) {
+    try {
+      var ta = document.createElement("textarea");
+      ta.value = text;
+      ta.setAttribute("readonly", "");
+      ta.style.position = "absolute";
+      ta.style.left = "-9999px";
+      document.body.appendChild(ta);
+      ta.select();
+      var ok = document.execCommand("copy");
+      document.body.removeChild(ta);
+      return ok;
+    } catch (e) {
+      return false;
+    }
+  }
+
+  var SCRIPT_BTN_IDLE = '<span aria-hidden="true">🎬</span> Generate script';
+
+  function buildScriptButton(item) {
+    var btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "card-script-btn";
+    btn.innerHTML = SCRIPT_BTN_IDLE;
+    btn.setAttribute("aria-label", "Copy a /studio prompt for this item to your clipboard");
+
+    var resetTimer = null;
+    btn.addEventListener("click", function () {
+      copyText(buildStudioPrompt(item)).then(function (ok) {
+        btn.classList.toggle("is-copied", ok);
+        btn.classList.toggle("is-failed", !ok);
+        btn.innerHTML = ok
+          ? '<span aria-hidden="true">✓</span> Copied — paste into Claude Code'
+          : '<span aria-hidden="true">⚠</span> Copy failed — select manually';
+        if (resetTimer) clearTimeout(resetTimer);
+        resetTimer = setTimeout(function () {
+          btn.classList.remove("is-copied", "is-failed");
+          btn.innerHTML = SCRIPT_BTN_IDLE;
+        }, 2600);
+      });
+    });
+    return btn;
   }
 
   function countActItems(digest) {
@@ -616,6 +706,10 @@
     readLink.rel = "noopener";
     readLink.innerHTML = 'Read more <span class="arrow" aria-hidden="true">→</span>';
     footerRow.appendChild(readLink);
+
+    if (isScriptable(item)) {
+      footerRow.appendChild(buildScriptButton(item));
+    }
 
     var badges = badgesFor(item.opportunity);
     if (badges.length) {
