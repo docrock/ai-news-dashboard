@@ -1,0 +1,32 @@
+{
+  "generated_at_iso": "2026-07-03T07:57:04-10:00",
+  "generated_label": "Friday, July 3 · 7:57 AM HST",
+  "edition": "morning",
+  "categories": [
+    {
+      "id": "claude-anthropic",
+      "title": "Claude & Anthropic",
+      "items": [
+        {
+          "headline": "Claude in Chrome leaves beta — it's now available to everyone on a paid plan",
+          "summary": "Anthropic flipped Claude in Chrome to \"generally available\" on July 1. It's a browser extension that lets Claude work right inside your Chrome tabs — reading a page, filling in a form, or pulling details out of what's on screen — instead of you copying and pasting into a separate chat window. It had been in invite-only beta since April; now anyone on a paid Claude plan (Pro, Max, Team, or Enterprise) can just turn it on.",
+          "why_it_matters": "This is one of the most 'show, don't tell' AI features around for a small business owner: instead of babysitting a chatbot in another tab, you let Claude do busywork where you already are — comparing prices across open tabs, pulling info off a booking page, or filling a repetitive web form. It's exactly the kind of everyday AI help that's easy to demo and easy to actually use.",
+          "link": "https://support.claude.com/en/articles/12012173-get-started-with-claude-in-chrome",
+          "source": "Anthropic (Claude Help Center)",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 7,
+            "social": 6,
+            "community": 7,
+            "act_now": true,
+            "action_note": "On your Pro or Max plan this week, install the Claude in Chrome extension and run it on one real task (pull details off a page or fill a web form), then record a Saturday demo showing what it nailed and where you had to step in.",
+            "angle": "I let Claude drive my Chrome for a week — here is what it nailed and where I grabbed the wheel back"
+          }
+        }
+      ]
+    },
+    { "id": "ai-industry", "title": "Wider AI World", "items": [] },
+    { "id": "creator-tools", "title": "Tools & Tips for Creators and Small Biz", "items": [] },
+    { "id": "content-social", "title": "Content & Social Media Pulse", "items": [] }
+  ]
+}
