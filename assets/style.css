@@ -570,6 +570,48 @@ main {
   font-size: 15px;
 }
 
+/* Generate script — accent-tinted pill, a quieter sibling to Read more.
+   Only appears on script-worthy cards (video >= 7 or act-now). */
+.card-script-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 32px;
+  padding: 5px 14px;
+  border-radius: var(--radius-pill);
+  background: var(--color-accent-soft);
+  border: 1px solid var(--color-badge-border);
+  color: var(--color-link);
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: var(--text-sm);
+  cursor: pointer;
+  transition: transform var(--dur-fast) var(--ease),
+    box-shadow var(--dur) var(--ease), background var(--dur) var(--ease);
+}
+
+.card-script-btn:hover {
+  transform: var(--lift);
+  box-shadow: var(--shadow-sm);
+}
+
+.card-script-btn:focus-visible {
+  outline: 2px solid var(--color-link);
+  outline-offset: 2px;
+}
+
+.card-script-btn.is-copied {
+  background: var(--color-accent-fill);
+  border-color: var(--color-accent-fill);
+  color: #ffffff;
+}
+
+.card-script-btn.is-failed {
+  background: var(--color-hot-soft);
+  border-color: var(--color-hot-border);
+  color: var(--color-link);
+}
+
 /* Opportunity badges — deliberately the quietest chips on the card */
 
 .card-badges {
