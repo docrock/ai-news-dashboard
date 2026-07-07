@@ -1,59 +1,68 @@
 {
-  "generated_at_iso": "2026-07-06T10:25:03-10:00",
-  "generated_label": "Monday, July 6 · 10:25 AM HST",
+  "generated_at_iso": "2026-07-07T03:22:07-10:00",
+  "generated_label": "Tuesday, July 7 · 3:22 AM HST",
   "edition": "morning",
   "categories": [
     {
       "id": "claude-anthropic",
       "title": "Claude & Anthropic",
-      "items": []
+      "items": [
+        {
+          "headline": "Heads up: Claude's priciest model, Fable 5, stops being free-with-your-plan today",
+          "summary": "Anthropic's flagship model Fable 5 came back online July 1 with a one-week grace period where Pro, Max, and Team plans got it included at no extra cost. That grace period ends today, July 7. Starting July 8, using Fable 5 requires turning on prepaid \"usage credits\" and paying API rates of $10 per million input tokens and $50 per million output tokens, making it the single most expensive model Anthropic sells.",
+          "why_it_matters": "If you've been using Fable 5 inside Claude.ai, Claude Code, or Cowork, go turn on usage credits in Settings today or it will simply stop responding once your free weekly allowance runs out, mid-session, with no warning. If you've never touched Fable 5, nothing changes for your regular Claude usage.",
+          "link": "https://www.anthropic.com/news/redeploying-fable-5",
+          "source": "Anthropic (official)",
+          "tag": "Pricing",
+          "opportunity": {
+            "video": 4,
+            "social": 6,
+            "community": 8,
+            "act_now": true,
+            "action_note": "Log into claude.ai Settings, then Usage, and turn on usage credits today if you use Fable 5, so it doesn't cut out mid-project once your free weekly allowance runs out tomorrow.",
+            "angle": "Quick PSA for anyone on Claude: check your settings before Fable 5 starts costing you extra"
+          }
+        },
+        {
+          "headline": "Claude Code now pauses to ask permission before every action, by default",
+          "summary": "Anthropic changed Claude Code's default setting so it stops and waits for your approval before running commands, across the command-line tool, VS Code, and JetBrains plugins. Previously it could keep working through a task without checking in as often.",
+          "why_it_matters": "If you or someone helping you has set up Claude Code to run tasks unattended, like batch-renaming files or running a script overnight, this change means it may now sit there waiting for a click instead of finishing on its own, so it's worth a quick check on anything you've automated.",
+          "link": "https://code.claude.com/docs/en/changelog",
+          "source": "Claude Code Changelog (official)",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 3,
+            "social": 3,
+            "community": 6,
+            "act_now": false
+          }
+        },
+        {
+          "headline": "Claude Code's weekly usage limit is 50% higher right now, but only through July 13",
+          "summary": "Since May, Anthropic has been giving Pro, Max, Team, and Enterprise subscribers 50% more weekly usage on Claude Code as it brought new computing capacity online. That temporary boost is scheduled to end July 13, after which weekly limits drop back to normal.",
+          "why_it_matters": "If you lean on Claude Code for editing scripts, automating small business tasks, or building things for your channel, this week is a good time to knock out anything bigger before your weekly cap shrinks back down.",
+          "link": "https://www.anthropic.com/news/higher-limits-spacex",
+          "source": "Anthropic (official)",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 2,
+            "social": 3,
+            "community": 6,
+            "act_now": false
+          }
+        }
+      ]
     },
     {
       "id": "ai-industry",
       "title": "Wider AI World",
       "items": [
         {
-          "headline": "xAI launches a no-code tool that builds you an AI phone receptionist in about 2 minutes",
-          "summary": "xAI released Voice Agent Builder, a beta tool inside its Grok Voice system where you type a plain-English description of how you want calls handled and it builds you a working phone-answering AI agent, no coding needed. It can follow your scripts and guardrails, speaks in 25+ languages, and is billed by the minute (about 5 cents a minute of call time, plus a penny a minute for the phone line).",
-          "why_it_matters": "If you've ever missed a client call while you were mid-edit or live on a stream, this is one of the first 'build your own AI receptionist' tools you can actually sign up for today instead of waiting for an expensive enterprise version, though it's worth testing on a low-stakes line before trusting it with real customers.",
-          "link": "https://x.ai/news/grok-voice-agent-builder",
-          "source": "xAI (official)",
-          "tag": "Product Update",
-          "opportunity": {
-            "video": 8,
-            "social": 6,
-            "community": 7,
-            "act_now": false,
-            "angle": "I built an AI phone receptionist for my business in about 2 minutes with no code, here's what it got right and where it fell short"
-          }
-        }
-      ]
-    },
-    {
-      "id": "creator-tools",
-      "title": "Tools & Tips for Creators and Small Biz",
-      "items": [
-        {
-          "headline": "DaVinci Resolve 21.0.2 fixes the new AI clip search slowdown and a keyframe bug",
-          "summary": "Blackmagic Design shipped a free maintenance update for DaVinci Resolve 21 that speeds up IntelliSearch (the AI feature that lets you find clips by describing what's in them instead of scrubbing through footage), fixes a bug where copying keyframes between clips didn't work right, and cleans up how retime speed curves display on screen.",
-          "why_it_matters": "If Resolve 21's new AI clip search has felt sluggish or your keyframe edits have been glitchy since you updated, this free patch fixes those exact problems, so it's worth installing before your next edit session.",
-          "link": "https://www.cined.com/davinci-resolve-21-0-2-released-keyframe-fixes-retime-curve-improvements-and-better-fusion-vertical-transitions/",
-          "source": "CineD",
-          "tag": "Product Update",
-          "opportunity": {
-            "video": 5,
-            "social": 4,
-            "community": 7,
-            "act_now": false,
-            "angle": "If Resolve's new AI search has felt slow since you updated to version 21, it's not you, the 21.0.2 patch fixes it"
-          }
-        },
-        {
-          "headline": "Runway's Agent 2.0 turns one written prompt into a full marketing campaign",
-          "summary": "Runway (an AI video tool) launched Agent 2.0, which lets you type one request and get back a marketing brief, matching video and image assets, and versions adapted for different markets, plus tools that track how the campaign is performing so you can improve it.",
-          "why_it_matters": "For a solo business owner who can't afford an ad agency, this bundles jobs a strategist, editor, and translator used to do into one AI-guided workflow, though it runs on Runway's paid plans rather than a free tier.",
-          "link": "https://runwayml.com/news/introducing-agent-2",
-          "source": "Runway (official)",
+          "headline": "Google's Gemini can now generate images of you using your Gmail, Photos, and YouTube history, free",
+          "summary": "Google removed the paywall on Gemini's \"personalized\" image generation, so any eligible US user 13 or older can now try it for free, not just paid subscribers. Gemini uses data from apps you've connected, like Gmail, Google Photos, YouTube, and Search, to generate images that reflect your actual interests and even pull real photos of you, without you uploading anything.",
+          "why_it_matters": "This could be a fast way to whip up personalized graphics, but it only works because it's reading your connected Google accounts, so it's worth a quick look at what you've connected before you try it, especially if you use Gmail or Photos for business.",
+          "link": "https://techcrunch.com/2026/06/29/geminis-personalized-ai-image-generation-is-now-free-for-u-s-users/",
+          "source": "TechCrunch",
           "tag": "Product Update",
           "opportunity": {
             "video": 6,
@@ -63,19 +72,38 @@
           }
         },
         {
-          "headline": "ElevenLabs is shutting off its original voice and transcription models on July 9",
-          "summary": "ElevenLabs (a popular AI voice tool) confirmed its first-generation voice models and its original transcription model will stop working on July 9, 2026. Anyone still using them needs to switch to the newer v2 versions before then or their voiceover or auto-captioning projects could break.",
-          "why_it_matters": "If you use ElevenLabs for voiceovers or to auto-transcribe your videos and haven't touched your account settings in a while, check now — this deadline is just days away and your workflow could quietly stop working if you're still on an old model.",
-          "link": "https://elevenlabs.io/docs/changelog/2026/6/8",
-          "source": "ElevenLabs (official changelog)",
-          "tag": "Platform Change",
+          "headline": "Security researchers found the first ransomware attack run entirely by an AI agent, no hacker at the keyboard",
+          "summary": "Cybersecurity firm Sysdig documented an attack it calls JADEPUFFER, where an AI agent broke into an outdated, internet-exposed piece of server software on its own, stole passwords, moved to a company's real database, encrypted it, and deleted the originals, adapting to problems along the way like a human attacker would, without anyone directing each step.",
+          "why_it_matters": "If you or anyone helping you runs your own website, server, or self-hosted tool, this is a reminder that AI now makes this kind of attack cheap to pull off, so keeping software updated and passwords changed from their defaults matters more than ever.",
+          "link": "https://www.bleepingcomputer.com/news/security/jadepuffer-ransomware-used-ai-agent-to-automate-entire-attack/",
+          "source": "BleepingComputer",
+          "tag": "Research",
           "opportunity": {
-            "video": 4,
+            "video": 5,
+            "social": 7,
+            "community": 7,
+            "act_now": false,
+            "angle": "AI just ran an entire ransomware attack by itself, here's what small business owners should actually do about it"
+          }
+        }
+      ]
+    },
+    {
+      "id": "creator-tools",
+      "title": "Tools & Tips for Creators and Small Biz",
+      "items": [
+        {
+          "headline": "OpusClip's new Android app turns your long videos into short clips right from your phone",
+          "summary": "OpusClip, the AI tool that automatically pulls short highlight clips out of long-form video, launched an Android app on July 2. You can paste a YouTube link or upload a video from your phone, set a clip length and aspect ratio, and get short clips back scored on how likely they are to catch on.",
+          "why_it_matters": "If you've been sitting down at your desktop just to cut a livestream or podcast into a few short clips, this means you can knock that out from your phone between errands, no computer required.",
+          "link": "https://www.opus.pro/mobile-app",
+          "source": "OpusClip (official)",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 6,
             "social": 5,
-            "community": 8,
-            "act_now": true,
-            "action_note": "Log into ElevenLabs before July 9, 2026 and switch any project still using eleven_monolingual_v1, eleven_multilingual_v1, or scribe_v1 over to the current v2 models so your voiceovers and transcripts don't break.",
-            "angle": "If you use ElevenLabs for voiceovers, check your settings this week before your old voice model gets shut off"
+            "community": 7,
+            "act_now": false
           }
         }
       ]
@@ -85,31 +113,30 @@
       "title": "Content & Social Media Pulse",
       "items": [
         {
-          "headline": "X launches 'Live Studio' with a $1 million fund to pay creators who go live",
-          "summary": "X (formerly Twitter) rolled out Live Studio, a dashboard inside its Creator Studio where you can schedule a stream, set a title and thumbnail, and watch viewer and chat stats without separate streaming software. X also announced a $1 million pool to pay creators who livestream on the platform, though it hasn't said yet how that money will be divided.",
-          "why_it_matters": "If you're already streaming with Ecamm or thinking about a new destination, this shows platforms are now paying real money to get livestreamers to show up, though the more advanced Live Studio features require a paid X Premium subscription and it's only rolling out in some regions so far.",
-          "link": "https://www.engadget.com/2206527/x-push-for-live-video-creator-payouts/",
-          "source": "Engadget",
+          "headline": "YouTube expands its brand-deal matchmaking tool, plus a free crash course on landing sponsorships",
+          "summary": "YouTube's Creator Partnerships program, which matches eligible creators with brands directly inside YouTube Studio, expanded to the UK, Germany, Japan, and Singapore on July 1. Alongside it, YouTube released \"The Brand Deal Desk,\" a free 5-episode video series covering how to pitch, negotiate, and report results to sponsors.",
+          "why_it_matters": "If landing a sponsor has felt like guesswork, this gives you a legitimate way to get matched with brands plus a plain, step-by-step guide to the whole process, worth watching even if Creator Partnerships isn't available in your area yet.",
+          "link": "https://blog.youtube/creator-and-artist-stories/youtube-brand-deal-desk-creator-series/",
+          "source": "YouTube (official blog)",
           "tag": "Platform Change",
           "opportunity": {
-            "video": 7,
-            "social": 5,
-            "community": 5,
-            "act_now": false,
-            "angle": "X just put a million dollars behind livestreaming on their platform, worth checking if Live Studio beats what you're already using"
+            "video": 5,
+            "social": 4,
+            "community": 6,
+            "act_now": false
           }
         },
         {
-          "headline": "LinkedIn's new 'Brand Kit' keeps its AI-written ads from drifting off-brand",
-          "summary": "LinkedIn added a Brand Kit to Campaign Manager (its ad-buying tool) where you set your brand colors, fonts, and a description of your brand's voice. LinkedIn's AI then uses those settings whenever it drafts ad copy or creative for you, instead of guessing at your style.",
-          "why_it_matters": "If you or a client run LinkedIn ads, this is a small guardrail that stops AI-drafted ad copy and images from drifting off-brand, saving you cleanup time later, though it's rolling out gradually so it may not be in your account yet.",
-          "link": "https://www.socialmediatoday.com/news/linkedin-lets-users-set-core-brand-rules/823351/",
-          "source": "Social Media Today",
+          "headline": "YouTube Studio can now search your comments by meaning, not just exact words",
+          "summary": "YouTube rolled out new AI comment tools inside Studio on June 26: a search that finds comments about a topic even when people don't use your exact search words, a panel that surfaces common comment themes on its own, and a \"find similar comments\" option. It's live on desktop for creators everywhere.",
+          "why_it_matters": "Instead of scrolling through hundreds of comments to see what people actually think about, say, your new intro or a product you mentioned, you can now just describe what you're looking for and let YouTube dig it up for you.",
+          "link": "https://ppc.land/youtubes-new-ai-comment-search-understands-what-creators-mean/",
+          "source": "PPC Land",
           "tag": "Product Update",
           "opportunity": {
             "video": 3,
-            "social": 4,
-            "community": 5,
+            "social": 3,
+            "community": 7,
             "act_now": false
           }
         }

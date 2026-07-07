@@ -1,0 +1,119 @@
+{
+  "generated_at_iso": "2026-07-06T10:25:03-10:00",
+  "generated_label": "Monday, July 6 · 10:25 AM HST",
+  "edition": "morning",
+  "categories": [
+    {
+      "id": "claude-anthropic",
+      "title": "Claude & Anthropic",
+      "items": []
+    },
+    {
+      "id": "ai-industry",
+      "title": "Wider AI World",
+      "items": [
+        {
+          "headline": "xAI launches a no-code tool that builds you an AI phone receptionist in about 2 minutes",
+          "summary": "xAI released Voice Agent Builder, a beta tool inside its Grok Voice system where you type a plain-English description of how you want calls handled and it builds you a working phone-answering AI agent, no coding needed. It can follow your scripts and guardrails, speaks in 25+ languages, and is billed by the minute (about 5 cents a minute of call time, plus a penny a minute for the phone line).",
+          "why_it_matters": "If you've ever missed a client call while you were mid-edit or live on a stream, this is one of the first 'build your own AI receptionist' tools you can actually sign up for today instead of waiting for an expensive enterprise version, though it's worth testing on a low-stakes line before trusting it with real customers.",
+          "link": "https://x.ai/news/grok-voice-agent-builder",
+          "source": "xAI (official)",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 8,
+            "social": 6,
+            "community": 7,
+            "act_now": false,
+            "angle": "I built an AI phone receptionist for my business in about 2 minutes with no code, here's what it got right and where it fell short"
+          }
+        }
+      ]
+    },
+    {
+      "id": "creator-tools",
+      "title": "Tools & Tips for Creators and Small Biz",
+      "items": [
+        {
+          "headline": "DaVinci Resolve 21.0.2 fixes the new AI clip search slowdown and a keyframe bug",
+          "summary": "Blackmagic Design shipped a free maintenance update for DaVinci Resolve 21 that speeds up IntelliSearch (the AI feature that lets you find clips by describing what's in them instead of scrubbing through footage), fixes a bug where copying keyframes between clips didn't work right, and cleans up how retime speed curves display on screen.",
+          "why_it_matters": "If Resolve 21's new AI clip search has felt sluggish or your keyframe edits have been glitchy since you updated, this free patch fixes those exact problems, so it's worth installing before your next edit session.",
+          "link": "https://www.cined.com/davinci-resolve-21-0-2-released-keyframe-fixes-retime-curve-improvements-and-better-fusion-vertical-transitions/",
+          "source": "CineD",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 5,
+            "social": 4,
+            "community": 7,
+            "act_now": false,
+            "angle": "If Resolve's new AI search has felt slow since you updated to version 21, it's not you, the 21.0.2 patch fixes it"
+          }
+        },
+        {
+          "headline": "Runway's Agent 2.0 turns one written prompt into a full marketing campaign",
+          "summary": "Runway (an AI video tool) launched Agent 2.0, which lets you type one request and get back a marketing brief, matching video and image assets, and versions adapted for different markets, plus tools that track how the campaign is performing so you can improve it.",
+          "why_it_matters": "For a solo business owner who can't afford an ad agency, this bundles jobs a strategist, editor, and translator used to do into one AI-guided workflow, though it runs on Runway's paid plans rather than a free tier.",
+          "link": "https://runwayml.com/news/introducing-agent-2",
+          "source": "Runway (official)",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 6,
+            "social": 6,
+            "community": 5,
+            "act_now": false
+          }
+        },
+        {
+          "headline": "ElevenLabs is shutting off its original voice and transcription models on July 9",
+          "summary": "ElevenLabs (a popular AI voice tool) confirmed its first-generation voice models and its original transcription model will stop working on July 9, 2026. Anyone still using them needs to switch to the newer v2 versions before then or their voiceover or auto-captioning projects could break.",
+          "why_it_matters": "If you use ElevenLabs for voiceovers or to auto-transcribe your videos and haven't touched your account settings in a while, check now — this deadline is just days away and your workflow could quietly stop working if you're still on an old model.",
+          "link": "https://elevenlabs.io/docs/changelog/2026/6/8",
+          "source": "ElevenLabs (official changelog)",
+          "tag": "Platform Change",
+          "opportunity": {
+            "video": 4,
+            "social": 5,
+            "community": 8,
+            "act_now": true,
+            "action_note": "Log into ElevenLabs before July 9, 2026 and switch any project still using eleven_monolingual_v1, eleven_multilingual_v1, or scribe_v1 over to the current v2 models so your voiceovers and transcripts don't break.",
+            "angle": "If you use ElevenLabs for voiceovers, check your settings this week before your old voice model gets shut off"
+          }
+        }
+      ]
+    },
+    {
+      "id": "content-social",
+      "title": "Content & Social Media Pulse",
+      "items": [
+        {
+          "headline": "X launches 'Live Studio' with a $1 million fund to pay creators who go live",
+          "summary": "X (formerly Twitter) rolled out Live Studio, a dashboard inside its Creator Studio where you can schedule a stream, set a title and thumbnail, and watch viewer and chat stats without separate streaming software. X also announced a $1 million pool to pay creators who livestream on the platform, though it hasn't said yet how that money will be divided.",
+          "why_it_matters": "If you're already streaming with Ecamm or thinking about a new destination, this shows platforms are now paying real money to get livestreamers to show up, though the more advanced Live Studio features require a paid X Premium subscription and it's only rolling out in some regions so far.",
+          "link": "https://www.engadget.com/2206527/x-push-for-live-video-creator-payouts/",
+          "source": "Engadget",
+          "tag": "Platform Change",
+          "opportunity": {
+            "video": 7,
+            "social": 5,
+            "community": 5,
+            "act_now": false,
+            "angle": "X just put a million dollars behind livestreaming on their platform, worth checking if Live Studio beats what you're already using"
+          }
+        },
+        {
+          "headline": "LinkedIn's new 'Brand Kit' keeps its AI-written ads from drifting off-brand",
+          "summary": "LinkedIn added a Brand Kit to Campaign Manager (its ad-buying tool) where you set your brand colors, fonts, and a description of your brand's voice. LinkedIn's AI then uses those settings whenever it drafts ad copy or creative for you, instead of guessing at your style.",
+          "why_it_matters": "If you or a client run LinkedIn ads, this is a small guardrail that stops AI-drafted ad copy and images from drifting off-brand, saving you cleanup time later, though it's rolling out gradually so it may not be in your account yet.",
+          "link": "https://www.socialmediatoday.com/news/linkedin-lets-users-set-core-brand-rules/823351/",
+          "source": "Social Media Today",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 3,
+            "social": 4,
+            "community": 5,
+            "act_now": false
+          }
+        }
+      ]
+    }
+  ]
+}
