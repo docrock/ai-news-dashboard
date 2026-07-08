@@ -1,6 +1,6 @@
 {
-  "generated_at_iso": "2026-07-07T03:22:07-10:00",
-  "generated_label": "Tuesday, July 7 · 3:22 AM HST",
+  "generated_at_iso": "2026-07-08T03:15:07-10:00",
+  "generated_label": "Wednesday, July 8 · 3:15 AM HST",
   "edition": "morning",
   "categories": [
     {
@@ -8,47 +8,18 @@
       "title": "Claude & Anthropic",
       "items": [
         {
-          "headline": "Heads up: Claude's priciest model, Fable 5, stops being free-with-your-plan today",
-          "summary": "Anthropic's flagship model Fable 5 came back online July 1 with a one-week grace period where Pro, Max, and Team plans got it included at no extra cost. That grace period ends today, July 7. Starting July 8, using Fable 5 requires turning on prepaid \"usage credits\" and paying API rates of $10 per million input tokens and $50 per million output tokens, making it the single most expensive model Anthropic sells.",
-          "why_it_matters": "If you've been using Fable 5 inside Claude.ai, Claude Code, or Cowork, go turn on usage credits in Settings today or it will simply stop responding once your free weekly allowance runs out, mid-session, with no warning. If you've never touched Fable 5, nothing changes for your regular Claude usage.",
-          "link": "https://www.anthropic.com/news/redeploying-fable-5",
-          "source": "Anthropic (official)",
-          "tag": "Pricing",
-          "opportunity": {
-            "video": 4,
-            "social": 6,
-            "community": 8,
-            "act_now": true,
-            "action_note": "Log into claude.ai Settings, then Usage, and turn on usage credits today if you use Fable 5, so it doesn't cut out mid-project once your free weekly allowance runs out tomorrow.",
-            "angle": "Quick PSA for anyone on Claude: check your settings before Fable 5 starts costing you extra"
-          }
-        },
-        {
-          "headline": "Claude Code now pauses to ask permission before every action, by default",
-          "summary": "Anthropic changed Claude Code's default setting so it stops and waits for your approval before running commands, across the command-line tool, VS Code, and JetBrains plugins. Previously it could keep working through a task without checking in as often.",
-          "why_it_matters": "If you or someone helping you has set up Claude Code to run tasks unattended, like batch-renaming files or running a script overnight, this change means it may now sit there waiting for a click instead of finishing on its own, so it's worth a quick check on anything you've automated.",
-          "link": "https://code.claude.com/docs/en/changelog",
-          "source": "Claude Code Changelog (official)",
-          "tag": "Product Update",
-          "opportunity": {
-            "video": 3,
-            "social": 3,
-            "community": 6,
-            "act_now": false
-          }
-        },
-        {
-          "headline": "Claude Code's weekly usage limit is 50% higher right now, but only through July 13",
-          "summary": "Since May, Anthropic has been giving Pro, Max, Team, and Enterprise subscribers 50% more weekly usage on Claude Code as it brought new computing capacity online. That temporary boost is scheduled to end July 13, after which weekly limits drop back to normal.",
-          "why_it_matters": "If you lean on Claude Code for editing scripts, automating small business tasks, or building things for your channel, this week is a good time to knock out anything bigger before your weekly cap shrinks back down.",
-          "link": "https://www.anthropic.com/news/higher-limits-spacex",
+          "headline": "Claude Cowork is leaving your desktop, now works from your phone too",
+          "summary": "Anthropic announced on July 7 that Claude Cowork, its AI agent for ongoing multi-step tasks, is expanding beyond desktop to web browsers and iOS/Android apps, starting in beta for Max plan subscribers. You can kick off a task on your laptop, let it keep working in the background even after you close the app, and get a notification on your phone when it needs a decision or finishes.",
+          "why_it_matters": "Anthropic's own usage data shows most Cowork sessions aren't coding at all, business tasks and content drafts make up about half of all use, so if you've been curious about letting an AI agent handle research or first-draft writing, this is aimed at exactly that kind of work, and soon you'll be able to check on it from your phone instead of staying chained to your desk.",
+          "link": "https://claude.com/blog/how-people-are-using-claude-cowork",
           "source": "Anthropic (official)",
           "tag": "Product Update",
           "opportunity": {
-            "video": 2,
-            "social": 3,
+            "video": 6,
+            "social": 5,
             "community": 6,
-            "act_now": false
+            "act_now": false,
+            "angle": "I let Claude Cowork keep working on a task while I was out filming and checked in from my phone, here's how it went"
           }
         }
       ]
@@ -58,32 +29,31 @@
       "title": "Wider AI World",
       "items": [
         {
-          "headline": "Google's Gemini can now generate images of you using your Gmail, Photos, and YouTube history, free",
-          "summary": "Google removed the paywall on Gemini's \"personalized\" image generation, so any eligible US user 13 or older can now try it for free, not just paid subscribers. Gemini uses data from apps you've connected, like Gmail, Google Photos, YouTube, and Search, to generate images that reflect your actual interests and even pull real photos of you, without you uploading anything.",
-          "why_it_matters": "This could be a fast way to whip up personalized graphics, but it only works because it's reading your connected Google accounts, so it's worth a quick look at what you've connected before you try it, especially if you use Gmail or Photos for business.",
-          "link": "https://techcrunch.com/2026/06/29/geminis-personalized-ai-image-generation-is-now-free-for-u-s-users/",
-          "source": "TechCrunch",
+          "headline": "OpenAI's most powerful model yet starts rolling out to everyone this week",
+          "summary": "OpenAI is expanding GPT-5.6 worldwide starting July 9, after the U.S. government had asked it to limit access to a small group of partners while extra safety testing ran. The lineup has a flagship version called Sol plus two smaller, cheaper versions, Terra and Luna, aimed at faster or lower-cost use.",
+          "why_it_matters": "If you use ChatGPT for research, writing, or brainstorming video ideas, expect a noticeably smarter option to show up in your account this week. Try the cheaper Terra or Luna tiers first before assuming you need the priciest one.",
+          "link": "https://www.cnbc.com/2026/07/08/openai-expanding-gpt-5point6-ai-model-release-ending-government-limits.html",
+          "source": "CNBC",
           "tag": "Product Update",
           "opportunity": {
-            "video": 6,
-            "social": 6,
-            "community": 5,
+            "video": 3,
+            "social": 5,
+            "community": 4,
             "act_now": false
           }
         },
         {
-          "headline": "Security researchers found the first ransomware attack run entirely by an AI agent, no hacker at the keyboard",
-          "summary": "Cybersecurity firm Sysdig documented an attack it calls JADEPUFFER, where an AI agent broke into an outdated, internet-exposed piece of server software on its own, stole passwords, moved to a company's real database, encrypted it, and deleted the originals, adapting to problems along the way like a human attacker would, without anyone directing each step.",
-          "why_it_matters": "If you or anyone helping you runs your own website, server, or self-hosted tool, this is a reminder that AI now makes this kind of attack cheap to pull off, so keeping software updated and passwords changed from their defaults matters more than ever.",
-          "link": "https://www.bleepingcomputer.com/news/security/jadepuffer-ransomware-used-ai-agent-to-automate-entire-attack/",
-          "source": "BleepingComputer",
-          "tag": "Research",
+          "headline": "Elon Musk's xAI is officially gone, folded into SpaceX as \"SpaceXAI\"",
+          "summary": "The @SpaceXAI account went live on X on July 6, completing a rebrand first announced back in May: xAI, the maker of Grok, is no longer a separate company and is now fully part of SpaceX. The products you'd actually use, Grok, Grok Voice, Grok Imagine, and the X app, aren't changing names, just the corporate structure behind them.",
+          "why_it_matters": "This is mostly a business-structure story, not a feature change, but if you use Grok or post on X, don't be surprised to see \"SpaceXAI\" branding start showing up around the edges.",
+          "link": "https://www.engadget.com/2209300/xai-now-officially-spacexai/",
+          "source": "Engadget",
+          "tag": "Company News",
           "opportunity": {
-            "video": 5,
-            "social": 7,
-            "community": 7,
-            "act_now": false,
-            "angle": "AI just ran an entire ransomware attack by itself, here's what small business owners should actually do about it"
+            "video": 2,
+            "social": 5,
+            "community": 3,
+            "act_now": false
           }
         }
       ]
@@ -93,17 +63,18 @@
       "title": "Tools & Tips for Creators and Small Biz",
       "items": [
         {
-          "headline": "OpusClip's new Android app turns your long videos into short clips right from your phone",
-          "summary": "OpusClip, the AI tool that automatically pulls short highlight clips out of long-form video, launched an Android app on July 2. You can paste a YouTube link or upload a video from your phone, set a clip length and aspect ratio, and get short clips back scored on how likely they are to catch on.",
-          "why_it_matters": "If you've been sitting down at your desktop just to cut a livestream or podcast into a few short clips, this means you can knock that out from your phone between errands, no computer required.",
-          "link": "https://www.opus.pro/mobile-app",
-          "source": "OpusClip (official)",
+          "headline": "Meta's new AI image tool can restyle your product photos, but it can also edit other people's public Instagram photos",
+          "summary": "Meta launched Muse Image, its first in-house AI image generator, free inside the Meta AI app, Instagram, and WhatsApp on July 7. It handles detailed, multi-step prompts, like restyling a room, doing product photography, or turning a selfie into a Renaissance-style portrait, and it can also edit photos that other Instagram users have posted publicly.",
+          "why_it_matters": "This is a free way to whip up product shots or stylized graphics without hiring a designer, but that last feature, editing other people's public photos, is also a reason to double-check your own Instagram privacy settings if you'd rather your posts not be fair game for strangers' edits.",
+          "link": "https://techcrunch.com/2026/07/07/meta-rolls-out-muse-a-new-ai-image-generator/",
+          "source": "TechCrunch",
           "tag": "Product Update",
           "opportunity": {
-            "video": 6,
-            "social": 5,
+            "video": 7,
+            "social": 6,
             "community": 7,
-            "act_now": false
+            "act_now": false,
+            "angle": "I tested Meta's new free AI image tool for product shots so you don't have to"
           }
         }
       ]
@@ -111,36 +82,7 @@
     {
       "id": "content-social",
       "title": "Content & Social Media Pulse",
-      "items": [
-        {
-          "headline": "YouTube expands its brand-deal matchmaking tool, plus a free crash course on landing sponsorships",
-          "summary": "YouTube's Creator Partnerships program, which matches eligible creators with brands directly inside YouTube Studio, expanded to the UK, Germany, Japan, and Singapore on July 1. Alongside it, YouTube released \"The Brand Deal Desk,\" a free 5-episode video series covering how to pitch, negotiate, and report results to sponsors.",
-          "why_it_matters": "If landing a sponsor has felt like guesswork, this gives you a legitimate way to get matched with brands plus a plain, step-by-step guide to the whole process, worth watching even if Creator Partnerships isn't available in your area yet.",
-          "link": "https://blog.youtube/creator-and-artist-stories/youtube-brand-deal-desk-creator-series/",
-          "source": "YouTube (official blog)",
-          "tag": "Platform Change",
-          "opportunity": {
-            "video": 5,
-            "social": 4,
-            "community": 6,
-            "act_now": false
-          }
-        },
-        {
-          "headline": "YouTube Studio can now search your comments by meaning, not just exact words",
-          "summary": "YouTube rolled out new AI comment tools inside Studio on June 26: a search that finds comments about a topic even when people don't use your exact search words, a panel that surfaces common comment themes on its own, and a \"find similar comments\" option. It's live on desktop for creators everywhere.",
-          "why_it_matters": "Instead of scrolling through hundreds of comments to see what people actually think about, say, your new intro or a product you mentioned, you can now just describe what you're looking for and let YouTube dig it up for you.",
-          "link": "https://ppc.land/youtubes-new-ai-comment-search-understands-what-creators-mean/",
-          "source": "PPC Land",
-          "tag": "Product Update",
-          "opportunity": {
-            "video": 3,
-            "social": 3,
-            "community": 7,
-            "act_now": false
-          }
-        }
-      ]
+      "items": []
     }
   ]
 }
