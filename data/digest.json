@@ -1,6 +1,6 @@
 {
-  "generated_at_iso": "2026-07-08T03:15:07-10:00",
-  "generated_label": "Wednesday, July 8 · 3:15 AM HST",
+  "generated_at_iso": "2026-07-09T03:16:21-10:00",
+  "generated_label": "Thursday, July 9 · 3:16 AM HST",
   "edition": "morning",
   "categories": [
     {
@@ -8,18 +8,19 @@
       "title": "Claude & Anthropic",
       "items": [
         {
-          "headline": "Claude Cowork is leaving your desktop, now works from your phone too",
-          "summary": "Anthropic announced on July 7 that Claude Cowork, its AI agent for ongoing multi-step tasks, is expanding beyond desktop to web browsers and iOS/Android apps, starting in beta for Max plan subscribers. You can kick off a task on your laptop, let it keep working in the background even after you close the app, and get a notification on your phone when it needs a decision or finishes.",
-          "why_it_matters": "Anthropic's own usage data shows most Cowork sessions aren't coding at all, business tasks and content drafts make up about half of all use, so if you've been curious about letting an AI agent handle research or first-draft writing, this is aimed at exactly that kind of work, and soon you'll be able to check on it from your phone instead of staying chained to your desk.",
-          "link": "https://claude.com/blog/how-people-are-using-claude-cowork",
-          "source": "Anthropic (official)",
-          "tag": "Product Update",
+          "headline": "Claude's privacy policy now lets Anthropic share your chats with police, no warrant required",
+          "summary": "Anthropic's updated privacy policy took effect July 8: on Free, Pro, and Max plans (not Enterprise, Team, or API), the company can now hand your Claude conversations to law enforcement whenever it has a \"good faith belief\" that's warranted, without waiting for a subpoena or court order. Separately, a small number of accounts flagged for possible policy violations may now be asked to submit a government ID and a selfie for a facial scan to keep using Claude.",
+          "why_it_matters": "If you use a personal Claude plan for brainstorming, drafts, or business notes, treat it like email rather than a private diary, since Anthropic itself now decides when your conversations get shared with authorities.",
+          "link": "https://privacy.claude.com/en/articles/10301952-updates-to-our-privacy-policy",
+          "source": "Anthropic Privacy Center",
+          "tag": "Policy",
           "opportunity": {
-            "video": 6,
-            "social": 5,
-            "community": 6,
-            "act_now": false,
-            "angle": "I let Claude Cowork keep working on a task while I was out filming and checked in from my phone, here's how it went"
+            "video": 5,
+            "social": 6,
+            "community": 7,
+            "act_now": true,
+            "action_note": "If you're on a Free, Pro, or Max Claude plan, read the updated privacy policy today and stop typing anything into Claude you wouldn't want shared with law enforcement without a court order.",
+            "angle": "I broke down what Claude's new privacy policy actually means before you keep typing into it"
           }
         }
       ]
@@ -29,30 +30,16 @@
       "title": "Wider AI World",
       "items": [
         {
-          "headline": "OpenAI's most powerful model yet starts rolling out to everyone this week",
-          "summary": "OpenAI is expanding GPT-5.6 worldwide starting July 9, after the U.S. government had asked it to limit access to a small group of partners while extra safety testing ran. The lineup has a flagship version called Sol plus two smaller, cheaper versions, Terra and Luna, aimed at faster or lower-cost use.",
-          "why_it_matters": "If you use ChatGPT for research, writing, or brainstorming video ideas, expect a noticeably smarter option to show up in your account this week. Try the cheaper Terra or Luna tiers first before assuming you need the priciest one.",
-          "link": "https://www.cnbc.com/2026/07/08/openai-expanding-gpt-5point6-ai-model-release-ending-government-limits.html",
-          "source": "CNBC",
+          "headline": "Elon Musk's SpaceXAI launches Grok 4.5, claims it rivals Claude's top model",
+          "summary": "SpaceXAI (formerly xAI) released Grok 4.5 on July 8, its first model since folding into SpaceX and buying the coding tool Cursor. Musk calls it \"Opus-class,\" meaning roughly as capable as Anthropic's top Claude model, but faster and cheaper at $2 per million input tokens and $6 per million output tokens.",
+          "why_it_matters": "If cost has kept you from trying a second AI tool alongside ChatGPT or Claude, Grok 4.5 is now a legitimately cheap option worth a test for research or writing, and it's built into the X app many small businesses already use.",
+          "link": "https://techcrunch.com/2026/07/08/spacexai-releases-grok-4-5-which-elon-describes-as-an-opus-class-model/",
+          "source": "TechCrunch",
           "tag": "Product Update",
           "opportunity": {
-            "video": 3,
-            "social": 5,
+            "video": 4,
+            "social": 6,
             "community": 4,
-            "act_now": false
-          }
-        },
-        {
-          "headline": "Elon Musk's xAI is officially gone, folded into SpaceX as \"SpaceXAI\"",
-          "summary": "The @SpaceXAI account went live on X on July 6, completing a rebrand first announced back in May: xAI, the maker of Grok, is no longer a separate company and is now fully part of SpaceX. The products you'd actually use, Grok, Grok Voice, Grok Imagine, and the X app, aren't changing names, just the corporate structure behind them.",
-          "why_it_matters": "This is mostly a business-structure story, not a feature change, but if you use Grok or post on X, don't be surprised to see \"SpaceXAI\" branding start showing up around the edges.",
-          "link": "https://www.engadget.com/2209300/xai-now-officially-spacexai/",
-          "source": "Engadget",
-          "tag": "Company News",
-          "opportunity": {
-            "video": 2,
-            "social": 5,
-            "community": 3,
             "act_now": false
           }
         }
@@ -63,10 +50,10 @@
       "title": "Tools & Tips for Creators and Small Biz",
       "items": [
         {
-          "headline": "Meta's new AI image tool can restyle your product photos, but it can also edit other people's public Instagram photos",
-          "summary": "Meta launched Muse Image, its first in-house AI image generator, free inside the Meta AI app, Instagram, and WhatsApp on July 7. It handles detailed, multi-step prompts, like restyling a room, doing product photography, or turning a selfie into a Renaissance-style portrait, and it can also edit photos that other Instagram users have posted publicly.",
-          "why_it_matters": "This is a free way to whip up product shots or stylized graphics without hiring a designer, but that last feature, editing other people's public photos, is also a reason to double-check your own Instagram privacy settings if you'd rather your posts not be fair game for strangers' edits.",
-          "link": "https://techcrunch.com/2026/07/07/meta-rolls-out-muse-a-new-ai-image-generator/",
+          "headline": "Google Photos can now \"remix\" your videos into watercolor paintings, sketchbook art, and more with one tap",
+          "summary": "Google Photos rolled out Video Remix on July 8, an AI tool that restyles any clip already in your library using templates like \"paint it in dreamy watercolor\" or \"set it in a greenhouse.\" It's live now for Google AI Plus, Pro, and Ultra subscribers in the US and about a dozen other countries.",
+          "why_it_matters": "This is a free-with-subscription way to turn ordinary phone footage into a stylized clip for Reels or Shorts without opening an editing app, worth a five-minute test on your next b-roll.",
+          "link": "https://techcrunch.com/2026/07/08/google-photos-adds-a-new-ai-video-remix-tool/",
           "source": "TechCrunch",
           "tag": "Product Update",
           "opportunity": {
@@ -74,7 +61,7 @@
             "social": 6,
             "community": 7,
             "act_now": false,
-            "angle": "I tested Meta's new free AI image tool for product shots so you don't have to"
+            "angle": "I tested Google Photos' new AI Video Remix tool on my b-roll so you don't have to"
           }
         }
       ]
@@ -82,7 +69,24 @@
     {
       "id": "content-social",
       "title": "Content & Social Media Pulse",
-      "items": []
+      "items": [
+        {
+          "headline": "Google Search Console can now show you how your Instagram, TikTok, and YouTube posts perform in Google Search",
+          "summary": "Google rolled out \"platform properties\" in Search Console on July 7, a new report that lets you connect an Instagram, TikTok, X, or YouTube account and see which of your posts show up in Google Search and Discover, plus the exact search terms bringing people to them.",
+          "why_it_matters": "Most creators have no idea Google even indexes their social posts, this free report shows you which of your Reels, Shorts, or TikToks are actually getting found through Google search, so you know which topics and titles are worth repeating.",
+          "link": "https://developers.google.com/search/blog/2026/07/search-console-social-video-platforms",
+          "source": "Google Search Central Blog",
+          "tag": "Platform Change",
+          "opportunity": {
+            "video": 5,
+            "social": 5,
+            "community": 8,
+            "act_now": true,
+            "action_note": "Go to Search Console, add a platform property for your most active channel (Instagram, TikTok, YouTube, or X), and check which of your posts are already showing up in Google Search this week.",
+            "angle": "The free Google tool that shows which of your videos are getting found through search, not just the algorithm"
+          }
+        }
+      ]
     }
   ]
 }
