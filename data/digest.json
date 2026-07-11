@@ -1,6 +1,6 @@
 {
-  "generated_at_iso": "2026-07-10T03:22:04-10:00",
-  "generated_label": "Friday, July 10 · 3:22 AM HST",
+  "generated_at_iso": "2026-07-11T03:18:11-10:00",
+  "generated_label": "Saturday, July 11 · 3:18 AM HST",
   "edition": "morning",
   "categories": [
     {
@@ -8,30 +8,16 @@
       "title": "Claude & Anthropic",
       "items": [
         {
-          "headline": "Claude now shows you a monthly recap of your own AI habits",
-          "summary": "Anthropic launched Reflect on July 9, a beta dashboard (Settings > Reflect) that breaks down what you've been using Claude for, in categories like research, writing, and technical questions, plus your busiest days and hours. It includes a \"quiet hours\" scheduler and periodic break reminders, and requires Claude's memory feature to be turned on.",
-          "why_it_matters": "If you've ever wondered whether Claude is actually saving you time in your business or just becoming a new thing to check, this gives you real numbers instead of a guess, though it's worth remembering the dashboard also nudges you to use Claude more, so treat its suggestions as marketing, not advice.",
-          "link": "https://www.anthropic.com/news/reflect-with-claude",
-          "source": "Anthropic",
-          "tag": "Product Update",
-          "opportunity": {
-            "video": 4,
-            "social": 5,
-            "community": 6,
-            "act_now": false
-          }
-        },
-        {
-          "headline": "Anthropic wiped everyone's Claude Code usage limits again, the fourth reset in two months",
-          "summary": "On July 9, Anthropic's Claude Code team posted that it had reset the 5-hour and weekly usage limits for every Pro, Max, Team, and Enterprise user, giving everyone a clean slate. It's the latest in a string of resets following a rough stretch of outages and bugs that had been burning through people's usage faster than expected.",
-          "why_it_matters": "If you use Claude Code to build or tweak parts of your website or workflows and have been rationing your usage, your allowance is freshly topped up right now, so this is a good week to tackle something you've been putting off.",
-          "link": "https://x.com/ClaudeDevs/status/2075279141352706215",
-          "source": "ClaudeDevs (X)",
-          "tag": "Product Update",
+          "headline": "Alibaba banned its own employees from using Claude Code, over a hidden tracking feature Anthropic already removed",
+          "summary": "Effective July 10, Chinese tech giant Alibaba barred staff from using Anthropic's Claude Code for work, after security researchers found code that could detect whether a user was based in China or linked to a Chinese AI lab. Anthropic says the code was an anti-fraud experiment started in March to stop account abuse and copying of its technology, and the company removed it on July 1, before the ban took effect.",
+          "why_it_matters": "This is mostly a dispute between two AI giants, not something that affects your account, but it's a fair reminder that even trustworthy AI companies can quietly add tracking code you never see, so it doesn't hurt to occasionally check what a tool you rely on for your business is actually doing behind the scenes.",
+          "link": "https://www.cnbc.com/2026/07/06/alibaba-anthropic-ai-ban-claude-china.html",
+          "source": "CNBC",
+          "tag": "Policy",
           "opportunity": {
             "video": 2,
-            "social": 3,
-            "community": 5,
+            "social": 4,
+            "community": 3,
             "act_now": false
           }
         }
@@ -42,16 +28,16 @@
       "title": "Wider AI World",
       "items": [
         {
-          "headline": "OpenAI's biggest ChatGPT upgrade of the year is out, with a new agent that can run projects for you",
-          "summary": "OpenAI made its new GPT-5.6 model family (three tiers: Sol, Terra, and Luna) generally available on July 9 across ChatGPT, the API, and Codex, alongside a new tool called ChatGPT Work, an agent mode that can spend hours building spreadsheets, slide decks, and simple web apps from your connected files and accounts.",
-          "why_it_matters": "If you already use ChatGPT for your business, you should notice snappier, more capable answers this week at no extra cost, and ChatGPT Work is worth a cautious test on something low-stakes, like a first-draft project spreadsheet, just review anything it produces before it goes anywhere near a client.",
-          "link": "https://openai.com/index/gpt-5-6/",
+          "headline": "ChatGPT's voice mode got a major upgrade, it can now listen and talk at the same time",
+          "summary": "OpenAI replaced ChatGPT's Advanced Voice Mode with a new model called GPT-Live-1 on July 8. It can listen and respond at the same time instead of waiting for you to finish talking, so it interrupts less and handles pauses more naturally. It's rolling out globally on iOS, Android, and the ChatGPT website, with a smaller free version for people on the free tier.",
+          "why_it_matters": "If you've tried ChatGPT's voice feature to brainstorm out loud while editing or driving and found it clunky, this update is worth a second look, it's built to feel like an actual back-and-forth conversation instead of a walkie-talkie.",
+          "link": "https://openai.com/index/introducing-gpt-live/",
           "source": "OpenAI",
           "tag": "Product Update",
           "opportunity": {
-            "video": 5,
-            "social": 6,
-            "community": 4,
+            "video": 3,
+            "social": 4,
+            "community": 3,
             "act_now": false
           }
         }
@@ -60,54 +46,37 @@
     {
       "id": "creator-tools",
       "title": "Tools & Tips for Creators and Small Biz",
-      "items": [
-        {
-          "headline": "CapCut's AI image tool just got a major upgrade, including text that doesn't look broken",
-          "summary": "ByteDance, CapCut's parent company, launched Seedream 5.0 Pro on July 9 inside CapCut's Dreamina image tool. The upgrade can render clean, readable text in over a dozen languages (a problem that's tripped up nearly every AI image generator so far), lets you edit one specific part of an image instead of regenerating the whole thing, and outputs at higher resolution for use as thumbnails or video keyframes.",
-          "why_it_matters": "If you've tried AI-generated thumbnails or graphics before and given up because the text came out as garbled nonsense, this is worth a second try, since spelling your channel name or a call-to-action correctly was exactly the weak spot this update targets.",
-          "link": "https://www.capcut.com/tools/seedream-5-0",
-          "source": "CapCut",
-          "tag": "Product Update",
-          "opportunity": {
-            "video": 5,
-            "social": 4,
-            "community": 5,
-            "act_now": false
-          }
-        }
-      ]
+      "items": []
     },
     {
       "id": "content-social",
       "title": "Content & Social Media Pulse",
       "items": [
         {
-          "headline": "Meta can now use your public Instagram photos to generate AI images of you, unless you turn it off",
-          "summary": "Meta's new Muse Image tool, live since July 7, lets anyone tag a public Instagram account in a prompt and generate an AI image using that person's likeness. The setting is turned on by default for adult public accounts. Opting out (Profile > Menu > Sharing and reuse, then turn off the Posts and Reels toggles) stops future use, but doesn't remove any AI images already made before you switched it off.",
-          "why_it_matters": "If your Instagram is public for business reasons, check this setting today, since Meta won't notify you when someone uses your photos this way, and anything generated before you opt out stays in circulation.",
-          "link": "https://techcrunch.com/2026/07/09/how-to-stop-metas-ai-image-generator-from-using-your-instagram-photos/",
+          "headline": "Meta pulled its new AI photo tool just 3 days after launch, after a huge backlash",
+          "summary": "Meta yanked Muse Image, the tool covered in yesterday's edition that let anyone generate AI images using public Instagram accounts as reference, less than a week after it rolled out. The removal followed pushback from talent agencies like CAA and the actors' union SAG-AFTRA over the setting being on by default for adult public accounts, with no notification when someone's photos were used. Meta says the feature \"missed the mark.\"",
+          "why_it_matters": "If you turned off the Muse Image setting on your Instagram after yesterday's item, the whole feature is now gone anyway, though it's worth keeping an eye on your privacy settings since Meta hasn't said whether or when some version of it might come back.",
+          "link": "https://techcrunch.com/2026/07/10/meta-removes-controversial-ai-feature-on-instagram-after-backlash/",
           "source": "TechCrunch",
           "tag": "Platform Change",
           "opportunity": {
-            "video": 6,
-            "social": 7,
-            "community": 8,
-            "act_now": true,
-            "action_note": "Open Instagram, go to Profile > Menu > Sharing and reuse, and turn off the Posts and Reels toggles under AI features today, before someone else uses your public photos to generate an AI image of you.",
-            "angle": "Meta is letting people make AI images of you from your public Instagram photos, here's the one setting to check right now"
+            "video": 4,
+            "social": 6,
+            "community": 5,
+            "act_now": false
           }
         },
         {
-          "headline": "X built a real video editor into its iOS app, with captions and a green screen",
-          "summary": "X rolled out a new Video Editor and Recorder inside its iOS app on July 7, adding multilingual captions you can restyle on screen, a green screen tool for swapping in custom backgrounds, and segmented recording. The goal is getting creators to film and post original video without leaving the app.",
-          "why_it_matters": "If you post on X alongside YouTube and Instagram, this is a free way to knock out a quick captioned clip straight from your phone without opening a separate editing app, though it's iOS-only for now.",
-          "link": "https://techcrunch.com/2026/07/07/x-adds-a-video-editor-to-encourage-creators-to-post-original-content-not-stolen-reposts/",
-          "source": "TechCrunch",
-          "tag": "Platform Change",
+          "headline": "The EU says Facebook and Instagram's endless scroll and autoplay break the law, and wants them gone",
+          "summary": "The European Commission ruled on July 10 that Facebook and Instagram's design, including infinite scroll, autoplay, and heavily personalized feeds, breaches EU rules meant to protect users, especially minors, from addictive design. Meta could face a fine of up to 6% of its global annual revenue if it doesn't change these features.",
+          "why_it_matters": "If your business runs ads or keeps an active page on Facebook or Instagram, keep an eye on this, since any forced changes to autoplay or feed ranking in Europe could eventually reshape how content and ads perform on those platforms everywhere, not just in the EU.",
+          "link": "https://www.cnbc.com/2026/07/10/meta-instagram-facebook-addictive-design-breach-eu-laws.html",
+          "source": "CNBC",
+          "tag": "Policy",
           "opportunity": {
-            "video": 5,
+            "video": 3,
             "social": 5,
-            "community": 5,
+            "community": 4,
             "act_now": false
           }
         }
