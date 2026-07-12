@@ -1,0 +1,86 @@
+{
+  "generated_at_iso": "2026-07-11T03:18:11-10:00",
+  "generated_label": "Saturday, July 11 · 3:18 AM HST",
+  "edition": "morning",
+  "categories": [
+    {
+      "id": "claude-anthropic",
+      "title": "Claude & Anthropic",
+      "items": [
+        {
+          "headline": "Alibaba banned its own employees from using Claude Code, over a hidden tracking feature Anthropic already removed",
+          "summary": "Effective July 10, Chinese tech giant Alibaba barred staff from using Anthropic's Claude Code for work, after security researchers found code that could detect whether a user was based in China or linked to a Chinese AI lab. Anthropic says the code was an anti-fraud experiment started in March to stop account abuse and copying of its technology, and the company removed it on July 1, before the ban took effect.",
+          "why_it_matters": "This is mostly a dispute between two AI giants, not something that affects your account, but it's a fair reminder that even trustworthy AI companies can quietly add tracking code you never see, so it doesn't hurt to occasionally check what a tool you rely on for your business is actually doing behind the scenes.",
+          "link": "https://www.cnbc.com/2026/07/06/alibaba-anthropic-ai-ban-claude-china.html",
+          "source": "CNBC",
+          "tag": "Policy",
+          "opportunity": {
+            "video": 2,
+            "social": 4,
+            "community": 3,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "ai-industry",
+      "title": "Wider AI World",
+      "items": [
+        {
+          "headline": "ChatGPT's voice mode got a major upgrade, it can now listen and talk at the same time",
+          "summary": "OpenAI replaced ChatGPT's Advanced Voice Mode with a new model called GPT-Live-1 on July 8. It can listen and respond at the same time instead of waiting for you to finish talking, so it interrupts less and handles pauses more naturally. It's rolling out globally on iOS, Android, and the ChatGPT website, with a smaller free version for people on the free tier.",
+          "why_it_matters": "If you've tried ChatGPT's voice feature to brainstorm out loud while editing or driving and found it clunky, this update is worth a second look, it's built to feel like an actual back-and-forth conversation instead of a walkie-talkie.",
+          "link": "https://openai.com/index/introducing-gpt-live/",
+          "source": "OpenAI",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 3,
+            "social": 4,
+            "community": 3,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "creator-tools",
+      "title": "Tools & Tips for Creators and Small Biz",
+      "items": []
+    },
+    {
+      "id": "content-social",
+      "title": "Content & Social Media Pulse",
+      "items": [
+        {
+          "headline": "Meta pulled its new AI photo tool just 3 days after launch, after a huge backlash",
+          "summary": "Meta yanked Muse Image, the tool covered in yesterday's edition that let anyone generate AI images using public Instagram accounts as reference, less than a week after it rolled out. The removal followed pushback from talent agencies like CAA and the actors' union SAG-AFTRA over the setting being on by default for adult public accounts, with no notification when someone's photos were used. Meta says the feature \"missed the mark.\"",
+          "why_it_matters": "If you turned off the Muse Image setting on your Instagram after yesterday's item, the whole feature is now gone anyway, though it's worth keeping an eye on your privacy settings since Meta hasn't said whether or when some version of it might come back.",
+          "link": "https://techcrunch.com/2026/07/10/meta-removes-controversial-ai-feature-on-instagram-after-backlash/",
+          "source": "TechCrunch",
+          "tag": "Platform Change",
+          "opportunity": {
+            "video": 4,
+            "social": 6,
+            "community": 5,
+            "act_now": false
+          }
+        },
+        {
+          "headline": "The EU says Facebook and Instagram's endless scroll and autoplay break the law, and wants them gone",
+          "summary": "The European Commission ruled on July 10 that Facebook and Instagram's design, including infinite scroll, autoplay, and heavily personalized feeds, breaches EU rules meant to protect users, especially minors, from addictive design. Meta could face a fine of up to 6% of its global annual revenue if it doesn't change these features.",
+          "why_it_matters": "If your business runs ads or keeps an active page on Facebook or Instagram, keep an eye on this, since any forced changes to autoplay or feed ranking in Europe could eventually reshape how content and ads perform on those platforms everywhere, not just in the EU.",
+          "link": "https://www.cnbc.com/2026/07/10/meta-instagram-facebook-addictive-design-breach-eu-laws.html",
+          "source": "CNBC",
+          "tag": "Policy",
+          "opportunity": {
+            "video": 3,
+            "social": 5,
+            "community": 4,
+            "act_now": false
+          }
+        }
+      ]
+    }
+  ]
+}
