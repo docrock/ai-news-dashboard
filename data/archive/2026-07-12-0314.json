@@ -1,0 +1,59 @@
+{
+  "generated_at_iso": "2026-07-12T03:14:39-10:00",
+  "generated_label": "Sunday, July 12 · 3:14 AM HST",
+  "edition": "morning",
+  "categories": [
+    {
+      "id": "claude-anthropic",
+      "title": "Claude & Anthropic",
+      "items": [
+        {
+          "headline": "Today is the last day Claude's most powerful model, Fable 5, is included in your plan",
+          "summary": "Anthropic's included-access window for Fable 5, Claude's most capable (and most expensive) model, closes tonight, July 12, at 11:59:59 PM Pacific time. Pro, Max, Team, and some Enterprise plans have been able to use Fable 5 for up to half of their weekly usage since it came back online July 1, but after tonight, using it requires turning on prepaid \"usage credits\" and paying $10 per million words in and $50 per million words out, the highest rate Anthropic charges for any model.",
+          "why_it_matters": "If you or anyone helping you has been reaching for Fable 5 inside Claude.ai, Claude Code, or Cowork for tougher writing, research, or coding tasks, use it today under your normal plan, then decide in Settings before midnight whether it's worth turning on paid credits, since reports say it simply stops responding once the window closes with no warning.",
+          "link": "https://www.anthropic.com/news/redeploying-fable-5",
+          "source": "Anthropic (official)",
+          "tag": "Pricing",
+          "opportunity": {
+            "video": 3,
+            "social": 5,
+            "community": 7,
+            "act_now": true,
+            "action_note": "If you use Fable 5 (Claude's top model) for business tasks, log into claude.ai Settings > Usage today and decide whether to turn on prepaid usage credits before the included window closes tonight at 11:59:59 PM PT.",
+            "angle": "PSA for Claude users: today's your last day of included Fable 5 access, here's what to actually do about it"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ai-industry",
+      "title": "Wider AI World",
+      "items": [
+        {
+          "headline": "Apple is suing OpenAI, claiming it stole trade secrets to build its own gadgets",
+          "summary": "Apple filed a lawsuit against OpenAI in federal court on July 11, alleging that OpenAI systematically hired away more than 400 former Apple employees, including senior hardware and chip staff, to obtain confidential product secrets for its own hardware push, the one built around former Apple designer Jony Ive's startup. Apple claims the tactics reached OpenAI's own hardware chief, a former Apple vice president.",
+          "why_it_matters": "This is a corporate legal fight, not something that changes any tool you use today, but it's a sign of just how aggressively AI companies are competing for talent and trade secrets right now, worth knowing as context for headlines you'll likely keep seeing about Apple and OpenAI this summer.",
+          "link": "https://www.cnbc.com/2026/07/10/apple-openai-lawsuit-trade-secrets.html",
+          "source": "CNBC",
+          "tag": "Company News",
+          "opportunity": {
+            "video": 2,
+            "social": 5,
+            "community": 3,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "creator-tools",
+      "title": "Tools & Tips for Creators and Small Biz",
+      "items": []
+    },
+    {
+      "id": "content-social",
+      "title": "Content & Social Media Pulse",
+      "items": []
+    }
+  ]
+}
