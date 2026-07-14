@@ -1,87 +1,38 @@
 {
-  "generated_at_iso": "2026-07-13T03:19:06-10:00",
-  "generated_label": "Monday, July 13 · 3:19 AM HST",
+  "generated_at_iso": "2026-07-14T03:17:37-10:00",
+  "generated_label": "Tuesday, July 14 · 3:17 AM HST",
   "edition": "morning",
   "categories": [
     {
       "id": "claude-anthropic",
       "title": "Claude & Anthropic",
-      "items": [
-        {
-          "headline": "Anthropic just extended free access to Claude's most powerful model again, now through July 19",
-          "summary": "Anthropic pushed back the deadline for Fable 5, Claude's top-tier (and priciest) model, for a third time. It was set to require paid \"usage credits\" starting yesterday, July 12, but paid Claude plans (Pro, Max, Team, and some Enterprise seats) can keep using it at no extra cost through July 19 at 11:59:59 PM Pacific time.",
-          "why_it_matters": "If you or anyone helping you leans on Claude for tougher writing, research, or coding tasks, you've got another week of your normal plan covering Fable 5, use the extra time to wrap up anything heavy, then check Anthropic's pricing page before the window closes for good, since after that it costs $10 per million words in and $50 per million words out.",
-          "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-stays-free-for-paid-users-until-july-19-as-anthropic-buys-more-time/",
-          "source": "BleepingComputer",
-          "tag": "Pricing",
-          "opportunity": {
-            "video": 4,
-            "social": 6,
-            "community": 7,
-            "act_now": true,
-            "action_note": "If you rely on Fable 5 for heavy writing, research, or coding work, use your normal Claude plan to wrap up big projects this week, then check Anthropic's pricing page before July 19 at 11:59 PM PT to decide if paid usage credits are worth turning on.",
-            "angle": "Anthropic keeps blinking on the Fable 5 deadline, here's what to actually do with your bonus week before the meter starts running"
-          }
-        }
-      ]
+      "items": []
     },
     {
       "id": "ai-industry",
       "title": "Wider AI World",
-      "items": [
-        {
-          "headline": "ChatGPT's fastest-growing users are over 35, and OpenAI is now building for them",
-          "summary": "OpenAI says people 35 and older now make up 31% of ChatGPT's users worldwide, up from 26% a year ago, while usage among 18-24 year-olds is shrinking as a share. The company is hiring a dedicated product team to build features specifically for parents, caregivers, and older adults.",
-          "why_it_matters": "If you've ever felt like AI tools are built for tech-savvy twentysomethings, this is proof that you and your customers are actually the fastest-growing group OpenAI is designing ChatGPT for right now.",
-          "link": "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/",
-          "source": "TechCrunch",
-          "tag": "Company News",
-          "opportunity": {
-            "video": 5,
-            "social": 7,
-            "community": 5,
-            "act_now": false,
-            "angle": "You're not behind on AI, you're the target market, OpenAI's own numbers say so"
-          }
-        }
-      ]
+      "items": []
     },
     {
       "id": "creator-tools",
       "title": "Tools & Tips for Creators and Small Biz",
-      "items": [
-        {
-          "headline": "A free Mac app auto-edits your screen recordings, so you don't have to hand-animate zooms",
-          "summary": "Glideo is a free macOS screen recorder that automatically zooms in on your clicks and eases back out, no manual keyframing needed. Everything processes locally on your Mac (no account or upload required), and you can export in 16:9 for YouTube or 9:16 for Reels and Shorts, up to 4K with no watermark.",
-          "why_it_matters": "If you record software walkthroughs or tutorials, this cuts out one of the most tedious parts of editing, the manual zoom-and-pan work, for free.",
-          "link": "https://glideo.app/",
-          "source": "Glideo (official)",
-          "tag": "Product Update",
-          "opportunity": {
-            "video": 7,
-            "social": 5,
-            "community": 8,
-            "act_now": false,
-            "angle": "I tried the free Mac app that auto-zooms your screen recordings so you don't have to"
-          }
-        }
-      ]
+      "items": []
     },
     {
       "id": "content-social",
       "title": "Content & Social Media Pulse",
       "items": [
         {
-          "headline": "YouTube's AI \"Effect Maker\" is now open to everyone, just type what you want your Short to look like",
-          "summary": "YouTube expanded access to Effect Maker, a free web tool at effects.youtube.com that builds custom AI video effects for Shorts from a simple text prompt, no editing skills required.",
-          "why_it_matters": "If you post Shorts regularly, this is a fast, free way to try a unique visual effect without learning any new editing software.",
-          "link": "https://ppc.land/youtubes-effect-maker-is-now-open-to-all-and-it-builds-ai-videos-from-a-prompt/",
-          "source": "PPC Land",
-          "tag": "Product Update",
+          "headline": "X quietly changed its algorithm to show you more posts from people who follow you back",
+          "summary": "On July 13, X's head of product Nikita Bier said the platform found its ranking system was missing a simple signal: whether you and someone else follow each other (a \"mutual\"). The fix now gives posts from mutuals a boost, especially in reply threads, which had been getting flooded with strangers.",
+          "why_it_matters": "If you post on X, you may notice more familiar faces and fewer random arguments showing up under your posts starting now, worth knowing since it changes who sees and responds to what you share without you changing anything on your end.",
+          "link": "https://techcrunch.com/2026/07/13/x-just-tweaked-its-algorithm-to-make-it-more-friendly-less-battleground/",
+          "source": "TechCrunch",
+          "tag": "Platform Change",
           "opportunity": {
-            "video": 4,
-            "social": 4,
-            "community": 3,
+            "video": 2,
+            "social": 6,
+            "community": 4,
             "act_now": false
           }
         }
