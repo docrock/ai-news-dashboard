@@ -1,0 +1,42 @@
+{
+  "generated_at_iso": "2026-07-14T03:17:37-10:00",
+  "generated_label": "Tuesday, July 14 · 3:17 AM HST",
+  "edition": "morning",
+  "categories": [
+    {
+      "id": "claude-anthropic",
+      "title": "Claude & Anthropic",
+      "items": []
+    },
+    {
+      "id": "ai-industry",
+      "title": "Wider AI World",
+      "items": []
+    },
+    {
+      "id": "creator-tools",
+      "title": "Tools & Tips for Creators and Small Biz",
+      "items": []
+    },
+    {
+      "id": "content-social",
+      "title": "Content & Social Media Pulse",
+      "items": [
+        {
+          "headline": "X quietly changed its algorithm to show you more posts from people who follow you back",
+          "summary": "On July 13, X's head of product Nikita Bier said the platform found its ranking system was missing a simple signal: whether you and someone else follow each other (a \"mutual\"). The fix now gives posts from mutuals a boost, especially in reply threads, which had been getting flooded with strangers.",
+          "why_it_matters": "If you post on X, you may notice more familiar faces and fewer random arguments showing up under your posts starting now, worth knowing since it changes who sees and responds to what you share without you changing anything on your end.",
+          "link": "https://techcrunch.com/2026/07/13/x-just-tweaked-its-algorithm-to-make-it-more-friendly-less-battleground/",
+          "source": "TechCrunch",
+          "tag": "Platform Change",
+          "opportunity": {
+            "video": 2,
+            "social": 6,
+            "community": 4,
+            "act_now": false
+          }
+        }
+      ]
+    }
+  ]
+}
