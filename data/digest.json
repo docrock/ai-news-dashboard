@@ -1,6 +1,6 @@
 {
-  "generated_at_iso": "2026-07-15T03:14:14-10:00",
-  "generated_label": "Wednesday, July 15 · 3:14 AM HST",
+  "generated_at_iso": "2026-07-16T03:17:42-10:00",
+  "generated_label": "Thursday, July 16 · 3:17 AM HST",
   "edition": "morning",
   "categories": [
     {
@@ -8,16 +8,30 @@
       "title": "Claude & Anthropic",
       "items": [
         {
-          "headline": "Anthropic just gave K-12 teachers free access to Claude's premium features",
-          "summary": "On July 14, Anthropic launched Claude for Teachers, a free one-year program giving verified US K-12 educators access to premium Claude tools, ready-made \"teaching skills,\" and curriculum connections mapped to standards in all 50 states. Student data isn't used to train Claude, and it's covered by a K-12 privacy agreement built for federal student-privacy law.",
-          "why_it_matters": "You don't have to be a teacher for this to be worth knowing, it's a preview of how aggressively Anthropic is giving away premium Claude access to win over entire professions, so if you have a teacher in your life (or teach a class or workshop yourself), point them to it, and keep an eye out since a similar free-access play could land in your own industry next.",
-          "link": "https://www.anthropic.com/news/claude-for-teachers",
-          "source": "Anthropic (official)",
-          "tag": "Product Update",
+          "headline": "Anthropic teams up with Blackstone on a $1.5B business to help companies actually use AI",
+          "summary": "Anthropic partnered with Blackstone, Goldman Sachs, and other big investors to launch \"Ode with Anthropic,\" a new company that sends AI engineers into client businesses to set up and customize Claude for them, rather than just selling software and hoping people figure it out.",
+          "why_it_matters": "It's a signal from Anthropic's own investors that most businesses need hands-on help actually using AI, not just access to it, which is exactly the gap creators who teach practical AI setup are filling.",
+          "link": "https://techcrunch.com/2026/07/15/anthropic-blackstone-bet-the-next-trillion-dollar-ai-business-is-implementation-not-models/",
+          "source": "TechCrunch",
+          "tag": "Partnership",
           "opportunity": {
             "video": 2,
-            "social": 3,
-            "community": 4,
+            "social": 5,
+            "community": 3,
+            "act_now": false
+          }
+        },
+        {
+          "headline": "Anthropic is reportedly meeting with investors ahead of a possible IPO this fall",
+          "summary": "Anthropic, the company behind Claude, is said to be scheduling meetings with prospective investors as it prepares for a possible stock market debut as early as October, potentially beating OpenAI to going public.",
+          "why_it_matters": "A well-funded, possibly soon-to-be-public Anthropic is a good sign of long-term stability for a tool you may be building your workflow around.",
+          "link": "https://www.cnbc.com/2026/07/15/anthropic-ipo-banks-investor-meetings.html",
+          "source": "CNBC",
+          "tag": "Business",
+          "opportunity": {
+            "video": 2,
+            "social": 6,
+            "community": 3,
             "act_now": false
           }
         }
@@ -26,17 +40,106 @@
     {
       "id": "ai-industry",
       "title": "Wider AI World",
-      "items": []
+      "items": [
+        {
+          "headline": "New York just banned new giant AI data centers for a year, and Trump wants it reversed",
+          "summary": "New York's governor signed a one-year pause on new \"hyperscale\" AI data centers (facilities that use 50+ megawatts of power) over fears they'll spike everyone's electric bills. President Trump publicly pushed back the next day, calling for the state to reverse it.",
+          "why_it_matters": "This is the clearest sign yet that the AI boom is starting to collide with everyday costs like your power bill, worth knowing even if you never go near a data center yourself.",
+          "link": "https://www.cnbc.com/2026/07/15/trump-blasts-new-york-gov-hochul-over-ai-data-center-moratorium.html",
+          "source": "CNBC",
+          "tag": "Policy",
+          "opportunity": {
+            "video": 3,
+            "social": 6,
+            "community": 3,
+            "act_now": false
+          }
+        },
+        {
+          "headline": "ChatGPT can now search everything you've ever typed or uploaded to it, in one box",
+          "summary": "OpenAI added a unified search bar to ChatGPT (web, iPhone, and Android) that searches across every past chat, uploaded file, and generated image at once, with filters by type. It's available on every plan, including the free one.",
+          "why_it_matters": "If you've ever lost a great script draft or answer buried in old ChatGPT chats, this fixes that instantly, and it's free to use right now.",
+          "link": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "source": "OpenAI (official release notes)",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 5,
+            "social": 5,
+            "community": 7,
+            "act_now": false,
+            "angle": "Show your community how to dig up that one ChatGPT answer they lost three weeks ago."
+          }
+        }
+      ]
     },
     {
       "id": "creator-tools",
       "title": "Tools & Tips for Creators and Small Biz",
-      "items": []
+      "items": [
+        {
+          "headline": "OpusClip now generates AI B-roll for you, matched automatically to your script",
+          "summary": "Popular short-form clipping tool OpusClip added AI-generated B-roll, extra footage that illustrates what you're saying, directly in the editor. It matches your transcript automatically and offers about 20 visual styles to choose from.",
+          "why_it_matters": "Solo creators cutting talking-head clips into Shorts or Reels can add visual polish without hunting for stock footage, and the free trial includes three generations to test it.",
+          "link": "https://opusclip.canny.io/changelog/generate-dynamic-ai-video-b-roll-with-agent-opus",
+          "source": "OpusClip (official changelog)",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 7,
+            "social": 4,
+            "community": 7,
+            "act_now": false,
+            "angle": "I let AI pick all my B-roll for a day using OpusClip's new feature, here's what happened."
+          }
+        },
+        {
+          "headline": "OpusClip can now clone your voice and dub your videos into 20+ languages",
+          "summary": "OpusClip's new \"Video Dubbing\" feature clones a creator's actual voice, not a generic AI voice, and dubs it into more than 20 languages, with the option to bulk-dub multiple clips at once.",
+          "why_it_matters": "A solo YouTuber or small business owner can reach international audiences without re-recording anything or hiring a studio.",
+          "link": "https://opusclip.canny.io/changelog/reach-a-global-audience-in-your-own-voice-video-dubbing-is-live",
+          "source": "OpusClip (official changelog)",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 5,
+            "social": 4,
+            "community": 6,
+            "act_now": false
+          }
+        }
+      ]
     },
     {
       "id": "content-social",
       "title": "Content & Social Media Pulse",
-      "items": []
+      "items": [
+        {
+          "headline": "Elon Musk says X will open-source its entire codebase after a Grok privacy scare",
+          "summary": "Musk pledged to make X's full app codebase public, with outside reviewers invited to confirm the published code matches what's actually running, after security researchers found Grok had been uploading users' private code to xAI's servers without clear disclosure.",
+          "why_it_matters": "If you use X to promote your channel or business, this is a trust and transparency move worth knowing about, though it doesn't change how you use the platform day to day.",
+          "link": "https://www.benzinga.com/markets/tech/26/07/60492572/elon-musk-says-x-will-go-fully-open-source-with-no-exceptions-as-grok-faces-heat-over-privacy-breach-and-jailbreak-vulnerability",
+          "source": "Benzinga",
+          "tag": "Policy",
+          "opportunity": {
+            "video": 2,
+            "social": 6,
+            "community": 3,
+            "act_now": false
+          }
+        },
+        {
+          "headline": "X now lets brands pay to boost posts where customers already mentioned them",
+          "summary": "X's new \"Mention Boosts\" feature, available to Premium Business subscribers ($200/month), lets a brand pay to amplify reach on any organic post that mentions them, adding a custom call-to-action button on top.",
+          "why_it_matters": "If someone posts something nice about your business on X, you could now pay to amplify that instead of creating new ad content from scratch, though it only works on the paid Premium Business tier.",
+          "link": "https://www.socialmediatoday.com/news/x-offers-mention-boosts-to-premium-business-subscribers/825370/",
+          "source": "Social Media Today",
+          "tag": "Pricing",
+          "opportunity": {
+            "video": 2,
+            "social": 4,
+            "community": 4,
+            "act_now": false
+          }
+        }
+      ]
     }
   ]
 }

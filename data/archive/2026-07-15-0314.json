@@ -1,0 +1,42 @@
+{
+  "generated_at_iso": "2026-07-15T03:14:14-10:00",
+  "generated_label": "Wednesday, July 15 · 3:14 AM HST",
+  "edition": "morning",
+  "categories": [
+    {
+      "id": "claude-anthropic",
+      "title": "Claude & Anthropic",
+      "items": [
+        {
+          "headline": "Anthropic just gave K-12 teachers free access to Claude's premium features",
+          "summary": "On July 14, Anthropic launched Claude for Teachers, a free one-year program giving verified US K-12 educators access to premium Claude tools, ready-made \"teaching skills,\" and curriculum connections mapped to standards in all 50 states. Student data isn't used to train Claude, and it's covered by a K-12 privacy agreement built for federal student-privacy law.",
+          "why_it_matters": "You don't have to be a teacher for this to be worth knowing, it's a preview of how aggressively Anthropic is giving away premium Claude access to win over entire professions, so if you have a teacher in your life (or teach a class or workshop yourself), point them to it, and keep an eye out since a similar free-access play could land in your own industry next.",
+          "link": "https://www.anthropic.com/news/claude-for-teachers",
+          "source": "Anthropic (official)",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 2,
+            "social": 3,
+            "community": 4,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "ai-industry",
+      "title": "Wider AI World",
+      "items": []
+    },
+    {
+      "id": "creator-tools",
+      "title": "Tools & Tips for Creators and Small Biz",
+      "items": []
+    },
+    {
+      "id": "content-social",
+      "title": "Content & Social Media Pulse",
+      "items": []
+    }
+  ]
+}
