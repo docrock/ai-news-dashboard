@@ -1,6 +1,6 @@
 {
-  "generated_at_iso": "2026-07-16T03:17:42-10:00",
-  "generated_label": "Thursday, July 16 · 3:17 AM HST",
+  "generated_at_iso": "2026-07-17T03:17:29-10:00",
+  "generated_label": "Friday, July 17 · 3:17 AM HST",
   "edition": "morning",
   "categories": [
     {
@@ -8,31 +8,19 @@
       "title": "Claude & Anthropic",
       "items": [
         {
-          "headline": "Anthropic teams up with Blackstone on a $1.5B business to help companies actually use AI",
-          "summary": "Anthropic partnered with Blackstone, Goldman Sachs, and other big investors to launch \"Ode with Anthropic,\" a new company that sends AI engineers into client businesses to set up and customize Claude for them, rather than just selling software and hoping people figure it out.",
-          "why_it_matters": "It's a signal from Anthropic's own investors that most businesses need hands-on help actually using AI, not just access to it, which is exactly the gap creators who teach practical AI setup are filling.",
-          "link": "https://techcrunch.com/2026/07/15/anthropic-blackstone-bet-the-next-trillion-dollar-ai-business-is-implementation-not-models/",
-          "source": "TechCrunch",
-          "tag": "Partnership",
+          "headline": "Security researchers find unpatched bug in Claude for Chrome that could expose your Gmail and Docs",
+          "summary": "Researchers at Manifold Security showed that Claude for Chrome (Anthropic's browser extension that lets Claude click around and take actions for you) can be tricked by another installed extension into secretly reading your Gmail, Google Docs, and Calendar. The flaw was reported to Anthropic back in May and, as of this week, is still unpatched in the latest version.",
+          "why_it_matters": "If you've installed Claude for Chrome to save time on browser busywork, this is a nudge to clean out any Chrome extensions you don't fully trust and to hold off pointing an AI browser assistant at your email or client files until Anthropic ships a fix.",
+          "link": "https://www.bleepingcomputer.com/news/security/claude-chrome-extension-flaw-lets-malicious-extensions-trigger-ai-actions/",
+          "source": "BleepingComputer",
+          "tag": "Security",
           "opportunity": {
-            "video": 2,
-            "social": 5,
-            "community": 3,
-            "act_now": false
-          }
-        },
-        {
-          "headline": "Anthropic is reportedly meeting with investors ahead of a possible IPO this fall",
-          "summary": "Anthropic, the company behind Claude, is said to be scheduling meetings with prospective investors as it prepares for a possible stock market debut as early as October, potentially beating OpenAI to going public.",
-          "why_it_matters": "A well-funded, possibly soon-to-be-public Anthropic is a good sign of long-term stability for a tool you may be building your workflow around.",
-          "link": "https://www.cnbc.com/2026/07/15/anthropic-ipo-banks-investor-meetings.html",
-          "source": "CNBC",
-          "tag": "Business",
-          "opportunity": {
-            "video": 2,
-            "social": 6,
-            "community": 3,
-            "act_now": false
+            "video": 5,
+            "social": 7,
+            "community": 8,
+            "act_now": true,
+            "action_note": "Go through your Chrome extensions today, remove anything you don't recognize or trust, and hold off using Claude for Chrome for email, calendar, or client documents until Anthropic ships a fix.",
+            "angle": "I found out Claude's Chrome extension has a security hole other extensions can sneak through, here's what to check on your browser today"
           }
         }
       ]
@@ -40,69 +28,25 @@
     {
       "id": "ai-industry",
       "title": "Wider AI World",
-      "items": [
-        {
-          "headline": "New York just banned new giant AI data centers for a year, and Trump wants it reversed",
-          "summary": "New York's governor signed a one-year pause on new \"hyperscale\" AI data centers (facilities that use 50+ megawatts of power) over fears they'll spike everyone's electric bills. President Trump publicly pushed back the next day, calling for the state to reverse it.",
-          "why_it_matters": "This is the clearest sign yet that the AI boom is starting to collide with everyday costs like your power bill, worth knowing even if you never go near a data center yourself.",
-          "link": "https://www.cnbc.com/2026/07/15/trump-blasts-new-york-gov-hochul-over-ai-data-center-moratorium.html",
-          "source": "CNBC",
-          "tag": "Policy",
-          "opportunity": {
-            "video": 3,
-            "social": 6,
-            "community": 3,
-            "act_now": false
-          }
-        },
-        {
-          "headline": "ChatGPT can now search everything you've ever typed or uploaded to it, in one box",
-          "summary": "OpenAI added a unified search bar to ChatGPT (web, iPhone, and Android) that searches across every past chat, uploaded file, and generated image at once, with filters by type. It's available on every plan, including the free one.",
-          "why_it_matters": "If you've ever lost a great script draft or answer buried in old ChatGPT chats, this fixes that instantly, and it's free to use right now.",
-          "link": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
-          "source": "OpenAI (official release notes)",
-          "tag": "Product Update",
-          "opportunity": {
-            "video": 5,
-            "social": 5,
-            "community": 7,
-            "act_now": false,
-            "angle": "Show your community how to dig up that one ChatGPT answer they lost three weeks ago."
-          }
-        }
-      ]
+      "items": []
     },
     {
       "id": "creator-tools",
       "title": "Tools & Tips for Creators and Small Biz",
       "items": [
         {
-          "headline": "OpusClip now generates AI B-roll for you, matched automatically to your script",
-          "summary": "Popular short-form clipping tool OpusClip added AI-generated B-roll, extra footage that illustrates what you're saying, directly in the editor. It matches your transcript automatically and offers about 20 visual styles to choose from.",
-          "why_it_matters": "Solo creators cutting talking-head clips into Shorts or Reels can add visual polish without hunting for stock footage, and the free trial includes three generations to test it.",
-          "link": "https://opusclip.canny.io/changelog/generate-dynamic-ai-video-b-roll-with-agent-opus",
-          "source": "OpusClip (official changelog)",
-          "tag": "Product Update",
-          "opportunity": {
-            "video": 7,
-            "social": 4,
-            "community": 7,
-            "act_now": false,
-            "angle": "I let AI pick all my B-roll for a day using OpusClip's new feature, here's what happened."
-          }
-        },
-        {
-          "headline": "OpusClip can now clone your voice and dub your videos into 20+ languages",
-          "summary": "OpusClip's new \"Video Dubbing\" feature clones a creator's actual voice, not a generic AI voice, and dubs it into more than 20 languages, with the option to bulk-dub multiple clips at once.",
-          "why_it_matters": "A solo YouTuber or small business owner can reach international audiences without re-recording anything or hiring a studio.",
-          "link": "https://opusclip.canny.io/changelog/reach-a-global-audience-in-your-own-voice-video-dubbing-is-live",
-          "source": "OpusClip (official changelog)",
+          "headline": "Newsletter platform beehiiv adds an AI copilot and lets your subscribers chat with each other",
+          "summary": "On July 16, email newsletter platform beehiiv rolled out its biggest update yet: an AI assistant called Copilot that looks at your subscriber and performance data and suggests what to write and how to grow, plus a new \"Community\" space where your subscribers can chat with each other, built-in podcast hosting, and self-serve ads matched automatically to your newsletter.",
+          "why_it_matters": "If you're building an email list as a home base outside YouTube and social media, which every solo creator should be doing, this bundles audience-growth advice, a discussion space for your fans, and ad income into one tool, so a one-person operation gets some of the leverage a marketing team would normally provide.",
+          "link": "https://techcrunch.com/2026/07/16/newsletter-platform-beehiiv-now-lets-subscribers-chat-with-each-other-adds-ai/",
+          "source": "TechCrunch",
           "tag": "Product Update",
           "opportunity": {
             "video": 5,
-            "social": 4,
-            "community": 6,
-            "act_now": false
+            "social": 6,
+            "community": 8,
+            "act_now": false,
+            "angle": "Your YouTube channel needs a landlord-proof home, here's what a newsletter with a built-in AI copilot can actually do for a one-person business."
           }
         }
       ]
@@ -112,30 +56,16 @@
       "title": "Content & Social Media Pulse",
       "items": [
         {
-          "headline": "Elon Musk says X will open-source its entire codebase after a Grok privacy scare",
-          "summary": "Musk pledged to make X's full app codebase public, with outside reviewers invited to confirm the published code matches what's actually running, after security researchers found Grok had been uploading users' private code to xAI's servers without clear disclosure.",
-          "why_it_matters": "If you use X to promote your channel or business, this is a trust and transparency move worth knowing about, though it doesn't change how you use the platform day to day.",
-          "link": "https://www.benzinga.com/markets/tech/26/07/60492572/elon-musk-says-x-will-go-fully-open-source-with-no-exceptions-as-grok-faces-heat-over-privacy-breach-and-jailbreak-vulnerability",
-          "source": "Benzinga",
+          "headline": "TikTok Shop bans AI-generated voices from shopping livestreams",
+          "summary": "TikTok updated its Shop rules to prohibit AI-generated voices, pre-recorded audio, and radio-style narration during live shopping streams. Hosts now have to talk (or sign) to viewers in real time instead of looping a synthetic voiceover, and violations now count against a new 0-1000 \"Account Health Rating\" score that determines whether a seller keeps access to campaigns and their account.",
+          "why_it_matters": "If anyone in Doc's audience sells through TikTok Shop lives, or was tempted by \"set it and forget it\" AI voiceover tools to run streams unattended, this is now a real risk to their account, not just a bad look. It's an early sign that platforms are drawing a hard line: AI can help you prep content, but it can't replace you live on camera.",
+          "link": "https://www.socialmediatoday.com/news/tiktok-bans-ai-generated-voices-in-shopping-livestreams/822977/",
+          "source": "Social Media Today",
           "tag": "Policy",
           "opportunity": {
-            "video": 2,
+            "video": 4,
             "social": 6,
-            "community": 3,
-            "act_now": false
-          }
-        },
-        {
-          "headline": "X now lets brands pay to boost posts where customers already mentioned them",
-          "summary": "X's new \"Mention Boosts\" feature, available to Premium Business subscribers ($200/month), lets a brand pay to amplify reach on any organic post that mentions them, adding a custom call-to-action button on top.",
-          "why_it_matters": "If someone posts something nice about your business on X, you could now pay to amplify that instead of creating new ad content from scratch, though it only works on the paid Premium Business tier.",
-          "link": "https://www.socialmediatoday.com/news/x-offers-mention-boosts-to-premium-business-subscribers/825370/",
-          "source": "Social Media Today",
-          "tag": "Pricing",
-          "opportunity": {
-            "video": 2,
-            "social": 4,
-            "community": 4,
+            "community": 6,
             "act_now": false
           }
         }
