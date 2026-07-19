@@ -1,6 +1,6 @@
 {
-  "generated_at_iso": "2026-07-18T03:13:26-10:00",
-  "generated_label": "Saturday, July 18 · 3:13 AM HST",
+  "generated_at_iso": "2026-07-19T03:15:03-10:00",
+  "generated_label": "Sunday, July 19 · 3:15 AM HST",
   "edition": "morning",
   "categories": [
     {
@@ -8,19 +8,17 @@
       "title": "Claude & Anthropic",
       "items": [
         {
-          "headline": "Claude's top-tier model, Fable 5, stops being free tomorrow night, for real this time",
-          "summary": "Fable 5, Claude's most powerful (and priciest) AI model, has been included free with paid Claude plans while Anthropic pushed back the cutoff three separate times. That grace period now truly ends July 19 at 11:59 PM Pacific time; after that, using Fable 5 means buying separate usage credits on top of your regular subscription.",
-          "why_it_matters": "If you pay for Claude Pro, Max, or Team and have been leaning on Fable 5 for your toughest scripts, outlines, or planning work, tonight and tomorrow are your last chance to use it at no extra cost. After the cutoff, your regular Claude plan still works fine, just not with Fable 5 unless you pay per use.",
-          "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-stays-free-for-paid-users-until-july-19-as-anthropic-buys-more-time/",
-          "source": "BleepingComputer",
-          "tag": "Pricing",
+          "headline": "Claude's parent company Anthropic is in talks to rent $10 billion in computing power, from Meta",
+          "summary": "Anthropic is reportedly in early talks to lease about $10 billion worth of data center computing power from Meta over two years, so Claude has enough horsepower to keep up with demand. It's an unusual pairing since Meta builds its own competing AI (Llama), but nothing is signed yet and either side could still walk away.",
+          "why_it_matters": "Behind every Claude answer is a mountain of computing power, and AI companies (even huge, well-funded ones) are scrambling to rent more of it wherever they can find it. More compute for Anthropic is generally good news for Claude staying fast and reliable as more people use it, though it's worth watching whether a deal like this ever changes pricing.",
+          "link": "https://www.cnbc.com/2026/07/17/anthropic-meta-ai-compute.html",
+          "source": "CNBC",
+          "tag": "Business",
           "opportunity": {
-            "video": 4,
-            "social": 7,
-            "community": 7,
-            "act_now": true,
-            "action_note": "Open Claude today and run your biggest script, outline, or planning task through Fable 5 before free access ends tomorrow, July 19 at 11:59 PM PT.",
-            "angle": "Anthropic's free ride on their best AI model ends tomorrow night, here's what I'm using it for today before the meter starts running"
+            "video": 2,
+            "social": 6,
+            "community": 3,
+            "act_now": false
           }
         }
       ]
@@ -28,7 +26,22 @@
     {
       "id": "ai-industry",
       "title": "Wider AI World",
-      "items": []
+      "items": [
+        {
+          "headline": "Google's next big AI upgrade, Gemini 3.5 Pro, misses its launch date for the third time",
+          "summary": "Google had been targeting July 17 for the release of Gemini 3.5 Pro, a major upgrade to the AI built into Gmail, Docs, and Google Search, but internal testing reportedly found it still struggles with coding tasks and gives too many confidently wrong answers. This is the third delay this year, and Google may release a smaller stand-in model while it keeps working on the full version.",
+          "why_it_matters": "If you use Gemini inside Gmail, Docs, or Google Search for your business, don't expect a big upgrade there just yet. It's also a useful reminder for anyone impressed by AI headlines: even Google's engineers are finding it hard to ship a model that's actually reliable enough to trust.",
+          "link": "https://9to5google.com/2026/07/16/gemini-3-5-pro-delays/",
+          "source": "9to5Google",
+          "tag": "Release Delay",
+          "opportunity": {
+            "video": 3,
+            "social": 6,
+            "community": 3,
+            "act_now": false
+          }
+        }
+      ]
     },
     {
       "id": "creator-tools",

@@ -1,0 +1,44 @@
+{
+  "generated_at_iso": "2026-07-18T03:13:26-10:00",
+  "generated_label": "Saturday, July 18 · 3:13 AM HST",
+  "edition": "morning",
+  "categories": [
+    {
+      "id": "claude-anthropic",
+      "title": "Claude & Anthropic",
+      "items": [
+        {
+          "headline": "Claude's top-tier model, Fable 5, stops being free tomorrow night, for real this time",
+          "summary": "Fable 5, Claude's most powerful (and priciest) AI model, has been included free with paid Claude plans while Anthropic pushed back the cutoff three separate times. That grace period now truly ends July 19 at 11:59 PM Pacific time; after that, using Fable 5 means buying separate usage credits on top of your regular subscription.",
+          "why_it_matters": "If you pay for Claude Pro, Max, or Team and have been leaning on Fable 5 for your toughest scripts, outlines, or planning work, tonight and tomorrow are your last chance to use it at no extra cost. After the cutoff, your regular Claude plan still works fine, just not with Fable 5 unless you pay per use.",
+          "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-stays-free-for-paid-users-until-july-19-as-anthropic-buys-more-time/",
+          "source": "BleepingComputer",
+          "tag": "Pricing",
+          "opportunity": {
+            "video": 4,
+            "social": 7,
+            "community": 7,
+            "act_now": true,
+            "action_note": "Open Claude today and run your biggest script, outline, or planning task through Fable 5 before free access ends tomorrow, July 19 at 11:59 PM PT.",
+            "angle": "Anthropic's free ride on their best AI model ends tomorrow night, here's what I'm using it for today before the meter starts running"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ai-industry",
+      "title": "Wider AI World",
+      "items": []
+    },
+    {
+      "id": "creator-tools",
+      "title": "Tools & Tips for Creators and Small Biz",
+      "items": []
+    },
+    {
+      "id": "content-social",
+      "title": "Content & Social Media Pulse",
+      "items": []
+    }
+  ]
+}
