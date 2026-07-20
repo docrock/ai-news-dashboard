@@ -1,0 +1,57 @@
+{
+  "generated_at_iso": "2026-07-19T03:15:03-10:00",
+  "generated_label": "Sunday, July 19 · 3:15 AM HST",
+  "edition": "morning",
+  "categories": [
+    {
+      "id": "claude-anthropic",
+      "title": "Claude & Anthropic",
+      "items": [
+        {
+          "headline": "Claude's parent company Anthropic is in talks to rent $10 billion in computing power, from Meta",
+          "summary": "Anthropic is reportedly in early talks to lease about $10 billion worth of data center computing power from Meta over two years, so Claude has enough horsepower to keep up with demand. It's an unusual pairing since Meta builds its own competing AI (Llama), but nothing is signed yet and either side could still walk away.",
+          "why_it_matters": "Behind every Claude answer is a mountain of computing power, and AI companies (even huge, well-funded ones) are scrambling to rent more of it wherever they can find it. More compute for Anthropic is generally good news for Claude staying fast and reliable as more people use it, though it's worth watching whether a deal like this ever changes pricing.",
+          "link": "https://www.cnbc.com/2026/07/17/anthropic-meta-ai-compute.html",
+          "source": "CNBC",
+          "tag": "Business",
+          "opportunity": {
+            "video": 2,
+            "social": 6,
+            "community": 3,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "ai-industry",
+      "title": "Wider AI World",
+      "items": [
+        {
+          "headline": "Google's next big AI upgrade, Gemini 3.5 Pro, misses its launch date for the third time",
+          "summary": "Google had been targeting July 17 for the release of Gemini 3.5 Pro, a major upgrade to the AI built into Gmail, Docs, and Google Search, but internal testing reportedly found it still struggles with coding tasks and gives too many confidently wrong answers. This is the third delay this year, and Google may release a smaller stand-in model while it keeps working on the full version.",
+          "why_it_matters": "If you use Gemini inside Gmail, Docs, or Google Search for your business, don't expect a big upgrade there just yet. It's also a useful reminder for anyone impressed by AI headlines: even Google's engineers are finding it hard to ship a model that's actually reliable enough to trust.",
+          "link": "https://9to5google.com/2026/07/16/gemini-3-5-pro-delays/",
+          "source": "9to5Google",
+          "tag": "Release Delay",
+          "opportunity": {
+            "video": 3,
+            "social": 6,
+            "community": 3,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "creator-tools",
+      "title": "Tools & Tips for Creators and Small Biz",
+      "items": []
+    },
+    {
+      "id": "content-social",
+      "title": "Content & Social Media Pulse",
+      "items": []
+    }
+  ]
+}

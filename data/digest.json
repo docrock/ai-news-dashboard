@@ -1,6 +1,6 @@
 {
-  "generated_at_iso": "2026-07-19T03:15:03-10:00",
-  "generated_label": "Sunday, July 19 · 3:15 AM HST",
+  "generated_at_iso": "2026-07-20T03:22:19-10:00",
+  "generated_label": "Monday, July 20 · 3:22 AM HST",
   "edition": "morning",
   "categories": [
     {
@@ -8,17 +8,19 @@
       "title": "Claude & Anthropic",
       "items": [
         {
-          "headline": "Claude's parent company Anthropic is in talks to rent $10 billion in computing power, from Meta",
-          "summary": "Anthropic is reportedly in early talks to lease about $10 billion worth of data center computing power from Meta over two years, so Claude has enough horsepower to keep up with demand. It's an unusual pairing since Meta builds its own competing AI (Llama), but nothing is signed yet and either side could still walk away.",
-          "why_it_matters": "Behind every Claude answer is a mountain of computing power, and AI companies (even huge, well-funded ones) are scrambling to rent more of it wherever they can find it. More compute for Anthropic is generally good news for Claude staying fast and reliable as more people use it, though it's worth watching whether a deal like this ever changes pricing.",
-          "link": "https://www.cnbc.com/2026/07/17/anthropic-meta-ai-compute.html",
-          "source": "CNBC",
-          "tag": "Business",
+          "headline": "Claude's priciest model, Fable 5, splits in two today: still included on Max, pay-per-use on Pro",
+          "summary": "After delaying it three times, Anthropic's cutoff for free-with-your-plan access to Fable 5 (Claude's most powerful model) finally took effect today, July 20, but not the same way for everyone: Max and Team Premium subscribers keep Fable 5 bundled into their plan (up to half their weekly usage), while Pro and Team Standard subscribers move to pay-per-use, a one-time $100 credit, then metered pricing once that runs out.",
+          "why_it_matters": "If you're on Claude Pro ($20/month) and lean on Fable 5 for your toughest writing, research, or planning work, you now need to turn on \"usage credits\" in Settings to keep using it, and watch that balance so you don't get surprised once the free $100 runs out. If you're on Max, nothing changes for you today.",
+          "link": "https://www.techtimes.com/articles/320999/20260720/claude-fable-5-billing-splits-today-max-gets-it-free-pro-pays-per-token.htm",
+          "source": "Tech Times",
+          "tag": "Pricing",
           "opportunity": {
-            "video": 2,
+            "video": 3,
             "social": 6,
-            "community": 3,
-            "act_now": false
+            "community": 8,
+            "act_now": true,
+            "action_note": "If you're on Claude Pro or Team Standard, go to claude.ai → Settings → Usage today, turn on usage credits if you want to keep using Fable 5, and keep an eye on your balance once the one-time $100 credit runs out.",
+            "angle": "Are you on Claude Pro or Max? Here's exactly what changed with Fable 5 today and the one setting to check before it costs you extra."
           }
         }
       ]
@@ -28,12 +30,12 @@
       "title": "Wider AI World",
       "items": [
         {
-          "headline": "Google's next big AI upgrade, Gemini 3.5 Pro, misses its launch date for the third time",
-          "summary": "Google had been targeting July 17 for the release of Gemini 3.5 Pro, a major upgrade to the AI built into Gmail, Docs, and Google Search, but internal testing reportedly found it still struggles with coding tasks and gives too many confidently wrong answers. This is the third delay this year, and Google may release a smaller stand-in model while it keeps working on the full version.",
-          "why_it_matters": "If you use Gemini inside Gmail, Docs, or Google Search for your business, don't expect a big upgrade there just yet. It's also a useful reminder for anyone impressed by AI headlines: even Google's engineers are finding it hard to ship a model that's actually reliable enough to trust.",
-          "link": "https://9to5google.com/2026/07/16/gemini-3-5-pro-delays/",
-          "source": "9to5Google",
-          "tag": "Release Delay",
+          "headline": "The EU just ordered Google to let rival AI assistants use your Android phone's camera and mic",
+          "summary": "The European Commission ruled that Google must give competing AI assistants (not just its own Gemini) the same access to your Android phone's camera, microphone, and on-screen content, plus a voice wake word, starting with Android's next major software release. Google also has to share anonymized search data with rival search engines and AI chatbots starting January 2027, and it has publicly objected, warning the changes could weaken privacy protections.",
+          "why_it_matters": "If you or your customers use Android phones, this could eventually mean real choice in which AI assistant handles tasks on your device instead of being locked into Gemini, though Google is pushing back and the changes won't roll out until 2027, so nothing changes today.",
+          "link": "https://www.androidauthority.com/eu-android-ai-google-search-mandates-3688186/",
+          "source": "Android Authority",
+          "tag": "Policy",
           "opportunity": {
             "video": 3,
             "social": 6,
@@ -51,7 +53,23 @@
     {
       "id": "content-social",
       "title": "Content & Social Media Pulse",
-      "items": []
+      "items": [
+        {
+          "headline": "TikTok is cracking down harder on unlabeled AI content",
+          "summary": "TikTok announced it's expanding AI-literacy education, testing new detection systems aimed at accounts that spam AI-generated content (especially around politics, health, and money), and joining C2PA, an industry group that verifies whether a photo or video was AI-made or edited. The platform says it has already labeled more than 3 billion AI-generated videos using a mix of automatic detection and creator disclosure tools.",
+          "why_it_matters": "If you ever use AI tools in your TikTok content, voiceovers, thumbnails, generated b-roll, TikTok is getting better at spotting it automatically. Use TikTok's built-in AI-content disclosure label honestly when you post, so your account doesn't get swept up in the platform's new spam-detection sweeps.",
+          "link": "https://www.techtimes.com/articles/320486/20260714/tiktok-expands-ai-literacy-globally-after-research-finds-labels-do-not-work.htm",
+          "source": "Tech Times",
+          "tag": "Policy",
+          "opportunity": {
+            "video": 3,
+            "social": 5,
+            "community": 6,
+            "act_now": false,
+            "angle": "TikTok's new AI-content detection is coming for unlabeled AI work, worth a quick heads-up for anyone in the community who posts there."
+          }
+        }
+      ]
     }
   ]
 }
