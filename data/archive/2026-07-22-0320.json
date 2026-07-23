@@ -1,0 +1,73 @@
+{
+  "generated_at_iso": "2026-07-22T03:20:51-10:00",
+  "generated_label": "Wednesday, July 22 · 3:20 AM HST",
+  "edition": "morning",
+  "categories": [
+    {
+      "id": "claude-anthropic",
+      "title": "Claude & Anthropic",
+      "items": [
+        {
+          "headline": "A federal judge just gave final approval to Anthropic's $1.5 billion settlement with authors over pirated books",
+          "summary": "A U.S. judge in San Francisco signed off on Anthropic's record $1.5 billion settlement with a class of authors and publishers who sued after discovering Claude was trained in part on pirated copies of their books. The deal pays out roughly $3,000 per work across an estimated 500,000 books, the largest copyright settlement of its kind, after the judge rejected objections from some authors that it was too small.",
+          "why_it_matters": "This doesn't change anything about how you use Claude today, but it's the clearest price tag yet on what \"we trained on the whole internet\" can cost an AI company, worth knowing if you create written content yourself or if you've wondered how these AI-and-copyright fights actually get resolved.",
+          "link": "https://techcrunch.com/2026/07/20/anthropics-landmark-1-5b-copyright-settlement-is-approved/",
+          "source": "TechCrunch",
+          "tag": "Legal Settlement",
+          "opportunity": {
+            "video": 3,
+            "social": 7,
+            "community": 5,
+            "act_now": false,
+            "angle": "Anthropic just paid $1.5 billion for the books Claude trained on, here's what that means the next time you hear 'AI trained on the internet.'"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ai-industry",
+      "title": "Wider AI World",
+      "items": [
+        {
+          "headline": "Google's next Gemini model is already in training, but its current flagship still isn't ready",
+          "summary": "Google shipped three new, cheaper \"Flash\" Gemini models on July 21 for quick everyday tasks, while confirming its big flagship upgrade, Gemini 3.5 Pro, has now missed its release target for a third time because internal testing found it still struggles with coding and complex reasoning. Google says it has already begun training the next-generation Gemini 4 in the meantime.",
+          "why_it_matters": "If you use Gemini inside Gmail, Docs, or Google's AI app, you may notice small speed and cost improvements from the new Flash models, but the bigger overhaul isn't here yet. It's also a good reminder that even Google is finding it hard to ship AI reliable enough to trust, not just impressive in a demo.",
+          "link": "https://techcrunch.com/2026/07/21/google-releases-three-new-gemini-models-but-no-3-5-pro/",
+          "source": "TechCrunch",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 3,
+            "social": 5,
+            "community": 4,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "creator-tools",
+      "title": "Tools & Tips for Creators and Small Biz",
+      "items": []
+    },
+    {
+      "id": "content-social",
+      "title": "Content & Social Media Pulse",
+      "items": [
+        {
+          "headline": "Meta is removing your ability to fully disconnect your off-site browsing from your Facebook and Instagram account",
+          "summary": "Starting this month, Meta is retiring the \"Your activity off Meta technologies\" setting that let people fully disconnect data other businesses share about their browsing (like a store confirming you visited its site) from their Facebook or Instagram account. A new setting, \"Activity from other businesses,\" still lets you limit how that data is used for ad targeting, but it no longer lets you stop the connection to your account from happening at all.",
+          "why_it_matters": "If you or your business run Facebook or Instagram ads and use retargeting (showing ads to people who already visited your site), your reachable audience is about to grow again as previously opted-out visitors get folded back in. If you're just a user, it's worth a look at your own Meta privacy settings this week, since the old full opt-out is going away.",
+          "link": "https://about.fb.com/news/2026/06/better-personalization-and-changes-to-controls-for-your-activity-from-other-businesses/",
+          "source": "Meta Newsroom",
+          "tag": "Platform Change",
+          "opportunity": {
+            "video": 2,
+            "social": 5,
+            "community": 6,
+            "act_now": false
+          }
+        }
+      ]
+    }
+  ]
+}
