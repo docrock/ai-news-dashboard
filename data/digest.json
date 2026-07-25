@@ -1,6 +1,6 @@
 {
-  "generated_at_iso": "2026-07-24T03:21:07-10:00",
-  "generated_label": "Friday, July 24 · 3:21 AM HST",
+  "generated_at_iso": "2026-07-25T03:18:05-10:00",
+  "generated_label": "Saturday, July 25 · 3:18 AM HST",
   "edition": "morning",
   "categories": [
     {
@@ -8,19 +8,19 @@
       "title": "Claude & Anthropic",
       "items": [
         {
-          "headline": "Claude's Voice Mode Now Runs on Opus and Sonnet, Not Just the Quick-Answer Model",
-          "summary": "Anthropic upgraded Claude's voice mode (the feature that lets you talk to Claude out loud instead of typing) so it can now use the same powerful Opus and Sonnet models that power text chat, instead of only the fast-but-basic Haiku model. It also reaches into connected apps like Gmail, Google Calendar, Slack, Canva, and Notion mid-conversation, and now speaks ten languages instead of just a couple.",
-          "why_it_matters": "For a solo creator who thinks out loud while driving or editing, this turns voice mode from a quick-facts tool into something that can actually help rehearse a client pitch, talk through a half-formed video idea, or draft an email by voice and act on it. It's genuinely easier for anyone who finds typing prompts a hassle.",
-          "link": "https://claude.com/blog/think-through-hard-problems-in-voice-mode",
+          "headline": "Anthropic Launches Claude Opus 5, a Faster and Cheaper Everyday Model",
+          "summary": "Anthropic released Claude Opus 5, which performs close to its most powerful model (Fable 5) on many tasks at half the price, and it's now the default model for Claude Max subscribers and the strongest model available on Claude Pro. It also adds a simple \"effort\" dial (low, medium, or high) so you can trade off cost against how hard Claude works on a task, plus the ability to switch models mid-conversation without losing your place.",
+          "why_it_matters": "If you pay for Claude, this is likely the model doing your work starting now, meaning better answers on everyday writing, editing, and business tasks without you changing anything, and the new effort dial gives you an easy way to keep costs down on quick questions.",
+          "link": "https://www.anthropic.com/news/claude-opus-5",
           "source": "Anthropic (official blog)",
           "tag": "Product Update",
           "opportunity": {
             "video": 6,
-            "social": 6,
-            "community": 7,
+            "social": 7,
+            "community": 6,
             "act_now": true,
-            "action_note": "Open the Claude app this week and test voice mode with the Opus model picker for brainstorming a script or livestream intro hands-free while it's fresh in beta.",
-            "angle": "I talked through my next YouTube script with Claude instead of typing it, here's what changed."
+            "action_note": "Open Claude this week, confirm you're on Opus 5 as your default (Pro or Max), and try the new low/medium/high effort dial on a routine task to see how it changes cost and speed.",
+            "angle": "Anthropic just swapped in a new default model without telling you, here's what actually changed."
           }
         }
       ]
@@ -30,32 +30,19 @@
       "title": "Wider AI World",
       "items": [
         {
-          "headline": "OpenAI Opens ChatGPT Health to Every US User",
-          "summary": "OpenAI made its \"Health\" feature available to every logged-in US ChatGPT user 18 and older, on every plan including the free tier, letting people connect Apple Health data and medical records from providers like Epic and One Medical so ChatGPT can help track labs, medications, and health trends.",
-          "why_it_matters": "A lot of Doc's audience already leans on ChatGPT for everyday questions, so this is a sign AI assistants are moving into sensitive personal data, worth understanding before you connect your own health info or recommend AI tools to family and followers.",
-          "link": "https://techcrunch.com/2026/07/23/openai-makes-chatgpt-health-available-to-all-u-s-users/",
-          "source": "TechCrunch",
-          "tag": "Product Update",
-          "opportunity": {
-            "video": 2,
-            "social": 5,
-            "community": 6,
-            "act_now": false
-          }
-        },
-        {
-          "headline": "New Senate Bill Would Force AI Chatbots to Admit They're Not Human",
-          "summary": "Senators Mark Kelly and Jim Justice introduced the Senior Chatbot Protection Act, which would require companies to clearly disclose when someone is talking to an AI rather than a person, with extra protections around health and financial conversations, aimed specifically at protecting older Americans.",
-          "why_it_matters": "This bill targets the exact age group Doc talks to every day, and it's a reminder that AI transparency for older users is becoming a real policy fight, not just internet chatter, useful context if you or your audience have parents leaning on AI chatbots.",
-          "link": "https://www.nbcnews.com/tech/tech-news/senate-bill-require-ai-chatbots-disclose-rcna588970",
-          "source": "NBC News",
-          "tag": "Policy",
+          "headline": "Researchers Warn AI Voice Clones Are Supercharging Scams Against Older Adults",
+          "summary": "New research covered this week finds that AI-generated voice calls, combined with older adults' reliance on fixed incomes and trusting nature, are making financial scams harder to spot and more costly than ever, with AI-cloned \"grandchild in trouble\" calls and fake-official calls leading the surge.",
+          "why_it_matters": "Doc's audience skews 40s-60s with aging parents; this is a concrete, timely reason to set up a family \"safe word\" and remind parents to hang up and call back on a known number before an AI voice clone catches them off guard.",
+          "link": "https://www.ksla.com/video/2026/07/24/ai-voice-calls-fixed-incomes-put-older-adults-risk-financial-scams-researchers-say/",
+          "source": "KSLA (CBS affiliate)",
+          "tag": "Research",
           "opportunity": {
             "video": 3,
             "social": 6,
             "community": 7,
-            "act_now": false,
-            "angle": "There's now a bill in Congress just to protect people our age from AI chatbots pretending to be human, here's what it would actually change."
+            "act_now": true,
+            "action_note": "Call your parents or older family members this week and agree on a family safe-word to verify identity before an AI voice-clone scam catches them off guard.",
+            "angle": "I called my parents about the AI scam nobody's warning them about, here's the exact script I used."
           }
         }
       ]
@@ -63,55 +50,26 @@
     {
       "id": "creator-tools",
       "title": "Tools & Tips for Creators and Small Biz",
-      "items": [
-        {
-          "headline": "New AI Tool CastScribe Turns a Podcast Recording Into a Ready-to-Publish Blog Post",
-          "summary": "CastScribe publicly launched an AI tool that takes a finished podcast or video recording and automatically generates a transcript, captions, show notes, a blog post, and promo copy ready to paste into WordPress. It offers 300 free minutes with no credit card, then plans start at $39/month.",
-          "why_it_matters": "If you record a podcast or livestream, the real time cost usually isn't hitting record, it's turning that recording into a blog post, captions, and social copy afterward. This automates that repurposing grind so a one-person show can put out content like it has a small team behind it.",
-          "link": "https://podnews.net/press-release/castscribe",
-          "source": "Podnews",
-          "tag": "Product Update",
-          "opportunity": {
-            "video": 5,
-            "social": 4,
-            "community": 7,
-            "act_now": false,
-            "angle": "I ran one of my own recordings through this so you don't have to test it blind."
-          }
-        }
-      ]
+      "items": []
     },
     {
       "id": "content-social",
       "title": "Content & Social Media Pulse",
       "items": [
         {
-          "headline": "Patreon Lays Off 20% of Staff While Calling the Business \"Healthy\"",
-          "summary": "Patreon cut 93 jobs (20% of its workforce) even though CEO Jack Conte says revenue grew 28% last year and the platform now has over 300,000 creators; he framed it as becoming leaner in the AI era, not AI replacing jobs.",
-          "why_it_matters": "If you use Patreon (or any single platform) for memberships, this is a nudge to keep building your own email list and diversify income, since even a growing platform can suddenly cut staff and slow down support or new features.",
-          "link": "https://techcrunch.com/2026/07/23/patreon-lays-off-off-20-of-its-workforce/",
+          "headline": "YouTube Will Now Pull Monetization From AI \"Slop\" and Mass-Produced Videos",
+          "summary": "YouTube clarified its Partner Program rules to strip ad money from three types of \"inauthentic content\": repetitive AI-generated videos, emotionally manipulative or distressing clips, and synthetic AI personas discussing sensitive topics like health or finance. Using AI to help make original videos is still fine; running it to mass-produce near-identical videos is not.",
+          "why_it_matters": "If you use AI anywhere in your editing pipeline (voiceovers, b-roll, thumbnails, scripts), this policy tells you exactly where YouTube draws the monetization line, so you can keep using AI as a creative assistant without accidentally tripping the \"content farm\" flag.",
+          "link": "https://techcrunch.com/2026/07/20/youtube-clarifies-policies-around-ai-slop-and-upsetting-videos/",
           "source": "TechCrunch",
-          "tag": "Business News",
+          "tag": "Platform Change",
           "opportunity": {
-            "video": 3,
-            "social": 5,
-            "community": 7,
-            "act_now": false,
-            "angle": "Patreon just cut a fifth of its team while insisting business is booming, a good reminder to never let one platform be your whole membership plan."
-          }
-        },
-        {
-          "headline": "Instagram Bans Harassment Videos Filmed on Meta Smart Glasses",
-          "summary": "Instagram head Adam Mosseri announced the platform will remove and ban accounts posting secretly-filmed \"prank\" or pickup-line videos shot with Meta's AI smart glasses; two accounts with over a million followers have already been taken down.",
-          "why_it_matters": "As AI glasses and hidden-camera style content get more popular, this is a clear signal that filming strangers without consent for content is now enforced as harassment, worth knowing if your videos ever capture people in public.",
-          "link": "https://www.engadget.com/2222008/instagram-is-now-banning-users-who-make-creepy-content-with-meta-glasses/",
-          "source": "Engadget",
-          "tag": "Policy",
-          "opportunity": {
-            "video": 2,
-            "social": 4,
-            "community": 3,
-            "act_now": false
+            "video": 7,
+            "social": 6,
+            "community": 8,
+            "act_now": true,
+            "action_note": "Review your last 5 uploads against YouTube's new inauthentic-content categories this week to confirm none could read as mass-produced AI content.",
+            "angle": "YouTube just told us exactly how much AI is too much AI, here's where the line actually is."
           }
         }
       ]

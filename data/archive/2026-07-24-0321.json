@@ -1,0 +1,120 @@
+{
+  "generated_at_iso": "2026-07-24T03:21:07-10:00",
+  "generated_label": "Friday, July 24 · 3:21 AM HST",
+  "edition": "morning",
+  "categories": [
+    {
+      "id": "claude-anthropic",
+      "title": "Claude & Anthropic",
+      "items": [
+        {
+          "headline": "Claude's Voice Mode Now Runs on Opus and Sonnet, Not Just the Quick-Answer Model",
+          "summary": "Anthropic upgraded Claude's voice mode (the feature that lets you talk to Claude out loud instead of typing) so it can now use the same powerful Opus and Sonnet models that power text chat, instead of only the fast-but-basic Haiku model. It also reaches into connected apps like Gmail, Google Calendar, Slack, Canva, and Notion mid-conversation, and now speaks ten languages instead of just a couple.",
+          "why_it_matters": "For a solo creator who thinks out loud while driving or editing, this turns voice mode from a quick-facts tool into something that can actually help rehearse a client pitch, talk through a half-formed video idea, or draft an email by voice and act on it. It's genuinely easier for anyone who finds typing prompts a hassle.",
+          "link": "https://claude.com/blog/think-through-hard-problems-in-voice-mode",
+          "source": "Anthropic (official blog)",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 6,
+            "social": 6,
+            "community": 7,
+            "act_now": true,
+            "action_note": "Open the Claude app this week and test voice mode with the Opus model picker for brainstorming a script or livestream intro hands-free while it's fresh in beta.",
+            "angle": "I talked through my next YouTube script with Claude instead of typing it, here's what changed."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ai-industry",
+      "title": "Wider AI World",
+      "items": [
+        {
+          "headline": "OpenAI Opens ChatGPT Health to Every US User",
+          "summary": "OpenAI made its \"Health\" feature available to every logged-in US ChatGPT user 18 and older, on every plan including the free tier, letting people connect Apple Health data and medical records from providers like Epic and One Medical so ChatGPT can help track labs, medications, and health trends.",
+          "why_it_matters": "A lot of Doc's audience already leans on ChatGPT for everyday questions, so this is a sign AI assistants are moving into sensitive personal data, worth understanding before you connect your own health info or recommend AI tools to family and followers.",
+          "link": "https://techcrunch.com/2026/07/23/openai-makes-chatgpt-health-available-to-all-u-s-users/",
+          "source": "TechCrunch",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 2,
+            "social": 5,
+            "community": 6,
+            "act_now": false
+          }
+        },
+        {
+          "headline": "New Senate Bill Would Force AI Chatbots to Admit They're Not Human",
+          "summary": "Senators Mark Kelly and Jim Justice introduced the Senior Chatbot Protection Act, which would require companies to clearly disclose when someone is talking to an AI rather than a person, with extra protections around health and financial conversations, aimed specifically at protecting older Americans.",
+          "why_it_matters": "This bill targets the exact age group Doc talks to every day, and it's a reminder that AI transparency for older users is becoming a real policy fight, not just internet chatter, useful context if you or your audience have parents leaning on AI chatbots.",
+          "link": "https://www.nbcnews.com/tech/tech-news/senate-bill-require-ai-chatbots-disclose-rcna588970",
+          "source": "NBC News",
+          "tag": "Policy",
+          "opportunity": {
+            "video": 3,
+            "social": 6,
+            "community": 7,
+            "act_now": false,
+            "angle": "There's now a bill in Congress just to protect people our age from AI chatbots pretending to be human, here's what it would actually change."
+          }
+        }
+      ]
+    },
+    {
+      "id": "creator-tools",
+      "title": "Tools & Tips for Creators and Small Biz",
+      "items": [
+        {
+          "headline": "New AI Tool CastScribe Turns a Podcast Recording Into a Ready-to-Publish Blog Post",
+          "summary": "CastScribe publicly launched an AI tool that takes a finished podcast or video recording and automatically generates a transcript, captions, show notes, a blog post, and promo copy ready to paste into WordPress. It offers 300 free minutes with no credit card, then plans start at $39/month.",
+          "why_it_matters": "If you record a podcast or livestream, the real time cost usually isn't hitting record, it's turning that recording into a blog post, captions, and social copy afterward. This automates that repurposing grind so a one-person show can put out content like it has a small team behind it.",
+          "link": "https://podnews.net/press-release/castscribe",
+          "source": "Podnews",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 5,
+            "social": 4,
+            "community": 7,
+            "act_now": false,
+            "angle": "I ran one of my own recordings through this so you don't have to test it blind."
+          }
+        }
+      ]
+    },
+    {
+      "id": "content-social",
+      "title": "Content & Social Media Pulse",
+      "items": [
+        {
+          "headline": "Patreon Lays Off 20% of Staff While Calling the Business \"Healthy\"",
+          "summary": "Patreon cut 93 jobs (20% of its workforce) even though CEO Jack Conte says revenue grew 28% last year and the platform now has over 300,000 creators; he framed it as becoming leaner in the AI era, not AI replacing jobs.",
+          "why_it_matters": "If you use Patreon (or any single platform) for memberships, this is a nudge to keep building your own email list and diversify income, since even a growing platform can suddenly cut staff and slow down support or new features.",
+          "link": "https://techcrunch.com/2026/07/23/patreon-lays-off-off-20-of-its-workforce/",
+          "source": "TechCrunch",
+          "tag": "Business News",
+          "opportunity": {
+            "video": 3,
+            "social": 5,
+            "community": 7,
+            "act_now": false,
+            "angle": "Patreon just cut a fifth of its team while insisting business is booming, a good reminder to never let one platform be your whole membership plan."
+          }
+        },
+        {
+          "headline": "Instagram Bans Harassment Videos Filmed on Meta Smart Glasses",
+          "summary": "Instagram head Adam Mosseri announced the platform will remove and ban accounts posting secretly-filmed \"prank\" or pickup-line videos shot with Meta's AI smart glasses; two accounts with over a million followers have already been taken down.",
+          "why_it_matters": "As AI glasses and hidden-camera style content get more popular, this is a clear signal that filming strangers without consent for content is now enforced as harassment, worth knowing if your videos ever capture people in public.",
+          "link": "https://www.engadget.com/2222008/instagram-is-now-banning-users-who-make-creepy-content-with-meta-glasses/",
+          "source": "Engadget",
+          "tag": "Policy",
+          "opportunity": {
+            "video": 2,
+            "social": 4,
+            "community": 3,
+            "act_now": false
+          }
+        }
+      ]
+    }
+  ]
+}
