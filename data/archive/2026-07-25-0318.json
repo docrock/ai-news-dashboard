@@ -1,0 +1,78 @@
+{
+  "generated_at_iso": "2026-07-25T03:18:05-10:00",
+  "generated_label": "Saturday, July 25 · 3:18 AM HST",
+  "edition": "morning",
+  "categories": [
+    {
+      "id": "claude-anthropic",
+      "title": "Claude & Anthropic",
+      "items": [
+        {
+          "headline": "Anthropic Launches Claude Opus 5, a Faster and Cheaper Everyday Model",
+          "summary": "Anthropic released Claude Opus 5, which performs close to its most powerful model (Fable 5) on many tasks at half the price, and it's now the default model for Claude Max subscribers and the strongest model available on Claude Pro. It also adds a simple \"effort\" dial (low, medium, or high) so you can trade off cost against how hard Claude works on a task, plus the ability to switch models mid-conversation without losing your place.",
+          "why_it_matters": "If you pay for Claude, this is likely the model doing your work starting now, meaning better answers on everyday writing, editing, and business tasks without you changing anything, and the new effort dial gives you an easy way to keep costs down on quick questions.",
+          "link": "https://www.anthropic.com/news/claude-opus-5",
+          "source": "Anthropic (official blog)",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 6,
+            "social": 7,
+            "community": 6,
+            "act_now": true,
+            "action_note": "Open Claude this week, confirm you're on Opus 5 as your default (Pro or Max), and try the new low/medium/high effort dial on a routine task to see how it changes cost and speed.",
+            "angle": "Anthropic just swapped in a new default model without telling you, here's what actually changed."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ai-industry",
+      "title": "Wider AI World",
+      "items": [
+        {
+          "headline": "Researchers Warn AI Voice Clones Are Supercharging Scams Against Older Adults",
+          "summary": "New research covered this week finds that AI-generated voice calls, combined with older adults' reliance on fixed incomes and trusting nature, are making financial scams harder to spot and more costly than ever, with AI-cloned \"grandchild in trouble\" calls and fake-official calls leading the surge.",
+          "why_it_matters": "Doc's audience skews 40s-60s with aging parents; this is a concrete, timely reason to set up a family \"safe word\" and remind parents to hang up and call back on a known number before an AI voice clone catches them off guard.",
+          "link": "https://www.ksla.com/video/2026/07/24/ai-voice-calls-fixed-incomes-put-older-adults-risk-financial-scams-researchers-say/",
+          "source": "KSLA (CBS affiliate)",
+          "tag": "Research",
+          "opportunity": {
+            "video": 3,
+            "social": 6,
+            "community": 7,
+            "act_now": true,
+            "action_note": "Call your parents or older family members this week and agree on a family safe-word to verify identity before an AI voice-clone scam catches them off guard.",
+            "angle": "I called my parents about the AI scam nobody's warning them about, here's the exact script I used."
+          }
+        }
+      ]
+    },
+    {
+      "id": "creator-tools",
+      "title": "Tools & Tips for Creators and Small Biz",
+      "items": []
+    },
+    {
+      "id": "content-social",
+      "title": "Content & Social Media Pulse",
+      "items": [
+        {
+          "headline": "YouTube Will Now Pull Monetization From AI \"Slop\" and Mass-Produced Videos",
+          "summary": "YouTube clarified its Partner Program rules to strip ad money from three types of \"inauthentic content\": repetitive AI-generated videos, emotionally manipulative or distressing clips, and synthetic AI personas discussing sensitive topics like health or finance. Using AI to help make original videos is still fine; running it to mass-produce near-identical videos is not.",
+          "why_it_matters": "If you use AI anywhere in your editing pipeline (voiceovers, b-roll, thumbnails, scripts), this policy tells you exactly where YouTube draws the monetization line, so you can keep using AI as a creative assistant without accidentally tripping the \"content farm\" flag.",
+          "link": "https://techcrunch.com/2026/07/20/youtube-clarifies-policies-around-ai-slop-and-upsetting-videos/",
+          "source": "TechCrunch",
+          "tag": "Platform Change",
+          "opportunity": {
+            "video": 7,
+            "social": 6,
+            "community": 8,
+            "act_now": true,
+            "action_note": "Review your last 5 uploads against YouTube's new inauthentic-content categories this week to confirm none could read as mass-produced AI content.",
+            "angle": "YouTube just told us exactly how much AI is too much AI, here's where the line actually is."
+          }
+        }
+      ]
+    }
+  ]
+}
