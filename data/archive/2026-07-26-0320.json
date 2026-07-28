@@ -1,0 +1,107 @@
+{
+  "generated_at_iso": "2026-07-26T03:20:02-10:00",
+  "generated_label": "Sunday, July 26 · 3:20 AM HST",
+  "edition": "morning",
+  "categories": [
+    {
+      "id": "claude-anthropic",
+      "title": "Claude & Anthropic",
+      "items": [
+        {
+          "headline": "Claude Can Now Answer Questions About How AI Is Actually Being Used, With Real Data",
+          "summary": "Anthropic added a free \"connector\" you can turn on inside Claude that lets you ask plain-English questions about how AI is really being used across jobs, industries, and even specific states, with answers pulled from real, privacy-protected Claude conversations instead of guesses or projections.",
+          "why_it_matters": "If you've ever wondered whether AI is actually replacing jobs like yours, or which tasks people in your field use Claude for most, you can now just ask Claude directly and get a real, data-backed answer instead of a hot take.",
+          "link": "https://www.anthropic.com/news/anthropic-economic-index-connector",
+          "source": "Anthropic (official blog)",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 5,
+            "social": 6,
+            "community": 7,
+            "act_now": true,
+            "action_note": "Turn on the Anthropic Economic Index connector in Claude's settings this week and ask it how AI is being used in your own industry or in content and social media.",
+            "angle": "I asked Claude how AI is actually affecting video editors and podcasters, here's what the real data said."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ai-industry",
+      "title": "Wider AI World",
+      "items": [
+        {
+          "headline": "OpenAI Opens Self-Serve Ads Inside ChatGPT to Any Business",
+          "summary": "OpenAI launched \"Advertise in ChatGPT,\" a self-serve ad platform where any business can set a budget and run a campaign that shows sponsored product suggestions inside ChatGPT answers, similar to how Google Ads works for search. Ads currently only show to free and Go-tier users and are targeted by conversation context rather than keywords; Best Buy, Lowe's, and VistaPrint are early advertisers.",
+          "why_it_matters": "This is a brand-new advertising channel outside Google and Meta, worth knowing about if you ever run ads for your own products or a client's, since getting in early on a new ad platform often means cheaper attention before it gets crowded.",
+          "link": "https://openai.com/advertisers/",
+          "source": "OpenAI (official)",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 4,
+            "social": 6,
+            "community": 6,
+            "act_now": false,
+            "angle": "OpenAI just opened a brand-new ad channel inside ChatGPT, should your small business be the first on your block to try it?"
+          }
+        }
+      ]
+    },
+    {
+      "id": "creator-tools",
+      "title": "Tools & Tips for Creators and Small Biz",
+      "items": [
+        {
+          "headline": "Google's Research Tool NotebookLM Just Got Renamed to Gemini Notebook",
+          "summary": "Google renamed NotebookLM, its free tool for uploading sources (PDFs, articles, transcripts) and asking questions grounded only in those documents, to Gemini Notebook. Existing notebooks and shared links still work with no changes needed, and Pro users are getting a new feature that can run code directly inside a notebook for deeper data analysis.",
+          "why_it_matters": "If you've used NotebookLM to research a video topic, digest a long PDF, or turn interview notes into a script outline, nothing about how it works has changed, just the name and icon, so don't panic if you can't find it under its old name.",
+          "link": "https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/",
+          "source": "Google (official blog)",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 4,
+            "social": 5,
+            "community": 6,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "content-social",
+      "title": "Content & Social Media Pulse",
+      "items": [
+        {
+          "headline": "YouTube Finally Lets You Upload Custom Thumbnails for Shorts",
+          "summary": "YouTube began rolling out custom thumbnail uploads for Shorts on July 25, letting Partner Program creators pick their own cover image instead of relying on an auto-picked video frame, though for now it's desktop-only and doesn't support A/B testing. The same week, YouTube also added an AI thumbnail generator inside Ask Studio for long-form videos, so you can ask it to create a thumbnail and then adjust the color and layout by chatting with it.",
+          "why_it_matters": "Thumbnails are one of the biggest levers for getting someone to actually click your video, and this closes a gap that's existed since Shorts launched, custom Shorts thumbnails plus an AI assist on your long-form thumbnails means less time in Photoshop and more control over your first impression.",
+          "link": "https://www.tubefilter.com/2026/07/24/youtube-shorts-custom-thumbnails-neal-mohan-feature-update/",
+          "source": "Tubefilter",
+          "tag": "Platform Change",
+          "opportunity": {
+            "video": 8,
+            "social": 6,
+            "community": 8,
+            "act_now": true,
+            "action_note": "Turn on custom Shorts thumbnails in YouTube Studio this week and upload a real cover image instead of letting YouTube auto-pick a frame from your next Short.",
+            "angle": "YouTube just gave Shorts creators custom thumbnails after 2 years of asking, here's how to use them right."
+          }
+        },
+        {
+          "headline": "Instagram Lets You Swap the Music on Old Posts Without Losing Your Likes",
+          "summary": "Instagram rolled out a \"Replace Audio\" option starting July 21 that lets you change the soundtrack on already-published feed posts and carousels without deleting the post and losing its accumulated likes, comments, and reach. You do it from the post's three-dot menu under Edit > Audio, and you can change it as many times as you want.",
+          "why_it_matters": "If a post ever got hit with a copyright claim over its music, or you used a trending sound that's now stale, you can now fix it instead of choosing between a dead post and starting over from zero engagement.",
+          "link": "https://techcrunch.com/2026/07/21/instagram-now-lets-you-swap-out-the-music-in-your-old-posts/",
+          "source": "TechCrunch",
+          "tag": "Platform Change",
+          "opportunity": {
+            "video": 3,
+            "social": 5,
+            "community": 7,
+            "act_now": false,
+            "angle": "I fixed a copyright-flagged post without losing its likes, here's the new button Instagram just added."
+          }
+        }
+      ]
+    }
+  ]
+}
