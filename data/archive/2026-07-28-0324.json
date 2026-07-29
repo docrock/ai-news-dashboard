@@ -1,0 +1,61 @@
+{
+  "generated_at_iso": "2026-07-28T03:24:40-10:00",
+  "generated_label": "Tuesday, July 28 · 3:24 AM HST",
+  "edition": "morning",
+  "categories": [
+    {
+      "id": "claude-anthropic",
+      "title": "Claude & Anthropic",
+      "items": [
+        {
+          "headline": "Old Claude Shared Chats Were Showing Up in Google Search",
+          "summary": "Anthropic left no restrictions on the public web pages created when someone shares a Claude conversation, so Google quietly indexed hundreds of them, and some contained sensitive stuff like medical details, crypto wallet keys, and kids' names and phone numbers. Anthropic pulled the pages from Google search Monday, but any link someone already saved or bookmarked can likely still be opened.",
+          "why_it_matters": "If you've ever used Claude's \"share\" button to send a chat to a client, a collaborator, or your community, that link may have been sitting in public Google results this whole time without you knowing, so it's worth a quick check before you assume a shared chat was private.",
+          "link": "https://techcrunch.com/2026/07/27/psa-your-claude-shared-chats-and-artifacts-may-have-ended-up-on-google/",
+          "source": "TechCrunch",
+          "tag": "Security",
+          "opportunity": {
+            "video": 6,
+            "social": 7,
+            "community": 8,
+            "act_now": true,
+            "action_note": "Open Claude's Settings > Privacy this week, review any conversations you've ever shared publicly, and delete or unshare the ones you don't want sitting on the open web.",
+            "angle": "I checked whether my own shared Claude chats were floating around on Google, here's what I found and how to lock yours down."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ai-industry",
+      "title": "Wider AI World",
+      "items": []
+    },
+    {
+      "id": "creator-tools",
+      "title": "Tools & Tips for Creators and Small Biz",
+      "items": []
+    },
+    {
+      "id": "content-social",
+      "title": "Content & Social Media Pulse",
+      "items": [
+        {
+          "headline": "Facebook Now Gives Everyone a Free Badge to Prove They're a Real Person",
+          "summary": "Meta launched Facebook Verified, a free badge (separate from the paid Meta Verified subscription) that shows up once you record a short video selfie confirming you're a real human behind the profile. The rollout started this week alongside a new standalone \"Seller\" app built for people who sell a lot on Marketplace.",
+          "why_it_matters": "Impersonation and fake business pages are a real problem for small business owners and creators, and this free badge gives you an easy, no-cost way to show new followers or customers that your page is really you, not a scam account copying your name.",
+          "link": "https://www.engadget.com/2222353/meta-launches-facebook-verified/",
+          "source": "Engadget",
+          "tag": "Platform Change",
+          "opportunity": {
+            "video": 5,
+            "social": 6,
+            "community": 7,
+            "act_now": true,
+            "action_note": "Go to your Facebook account settings this week and complete the free selfie-video verification so your page carries the new Verified badge.",
+            "angle": "Facebook just added a free way to prove you're a real human, here's how to get the badge in about 5 minutes."
+          }
+        }
+      ]
+    }
+  ]
+}
