@@ -1,0 +1,105 @@
+{
+  "generated_at_iso": "2026-08-03T03:30:41-10:00",
+  "generated_label": "Monday, August 3 · 3:30 AM HST",
+  "edition": "morning",
+  "categories": [
+    {
+      "id": "claude-anthropic",
+      "title": "Claude & Anthropic",
+      "items": [
+        {
+          "headline": "Anthropic's Doubled Claude Cowork Usage Limits End August 5",
+          "summary": "Anthropic doubled how much you can use Claude's Cowork tool (an AI agent that can research, draft, and complete multi-step tasks for you) within any 5-hour window. That doubled limit, available on Pro, Max, and Team plans, expires August 5, 2026, after which usage caps drop back to normal.",
+          "why_it_matters": "If you're paying for Claude Pro, Max, or Team and haven't put Cowork to work on a real project yet, you've only got a couple of days left to get double the usage before the limit reverts.",
+          "link": "https://claude.com/blog/cowork-web-mobile",
+          "source": "Claude Blog (Anthropic)",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 3,
+            "social": 4,
+            "community": 6,
+            "act_now": true,
+            "action_note": "Log into Claude before August 5 and run a real Cowork task, like research or drafting, while the doubled 5-hour usage limit is still active."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ai-industry",
+      "title": "Wider AI World",
+      "items": [
+        {
+          "headline": "New EU Rule Requires Labels on AI Chatbots and Deepfakes, Even for US Creators",
+          "summary": "As of August 2, 2026, the EU's AI Act now requires AI chatbots to clearly disclose they're not human, and requires deepfakes or realistic AI-generated video, images, and audio to carry a visible label saying they're AI-made. Legal experts note the rule applies to anyone whose content reaches EU viewers, not just companies based in Europe.",
+          "why_it_matters": "If you use AI voice clones, AI avatars, or realistic AI-generated video in content that EU viewers can see, which covers nearly any public YouTube video, it's worth a quick check of whether you need a visible AI disclosure now that enforcement has begun.",
+          "link": "https://digital-strategy.ec.europa.eu/en/policies/guidelines-transparency-ai-generated-content",
+          "source": "European Commission (Digital Strategy)",
+          "tag": "Policy",
+          "opportunity": {
+            "video": 5,
+            "social": 6,
+            "community": 7,
+            "act_now": false,
+            "angle": "New EU law just kicked in and it means labeling your AI content isn't optional anymore, even if you're not in Europe. Here's the five minute check every creator should do this week."
+          }
+        }
+      ]
+    },
+    {
+      "id": "creator-tools",
+      "title": "Tools & Tips for Creators and Small Biz",
+      "items": [
+        {
+          "headline": "Popular YouTuber Hank Green Pauses Channels After AI Script Habit Backlash",
+          "summary": "Science YouTuber Hank Green (3.2 million subscribers) admitted he leaned on ChatGPT too heavily for script research after viewers noticed AI-sounding phrasing in one of his videos. He's pausing two of his channels, SMUSH and 4x3, to rethink his process.",
+          "why_it_matters": "It's a real warning sign for any solo creator who uses AI to help write scripts: your audience notices AI phrasing faster than you'd think, and it can cost you trust fast.",
+          "link": "https://techcrunch.com/2026/08/01/youtuber-hank-green-says-his-ai-usage-is-not-healthy/",
+          "source": "TechCrunch",
+          "tag": "Opinion/Analysis",
+          "opportunity": {
+            "video": 6,
+            "social": 7,
+            "community": 5,
+            "act_now": false,
+            "angle": "What every YouTuber should learn from Hank Green's AI research backlash: how much AI help is too much."
+          }
+        },
+        {
+          "headline": "Google's Free 10-Video AI Trial in Gemini Ends Tomorrow",
+          "summary": "Google is letting any Gemini user, even without a paid plan, generate up to 10 AI videos for free using the \"Create video\" tool in the Tools menu. The free trial closes at 11:59 PM Pacific time on August 4, 2026.",
+          "why_it_matters": "It's a genuinely free, no-subscription way to test AI video generation for yourself or your business today, before this trial disappears tomorrow.",
+          "link": "https://www.androidcentral.com/apps-software/googles-new-ai-video-generator-is-free-for-gemini-users-but-not-for-long",
+          "source": "Android Central",
+          "tag": "Pricing",
+          "opportunity": {
+            "video": 7,
+            "social": 8,
+            "community": 6,
+            "act_now": false,
+            "angle": "Free AI video generator disappears tomorrow. Quick guide to grab your 10 free Gemini videos before the deadline."
+          }
+        }
+      ]
+    },
+    {
+      "id": "content-social",
+      "title": "Content & Social Media Pulse",
+      "items": [
+        {
+          "headline": "YouTube Giving Creators Until August 17 to Set Their Own Membership Prices",
+          "summary": "YouTube is automatically updating recommended channel membership prices for members outside the US to match current exchange rates. Creators can review the new suggested prices, keep them, or set their own custom price per tier in YouTube Studio before August 17, 2026, when the automatic update takes effect.",
+          "why_it_matters": "If you have channel memberships turned on, a default price change could quietly apply to your channel in about two weeks unless you check YouTube Studio first.",
+          "link": "https://www.socialmediatoday.com/news/youtube-updates-mobile-ui-and-channel-membership-pricing/823349/",
+          "source": "Social Media Today",
+          "tag": "Pricing",
+          "opportunity": {
+            "video": 3,
+            "social": 4,
+            "community": 6,
+            "act_now": false
+          }
+        }
+      ]
+    }
+  ]
+}

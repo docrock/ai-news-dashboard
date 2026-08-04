@@ -1,46 +1,43 @@
 {
-  "generated_at_iso": "2026-08-03T03:30:41-10:00",
-  "generated_label": "Monday, August 3 · 3:30 AM HST",
+  "generated_at_iso": "2026-08-04T03:31:29-10:00",
+  "generated_label": "Tuesday, August 4 · 3:31 AM HST",
   "edition": "morning",
   "categories": [
     {
       "id": "claude-anthropic",
       "title": "Claude & Anthropic",
-      "items": [
-        {
-          "headline": "Anthropic's Doubled Claude Cowork Usage Limits End August 5",
-          "summary": "Anthropic doubled how much you can use Claude's Cowork tool (an AI agent that can research, draft, and complete multi-step tasks for you) within any 5-hour window. That doubled limit, available on Pro, Max, and Team plans, expires August 5, 2026, after which usage caps drop back to normal.",
-          "why_it_matters": "If you're paying for Claude Pro, Max, or Team and haven't put Cowork to work on a real project yet, you've only got a couple of days left to get double the usage before the limit reverts.",
-          "link": "https://claude.com/blog/cowork-web-mobile",
-          "source": "Claude Blog (Anthropic)",
-          "tag": "Product Update",
-          "opportunity": {
-            "video": 3,
-            "social": 4,
-            "community": 6,
-            "act_now": true,
-            "action_note": "Log into Claude before August 5 and run a real Cowork task, like research or drafting, while the doubled 5-hour usage limit is still active."
-          }
-        }
-      ]
+      "items": []
     },
     {
       "id": "ai-industry",
       "title": "Wider AI World",
       "items": [
         {
-          "headline": "New EU Rule Requires Labels on AI Chatbots and Deepfakes, Even for US Creators",
-          "summary": "As of August 2, 2026, the EU's AI Act now requires AI chatbots to clearly disclose they're not human, and requires deepfakes or realistic AI-generated video, images, and audio to carry a visible label saying they're AI-made. Legal experts note the rule applies to anyone whose content reaches EU viewers, not just companies based in Europe.",
-          "why_it_matters": "If you use AI voice clones, AI avatars, or realistic AI-generated video in content that EU viewers can see, which covers nearly any public YouTube video, it's worth a quick check of whether you need a visible AI disclosure now that enforcement has begun.",
-          "link": "https://digital-strategy.ec.europa.eu/en/policies/guidelines-transparency-ai-generated-content",
-          "source": "European Commission (Digital Strategy)",
+          "headline": "California's New AI Transparency Law Takes Effect, Requiring Watermarks on AI Images and Video",
+          "summary": "As of August 2, big AI companies with over a million California users (OpenAI, Google, Meta, xAI, and others) must embed an invisible \"AI-made\" marker in AI-generated images, video, and audio, and offer a free tool anyone can use to check if content was AI-generated. Reports note some popular tools, like Midjourney, don't have the watermark in place yet, and fines can hit $5,000 per violation per day.",
+          "why_it_matters": "If you use AI to make thumbnails, b-roll, or voiceovers for your business, the files coming out of major tools may now carry a hidden tag anyone can scan for, so it's worth knowing before a viewer or client asks \"wait, is this AI?\" and you didn't realize the proof was baked in.",
+          "link": "https://www.techtimes.com/articles/322713/20260802/california-ai-transparency-act-operative-midjourney-has-no-watermark-fines-start-today.htm",
+          "source": "Tech Times",
           "tag": "Policy",
           "opportunity": {
-            "video": 5,
+            "video": 4,
             "social": 6,
-            "community": 7,
-            "act_now": false,
-            "angle": "New EU law just kicked in and it means labeling your AI content isn't optional anymore, even if you're not in Europe. Here's the five minute check every creator should do this week."
+            "community": 5,
+            "act_now": false
+          }
+        },
+        {
+          "headline": "OpenAI Launches \"Sign in with ChatGPT\" So You Can Log Into Other Apps With Your ChatGPT Account",
+          "summary": "Starting August 2, you can use your ChatGPT account like a Google or Apple login to sign into a first wave of partner apps, including Notion, Airtable, and HubSpot. It only shares your name, email, and profile photo with the app you're signing into.",
+          "why_it_matters": "If you already use ChatGPT alongside tools like Notion or HubSpot for your business, this can save you a step setting up new accounts, and it signals OpenAI wants to be a login option across the web, not just a chatbot you visit.",
+          "link": "https://help.openai.com/en/articles/20001410-sign-in-with-chatgpt",
+          "source": "OpenAI Help Center",
+          "tag": "Platform Change",
+          "opportunity": {
+            "video": 2,
+            "social": 3,
+            "community": 4,
+            "act_now": false
           }
         }
       ]
@@ -50,33 +47,18 @@
       "title": "Tools & Tips for Creators and Small Biz",
       "items": [
         {
-          "headline": "Popular YouTuber Hank Green Pauses Channels After AI Script Habit Backlash",
-          "summary": "Science YouTuber Hank Green (3.2 million subscribers) admitted he leaned on ChatGPT too heavily for script research after viewers noticed AI-sounding phrasing in one of his videos. He's pausing two of his channels, SMUSH and 4x3, to rethink his process.",
-          "why_it_matters": "It's a real warning sign for any solo creator who uses AI to help write scripts: your audience notices AI phrasing faster than you'd think, and it can cost you trust fast.",
-          "link": "https://techcrunch.com/2026/08/01/youtuber-hank-green-says-his-ai-usage-is-not-healthy/",
-          "source": "TechCrunch",
-          "tag": "Opinion/Analysis",
+          "headline": "Notion AI Now Caps Usage, Even on Paid Workspaces",
+          "summary": "As of August 3, 2026, Notion started enforcing a usage allowance on its built-in AI features (writing help, Q&A, meeting notes) — a rolling 6-hour limit plus a monthly one tied to your billing cycle. Hit the cap and AI features pause until it resets.",
+          "why_it_matters": "If you use Notion AI for scripting, show notes, or a content calendar, you could hit a wall mid-task without warning, so it's worth checking your usage now instead of finding out during a deadline crunch.",
+          "link": "https://www.notion.com/help/manage-your-usage-allowance-for-notion-ai",
+          "source": "Notion Help Center",
+          "tag": "Policy",
           "opportunity": {
-            "video": 6,
-            "social": 7,
-            "community": 5,
-            "act_now": false,
-            "angle": "What every YouTuber should learn from Hank Green's AI research backlash: how much AI help is too much."
-          }
-        },
-        {
-          "headline": "Google's Free 10-Video AI Trial in Gemini Ends Tomorrow",
-          "summary": "Google is letting any Gemini user, even without a paid plan, generate up to 10 AI videos for free using the \"Create video\" tool in the Tools menu. The free trial closes at 11:59 PM Pacific time on August 4, 2026.",
-          "why_it_matters": "It's a genuinely free, no-subscription way to test AI video generation for yourself or your business today, before this trial disappears tomorrow.",
-          "link": "https://www.androidcentral.com/apps-software/googles-new-ai-video-generator-is-free-for-gemini-users-but-not-for-long",
-          "source": "Android Central",
-          "tag": "Pricing",
-          "opportunity": {
-            "video": 7,
-            "social": 8,
+            "video": 2,
+            "social": 5,
             "community": 6,
-            "act_now": false,
-            "angle": "Free AI video generator disappears tomorrow. Quick guide to grab your 10 free Gemini videos before the deadline."
+            "act_now": true,
+            "action_note": "Check Settings then Notion AI then Usage in your workspace now so a stalled AI feature doesn't blindside you mid-project."
           }
         }
       ]
@@ -86,16 +68,16 @@
       "title": "Content & Social Media Pulse",
       "items": [
         {
-          "headline": "YouTube Giving Creators Until August 17 to Set Their Own Membership Prices",
-          "summary": "YouTube is automatically updating recommended channel membership prices for members outside the US to match current exchange rates. Creators can review the new suggested prices, keep them, or set their own custom price per tier in YouTube Studio before August 17, 2026, when the automatic update takes effect.",
-          "why_it_matters": "If you have channel memberships turned on, a default price change could quietly apply to your channel in about two weeks unless you check YouTube Studio first.",
-          "link": "https://www.socialmediatoday.com/news/youtube-updates-mobile-ui-and-channel-membership-pricing/823349/",
-          "source": "Social Media Today",
-          "tag": "Pricing",
+          "headline": "New Data Shows Instagram Reels Now Eating Half of All Attention and Ad Slots on the App",
+          "summary": "Analytics firm Sensor Tower reported on August 3, 2026 that in Q2 2026, Reels absorbed 51% of the time people spend on Instagram and more than half of the platform's ad placements, even though Facebook and Instagram app downloads fell 5% year over year.",
+          "why_it_matters": "If you post on Instagram at all, this confirms the app is steering both eyeballs and ad dollars toward short vertical video, so if you're not making Reels a real part of your posting mix, you're fighting the algorithm instead of using it.",
+          "link": "https://ppc.land/meta-apps-lose-5-of-downloads-as-reels-takes-half-of-instagram-ad-slots/",
+          "source": "PPC Land, citing Sensor Tower Q2 2026 data",
+          "tag": "Research",
           "opportunity": {
             "video": 3,
-            "social": 4,
-            "community": 6,
+            "social": 5,
+            "community": 5,
             "act_now": false
           }
         }
