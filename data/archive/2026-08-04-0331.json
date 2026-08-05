@@ -1,0 +1,87 @@
+{
+  "generated_at_iso": "2026-08-04T03:31:29-10:00",
+  "generated_label": "Tuesday, August 4 · 3:31 AM HST",
+  "edition": "morning",
+  "categories": [
+    {
+      "id": "claude-anthropic",
+      "title": "Claude & Anthropic",
+      "items": []
+    },
+    {
+      "id": "ai-industry",
+      "title": "Wider AI World",
+      "items": [
+        {
+          "headline": "California's New AI Transparency Law Takes Effect, Requiring Watermarks on AI Images and Video",
+          "summary": "As of August 2, big AI companies with over a million California users (OpenAI, Google, Meta, xAI, and others) must embed an invisible \"AI-made\" marker in AI-generated images, video, and audio, and offer a free tool anyone can use to check if content was AI-generated. Reports note some popular tools, like Midjourney, don't have the watermark in place yet, and fines can hit $5,000 per violation per day.",
+          "why_it_matters": "If you use AI to make thumbnails, b-roll, or voiceovers for your business, the files coming out of major tools may now carry a hidden tag anyone can scan for, so it's worth knowing before a viewer or client asks \"wait, is this AI?\" and you didn't realize the proof was baked in.",
+          "link": "https://www.techtimes.com/articles/322713/20260802/california-ai-transparency-act-operative-midjourney-has-no-watermark-fines-start-today.htm",
+          "source": "Tech Times",
+          "tag": "Policy",
+          "opportunity": {
+            "video": 4,
+            "social": 6,
+            "community": 5,
+            "act_now": false
+          }
+        },
+        {
+          "headline": "OpenAI Launches \"Sign in with ChatGPT\" So You Can Log Into Other Apps With Your ChatGPT Account",
+          "summary": "Starting August 2, you can use your ChatGPT account like a Google or Apple login to sign into a first wave of partner apps, including Notion, Airtable, and HubSpot. It only shares your name, email, and profile photo with the app you're signing into.",
+          "why_it_matters": "If you already use ChatGPT alongside tools like Notion or HubSpot for your business, this can save you a step setting up new accounts, and it signals OpenAI wants to be a login option across the web, not just a chatbot you visit.",
+          "link": "https://help.openai.com/en/articles/20001410-sign-in-with-chatgpt",
+          "source": "OpenAI Help Center",
+          "tag": "Platform Change",
+          "opportunity": {
+            "video": 2,
+            "social": 3,
+            "community": 4,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "creator-tools",
+      "title": "Tools & Tips for Creators and Small Biz",
+      "items": [
+        {
+          "headline": "Notion AI Now Caps Usage, Even on Paid Workspaces",
+          "summary": "As of August 3, 2026, Notion started enforcing a usage allowance on its built-in AI features (writing help, Q&A, meeting notes) — a rolling 6-hour limit plus a monthly one tied to your billing cycle. Hit the cap and AI features pause until it resets.",
+          "why_it_matters": "If you use Notion AI for scripting, show notes, or a content calendar, you could hit a wall mid-task without warning, so it's worth checking your usage now instead of finding out during a deadline crunch.",
+          "link": "https://www.notion.com/help/manage-your-usage-allowance-for-notion-ai",
+          "source": "Notion Help Center",
+          "tag": "Policy",
+          "opportunity": {
+            "video": 2,
+            "social": 5,
+            "community": 6,
+            "act_now": true,
+            "action_note": "Check Settings then Notion AI then Usage in your workspace now so a stalled AI feature doesn't blindside you mid-project."
+          }
+        }
+      ]
+    },
+    {
+      "id": "content-social",
+      "title": "Content & Social Media Pulse",
+      "items": [
+        {
+          "headline": "New Data Shows Instagram Reels Now Eating Half of All Attention and Ad Slots on the App",
+          "summary": "Analytics firm Sensor Tower reported on August 3, 2026 that in Q2 2026, Reels absorbed 51% of the time people spend on Instagram and more than half of the platform's ad placements, even though Facebook and Instagram app downloads fell 5% year over year.",
+          "why_it_matters": "If you post on Instagram at all, this confirms the app is steering both eyeballs and ad dollars toward short vertical video, so if you're not making Reels a real part of your posting mix, you're fighting the algorithm instead of using it.",
+          "link": "https://ppc.land/meta-apps-lose-5-of-downloads-as-reels-takes-half-of-instagram-ad-slots/",
+          "source": "PPC Land, citing Sensor Tower Q2 2026 data",
+          "tag": "Research",
+          "opportunity": {
+            "video": 3,
+            "social": 5,
+            "community": 5,
+            "act_now": false
+          }
+        }
+      ]
+    }
+  ]
+}
