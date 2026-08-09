@@ -1,6 +1,6 @@
 {
-  "generated_at_iso": "2026-08-08T03:23:25-10:00",
-  "generated_label": "Saturday, August 8 · 3:23 AM HST",
+  "generated_at_iso": "2026-08-09T03:25:33-10:00",
+  "generated_label": "Sunday, August 9 · 3:25 AM HST",
   "edition": "morning",
   "categories": [
     {
@@ -8,16 +8,31 @@
       "title": "Claude & Anthropic",
       "items": [
         {
-          "headline": "Claude Code Sessions Can Now Message Each Other",
-          "summary": "Anthropic updated Claude Code (its AI coding assistant) so that if you have more than one session running at once, like on different projects or in different terminal windows, they can now automatically pass short text notes to each other instead of you copying and pasting between them.",
-          "why_it_matters": "If you or someone helping you runs multiple Claude Code sessions side by side to build or fix small tools for your channel or business, this saves the manual step of relaying updates between them yourself.",
-          "link": "https://code.claude.com/docs/en/changelog",
-          "source": "Claude Code Changelog",
+          "headline": "Claude Code Is About to Start Approving Its Own Actions by Default",
+          "summary": "Starting August 14, Claude Code (Anthropic's AI coding assistant) switches to \"auto mode\" by default for Pro, Max, and Team plans, letting it run most commands without asking your permission first, using a built-in checker to catch risky or destructive actions before it acts. Anthropic says its own testing found the automatic checker catches far more dangerous commands than people do when clicking approve over and over.",
+          "why_it_matters": "If you or someone helping you uses Claude Code to build or tweak tools for your channel or business, this changes what happens by default on August 14, so it's worth checking your permission settings now if you'd rather keep approving actions yourself.",
+          "link": "https://claude.com/blog/auto-mode-default-in-claude-code",
+          "source": "Claude by Anthropic",
           "tag": "Product Update",
           "opportunity": {
+            "video": 4,
+            "social": 5,
+            "community": 6,
+            "act_now": true,
+            "action_note": "Before August 14, open Claude Code's settings and pin your preferred permission mode if you don't want it switched to auto-approve by default."
+          }
+        },
+        {
+          "headline": "Claude's Developer Pricing Jumps 50% Starting September 1",
+          "summary": "Anthropic's introductory pricing for the Claude Sonnet 5 model, the rate charged when a developer builds custom tools on Claude's API, runs through August 31. After that, the per-token price rises from $2/$10 to $3/$15 per million tokens (input/output), a flat 50% increase.",
+          "why_it_matters": "This only affects people who pay for Claude by the token through the developer API, not the regular $20-ish Claude.ai chat subscription, but if that's you or someone building tools for you, it's worth budgeting for the higher cost after August 31.",
+          "link": "https://platform.claude.com/docs/en/about-claude/pricing",
+          "source": "Claude Platform Docs",
+          "tag": "Pricing",
+          "opportunity": {
             "video": 2,
-            "social": 2,
-            "community": 3,
+            "social": 3,
+            "community": 5,
             "act_now": false
           }
         }
@@ -28,32 +43,17 @@
       "title": "Wider AI World",
       "items": [
         {
-          "headline": "Free ChatGPT Now Defaults to a Newer Model, With Unlimited Text Chats Coming",
-          "summary": "OpenAI switched free ChatGPT accounts over to GPT-5.6 \"Luna\" (its budget-tier model) this week, and starting the week of August 10 those free accounts will also get unlimited text chats plus a new \"Think\" button that gives the AI more time to work through harder questions.",
-          "why_it_matters": "If you or your team uses the free version of ChatGPT, you're about to get a newer model and no more daily chat caps, worth checking your account to see if it's landed yet.",
-          "link": "https://www.macrumors.com/2026/08/06/chatgpt-free-unlimited-text-chats/",
-          "source": "MacRumors",
-          "tag": "Product Update",
-          "opportunity": {
-            "video": 3,
-            "social": 4,
-            "community": 5,
-            "act_now": false
-          }
-        },
-        {
-          "headline": "OpenAI Is Deleting Its Original DALL-E Tool From ChatGPT on August 30",
-          "summary": "OpenAI is retiring the original, pre-built DALL-E image generator inside ChatGPT on August 30, 2026. It's not the end of AI images in ChatGPT, the newer \"ChatGPT Images\" tool stays, but anyone who wants to keep images they made with the old DALL-E GPT needs to download them before the cutoff.",
-          "why_it_matters": "If you've ever used ChatGPT to whip up thumbnail concepts or graphics and never saved the originals, set a reminder to download anything you want to keep before the end of the month.",
-          "link": "https://www.tomsguide.com/ai/chatgpt/you-have-until-august-30-to-save-your-chatgpt-dall-e-images-heres-how-to-avoid-losing-them-forever",
-          "source": "Tom's Guide",
+          "headline": "Microsoft Is Shutting Down Copilot's Free \"Deep Research\" Reports on August 18",
+          "summary": "Microsoft is retiring the Deep Research feature in the free, consumer version of Copilot on August 18, 2026. After that date you can't create new Deep Research reports there; the replacement tool, called Researcher, requires a $199.99/year Microsoft 365 Premium subscription. Reports you've already made won't be deleted.",
+          "why_it_matters": "If you've used Copilot's free Deep Research to pull together research for videos, blog posts, or client work, save anything you want to keep to a Word doc before August 18, since the free version goes away after that.",
+          "link": "https://support.microsoft.com/en-us/microsoft-copilot/deep-research-in-microsoft-copilot",
+          "source": "Microsoft Support",
           "tag": "Product Update",
           "opportunity": {
             "video": 2,
             "social": 3,
             "community": 5,
-            "act_now": true,
-            "action_note": "If you've made images with ChatGPT's original DALL-E tool, download the ones you want to keep before August 30, when OpenAI removes it."
+            "act_now": false
           }
         }
       ]
@@ -61,22 +61,37 @@
     {
       "id": "creator-tools",
       "title": "Tools & Tips for Creators and Small Biz",
-      "items": []
+      "items": [
+        {
+          "headline": "Thryv and Wix Are Teaming Up to Bundle Websites, Payments, and Marketing for Small Businesses",
+          "summary": "Thryv (a small-business marketing and management platform) and Wix (the website builder) announced on August 4 that they intend to form a strategic partnership, combining Thryv's marketing tools with Wix's website and payment tools into one connected package aimed at service-based small businesses.",
+          "why_it_matters": "If you run a service business, or help clients who do, and juggle separate tools for your website, bookings, and marketing, this points toward a single bundled option worth watching once the details and pricing land.",
+          "link": "https://www.businesswire.com/news/home/20260804217310/en/Thryv-and-Wix-Announce-Intent-to-Form-Strategic-Partnership-to-Power-SMB-Growth-with-Unified-Commerce-Payments-and-Website-Solutions",
+          "source": "Businesswire",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 3,
+            "social": 3,
+            "community": 6,
+            "act_now": false
+          }
+        }
+      ]
     },
     {
       "id": "content-social",
       "title": "Content & Social Media Pulse",
       "items": [
         {
-          "headline": "X Is Retiring Its Creator Payout Program for a New \"Original Content Rewards\" System",
-          "summary": "X (formerly Twitter) stopped accepting new sign-ups for its Creator Revenue Sharing program on August 7 and will fully retire it on September 7, with final payouts landing around September 11. Starting September 8, current members can apply for the replacement, Original Content Rewards, which X says is meant to reward original posts, videos, and threads rather than just high engagement.",
-          "why_it_matters": "If you earn any money from X's creator payouts, mark your calendar: your current payout structure ends in about a month, and you'll need to actively apply for the new program instead of automatically rolling over.",
-          "link": "https://www.engadget.com/2232981/x-replacing-revenue-sharing-with-original-content-rewards-program/",
-          "source": "Engadget",
+          "headline": "YouTube Is Changing How Channel Memberships Are Priced Outside the US Starting August 17",
+          "summary": "Starting August 17, YouTube will begin applying its own recommended prices for new channel memberships purchased outside the US, adjusting for currency shifts, unless a creator reviews and sets their own pricing first in YouTube Studio. Members who already pay in US dollars, and existing members generally, aren't affected.",
+          "why_it_matters": "If you offer paid channel memberships and have viewers outside the US, check YouTube Studio before August 17 to review or set your own international pricing instead of letting YouTube's automatic recommendations apply.",
+          "link": "https://support.google.com/youtube/answer/15085977",
+          "source": "YouTube Help",
           "tag": "Platform Change",
           "opportunity": {
             "video": 2,
-            "social": 5,
+            "social": 2,
             "community": 4,
             "act_now": false
           }

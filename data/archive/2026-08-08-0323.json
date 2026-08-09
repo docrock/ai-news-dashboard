@@ -1,0 +1,87 @@
+{
+  "generated_at_iso": "2026-08-08T03:23:25-10:00",
+  "generated_label": "Saturday, August 8 · 3:23 AM HST",
+  "edition": "morning",
+  "categories": [
+    {
+      "id": "claude-anthropic",
+      "title": "Claude & Anthropic",
+      "items": [
+        {
+          "headline": "Claude Code Sessions Can Now Message Each Other",
+          "summary": "Anthropic updated Claude Code (its AI coding assistant) so that if you have more than one session running at once, like on different projects or in different terminal windows, they can now automatically pass short text notes to each other instead of you copying and pasting between them.",
+          "why_it_matters": "If you or someone helping you runs multiple Claude Code sessions side by side to build or fix small tools for your channel or business, this saves the manual step of relaying updates between them yourself.",
+          "link": "https://code.claude.com/docs/en/changelog",
+          "source": "Claude Code Changelog",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 2,
+            "social": 2,
+            "community": 3,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "ai-industry",
+      "title": "Wider AI World",
+      "items": [
+        {
+          "headline": "Free ChatGPT Now Defaults to a Newer Model, With Unlimited Text Chats Coming",
+          "summary": "OpenAI switched free ChatGPT accounts over to GPT-5.6 \"Luna\" (its budget-tier model) this week, and starting the week of August 10 those free accounts will also get unlimited text chats plus a new \"Think\" button that gives the AI more time to work through harder questions.",
+          "why_it_matters": "If you or your team uses the free version of ChatGPT, you're about to get a newer model and no more daily chat caps, worth checking your account to see if it's landed yet.",
+          "link": "https://www.macrumors.com/2026/08/06/chatgpt-free-unlimited-text-chats/",
+          "source": "MacRumors",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 3,
+            "social": 4,
+            "community": 5,
+            "act_now": false
+          }
+        },
+        {
+          "headline": "OpenAI Is Deleting Its Original DALL-E Tool From ChatGPT on August 30",
+          "summary": "OpenAI is retiring the original, pre-built DALL-E image generator inside ChatGPT on August 30, 2026. It's not the end of AI images in ChatGPT, the newer \"ChatGPT Images\" tool stays, but anyone who wants to keep images they made with the old DALL-E GPT needs to download them before the cutoff.",
+          "why_it_matters": "If you've ever used ChatGPT to whip up thumbnail concepts or graphics and never saved the originals, set a reminder to download anything you want to keep before the end of the month.",
+          "link": "https://www.tomsguide.com/ai/chatgpt/you-have-until-august-30-to-save-your-chatgpt-dall-e-images-heres-how-to-avoid-losing-them-forever",
+          "source": "Tom's Guide",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 2,
+            "social": 3,
+            "community": 5,
+            "act_now": true,
+            "action_note": "If you've made images with ChatGPT's original DALL-E tool, download the ones you want to keep before August 30, when OpenAI removes it."
+          }
+        }
+      ]
+    },
+    {
+      "id": "creator-tools",
+      "title": "Tools & Tips for Creators and Small Biz",
+      "items": []
+    },
+    {
+      "id": "content-social",
+      "title": "Content & Social Media Pulse",
+      "items": [
+        {
+          "headline": "X Is Retiring Its Creator Payout Program for a New \"Original Content Rewards\" System",
+          "summary": "X (formerly Twitter) stopped accepting new sign-ups for its Creator Revenue Sharing program on August 7 and will fully retire it on September 7, with final payouts landing around September 11. Starting September 8, current members can apply for the replacement, Original Content Rewards, which X says is meant to reward original posts, videos, and threads rather than just high engagement.",
+          "why_it_matters": "If you earn any money from X's creator payouts, mark your calendar: your current payout structure ends in about a month, and you'll need to actively apply for the new program instead of automatically rolling over.",
+          "link": "https://www.engadget.com/2232981/x-replacing-revenue-sharing-with-original-content-rewards-program/",
+          "source": "Engadget",
+          "tag": "Platform Change",
+          "opportunity": {
+            "video": 2,
+            "social": 5,
+            "community": 4,
+            "act_now": false
+          }
+        }
+      ]
+    }
+  ]
+}
