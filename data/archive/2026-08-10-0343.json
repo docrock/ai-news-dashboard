@@ -1,0 +1,103 @@
+{
+  "generated_at_iso": "2026-08-10T03:43:17-10:00",
+  "generated_label": "Monday, August 10 · 3:43 AM HST",
+  "edition": "morning",
+  "categories": [
+    {
+      "id": "claude-anthropic",
+      "title": "Claude & Anthropic",
+      "items": []
+    },
+    {
+      "id": "ai-industry",
+      "title": "Wider AI World",
+      "items": [
+        {
+          "headline": "OpenAI Buys Presentation Startup NextSlide to Bring Slide-Making Into ChatGPT",
+          "summary": "OpenAI has acquired NextSlide, a startup whose tool turns your notes, prompts, or documents into a polished, editable slide deck, and is folding its small team into ChatGPT development. Financial terms weren't disclosed.",
+          "why_it_matters": "If you've ever wrestled with PowerPoint to turn scattered notes into a client pitch, workshop deck, or sponsor one-pager, this is a sign ChatGPT may soon do that formatting work for you directly, one less app to juggle.",
+          "link": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/",
+          "source": "TechCrunch",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 3,
+            "social": 5,
+            "community": 3,
+            "act_now": false
+          }
+        },
+        {
+          "headline": "Zuckerberg Pledges Free AI Tools for 'Everyone,' Meta Ships a New Open Model",
+          "summary": "Mark Zuckerberg published a lengthy essay this week promising Meta will offer free or low-cost, capable AI tools to billions of people, and backed it with a new downloadable AI model called Muse Glimmer that can run on a single laptop GPU.",
+          "why_it_matters": "When a company as big as Meta commits to giving away powerful AI tools instead of locking them behind high price tags, it tends to push competitors, and the free tiers of tools you already use, in the same direction, even if you never touch the technical model yourself.",
+          "link": "https://www.cnbc.com/2026/08/10/meta-muse-glimmer-open-weight-ai.html",
+          "source": "CNBC",
+          "tag": "Opinion/Analysis",
+          "opportunity": {
+            "video": 2,
+            "social": 5,
+            "community": 2,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "creator-tools",
+      "title": "Tools & Tips for Creators and Small Biz",
+      "items": [
+        {
+          "headline": "Google Rolls Out Gemini Business Tools Worldwide, Powered by Your Google Business Profile",
+          "summary": "Google confirmed this week that connecting your Google Business Profile to the Gemini app, so it can read your reviews, customer questions, and performance stats, and even draft review replies, is now live worldwide on desktop and mobile (the EU and UK aren't included yet).",
+          "why_it_matters": "If you or your viewers run a local business or shop, this is a free way to get an AI assistant that already knows your Google listing, drafting review responses and flagging things like missing holiday hours instead of you re-explaining your business from scratch.",
+          "link": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-features-for-businesses/",
+          "source": "Google (official blog)",
+          "tag": "Platform Change",
+          "opportunity": {
+            "video": 6,
+            "social": 5,
+            "community": 8,
+            "act_now": false,
+            "angle": "I connected my Google Business Profile to Gemini so you don't have to, here's what it actually does"
+          }
+        },
+        {
+          "headline": "Descript's August Update Lets You Draw on a Photo to Fix It, Smooths Out Jump Cuts",
+          "summary": "Descript's latest release adds AI image editing where you draw over the part of an image or thumbnail you want changed and describe the fix in plain words (like \"remove the coffee cup\"), plus a rebuilt, less jarring auto jump-cut tool and filler-word removal in four more languages.",
+          "why_it_matters": "This is point, circle, and describe editing instead of Photoshop-style masking, useful for solo creators who need to quickly fix a YouTube thumbnail or smooth out a choppy talking-head cut without learning a new skill.",
+          "link": "https://feedback.descript.com/changelog",
+          "source": "Descript (official changelog)",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 7,
+            "social": 5,
+            "community": 7,
+            "act_now": true,
+            "action_note": "Open Descript this week and test the new draw-to-fix tool on a video thumbnail to see if it saves you a trip to Photoshop or Canva.",
+            "angle": "I tried Descript's new draw-to-fix AI editor on a real thumbnail"
+          }
+        }
+      ]
+    },
+    {
+      "id": "content-social",
+      "title": "Content & Social Media Pulse",
+      "items": [
+        {
+          "headline": "X Retires Creator Revenue Sharing, Launches 'Original Content Rewards' Instead",
+          "summary": "X (formerly Twitter) is shutting down its old ad-revenue-sharing payouts for creators and replacing it with a new \"Original Content Rewards\" program that pays based on views of genuinely original posts, photos, and videos rather than overall engagement. New sign-ups for the old program stopped immediately; current members get paid through September 7 and can apply for the new program starting September 8.",
+          "why_it_matters": "If you post on X to promote your business, don't count on the old-style ad-share payouts going forward, X says the old system rewarded engagement bait and recycled content, so the new program pays for posting your own original photos, videos, and commentary instead.",
+          "link": "https://techcrunch.com/2026/08/08/x-replaces-misaligned-revenue-sharing-program-with-original-content-rewards/",
+          "source": "TechCrunch",
+          "tag": "Monetization",
+          "opportunity": {
+            "video": 2,
+            "social": 6,
+            "community": 3,
+            "act_now": false
+          }
+        }
+      ]
+    }
+  ]
+}
