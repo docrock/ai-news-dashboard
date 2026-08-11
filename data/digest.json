@@ -1,42 +1,88 @@
 {
-  "generated_at_iso": "2026-08-10T03:43:17-10:00",
-  "generated_label": "Monday, August 10 · 3:43 AM HST",
+  "generated_at_iso": "2026-08-11T03:43:51-10:00",
+  "generated_label": "Tuesday, August 11 · 3:43 AM HST",
   "edition": "morning",
   "categories": [
     {
       "id": "claude-anthropic",
       "title": "Claude & Anthropic",
-      "items": []
+      "items": [
+        {
+          "headline": "An Unreleased Claude Made Real Progress on a 160-Year-Old Math Mystery",
+          "summary": "Anthropic had an experimental, not-yet-released version of Claude take a swing at the Riemann Hypothesis, one of math's most famous unsolved problems (there's a $1 million prize for solving it). Claude didn't solve it, but it did raise a related proven bound from 41.6% to 67.2%, the biggest single jump on that number in history, working with a swarm of about 60 AI \"helper\" copies over 36 hours. Two Anthropic mathematicians checked the work.",
+          "why_it_matters": "This isn't really about the math, it's a preview of how much heavier lifting Claude can now do on genuinely hard problems, not just writing emails or scripts. That kind of reasoning power tends to trickle down into the everyday Claude you use for research, outlines, and problem-solving.",
+          "link": "https://www.anthropic.com/research/riemann-zeta",
+          "source": "Anthropic (official research page)",
+          "tag": "Research",
+          "opportunity": {
+            "video": 5,
+            "social": 7,
+            "community": 3,
+            "act_now": false,
+            "angle": "Claude just moved the needle on a problem that's stumped mathematicians for 160 years, here's what that means for the rest of us"
+          }
+        },
+        {
+          "headline": "Claude Code Turns On 'Auto Mode' By Default Starting August 14",
+          "summary": "Starting August 14, new Claude Code sessions on Pro, Max, and Team plans will run in \"auto mode\" by default, meaning Claude works through tasks on its own and only stops to ask permission for actions it judges risky, destructive, or reaching outside your project. If you've already set your own default (asking every time, for example), that choice stays put. Enterprise, the API, and cloud platforms like AWS Bedrock stay opt-in for now.",
+          "why_it_matters": "If you or anyone helping you uses Claude Code to build or tweak your website, tools, or scripts, this changes how much Claude does without checking with you first, starting next week. Worth a two-minute look at your settings now so you're not surprised.",
+          "link": "https://claude.com/blog/auto-mode-default-in-claude-code",
+          "source": "Anthropic (official blog)",
+          "tag": "Platform Change",
+          "opportunity": {
+            "video": 6,
+            "social": 5,
+            "community": 7,
+            "act_now": true,
+            "action_note": "Before August 14, open Claude Code's settings and either confirm you're fine with auto mode running tasks on its own, or pin your preferred approval setting if you'd rather approve every step.",
+            "angle": "Claude Code is about to start doing more without asking, here's how to check your settings before it flips on you"
+          }
+        },
+        {
+          "headline": "Anthropic Partners with Macquarie and GIC to Build Its Own Data Centers",
+          "summary": "Anthropic announced a new venture called Theseus Infrastructure with investment giants Macquarie Asset Management and Singapore's GIC, who will fund and build data centers that Anthropic leases long-term to power Claude. Notably, Anthropic says it will cover any electricity price increases or grid upgrade costs these sites might otherwise pass on to regular consumers nearby.",
+          "why_it_matters": "This is a behind-the-scenes money and infrastructure story, not something that changes your Claude subscription today. But it's a sign Anthropic is betting billions on having enough computing power to keep Claude running and improving for years, and it's making a specific promise not to spike your neighbors' power bills to do it.",
+          "link": "https://www.macquarie.com/au/en/about/news/2026/anthropic-mam-gic-data-centre-infrastructure-partnership.html",
+          "source": "Macquarie Group (official announcement)",
+          "tag": "Partnership",
+          "opportunity": {
+            "video": 2,
+            "social": 3,
+            "community": 2,
+            "act_now": false
+          }
+        }
+      ]
     },
     {
       "id": "ai-industry",
       "title": "Wider AI World",
       "items": [
         {
-          "headline": "OpenAI Buys Presentation Startup NextSlide to Bring Slide-Making Into ChatGPT",
-          "summary": "OpenAI has acquired NextSlide, a startup whose tool turns your notes, prompts, or documents into a polished, editable slide deck, and is folding its small team into ChatGPT development. Financial terms weren't disclosed.",
-          "why_it_matters": "If you've ever wrestled with PowerPoint to turn scattered notes into a client pitch, workshop deck, or sponsor one-pager, this is a sign ChatGPT may soon do that formatting work for you directly, one less app to juggle.",
-          "link": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/",
-          "source": "TechCrunch",
+          "headline": "You Can Now Book a Restaurant Table Straight from ChatGPT",
+          "summary": "Yelp, OpenTable, and Resy all now let ChatGPT users search for a table by time, party size, or vibe and actually book it, or join the waitlist, without leaving the chat. Yelp's slice covers thousands of restaurants across the US and Canada; OpenTable's works worldwide. The catch: on the Yelp side, it only works at restaurants using Yelp's own reservation software, so which booking system a restaurant uses now decides whether ChatGPT can send it customers at all.",
+          "why_it_matters": "If you run a restaurant, cafe, or any business that takes reservations, this is a brand-new \"front door\" customers may start using instead of calling or opening an app, and it's worth checking whether your reservation system is one of the ones plugged in.",
+          "link": "https://blog.yelp.com/news/yelp-chatgpt-integration/",
+          "source": "Yelp (official blog)",
           "tag": "Product Update",
           "opportunity": {
-            "video": 3,
-            "social": 5,
-            "community": 3,
+            "video": 4,
+            "social": 6,
+            "community": 6,
             "act_now": false
           }
         },
         {
-          "headline": "Zuckerberg Pledges Free AI Tools for 'Everyone,' Meta Ships a New Open Model",
-          "summary": "Mark Zuckerberg published a lengthy essay this week promising Meta will offer free or low-cost, capable AI tools to billions of people, and backed it with a new downloadable AI model called Muse Glimmer that can run on a single laptop GPU.",
-          "why_it_matters": "When a company as big as Meta commits to giving away powerful AI tools instead of locking them behind high price tags, it tends to push competitors, and the free tiers of tools you already use, in the same direction, even if you never touch the technical model yourself.",
-          "link": "https://www.cnbc.com/2026/08/10/meta-muse-glimmer-open-weight-ai.html",
-          "source": "CNBC",
-          "tag": "Opinion/Analysis",
+          "headline": "OpenAI Adds a $125/Month 'Premium' Seat to ChatGPT Business",
+          "summary": "OpenAI launched a new Premium seat for ChatGPT Business teams at $125 per user per month ($100/month if you pay yearly), on top of the existing $25/month Standard seat. Premium removes the usual 5-hour usage cap and gives roughly 5 times more usage, and you can mix both seat types on the same team. Workspaces that sign up before August 20, 2026 can get up to $500 in credits.",
+          "why_it_matters": "If you or your team uses a paid ChatGPT Business plan, this is a heads-up that OpenAI is nudging heavy users toward a pricier tier rather than raising the base price for everyone, so it's worth checking your workspace settings before someone on your team gets auto-suggested an upgrade you don't need.",
+          "link": "https://openai.com/index/premium-seats-chatgpt-business/",
+          "source": "OpenAI (official blog)",
+          "tag": "Pricing",
           "opportunity": {
-            "video": 2,
-            "social": 5,
-            "community": 2,
+            "video": 3,
+            "social": 4,
+            "community": 6,
             "act_now": false
           }
         }
@@ -47,34 +93,18 @@
       "title": "Tools & Tips for Creators and Small Biz",
       "items": [
         {
-          "headline": "Google Rolls Out Gemini Business Tools Worldwide, Powered by Your Google Business Profile",
-          "summary": "Google confirmed this week that connecting your Google Business Profile to the Gemini app, so it can read your reviews, customer questions, and performance stats, and even draft review replies, is now live worldwide on desktop and mobile (the EU and UK aren't included yet).",
-          "why_it_matters": "If you or your viewers run a local business or shop, this is a free way to get an AI assistant that already knows your Google listing, drafting review responses and flagging things like missing holiday hours instead of you re-explaining your business from scratch.",
-          "link": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-features-for-businesses/",
-          "source": "Google (official blog)",
-          "tag": "Platform Change",
-          "opportunity": {
-            "video": 6,
-            "social": 5,
-            "community": 8,
-            "act_now": false,
-            "angle": "I connected my Google Business Profile to Gemini so you don't have to, here's what it actually does"
-          }
-        },
-        {
-          "headline": "Descript's August Update Lets You Draw on a Photo to Fix It, Smooths Out Jump Cuts",
-          "summary": "Descript's latest release adds AI image editing where you draw over the part of an image or thumbnail you want changed and describe the fix in plain words (like \"remove the coffee cup\"), plus a rebuilt, less jarring auto jump-cut tool and filler-word removal in four more languages.",
-          "why_it_matters": "This is point, circle, and describe editing instead of Photoshop-style masking, useful for solo creators who need to quickly fix a YouTube thumbnail or smooth out a choppy talking-head cut without learning a new skill.",
-          "link": "https://feedback.descript.com/changelog",
-          "source": "Descript (official changelog)",
+          "headline": "CapCut's Free Design Studio Gets One-Click AI \"Skills\" and a Sharper Image Generator",
+          "summary": "CapCut's free, browser-based Design Studio added a new \"Skills\" system that turns repeat design tasks (like resizing a set of graphics or applying your brand colors) into one-click AI shortcuts, plus a stronger AI image generator called Seedream 5.0 Pro for making logos, posters, and product photos just by describing what you want.",
+          "why_it_matters": "If you make your own thumbnails, promo graphics, or product photos, this is a free tool, no download or design background needed, that can produce polished, on-brand visuals without hiring a designer. CapCut is specifically pitching the image generator at small businesses for DIY product shots.",
+          "link": "https://www.globenewswire.com/news-release/2026/08/10/3341889/0/en/capcut-design-studio-levels-up-new-skills-ecosystem-and-seedream-5-0-pro-model-bring-pro-grade-ai-design-to-everyone.html",
+          "source": "CapCut (press release)",
           "tag": "Product Update",
           "opportunity": {
             "video": 7,
             "social": 5,
-            "community": 7,
-            "act_now": true,
-            "action_note": "Open Descript this week and test the new draw-to-fix tool on a video thumbnail to see if it saves you a trip to Photoshop or Canva.",
-            "angle": "I tried Descript's new draw-to-fix AI editor on a real thumbnail"
+            "community": 8,
+            "act_now": false,
+            "angle": "I tested CapCut's brand new free AI design tool making my own Doc Popps product shots, here's what actually worked"
           }
         }
       ]
@@ -84,17 +114,18 @@
       "title": "Content & Social Media Pulse",
       "items": [
         {
-          "headline": "X Retires Creator Revenue Sharing, Launches 'Original Content Rewards' Instead",
-          "summary": "X (formerly Twitter) is shutting down its old ad-revenue-sharing payouts for creators and replacing it with a new \"Original Content Rewards\" program that pays based on views of genuinely original posts, photos, and videos rather than overall engagement. New sign-ups for the old program stopped immediately; current members get paid through September 7 and can apply for the new program starting September 8.",
-          "why_it_matters": "If you post on X to promote your business, don't count on the old-style ad-share payouts going forward, X says the old system rewarded engagement bait and recycled content, so the new program pays for posting your own original photos, videos, and commentary instead.",
-          "link": "https://techcrunch.com/2026/08/08/x-replaces-misaligned-revenue-sharing-program-with-original-content-rewards/",
-          "source": "TechCrunch",
+          "headline": "YouTube Doubles the Bar for New Channels to Start Earning Money",
+          "summary": "Starting February 1, 2027, new channels applying to the YouTube Partner Program (the system that turns on ads and other payouts) will need 8,000 watch hours in the past year, double today's 4,000-hour requirement, or 20 million Shorts views in the past 90 days, up from 10 million. The 1,000-subscriber requirement isn't changing. If you're already accepted into the program, you keep your status, but you'll need to review and accept updated terms in YouTube Studio by January 31, 2027.",
+          "why_it_matters": "If you're starting a new channel, or helping a friend, family member, or client launch one, the bar to get paid just got a lot higher, so it's worth knowing the new numbers now rather than getting surprised in 2027. Since Doc's channel is already monetized, today's news doesn't change anything for it directly, just remember to accept the updated terms in Studio before the January 2027 deadline.",
+          "link": "https://blog.youtube/news-and-events/youtube-partner-program-updates-2027-new-opportunities-earn/",
+          "source": "YouTube (official Creator Blog)",
           "tag": "Monetization",
           "opportunity": {
-            "video": 2,
-            "social": 6,
-            "community": 3,
-            "act_now": false
+            "video": 6,
+            "social": 7,
+            "community": 7,
+            "act_now": false,
+            "angle": "YouTube just doubled the bar to get paid, here's what new creators need to know before Feb 2027"
           }
         }
       ]
