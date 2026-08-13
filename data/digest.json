@@ -1,6 +1,6 @@
 {
-  "generated_at_iso": "2026-08-12T03:37:25-10:00",
-  "generated_label": "Wednesday, August 12 · 3:37 AM HST",
+  "generated_at_iso": "2026-08-13T03:33:22-10:00",
+  "generated_label": "Thursday, August 13 · 3:33 AM HST",
   "edition": "morning",
   "categories": [
     {
@@ -8,62 +8,31 @@
       "title": "Claude & Anthropic",
       "items": [
         {
-          "headline": "Anthropic Cancels Sonnet 5's Price Hike, Makes Intro Pricing Permanent",
-          "summary": "Anthropic had planned to raise Claude Sonnet 5's per-token price by 50% on September 1. On August 11 it reversed course, announcing the launch price ($2 per million input tokens, $10 per million output tokens) is now permanent instead of expiring.",
-          "why_it_matters": "If you or your editor use Claude or Claude Code for writing, research, or coding help, your per-token cost isn't going up next month after all, one less price hike to budget around.",
-          "link": "https://x.com/claudeai/status/2086891169217122586",
-          "source": "Anthropic (official)",
-          "tag": "Pricing",
-          "opportunity": {
-            "video": 3,
-            "social": 6,
-            "community": 7,
-            "act_now": false,
-            "angle": "Anthropic just canceled a price hike on Sonnet 5, here's what that means for your AI budget"
-          }
-        },
-        {
-          "headline": "Claude Code Stops Asking Permission by Default Starting August 14",
-          "summary": "Anthropic confirmed that starting August 14, new Claude Code sessions on Pro, Max, and Team plans will run in \"auto mode\" by default, letting Claude act without approving every step. A safety classifier screens each action and blocks anything irreversible or destructive; in testing it caught 89% of risky commands versus roughly 14% for manual human review.",
-          "why_it_matters": "If you use Claude Code for editing scripts, website tweaks, or automations, it will start acting more independently on its own this Friday, worth deciding now whether you want that or want to pin the old \"ask me first\" behavior.",
-          "link": "https://claude.com/blog/auto-mode-default-in-claude-code",
+          "headline": "Claude in Chrome Becomes a Full \"Cowork\" Session That Can Act on Any Page",
+          "summary": "Anthropic turned the Claude in Chrome side panel into a complete Cowork session. Claude can now see whatever page you're on and take real actions in it, like clicking links, filling out forms, and moving between tabs, using your existing logins, and a task you start in the browser saves to your history so you can pick it back up on desktop, web, or mobile.",
+          "why_it_matters": "If you already use Claude in Chrome as a simple sidebar chat, this turns it into an assistant that can actually do multi-step busywork for you, like pulling info from several vendor or client tabs into one document, without you starting over on another device.",
+          "link": "https://claude.com/blog/cowork-chrome-side-panel",
           "source": "Claude by Anthropic (official blog)",
-          "tag": "Product Update",
-          "opportunity": {
-            "video": 6,
-            "social": 6,
-            "community": 6,
-            "act_now": true,
-            "action_note": "Before August 14, open Claude Code's permission settings and decide whether to keep auto mode on or pin your current approval mode, since new sessions on Pro, Max, and Team plans switch over automatically that day.",
-            "angle": "Claude Code stops asking permission Aug 14, I tested what it will and won't do without you"
-          }
-        },
-        {
-          "headline": "Anthropic Launches Claude Design, an AI Tool for Slides, Decks, and Prototypes",
-          "summary": "Anthropic Labs released Claude Design in research preview for Pro, Max, Team, and Enterprise subscribers. You describe what you need, like a thumbnail concept, a sponsor one-pager, or a pitch deck, and Claude builds a first version you refine through chat, comments, or direct edits.",
-          "why_it_matters": "This is a plain-language way to go from a rough idea to a finished slide, one-pager, or marketing graphic without opening Canva or Photoshop, useful for sponsor decks, workshop handouts, or channel-branded visuals.",
-          "link": "https://www.anthropic.com/news/claude-design-anthropic-labs",
-          "source": "Anthropic (official)",
           "tag": "Product Update",
           "opportunity": {
             "video": 7,
             "social": 6,
-            "community": 8,
+            "community": 7,
             "act_now": false,
-            "angle": "I tried Anthropic's new AI design tool to make a YouTube thumbnail and a sponsor deck"
+            "angle": "I let Claude's new Chrome sidebar handle a real browser chore, here's what it could and couldn't do"
           }
         },
         {
-          "headline": "Claude Will Start Invisibly Watermarking AI-Generated Text and Images",
-          "summary": "Anthropic announced it will embed machine-readable, invisible watermarks into text and images generated by new Claude models, plus signed \"provenance\" data on generated files, to comply with EU transparency rules that took effect August 2. The marks apply worldwide, not just to EU users, though Anthropic notes edits, screenshots, or format conversion can strip them.",
-          "why_it_matters": "If you or your viewers use Claude to help draft scripts, thumbnails, or graphics, this is a heads-up that some AI-assisted content may now carry an invisible \"made with AI\" tag, worth knowing before a platform or client asks.",
-          "link": "https://techcrunch.com/2026/08/11/anthropic-says-it-will-watermark-text-generated-by-its-ai-models/",
+          "headline": "Some Claude Users Are Upset Its New Invisible Watermark Could Flag Them",
+          "summary": "A day after Anthropic confirmed Claude will invisibly watermark AI-generated text and images, users are pushing back, worried employers or schools could use the mark as proof they used AI, even for something as small as a light proofreading pass. Anthropic says the mark only shows text \"may have been processed by Claude,\" not that it was fully AI-written.",
+          "why_it_matters": "If you use Claude to draft or polish scripts, emails, or show notes, know that a watermark could flag that work as AI-touched even for minor help, worth understanding before you hand something to a client, school, or employer who might object.",
+          "link": "https://techcrunch.com/2026/08/12/some-claude-users-are-mad-that-anthropics-new-watermarks-will-catch-them-cheating-at-their-jobs-classes/",
           "source": "TechCrunch",
-          "tag": "Policy",
+          "tag": "Opinion/Analysis",
           "opportunity": {
-            "video": 3,
-            "social": 5,
-            "community": 4,
+            "video": 4,
+            "social": 6,
+            "community": 5,
             "act_now": false
           }
         }
@@ -74,29 +43,29 @@
       "title": "Wider AI World",
       "items": [
         {
-          "headline": "ChatGPT's Free Tier Gets a Smarter Model and Unlimited Text Chats",
-          "summary": "OpenAI is rolling out GPT-5.6 Luna as the new default model for ChatGPT's Free and Go tiers, replacing GPT-5.5, and removing the cap on everyday text chats (separate limits still apply to file uploads, images, and voice). OpenAI says the new model cuts factual errors 62% compared to the old free model.",
-          "why_it_matters": "If you or people you recommend AI to use the free version of ChatGPT, it just got noticeably more capable and less limited, worth another look if you wrote it off before as too restricted.",
-          "link": "https://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users/",
-          "source": "TechCrunch",
+          "headline": "xAI Releases Grok 4.6, Its New Flagship Model for Bigger, Longer Tasks",
+          "summary": "Elon Musk's xAI released Grok 4.6 on August 12, a new flagship model built to handle longer, more complex multi-step work and better visual tasks. It's available through Grok's apps, the Cursor code editor, and via API, with xAI offering double the usual free usage during launch week.",
+          "why_it_matters": "This is the same Grok that just got an agent (\"Grok Bot\") able to complete tasks on its own, so if you or your viewers use X or Grok, expect the assistant to handle noticeably bigger jobs starting now, part of the broader shift from chatbots to AI that does things for you.",
+          "link": "https://venturebeat.com/technology/spacexai-debuts-grok-4-6-overtaking-kimi-k3s-performance-and-matching-gpt-5-6-sol-for-worlds-third-best-on-artificial-analysis",
+          "source": "VentureBeat",
           "tag": "Product Update",
           "opportunity": {
             "video": 3,
-            "social": 6,
-            "community": 5,
+            "social": 5,
+            "community": 3,
             "act_now": false
           }
         },
         {
-          "headline": "Elon Musk's xAI Launches 'Grok Bot,' an AI Agent That Handles Work Tasks",
-          "summary": "xAI opened a public beta of Grok Bot on August 11, an AI agent that can log into apps and websites, complete multi-step tasks, and remember context from earlier work. Musk says a wider rollout is coming alongside Grok 4.6 later this week.",
-          "why_it_matters": "This is another sign AI tools are moving from \"answer my question\" chatbots toward assistants that actually do tasks for you online, part of a bigger shift worth watching even if you don't use Grok specifically.",
-          "link": "https://www.bloomberg.com/news/articles/2026-08-11/spacexai-unveils-grok-bot-to-work-like-a-team-of-ai-agents",
-          "source": "Bloomberg",
+          "headline": "Google's Gemini App Passes 1 Billion Monthly Users",
+          "summary": "Google announced the Gemini app now has more than 1 billion monthly active users as of August 11, calling it the fastest-growing product in the company's history. It jumped from about 400 million users in May 2025 to over 1 billion in just over a year, with most people now talking to it by voice.",
+          "why_it_matters": "AI chat assistants have gone fully mainstream: a billion people are already using Gemini, which is free and built right into Gmail, Search, and Docs, so if you've been putting off trying it, this is a nudge to see what it can do for research or quick drafts.",
+          "link": "https://blog.google/innovation-and-ai/products/gemini-app/one-billion-monthly-users/",
+          "source": "Google (official blog)",
           "tag": "Product Update",
           "opportunity": {
-            "video": 4,
-            "social": 6,
+            "video": 3,
+            "social": 5,
             "community": 3,
             "act_now": false
           }
@@ -106,69 +75,39 @@
     {
       "id": "creator-tools",
       "title": "Tools & Tips for Creators and Small Biz",
-      "items": [
-        {
-          "headline": "Runway Retires Its Unlimited Plan, Auto-Switches Subscribers to a New Max Tier",
-          "summary": "Runway's Unlimited AI video plan stays active through August 31, and on September 1 monthly subscribers automatically move to a renamed \"Max\" plan at the same $95/month price with a raised credit allowance (9,500, up from 6,750), though the old plan's uncapped low-priority generation queue goes away. Annual subscribers can switch to Max or request a refund for remaining months.",
-          "why_it_matters": "If you or anyone in the community pays for Runway to generate AI video clips, your plan is changing automatically next month, worth checking the email Runway sent so there are no surprises on your next bill.",
-          "link": "https://help.runwayml.com/hc/en-us/articles/52068047744019-Unlimited-plan-is-switching-to-Max",
-          "source": "Runway (official help center)",
-          "tag": "Pricing",
-          "opportunity": {
-            "video": 4,
-            "social": 3,
-            "community": 5,
-            "act_now": true,
-            "action_note": "If you're on Runway's Unlimited plan, check the email Runway sent you and decide whether to move to the new Max plan or request a refund before the September 1 switchover."
-          }
-        },
-        {
-          "headline": "CapCut's Design Studio 2.0 Turns One Product Photo Into a Full Set of Marketing Visuals",
-          "summary": "CapCut's Design Studio 2.0 lets you feed in a single product or reference photo and get back multiple editable visual directions, using an \"Infinite AI Canvas,\" plain-language prompting, and 20 free AI generations a day, aimed at online sellers who need product photos and ads without a photo studio.",
-          "why_it_matters": "If you or your viewers sell physical products online, this is a free way to turn one phone photo into several polished listing or ad images without hiring a photographer or learning Photoshop.",
-          "link": "https://www.capcut.com/resource/capcut-design-studio",
-          "source": "CapCut (official)",
-          "tag": "Product Update",
-          "opportunity": {
-            "video": 5,
-            "social": 4,
-            "community": 6,
-            "act_now": false
-          }
-        }
-      ]
+      "items": []
     },
     {
       "id": "content-social",
       "title": "Content & Social Media Pulse",
       "items": [
         {
-          "headline": "YouTube Doubles the Watch-Hour Bar to Start Earning Ad Money",
-          "summary": "YouTube announced on August 10 that starting February 1, 2027, new applicants to the YouTube Partner Program will need 8,000 qualified watch hours over the past year (or 20 million qualified Shorts views over 90 days) to start earning ad revenue, double the current 4,000 hours / 10 million views. The 1,000-subscriber requirement stays the same, and existing partners are grandfathered in.",
-          "why_it_matters": "If you're building toward monetization, or know someone who is, the bar to get in is about to double, so it pays to start racking up genuine watch hours or Shorts views well before the February 2027 cutoff rather than waiting.",
-          "link": "https://techcrunch.com/2026/08/10/youtube-now-requires-creators-to-have-twice-as-many-watch-hours-to-start-earning-money/",
+          "headline": "Twitch Will Train Amazon's AI on Your Streams Unless You Opt Out",
+          "summary": "Twitch announced on August 12 that it will use streamers' videos, clips, chat, and images to train Amazon's generative AI models by default, effective immediately. Streamers can turn it off under Settings > Security and Privacy > \"Training for Generative AI,\" but the setting is opt-out, not opt-in, so anyone who does nothing is automatically included.",
+          "why_it_matters": "If you or anyone in the community streams on Twitch, your video and voice are being used to train Amazon's AI models unless you go in and manually turn that off, worth checking the setting today if you'd rather not participate.",
+          "link": "https://techcrunch.com/2026/08/12/amazon-will-train-on-twitch-streamers-content-by-default-unless-they-opt-out/",
           "source": "TechCrunch",
           "tag": "Platform Change",
           "opportunity": {
-            "video": 6,
-            "social": 7,
-            "community": 8,
+            "video": 3,
+            "social": 6,
+            "community": 7,
             "act_now": true,
-            "action_note": "If you or someone in the community is working toward YouTube Partner Program eligibility, start banking watch hours and Shorts views now, since the requirement doubles for anyone applying after February 1, 2027.",
-            "angle": "YouTube just doubled the bar to get monetized, here's what new creators need to know"
+            "action_note": "If you or anyone in the community streams on Twitch, open Settings > Security and Privacy today and turn off \"Training for Generative AI,\" since it's on by default.",
+            "angle": "Twitch is training Amazon's AI on your streams by default, here's the 10-second opt-out"
           }
         },
         {
-          "headline": "YouTube's Paid Creator Music Licenses Are Gone as of August 10",
-          "summary": "As planned, YouTube phased out paid music licenses in Creator Music on August 10. Licenses already applied to videos stay valid until they expire, and any unused purchased licenses were automatically refunded. Going forward, Creator Music only offers free tracks and revenue-share tracks set by the rights holder.",
-          "why_it_matters": "If you used to pay for a specific song through YouTube's built-in music library, that option is gone now, you'll need to pick from free or revenue-share tracks instead, or license music outside YouTube if you need something specific.",
-          "link": "https://support.google.com/youtube/answer/11610212?hl=en",
-          "source": "YouTube Help (official)",
-          "tag": "Platform Change",
+          "headline": "Facebook Launches a Standalone Creator Studio App With a Built-In AI Coach",
+          "summary": "Facebook officially rolled out its standalone Creator Studio app (iOS, currently US and Canada) with an AI assistant built in. It gives creators personalized tips on when to post and how their content is performing, and can draft comment replies in the creator's own tone for them to review and approve before posting.",
+          "why_it_matters": "If you post on Facebook, this is a free coach in your pocket that answers questions like \"when should I post\" and \"what are people saying in my comments,\" and can save time on comment replies without you writing every one from scratch.",
+          "link": "https://techcrunch.com/2026/08/12/facebook-officially-rolls-out-its-standalone-creator-studio-app-with-ai-tools-for-creators/",
+          "source": "TechCrunch",
+          "tag": "Product Update",
           "opportunity": {
-            "video": 3,
-            "social": 4,
-            "community": 5,
+            "video": 4,
+            "social": 5,
+            "community": 6,
             "act_now": false
           }
         }

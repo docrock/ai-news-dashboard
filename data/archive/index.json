@@ -1,5 +1,9 @@
 [
   {
+    "file": "data/archive/2026-08-12-0337.json",
+    "label": "Wed Aug 12 · 3:37 AM HST"
+  },
+  {
     "file": "data/archive/2026-08-10-0343.json",
     "label": "Mon Aug 10 · 3:43 AM HST"
   },
@@ -114,10 +118,5 @@
   {
     "file": "data/archive/2026-07-12-0314.json",
     "label": "Sun Jul 12 · 3:14 AM HST"
-  },
-  {
-    "file": "data/archive/2026-07-11-0318.json",
-    "label": "Sat Jul 11 · 3:18 AM HST"
   }
 ]
-
