@@ -1,0 +1,117 @@
+{
+  "generated_at_iso": "2026-08-13T03:33:22-10:00",
+  "generated_label": "Thursday, August 13 · 3:33 AM HST",
+  "edition": "morning",
+  "categories": [
+    {
+      "id": "claude-anthropic",
+      "title": "Claude & Anthropic",
+      "items": [
+        {
+          "headline": "Claude in Chrome Becomes a Full \"Cowork\" Session That Can Act on Any Page",
+          "summary": "Anthropic turned the Claude in Chrome side panel into a complete Cowork session. Claude can now see whatever page you're on and take real actions in it, like clicking links, filling out forms, and moving between tabs, using your existing logins, and a task you start in the browser saves to your history so you can pick it back up on desktop, web, or mobile.",
+          "why_it_matters": "If you already use Claude in Chrome as a simple sidebar chat, this turns it into an assistant that can actually do multi-step busywork for you, like pulling info from several vendor or client tabs into one document, without you starting over on another device.",
+          "link": "https://claude.com/blog/cowork-chrome-side-panel",
+          "source": "Claude by Anthropic (official blog)",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 7,
+            "social": 6,
+            "community": 7,
+            "act_now": false,
+            "angle": "I let Claude's new Chrome sidebar handle a real browser chore, here's what it could and couldn't do"
+          }
+        },
+        {
+          "headline": "Some Claude Users Are Upset Its New Invisible Watermark Could Flag Them",
+          "summary": "A day after Anthropic confirmed Claude will invisibly watermark AI-generated text and images, users are pushing back, worried employers or schools could use the mark as proof they used AI, even for something as small as a light proofreading pass. Anthropic says the mark only shows text \"may have been processed by Claude,\" not that it was fully AI-written.",
+          "why_it_matters": "If you use Claude to draft or polish scripts, emails, or show notes, know that a watermark could flag that work as AI-touched even for minor help, worth understanding before you hand something to a client, school, or employer who might object.",
+          "link": "https://techcrunch.com/2026/08/12/some-claude-users-are-mad-that-anthropics-new-watermarks-will-catch-them-cheating-at-their-jobs-classes/",
+          "source": "TechCrunch",
+          "tag": "Opinion/Analysis",
+          "opportunity": {
+            "video": 4,
+            "social": 6,
+            "community": 5,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "ai-industry",
+      "title": "Wider AI World",
+      "items": [
+        {
+          "headline": "xAI Releases Grok 4.6, Its New Flagship Model for Bigger, Longer Tasks",
+          "summary": "Elon Musk's xAI released Grok 4.6 on August 12, a new flagship model built to handle longer, more complex multi-step work and better visual tasks. It's available through Grok's apps, the Cursor code editor, and via API, with xAI offering double the usual free usage during launch week.",
+          "why_it_matters": "This is the same Grok that just got an agent (\"Grok Bot\") able to complete tasks on its own, so if you or your viewers use X or Grok, expect the assistant to handle noticeably bigger jobs starting now, part of the broader shift from chatbots to AI that does things for you.",
+          "link": "https://venturebeat.com/technology/spacexai-debuts-grok-4-6-overtaking-kimi-k3s-performance-and-matching-gpt-5-6-sol-for-worlds-third-best-on-artificial-analysis",
+          "source": "VentureBeat",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 3,
+            "social": 5,
+            "community": 3,
+            "act_now": false
+          }
+        },
+        {
+          "headline": "Google's Gemini App Passes 1 Billion Monthly Users",
+          "summary": "Google announced the Gemini app now has more than 1 billion monthly active users as of August 11, calling it the fastest-growing product in the company's history. It jumped from about 400 million users in May 2025 to over 1 billion in just over a year, with most people now talking to it by voice.",
+          "why_it_matters": "AI chat assistants have gone fully mainstream: a billion people are already using Gemini, which is free and built right into Gmail, Search, and Docs, so if you've been putting off trying it, this is a nudge to see what it can do for research or quick drafts.",
+          "link": "https://blog.google/innovation-and-ai/products/gemini-app/one-billion-monthly-users/",
+          "source": "Google (official blog)",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 3,
+            "social": 5,
+            "community": 3,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "creator-tools",
+      "title": "Tools & Tips for Creators and Small Biz",
+      "items": []
+    },
+    {
+      "id": "content-social",
+      "title": "Content & Social Media Pulse",
+      "items": [
+        {
+          "headline": "Twitch Will Train Amazon's AI on Your Streams Unless You Opt Out",
+          "summary": "Twitch announced on August 12 that it will use streamers' videos, clips, chat, and images to train Amazon's generative AI models by default, effective immediately. Streamers can turn it off under Settings > Security and Privacy > \"Training for Generative AI,\" but the setting is opt-out, not opt-in, so anyone who does nothing is automatically included.",
+          "why_it_matters": "If you or anyone in the community streams on Twitch, your video and voice are being used to train Amazon's AI models unless you go in and manually turn that off, worth checking the setting today if you'd rather not participate.",
+          "link": "https://techcrunch.com/2026/08/12/amazon-will-train-on-twitch-streamers-content-by-default-unless-they-opt-out/",
+          "source": "TechCrunch",
+          "tag": "Platform Change",
+          "opportunity": {
+            "video": 3,
+            "social": 6,
+            "community": 7,
+            "act_now": true,
+            "action_note": "If you or anyone in the community streams on Twitch, open Settings > Security and Privacy today and turn off \"Training for Generative AI,\" since it's on by default.",
+            "angle": "Twitch is training Amazon's AI on your streams by default, here's the 10-second opt-out"
+          }
+        },
+        {
+          "headline": "Facebook Launches a Standalone Creator Studio App With a Built-In AI Coach",
+          "summary": "Facebook officially rolled out its standalone Creator Studio app (iOS, currently US and Canada) with an AI assistant built in. It gives creators personalized tips on when to post and how their content is performing, and can draft comment replies in the creator's own tone for them to review and approve before posting.",
+          "why_it_matters": "If you post on Facebook, this is a free coach in your pocket that answers questions like \"when should I post\" and \"what are people saying in my comments,\" and can save time on comment replies without you writing every one from scratch.",
+          "link": "https://techcrunch.com/2026/08/12/facebook-officially-rolls-out-its-standalone-creator-studio-app-with-ai-tools-for-creators/",
+          "source": "TechCrunch",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 4,
+            "social": 5,
+            "community": 6,
+            "act_now": false
+          }
+        }
+      ]
+    }
+  ]
+}
