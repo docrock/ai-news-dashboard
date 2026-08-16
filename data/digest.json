@@ -1,6 +1,6 @@
 {
-  "generated_at_iso": "2026-08-15T03:23:24-10:00",
-  "generated_label": "Saturday, August 15 · 3:23 AM HST",
+  "generated_at_iso": "2026-08-16T03:21:56-10:00",
+  "generated_label": "Sunday, August 16 · 3:21 AM HST",
   "edition": "morning",
   "categories": [
     {
@@ -8,46 +8,32 @@
       "title": "Claude & Anthropic",
       "items": [
         {
-          "headline": "Claude Code's Desktop App Can Now Pick Up Where It Left Off Automatically",
-          "summary": "Anthropic added a simple \"auto-continue\" checkbox to the Claude Code desktop app. Turn it on before you hit your usage limit, and once your limit window resets, Claude Code automatically picks the task back up instead of sitting idle until you manually restart it.",
-          "why_it_matters": "If you ever let Claude Code run a long editing, scripting, or automation job and step away, this means you don't have to be at your keyboard the second your limit resets just to keep it moving.",
-          "link": "https://x.com/ClaudeDevs/status/2088014831605702937",
-          "source": "Anthropic (@ClaudeDevs, official developer account)",
-          "tag": "Product Update",
-          "opportunity": {
-            "video": 4,
-            "social": 5,
-            "community": 6,
-            "act_now": true,
-            "action_note": "Open Claude Code desktop settings and turn on the \"Auto-continue when limits reset\" checkbox if you ever run long unattended tasks."
-          }
-        },
-        {
-          "headline": "Claude Code Update Lets Your AI Sessions Message Each Other, Plus a Dozen Security Fixes",
-          "summary": "Anthropic shipped a big Claude Code update on August 14 that lets you type @ to tag another running Claude Code session by name and send it a message directly, turns on \"sub-agent forking\" by default so helper agents share memory instead of starting from scratch, and closes 12 security gaps around permissions and sandboxing.",
-          "why_it_matters": "If you use Claude Code for editing scripts, managing projects, or automating parts of your workflow, this makes it noticeably better at handling bigger, multi-step jobs without losing context or slipping outside the boundaries you set.",
-          "link": "https://dev.classmethod.jp/en/articles/20260814-cc-updates-v2-1-232/",
-          "source": "DevelopersIO",
-          "tag": "Product Update",
-          "opportunity": {
-            "video": 5,
-            "social": 4,
-            "community": 6,
-            "act_now": false
-          }
-        },
-        {
-          "headline": "Anthropic Signs $9 Billion, 20-Year Power Deal With Former Bitcoin Miner Riot Platforms",
-          "summary": "Anthropic locked in a $9.1 billion computing deal with Riot Platforms, a company that used to focus purely on bitcoin mining, to get dedicated power and data center space in Texas for running Claude. The contract runs through 2048 and could grow to roughly $16 billion with renewal options.",
-          "why_it_matters": "This is another sign Anthropic is betting heavily on Claude's long-term growth and locking in the electricity and computing power to back it up, useful context if you're deciding how much of your workflow to build around Claude.",
-          "link": "https://www.cnbc.com/2026/08/11/riot-platforms-signs-anthropic-deal-as-miners-shift-to-ai-infrastructure-.html",
+          "headline": "Anthropic Just Had Its First Profitable Quarter, With Revenue Topping $11.5 Billion",
+          "summary": "Anthropic (the company behind Claude) reported over $11.5 billion in revenue for the quarter, more than 14 times what it made a year ago, and posted its first-ever profit. The company is reportedly aiming for a stock market debut around October that could value it at more than $2 trillion.",
+          "why_it_matters": "When the company behind the AI tool you rely on is this financially strong and headed toward Wall Street, it's a good sign Claude isn't going anywhere anytime soon, though a public listing can also mean more corporate pressure down the road.",
+          "link": "https://www.cnbc.com/2026/08/15/anthropic-revenue-jumps-to-over-11point5-billion-in-q2-report.html",
           "source": "CNBC",
           "tag": "Funding",
           "opportunity": {
             "video": 2,
-            "social": 4,
+            "social": 5,
             "community": 2,
             "act_now": false
+          }
+        },
+        {
+          "headline": "Here's Exactly How Claude's Invisible \"Watermark\" on Your Writing Works",
+          "summary": "Anthropic published new details on the hidden tag it now bakes into text Claude writes, so a detection tool it's building can flag AI-written content. The tag weakens or disappears once you heavily rewrite the text in your own words, and it barely applies to code at all.",
+          "why_it_matters": "If you use Claude to draft video scripts, emails, or show notes, know that pasting the raw output straight into a video description or client deliverable can now be flagged by a detector, so reworking it in your own voice (good practice anyway) is what keeps it truly yours.",
+          "link": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/",
+          "source": "TechCrunch",
+          "tag": "Policy",
+          "opportunity": {
+            "video": 6,
+            "social": 6,
+            "community": 6,
+            "act_now": true,
+            "action_note": "When you use Claude to draft scripts, show notes, or emails, rewrite them in your own voice before publishing rather than pasting the raw output, since unedited Claude text can now be flagged by Anthropic's detector."
           }
         }
       ]
@@ -57,47 +43,32 @@
       "title": "Wider AI World",
       "items": [
         {
-          "headline": "Microsoft Is Shutting Off Free Deep Research and Three Other Copilot Features on August 18",
-          "summary": "As part of merging its two Copilot apps into one, Microsoft confirmed that free-tier Deep Research, Group Chats, Copilot Labs, and the animated Mico character all disappear from Copilot on August 18. The stronger replacement for Deep Research, called Researcher, will cost $19.99 a month.",
-          "why_it_matters": "If you or your team use Microsoft Copilot's free research tools for content research or business planning, save anything you rely on before August 18 and budget for the new $19.99/month tier if you want to keep that level of research power.",
-          "link": "https://www.techtimes.com/articles/324537/20260814/microsoft-copilot-rollout-starts-free-deep-research-retired-four-days.htm",
-          "source": "Tech Times",
-          "tag": "Pricing",
-          "opportunity": {
-            "video": 3,
-            "social": 4,
-            "community": 5,
-            "act_now": true,
-            "action_note": "If you use Copilot's free Deep Research, Group Chats, or Labs features, save what you need before August 18 since they're being retired that day."
-          }
-        },
-        {
-          "headline": "ChatGPT Can Now Pull Files Straight From Your Google Drive",
-          "summary": "OpenAI added Google Drive support to ChatGPT's Library, so paid users can browse their Drive folders, mention a Doc, Sheet, or Slide right in a chat with @, and work with it side by side without re-uploading the file every time.",
-          "why_it_matters": "If you keep your scripts, show notes, or client documents in Google Drive, this saves you the annoying step of downloading and re-uploading files just to get ChatGPT's help with them.",
-          "link": "https://9to5mac.com/2026/08/14/chatgpt-subscribers-can-now-open-and-edit-google-drive-files-from-inside-the-chat/",
-          "source": "9to5Mac",
+          "headline": "ChatGPT's Smarter \"Think\" Mode Is Now Free for Everyone",
+          "summary": "OpenAI's latest ChatGPT update makes the \"Think\" toggle, which has ChatGPT reason more carefully through tricky questions before answering, available to Free and Go tier users on the web, not just paid subscribers. The update also adds an interactive quiz feature and a preview Linux desktop app.",
+          "why_it_matters": "If you use the free version of ChatGPT, you now get its smarter, slower-but-better thinking mode for tricky research or planning questions at no extra cost.",
+          "link": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "source": "OpenAI (official release notes)",
           "tag": "Product Update",
           "opportunity": {
             "video": 3,
-            "social": 4,
+            "social": 5,
             "community": 5,
             "act_now": false
           }
         },
         {
-          "headline": "Google's Gemini Can Now Turn a Spreadsheet Into an Interactive Mini-App",
-          "summary": "Google started rolling out \"Sheets canvas\" on August 14, a Gemini-powered feature that lets you type a plain-English request, like \"build a visual client tracker,\" and turns a Google Sheet into a custom interactive layout, no formulas or coding required. Changes sync back to the original spreadsheet automatically.",
-          "why_it_matters": "If you track clients, bookings, or inventory in Google Sheets, this could save you from paying for a separate app just to make that spreadsheet easier for you or your team to actually use day to day.",
-          "link": "https://workspaceupdates.googleblog.com/2026/08/use-google-sheets-canvas-to-visualize-data.html",
+          "headline": "Google's Gemini Can Now Take Notes at Your In-Person Meetings, Not Just Video Calls",
+          "summary": "Google Meet's \"Take Notes for Me\" feature now works for face-to-face meetings too, using your phone or laptop mic to record, transcribe, and summarize the conversation into a shared Google Doc with a transcript and action items. It rolled out on Android first, then to the web this week.",
+          "why_it_matters": "If you run in-person client meetings or consultations, Gemini can now auto-generate notes and follow-up action items for those too, saving you from scribbling notes or trying to remember what was decided.",
+          "link": "https://workspaceupdates.googleblog.com/2026/08/take-notes-with-me-for-in-person-meetings-is-now-available.html",
           "source": "Google Workspace Updates (official blog)",
           "tag": "Product Update",
           "opportunity": {
-            "video": 6,
+            "video": 5,
             "social": 4,
             "community": 7,
             "act_now": false,
-            "angle": "I turned my client tracker spreadsheet into a mini-app with Gemini's new Sheets canvas, here's how it went"
+            "angle": "I tried Gemini's new in-person meeting notes at a client consult, here's what it caught (and missed)"
           }
         }
       ]
@@ -107,33 +78,17 @@
       "title": "Tools & Tips for Creators and Small Biz",
       "items": [
         {
-          "headline": "OBSBOT's August Update Adds Gesture Controls to Its AI Avatar Camera Feature",
-          "summary": "OBSBOT's August firmware and software update lets you trigger its AI Avatar mode with hand gestures on the Tiny 3 and Tiny 3 Lite webcams, adds a new \"Dynamic Camera View\" in the OBSBOT Center app, and improves performance in Lite Mode.",
-          "why_it_matters": "If you stream or record with an OBSBOT camera, this free update is worth installing, it makes switching into an AI avatar or adjusting your camera framing mid-stream faster without digging through menus.",
-          "link": "https://www.obsbot.com/news/2026-august-update",
-          "source": "OBSBOT (official)",
+          "headline": "CapCut's Free Design Tool Adds an AI Assistant and Sharper Image Generator",
+          "summary": "CapCut upgraded its free browser-based Design Studio with an AI agent that works right on your canvas, a new \"Skills\" library of one-click templates for repetitive design tasks, and ByteDance's newer Seedream 5.0 Pro model for sharper AI-generated graphics. It's separate from CapCut's video tools, this one is aimed at flyers, product photos, and social graphics.",
+          "why_it_matters": "If you need quick branded graphics, like product photos or social posts, but don't have design skills or software like Photoshop, this gives you a free tool that can build them for you from a plain-English request.",
+          "link": "https://www.globenewswire.com/news-release/2026/08/14/3345553/0/en/capcut-design-studio-levels-up-new-skills-ecosystem-and-seedream-5-0-pro-model-bring-pro-grade-ai-design-to-everyone.html",
+          "source": "CapCut (official press release)",
           "tag": "Product Update",
           "opportunity": {
             "video": 6,
-            "social": 3,
-            "community": 5,
-            "act_now": true,
-            "action_note": "If you use an OBSBOT Tiny 3 or Tiny 3 Lite camera, update its firmware and the OBSBOT Center software this week to get the new gesture and camera view controls."
-          }
-        },
-        {
-          "headline": "CapCut's Desktop App Adds a Much More Controllable AI Video Generator",
-          "summary": "CapCut rolled out Seedance 2.5, ByteDance's newest AI video model, directly into its desktop app. It can generate 4K video up to 30 seconds long (180 seconds in a beta \"Long Video Mode\") from text or images, with more control over camera movement and keeping a character consistent across multiple clips.",
-          "why_it_matters": "If you make YouTube intros, ads, or short-form clips, this gives you a genuinely more controllable AI video generator built into a free editing app you may already use, instead of needing to pay for a separate tool.",
-          "link": "https://www.capcut.com/tools/dreamina-seedance-2-5-desktop",
-          "source": "CapCut (official)",
-          "tag": "Product Update",
-          "opportunity": {
-            "video": 7,
-            "social": 5,
+            "social": 4,
             "community": 6,
-            "act_now": false,
-            "angle": "I tried CapCut's new AI video generator for a YouTube intro, here's what it can actually do"
+            "act_now": false
           }
         }
       ]
@@ -141,23 +96,7 @@
     {
       "id": "content-social",
       "title": "Content & Social Media Pulse",
-      "items": [
-        {
-          "headline": "X Is Retiring Its Creator Payout Program on September 7, Replacing It With Stricter Rules",
-          "summary": "X stopped accepting new signups for its Creator Revenue Sharing program on August 7 and will fully retire it on September 7, replacing it with a new \"Original Content Rewards\" program. The new program cuts off payouts for engagement-bait posts (like \"reply and I'll follow you back\") and for reposted or lightly-edited content.",
-          "why_it_matters": "If you or anyone in the community earns money from posts on X, check which program you're enrolled in now, since the payout rules are changing and content that used to earn will stop qualifying after September 7.",
-          "link": "https://www.socialmediatoday.com/news/x-updates-creator-revenue-share-parameters/827391/",
-          "source": "Social Media Today",
-          "tag": "Platform Change",
-          "opportunity": {
-            "video": 3,
-            "social": 6,
-            "community": 6,
-            "act_now": true,
-            "action_note": "If you earn X Creator Revenue Sharing payouts, review the new Original Content Rewards rules before September 7 so your posts keep qualifying."
-          }
-        }
-      ]
+      "items": []
     }
   ]
 }
