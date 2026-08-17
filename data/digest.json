@@ -1,6 +1,6 @@
 {
-  "generated_at_iso": "2026-08-16T03:21:56-10:00",
-  "generated_label": "Sunday, August 16 · 3:21 AM HST",
+  "generated_at_iso": "2026-08-17T03:35:05-10:00",
+  "generated_label": "Monday, August 17 · 3:35 AM HST",
   "edition": "morning",
   "categories": [
     {
@@ -8,32 +8,31 @@
       "title": "Claude & Anthropic",
       "items": [
         {
-          "headline": "Anthropic Just Had Its First Profitable Quarter, With Revenue Topping $11.5 Billion",
-          "summary": "Anthropic (the company behind Claude) reported over $11.5 billion in revenue for the quarter, more than 14 times what it made a year ago, and posted its first-ever profit. The company is reportedly aiming for a stock market debut around October that could value it at more than $2 trillion.",
-          "why_it_matters": "When the company behind the AI tool you rely on is this financially strong and headed toward Wall Street, it's a good sign Claude isn't going anywhere anytime soon, though a public listing can also mean more corporate pressure down the road.",
-          "link": "https://www.cnbc.com/2026/08/15/anthropic-revenue-jumps-to-over-11point5-billion-in-q2-report.html",
-          "source": "CNBC",
-          "tag": "Funding",
+          "headline": "Anthropic's CEO Says AI Backlash Isn't About the Warnings, It's About Trust",
+          "summary": "In a widely-shared post, Anthropic CEO Dario Amodei argued that public wariness of AI isn't caused by companies (including his own) talking openly about AI risks. He said the real problem is a much older \"crisis of trust\" in big companies and institutions in general, and that only real-world proof, not messaging, will change people's minds.",
+          "why_it_matters": "If you're AI-curious but still a little wary, this is basically the head of a top AI lab saying your skepticism makes sense and it's not really about Claude specifically. It's a good talking point if you ever cover why people are slow to trust AI tools.",
+          "link": "https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust/",
+          "source": "TechCrunch",
+          "tag": "Opinion/Analysis",
           "opportunity": {
-            "video": 2,
-            "social": 5,
-            "community": 2,
+            "video": 4,
+            "social": 6,
+            "community": 5,
             "act_now": false
           }
         },
         {
-          "headline": "Here's Exactly How Claude's Invisible \"Watermark\" on Your Writing Works",
-          "summary": "Anthropic published new details on the hidden tag it now bakes into text Claude writes, so a detection tool it's building can flag AI-written content. The tag weakens or disappears once you heavily rewrite the text in your own words, and it barely applies to code at all.",
-          "why_it_matters": "If you use Claude to draft video scripts, emails, or show notes, know that pasting the raw output straight into a video description or client deliverable can now be flagged by a detector, so reworking it in your own voice (good practice anyway) is what keeps it truly yours.",
-          "link": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/",
-          "source": "TechCrunch",
-          "tag": "Policy",
+          "headline": "Claude Went Down for About 35 Minutes Last Night",
+          "summary": "Anthropic's status page showed login and authentication problems starting around 8pm Hawaii time last night, which briefly degraded Claude.ai, Claude Code, Cowork, the developer Console, and the API. Anthropic pushed a fix and had things back to normal about 35 minutes later; no cause was given.",
+          "why_it_matters": "If you were mid-project on Claude last night and hit a wall, this is why. Worth keeping in mind if you build daily workflows around Claude: have a fallback plan (like a quick break or another task) for the rare short outage.",
+          "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-in-major-outage-affecting-multiple-services/",
+          "source": "BleepingComputer",
+          "tag": "Platform Change",
           "opportunity": {
-            "video": 6,
-            "social": 6,
-            "community": 6,
-            "act_now": true,
-            "action_note": "When you use Claude to draft scripts, show notes, or emails, rewrite them in your own voice before publishing rather than pasting the raw output, since unedited Claude text can now be flagged by Anthropic's detector."
+            "video": 2,
+            "social": 3,
+            "community": 4,
+            "act_now": false
           }
         }
       ]
@@ -43,32 +42,17 @@
       "title": "Wider AI World",
       "items": [
         {
-          "headline": "ChatGPT's Smarter \"Think\" Mode Is Now Free for Everyone",
-          "summary": "OpenAI's latest ChatGPT update makes the \"Think\" toggle, which has ChatGPT reason more carefully through tricky questions before answering, available to Free and Go tier users on the web, not just paid subscribers. The update also adds an interactive quiz feature and a preview Linux desktop app.",
-          "why_it_matters": "If you use the free version of ChatGPT, you now get its smarter, slower-but-better thinking mode for tricky research or planning questions at no extra cost.",
-          "link": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
-          "source": "OpenAI (official release notes)",
-          "tag": "Product Update",
+          "headline": "Insiders Are Skeptical of Zuckerberg's 'AI for Everyone' Pitch",
+          "summary": "Mark Zuckerberg published a long essay arguing AI power should be spread to everyone through personal AI agents instead of controlled by a few big companies. A widely-read tech press analysis this week pushed back, saying the vision is heavy on promises but light on addressing real costs and Meta's own trust problems with users.",
+          "why_it_matters": "A good gut-check if you feel pressure to jump on every AI trend: even industry insiders are pushing back on the \"AI will fix everything for everyone\" pitch. You have permission to adopt AI tools at your own pace, on your own terms.",
+          "link": "https://techcrunch.com/2026/08/16/why-people-arent-buying-mark-zuckerbergs-ai-future/",
+          "source": "TechCrunch",
+          "tag": "Opinion/Analysis",
           "opportunity": {
             "video": 3,
             "social": 5,
-            "community": 5,
+            "community": 4,
             "act_now": false
-          }
-        },
-        {
-          "headline": "Google's Gemini Can Now Take Notes at Your In-Person Meetings, Not Just Video Calls",
-          "summary": "Google Meet's \"Take Notes for Me\" feature now works for face-to-face meetings too, using your phone or laptop mic to record, transcribe, and summarize the conversation into a shared Google Doc with a transcript and action items. It rolled out on Android first, then to the web this week.",
-          "why_it_matters": "If you run in-person client meetings or consultations, Gemini can now auto-generate notes and follow-up action items for those too, saving you from scribbling notes or trying to remember what was decided.",
-          "link": "https://workspaceupdates.googleblog.com/2026/08/take-notes-with-me-for-in-person-meetings-is-now-available.html",
-          "source": "Google Workspace Updates (official blog)",
-          "tag": "Product Update",
-          "opportunity": {
-            "video": 5,
-            "social": 4,
-            "community": 7,
-            "act_now": false,
-            "angle": "I tried Gemini's new in-person meeting notes at a client consult, here's what it caught (and missed)"
           }
         }
       ]
@@ -78,16 +62,31 @@
       "title": "Tools & Tips for Creators and Small Biz",
       "items": [
         {
-          "headline": "CapCut's Free Design Tool Adds an AI Assistant and Sharper Image Generator",
-          "summary": "CapCut upgraded its free browser-based Design Studio with an AI agent that works right on your canvas, a new \"Skills\" library of one-click templates for repetitive design tasks, and ByteDance's newer Seedream 5.0 Pro model for sharper AI-generated graphics. It's separate from CapCut's video tools, this one is aimed at flyers, product photos, and social graphics.",
-          "why_it_matters": "If you need quick branded graphics, like product photos or social posts, but don't have design skills or software like Photoshop, this gives you a free tool that can build them for you from a plain-English request.",
-          "link": "https://www.globenewswire.com/news-release/2026/08/14/3345553/0/en/capcut-design-studio-levels-up-new-skills-ecosystem-and-seedream-5-0-pro-model-bring-pro-grade-ai-design-to-everyone.html",
-          "source": "CapCut (official press release)",
+          "headline": "Small Business Founders Name the AI Tools They Actually Use Every Day",
+          "summary": "Forbes rounded up AI tools that real small-business founders say they rely on daily for things like scheduling, writing, research, and day-to-day operations, skipping the hype and flashy launches in favor of what's actually working for them.",
+          "why_it_matters": "This is the \"cut through the noise\" list Doc's audience wants: real people, real tools, no jargon-heavy sales pitch. A good source for practical picks to try or recommend to your community.",
+          "link": "https://www.forbes.com/sites/jodiecook/2026/08/14/9-ai-tools-founders-say-they-could-not-run-a-business-without/",
+          "source": "Forbes",
+          "tag": "Opinion/Analysis",
+          "opportunity": {
+            "video": 5,
+            "social": 5,
+            "community": 7,
+            "act_now": false,
+            "angle": "I tried the AI tools founders say they can't live without, here's what's actually worth it"
+          }
+        },
+        {
+          "headline": "BeautyPlus Launches a Tool to Keep an AI 'Influencer' Looking the Same Every Time",
+          "summary": "Photo/video app BeautyPlus launched an AI Influencer generator that builds a consistent virtual persona, so the same AI-generated face and style can appear across multiple photos and videos instead of looking different each time you generate one.",
+          "why_it_matters": "If you've experimented with AI-generated characters for social content and gotten frustrated by the face changing every time, this tackles that specific headache, useful for creators exploring virtual personas or repeatable branded content without repeated photoshoots.",
+          "link": "https://www.globenewswire.com/news-release/2026/08/14/3345405/0/en/beautyplus-launches-ai-influencer-generator-for-consistent-virtual-content-creation.html",
+          "source": "BeautyPlus (official press release)",
           "tag": "Product Update",
           "opportunity": {
-            "video": 6,
+            "video": 4,
             "social": 4,
-            "community": 6,
+            "community": 5,
             "act_now": false
           }
         }
