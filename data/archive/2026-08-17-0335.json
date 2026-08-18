@@ -1,0 +1,101 @@
+{
+  "generated_at_iso": "2026-08-17T03:35:05-10:00",
+  "generated_label": "Monday, August 17 · 3:35 AM HST",
+  "edition": "morning",
+  "categories": [
+    {
+      "id": "claude-anthropic",
+      "title": "Claude & Anthropic",
+      "items": [
+        {
+          "headline": "Anthropic's CEO Says AI Backlash Isn't About the Warnings, It's About Trust",
+          "summary": "In a widely-shared post, Anthropic CEO Dario Amodei argued that public wariness of AI isn't caused by companies (including his own) talking openly about AI risks. He said the real problem is a much older \"crisis of trust\" in big companies and institutions in general, and that only real-world proof, not messaging, will change people's minds.",
+          "why_it_matters": "If you're AI-curious but still a little wary, this is basically the head of a top AI lab saying your skepticism makes sense and it's not really about Claude specifically. It's a good talking point if you ever cover why people are slow to trust AI tools.",
+          "link": "https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust/",
+          "source": "TechCrunch",
+          "tag": "Opinion/Analysis",
+          "opportunity": {
+            "video": 4,
+            "social": 6,
+            "community": 5,
+            "act_now": false
+          }
+        },
+        {
+          "headline": "Claude Went Down for About 35 Minutes Last Night",
+          "summary": "Anthropic's status page showed login and authentication problems starting around 8pm Hawaii time last night, which briefly degraded Claude.ai, Claude Code, Cowork, the developer Console, and the API. Anthropic pushed a fix and had things back to normal about 35 minutes later; no cause was given.",
+          "why_it_matters": "If you were mid-project on Claude last night and hit a wall, this is why. Worth keeping in mind if you build daily workflows around Claude: have a fallback plan (like a quick break or another task) for the rare short outage.",
+          "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-in-major-outage-affecting-multiple-services/",
+          "source": "BleepingComputer",
+          "tag": "Platform Change",
+          "opportunity": {
+            "video": 2,
+            "social": 3,
+            "community": 4,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "ai-industry",
+      "title": "Wider AI World",
+      "items": [
+        {
+          "headline": "Insiders Are Skeptical of Zuckerberg's 'AI for Everyone' Pitch",
+          "summary": "Mark Zuckerberg published a long essay arguing AI power should be spread to everyone through personal AI agents instead of controlled by a few big companies. A widely-read tech press analysis this week pushed back, saying the vision is heavy on promises but light on addressing real costs and Meta's own trust problems with users.",
+          "why_it_matters": "A good gut-check if you feel pressure to jump on every AI trend: even industry insiders are pushing back on the \"AI will fix everything for everyone\" pitch. You have permission to adopt AI tools at your own pace, on your own terms.",
+          "link": "https://techcrunch.com/2026/08/16/why-people-arent-buying-mark-zuckerbergs-ai-future/",
+          "source": "TechCrunch",
+          "tag": "Opinion/Analysis",
+          "opportunity": {
+            "video": 3,
+            "social": 5,
+            "community": 4,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "creator-tools",
+      "title": "Tools & Tips for Creators and Small Biz",
+      "items": [
+        {
+          "headline": "Small Business Founders Name the AI Tools They Actually Use Every Day",
+          "summary": "Forbes rounded up AI tools that real small-business founders say they rely on daily for things like scheduling, writing, research, and day-to-day operations, skipping the hype and flashy launches in favor of what's actually working for them.",
+          "why_it_matters": "This is the \"cut through the noise\" list Doc's audience wants: real people, real tools, no jargon-heavy sales pitch. A good source for practical picks to try or recommend to your community.",
+          "link": "https://www.forbes.com/sites/jodiecook/2026/08/14/9-ai-tools-founders-say-they-could-not-run-a-business-without/",
+          "source": "Forbes",
+          "tag": "Opinion/Analysis",
+          "opportunity": {
+            "video": 5,
+            "social": 5,
+            "community": 7,
+            "act_now": false,
+            "angle": "I tried the AI tools founders say they can't live without, here's what's actually worth it"
+          }
+        },
+        {
+          "headline": "BeautyPlus Launches a Tool to Keep an AI 'Influencer' Looking the Same Every Time",
+          "summary": "Photo/video app BeautyPlus launched an AI Influencer generator that builds a consistent virtual persona, so the same AI-generated face and style can appear across multiple photos and videos instead of looking different each time you generate one.",
+          "why_it_matters": "If you've experimented with AI-generated characters for social content and gotten frustrated by the face changing every time, this tackles that specific headache, useful for creators exploring virtual personas or repeatable branded content without repeated photoshoots.",
+          "link": "https://www.globenewswire.com/news-release/2026/08/14/3345405/0/en/beautyplus-launches-ai-influencer-generator-for-consistent-virtual-content-creation.html",
+          "source": "BeautyPlus (official press release)",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 4,
+            "social": 4,
+            "community": 5,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "content-social",
+      "title": "Content & Social Media Pulse",
+      "items": []
+    }
+  ]
+}
