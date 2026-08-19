@@ -1,0 +1,57 @@
+{
+  "generated_at_iso": "2026-08-18T03:26:59-10:00",
+  "generated_label": "Tuesday, August 18 · 3:26 AM HST",
+  "edition": "morning",
+  "categories": [
+    {
+      "id": "claude-anthropic",
+      "title": "Claude & Anthropic",
+      "items": [
+        {
+          "headline": "Anthropic's Revenue Run Rate Just Hit $65 Billion, With a Fall IPO Taking Shape",
+          "summary": "Anthropic's annualized revenue run rate (what it would earn in a year at its current pace) topped $65 billion by the end of July, up from $47 billion in May. Investment banks including Morgan Stanley, Goldman Sachs, and JPMorgan are reportedly lining up to take the company public as soon as this fall at a valuation north of $2 trillion.",
+          "why_it_matters": "When the company behind Claude keeps growing this fast and is headed toward Wall Street, it's a strong sign Claude isn't a fly-by-night tool you should worry about disappearing, useful reassurance if you're building your workflow around it long-term.",
+          "link": "https://techcrunch.com/2026/08/17/anthropics-annualized-revenue-surges-to-65b/",
+          "source": "TechCrunch",
+          "tag": "Funding",
+          "opportunity": {
+            "video": 2,
+            "social": 4,
+            "community": 2,
+            "act_now": false
+          }
+        },
+        {
+          "headline": "Claude Code's Extra Weekly Capacity Runs Out Tomorrow",
+          "summary": "Anthropic's temporary 50% boost to Claude Code's weekly usage limits, which it has renewed several times since May, is set to expire August 19 for Pro, Max, Team, and legacy seat-based Enterprise plans, unless Anthropic quietly extends it again at the last minute like it has before.",
+          "why_it_matters": "If you use Claude Code (Anthropic's AI coding assistant) for scripting, automations, or other build-it-yourself projects, your weekly capacity could shrink by roughly a third starting tomorrow, so it's worth wrapping up or kicking off any bigger jobs today.",
+          "link": "https://x.com/ClaudeDevs/status/2078511173759324328",
+          "source": "Anthropic (Claude Devs, official X account)",
+          "tag": "Pricing",
+          "opportunity": {
+            "video": 2,
+            "social": 4,
+            "community": 5,
+            "act_now": true,
+            "action_note": "If you lean on Claude Code, use up any big weekly-limit-heavy tasks today (August 18) before the 50% usage boost is set to expire tomorrow, August 19."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ai-industry",
+      "title": "Wider AI World",
+      "items": []
+    },
+    {
+      "id": "creator-tools",
+      "title": "Tools & Tips for Creators and Small Biz",
+      "items": []
+    },
+    {
+      "id": "content-social",
+      "title": "Content & Social Media Pulse",
+      "items": []
+    }
+  ]
+}
