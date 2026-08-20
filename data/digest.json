@@ -1,59 +1,28 @@
 {
-  "generated_at_iso": "2026-08-19T03:26:12-10:00",
-  "generated_label": "Wednesday, August 19 · 3:26 AM HST",
+  "generated_at_iso": "2026-08-20T03:27:28-10:00",
+  "generated_label": "Thursday, August 20 · 3:27 AM HST",
   "edition": "morning",
   "categories": [
     {
       "id": "claude-anthropic",
       "title": "Claude & Anthropic",
-      "items": [
-        {
-          "headline": "Anthropic Backs Off the Claude Code Limit Cut, Extends the Boost to August 31",
-          "summary": "Anthropic's temporary 50% boost to Claude Code's (its AI coding and automation tool) weekly usage limits was set to expire today, August 19, but Anthropic just extended it again, this time through August 31, for Pro, Max, Team, and legacy seat-based Enterprise plans.",
-          "why_it_matters": "If you use Claude Code for scripts, automations, or other build-it-yourself projects, you don't need to rush this week after all, your extra weekly capacity is safe for at least another 12 days.",
-          "link": "https://x.com/ClaudeDevs/status/2089798442306711646",
-          "source": "Anthropic (Claude Devs, official X account)",
-          "tag": "Pricing",
-          "opportunity": {
-            "video": 2,
-            "social": 5,
-            "community": 6,
-            "act_now": false
-          }
-        },
-        {
-          "headline": "Claude Cowork Is Now Fully on Your Phone, No Extra Cost, on Every Paid Plan",
-          "summary": "Claude Cowork, Anthropic's feature that lets Claude work through multi-step tasks in the background like a virtual assistant, is now fully available on iPhone, iPad, Android, and the web for every paid Claude plan, not just the priciest one. You can start a task on your computer and check on it from your phone, and scheduled tasks keep running even if every device is switched off.",
-          "why_it_matters": "If you're on any paid Claude plan, even the $20/month Pro tier, you can now hand Claude a research task, a batch of file cleanup, or a multi-step errand and check its progress from your phone instead of being stuck at your desk.",
-          "link": "https://x.com/claudeai/status/2089756371570900999",
-          "source": "Anthropic (Claude, official X account)",
-          "tag": "Product Update",
-          "opportunity": {
-            "video": 7,
-            "social": 6,
-            "community": 8,
-            "act_now": true,
-            "action_note": "Open the Claude app on your phone this week and assign Cowork a real task, like organizing files or researching a topic, so you already know how it works before you need it for something time-sensitive.",
-            "angle": "I ran a real business task through Claude Cowork entirely from my phone, here's what happened"
-          }
-        }
-      ]
+      "items": []
     },
     {
       "id": "ai-industry",
       "title": "Wider AI World",
       "items": [
         {
-          "headline": "Google's Gemini App Just Crossed 1 Billion Monthly Users",
-          "summary": "Google says its Gemini AI app has passed 1 billion monthly active users, up from 400 million in May 2025, making it the fastest-growing product in company history. CEO Sundar Pichai says most of that growth is coming from people talking to it out loud through Gemini Live and using it to generate images.",
-          "why_it_matters": "This is a sign the free AI assistant built into Android phones and Google Search has gone properly mainstream, worth knowing if clients or audience members mention 'asking Gemini' instead of Googling something.",
-          "link": "https://techcrunch.com/2026/08/11/googles-gemini-app-surges-to-one-billion-users/",
-          "source": "TechCrunch",
-          "tag": "Milestone",
+          "headline": "OpenAI Rolls Out a Teen-Only Version of ChatGPT",
+          "summary": "OpenAI launched ChatGPT for Teens on August 18, a separate experience for 13-to-17-year-olds with content restrictions around topics like self-harm, no romantic or flirty chat responses, and a new \"Study Mode\" that guides kids toward figuring out answers instead of just handing them over. Anyone the system thinks might be under 18 gets automatically placed into it.",
+          "why_it_matters": "If you have teens at home, or your audience does, this is worth knowing about since it changes what ChatGPT will and won't do for that age group, and it's a good excuse to check the parental controls now rather than after a problem comes up.",
+          "link": "https://openai.com/index/chatgpt-for-teens/",
+          "source": "OpenAI (official)",
+          "tag": "Product Update",
           "opportunity": {
             "video": 3,
             "social": 6,
-            "community": 3,
+            "community": 6,
             "act_now": false
           }
         }
@@ -62,26 +31,42 @@
     {
       "id": "creator-tools",
       "title": "Tools & Tips for Creators and Small Biz",
-      "items": []
+      "items": [
+        {
+          "headline": "DaVinci Resolve 20.2 Adds an AI Fog Effect and Long-Awaited ProRes RAW Support",
+          "summary": "Blackmagic's DaVinci Resolve 20.2 update brings a new AI Cinematic Haze tool that adds realistic atmospheric fog to a shot using an AI-generated depth map (with sliders to control how far it reaches and how strong it looks), plus native support for Apple ProRes RAW footage and a faster surface tracker.",
+          "why_it_matters": "If you edit in Resolve, you can now add a moody fog or haze look to a flat shot without a plugin, and if you shoot on a camera that records ProRes RAW, you can finally bring that footage in natively instead of converting it first.",
+          "link": "https://www.cined.com/davinci-resolve-20-2-brings-prores-raw-better-immersive-workflows-and-ai-fog-effects/",
+          "source": "CineD",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 7,
+            "social": 4,
+            "community": 7,
+            "act_now": true,
+            "action_note": "Update to DaVinci Resolve 20.2 and try the new AI Cinematic Haze tool on a recent project so you can show it off in your next Resolve tutorial.",
+            "angle": "I tried DaVinci Resolve's new AI fog effect on a real edit, here's how it looks"
+          }
+        }
+      ]
     },
     {
       "id": "content-social",
       "title": "Content & Social Media Pulse",
       "items": [
         {
-          "headline": "YouTube Changes How It Counts a 'View' Starting August 24",
-          "summary": "Starting August 24, YouTube will count a public view the instant a video starts playing, with no minimum watch time required, for regular videos and livestreams (Shorts already worked this way). YouTube says this won't change ad earnings or Partner Program eligibility, and you can still track real engagement in Analytics under 'Engaged views.'",
-          "why_it_matters": "Don't panic if your view counts suddenly jump after August 24, it's a counting-method change, not a sign your videos are getting more engagement, so keep watching 'Engaged views' and average view duration if you want to know what's actually working.",
-          "link": "https://techcrunch.com/2026/08/17/youtube-will-now-count-a-view-as-soon-as-a-video-starts-playing/",
-          "source": "TechCrunch",
+          "headline": "YouTube Changes How It Recommends Membership Prices Outside the U.S.",
+          "summary": "Starting August 19, YouTube updated the price recommendations it gives creators for channel memberships sold outside the United States, factoring in what audiences in each country can actually afford rather than just the exchange rate. Existing members keep their current price, and members paying in U.S. dollars aren't affected.",
+          "why_it_matters": "If you sell channel memberships and have viewers outside the U.S., check YouTube Studio, your suggested pricing for new international members may have shifted, and you can always accept, tweak, or override the recommendation yourself.",
+          "link": "https://www.socialmediatoday.com/news/youtube-updates-mobile-ui-and-channel-membership-pricing/823349/",
+          "source": "Social Media Today",
           "tag": "Platform Change",
           "opportunity": {
-            "video": 6,
-            "social": 7,
-            "community": 8,
+            "video": 2,
+            "social": 3,
+            "community": 4,
             "act_now": true,
-            "action_note": "Post a quick heads-up to your audience before August 24 that view counts will jump because of YouTube's new counting method, not increased engagement, and keep tracking 'Engaged views' in YouTube Analytics as your real metric.",
-            "angle": "YouTube view counts are about to jump on August 24, here's what's actually changing (and what isn't)"
+            "action_note": "If you offer channel memberships, open YouTube Studio's membership pricing page and review the new recommended international prices before accepting them by default."
           }
         }
       ]

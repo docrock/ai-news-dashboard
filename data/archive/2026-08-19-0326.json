@@ -1,0 +1,90 @@
+{
+  "generated_at_iso": "2026-08-19T03:26:12-10:00",
+  "generated_label": "Wednesday, August 19 · 3:26 AM HST",
+  "edition": "morning",
+  "categories": [
+    {
+      "id": "claude-anthropic",
+      "title": "Claude & Anthropic",
+      "items": [
+        {
+          "headline": "Anthropic Backs Off the Claude Code Limit Cut, Extends the Boost to August 31",
+          "summary": "Anthropic's temporary 50% boost to Claude Code's (its AI coding and automation tool) weekly usage limits was set to expire today, August 19, but Anthropic just extended it again, this time through August 31, for Pro, Max, Team, and legacy seat-based Enterprise plans.",
+          "why_it_matters": "If you use Claude Code for scripts, automations, or other build-it-yourself projects, you don't need to rush this week after all, your extra weekly capacity is safe for at least another 12 days.",
+          "link": "https://x.com/ClaudeDevs/status/2089798442306711646",
+          "source": "Anthropic (Claude Devs, official X account)",
+          "tag": "Pricing",
+          "opportunity": {
+            "video": 2,
+            "social": 5,
+            "community": 6,
+            "act_now": false
+          }
+        },
+        {
+          "headline": "Claude Cowork Is Now Fully on Your Phone, No Extra Cost, on Every Paid Plan",
+          "summary": "Claude Cowork, Anthropic's feature that lets Claude work through multi-step tasks in the background like a virtual assistant, is now fully available on iPhone, iPad, Android, and the web for every paid Claude plan, not just the priciest one. You can start a task on your computer and check on it from your phone, and scheduled tasks keep running even if every device is switched off.",
+          "why_it_matters": "If you're on any paid Claude plan, even the $20/month Pro tier, you can now hand Claude a research task, a batch of file cleanup, or a multi-step errand and check its progress from your phone instead of being stuck at your desk.",
+          "link": "https://x.com/claudeai/status/2089756371570900999",
+          "source": "Anthropic (Claude, official X account)",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 7,
+            "social": 6,
+            "community": 8,
+            "act_now": true,
+            "action_note": "Open the Claude app on your phone this week and assign Cowork a real task, like organizing files or researching a topic, so you already know how it works before you need it for something time-sensitive.",
+            "angle": "I ran a real business task through Claude Cowork entirely from my phone, here's what happened"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ai-industry",
+      "title": "Wider AI World",
+      "items": [
+        {
+          "headline": "Google's Gemini App Just Crossed 1 Billion Monthly Users",
+          "summary": "Google says its Gemini AI app has passed 1 billion monthly active users, up from 400 million in May 2025, making it the fastest-growing product in company history. CEO Sundar Pichai says most of that growth is coming from people talking to it out loud through Gemini Live and using it to generate images.",
+          "why_it_matters": "This is a sign the free AI assistant built into Android phones and Google Search has gone properly mainstream, worth knowing if clients or audience members mention 'asking Gemini' instead of Googling something.",
+          "link": "https://techcrunch.com/2026/08/11/googles-gemini-app-surges-to-one-billion-users/",
+          "source": "TechCrunch",
+          "tag": "Milestone",
+          "opportunity": {
+            "video": 3,
+            "social": 6,
+            "community": 3,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "creator-tools",
+      "title": "Tools & Tips for Creators and Small Biz",
+      "items": []
+    },
+    {
+      "id": "content-social",
+      "title": "Content & Social Media Pulse",
+      "items": [
+        {
+          "headline": "YouTube Changes How It Counts a 'View' Starting August 24",
+          "summary": "Starting August 24, YouTube will count a public view the instant a video starts playing, with no minimum watch time required, for regular videos and livestreams (Shorts already worked this way). YouTube says this won't change ad earnings or Partner Program eligibility, and you can still track real engagement in Analytics under 'Engaged views.'",
+          "why_it_matters": "Don't panic if your view counts suddenly jump after August 24, it's a counting-method change, not a sign your videos are getting more engagement, so keep watching 'Engaged views' and average view duration if you want to know what's actually working.",
+          "link": "https://techcrunch.com/2026/08/17/youtube-will-now-count-a-view-as-soon-as-a-video-starts-playing/",
+          "source": "TechCrunch",
+          "tag": "Platform Change",
+          "opportunity": {
+            "video": 6,
+            "social": 7,
+            "community": 8,
+            "act_now": true,
+            "action_note": "Post a quick heads-up to your audience before August 24 that view counts will jump because of YouTube's new counting method, not increased engagement, and keep tracking 'Engaged views' in YouTube Analytics as your real metric.",
+            "angle": "YouTube view counts are about to jump on August 24, here's what's actually changing (and what isn't)"
+          }
+        }
+      ]
+    }
+  ]
+}
