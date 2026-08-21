@@ -1,72 +1,57 @@
 {
-  "generated_at_iso": "2026-08-20T03:27:28-10:00",
-  "generated_label": "Thursday, August 20 · 3:27 AM HST",
+  "generated_at_iso": "2026-08-21T03:29:36-10:00",
+  "generated_label": "Friday, August 21 · 3:29 AM HST",
   "edition": "morning",
   "categories": [
     {
       "id": "claude-anthropic",
       "title": "Claude & Anthropic",
-      "items": []
+      "items": [
+        {
+          "headline": "Anthropic Opens Claude Academy, a Free Course Hub for Learning AI",
+          "summary": "Anthropic launched Claude Academy on August 20, a free learning hub with self-paced courses that teach people how to actually use Claude, starting with a beginner-friendly \"Claude 101\" course and scaling up to more technical topics. No credit card is required, and you get a certificate when you finish a course.",
+          "why_it_matters": "If AI still feels like a moving target, this is a structured, judgment-free way to actually get comfortable with Claude at your own pace, straight from the company that builds it, and it's free.",
+          "link": "https://anthropic.skilljar.com/",
+          "source": "Anthropic (official)",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 6,
+            "social": 6,
+            "community": 8,
+            "act_now": true,
+            "action_note": "Go to anthropic.skilljar.com this week, work through the free Claude 101 course, and share the link in the Creator Sandbox Community as a low-pressure 'start here' resource for members who feel behind on AI.",
+            "angle": "I took Anthropic's brand-new free Claude course so you don't have to start from zero"
+          }
+        }
+      ]
     },
     {
       "id": "ai-industry",
       "title": "Wider AI World",
-      "items": [
-        {
-          "headline": "OpenAI Rolls Out a Teen-Only Version of ChatGPT",
-          "summary": "OpenAI launched ChatGPT for Teens on August 18, a separate experience for 13-to-17-year-olds with content restrictions around topics like self-harm, no romantic or flirty chat responses, and a new \"Study Mode\" that guides kids toward figuring out answers instead of just handing them over. Anyone the system thinks might be under 18 gets automatically placed into it.",
-          "why_it_matters": "If you have teens at home, or your audience does, this is worth knowing about since it changes what ChatGPT will and won't do for that age group, and it's a good excuse to check the parental controls now rather than after a problem comes up.",
-          "link": "https://openai.com/index/chatgpt-for-teens/",
-          "source": "OpenAI (official)",
-          "tag": "Product Update",
-          "opportunity": {
-            "video": 3,
-            "social": 6,
-            "community": 6,
-            "act_now": false
-          }
-        }
-      ]
+      "items": []
     },
     {
       "id": "creator-tools",
       "title": "Tools & Tips for Creators and Small Biz",
-      "items": [
-        {
-          "headline": "DaVinci Resolve 20.2 Adds an AI Fog Effect and Long-Awaited ProRes RAW Support",
-          "summary": "Blackmagic's DaVinci Resolve 20.2 update brings a new AI Cinematic Haze tool that adds realistic atmospheric fog to a shot using an AI-generated depth map (with sliders to control how far it reaches and how strong it looks), plus native support for Apple ProRes RAW footage and a faster surface tracker.",
-          "why_it_matters": "If you edit in Resolve, you can now add a moody fog or haze look to a flat shot without a plugin, and if you shoot on a camera that records ProRes RAW, you can finally bring that footage in natively instead of converting it first.",
-          "link": "https://www.cined.com/davinci-resolve-20-2-brings-prores-raw-better-immersive-workflows-and-ai-fog-effects/",
-          "source": "CineD",
-          "tag": "Product Update",
-          "opportunity": {
-            "video": 7,
-            "social": 4,
-            "community": 7,
-            "act_now": true,
-            "action_note": "Update to DaVinci Resolve 20.2 and try the new AI Cinematic Haze tool on a recent project so you can show it off in your next Resolve tutorial.",
-            "angle": "I tried DaVinci Resolve's new AI fog effect on a real edit, here's how it looks"
-          }
-        }
-      ]
+      "items": []
     },
     {
       "id": "content-social",
       "title": "Content & Social Media Pulse",
       "items": [
         {
-          "headline": "YouTube Changes How It Recommends Membership Prices Outside the U.S.",
-          "summary": "Starting August 19, YouTube updated the price recommendations it gives creators for channel memberships sold outside the United States, factoring in what audiences in each country can actually afford rather than just the exchange rate. Existing members keep their current price, and members paying in U.S. dollars aren't affected.",
-          "why_it_matters": "If you sell channel memberships and have viewers outside the U.S., check YouTube Studio, your suggested pricing for new international members may have shifted, and you can always accept, tweak, or override the recommendation yourself.",
-          "link": "https://www.socialmediatoday.com/news/youtube-updates-mobile-ui-and-channel-membership-pricing/823349/",
-          "source": "Social Media Today",
+          "headline": "Twitch Opens Paid Brand Sponsorships to Affiliates, Not Just Partners",
+          "summary": "Starting August 20, Twitch's Sponsorship Dashboard lets Affiliates (the entry-level tier below Partner) get discovered and considered for brand sponsorship campaigns, then run and get paid for those campaigns from the same dashboard. Until now, that door was open only to Partners outside of a few one-off promotions.",
+          "why_it_matters": "If you stream on Twitch as part of your content mix and you're an Affiliate rather than a Partner, this is a real new income stream you didn't have access to yesterday, worth a look even if you're a smaller channel.",
+          "link": "https://blog.twitch.tv/en/2026/08/20/sponsorships-are-now-available-to-affiliates/",
+          "source": "Twitch (official blog)",
           "tag": "Platform Change",
           "opportunity": {
-            "video": 2,
-            "social": 3,
-            "community": 4,
+            "video": 3,
+            "social": 5,
+            "community": 6,
             "act_now": true,
-            "action_note": "If you offer channel memberships, open YouTube Studio's membership pricing page and review the new recommended international prices before accepting them by default."
+            "action_note": "If you or anyone in your community streams on Twitch as an Affiliate, check the Sponsorship Dashboard this week to see what brand campaigns are now open to that tier."
           }
         }
       ]
