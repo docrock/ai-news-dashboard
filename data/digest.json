@@ -1,60 +1,58 @@
 {
-  "generated_at_iso": "2026-08-21T03:29:36-10:00",
-  "generated_label": "Friday, August 21 · 3:29 AM HST",
+  "generated_at_iso": "2026-08-22T03:17:22-10:00",
+  "generated_label": "Saturday, August 22 · 3:17 AM HST",
   "edition": "morning",
   "categories": [
     {
       "id": "claude-anthropic",
       "title": "Claude & Anthropic",
-      "items": [
-        {
-          "headline": "Anthropic Opens Claude Academy, a Free Course Hub for Learning AI",
-          "summary": "Anthropic launched Claude Academy on August 20, a free learning hub with self-paced courses that teach people how to actually use Claude, starting with a beginner-friendly \"Claude 101\" course and scaling up to more technical topics. No credit card is required, and you get a certificate when you finish a course.",
-          "why_it_matters": "If AI still feels like a moving target, this is a structured, judgment-free way to actually get comfortable with Claude at your own pace, straight from the company that builds it, and it's free.",
-          "link": "https://anthropic.skilljar.com/",
-          "source": "Anthropic (official)",
-          "tag": "Product Update",
-          "opportunity": {
-            "video": 6,
-            "social": 6,
-            "community": 8,
-            "act_now": true,
-            "action_note": "Go to anthropic.skilljar.com this week, work through the free Claude 101 course, and share the link in the Creator Sandbox Community as a low-pressure 'start here' resource for members who feel behind on AI.",
-            "angle": "I took Anthropic's brand-new free Claude course so you don't have to start from zero"
-          }
-        }
-      ]
+      "items": []
     },
     {
       "id": "ai-industry",
       "title": "Wider AI World",
-      "items": []
+      "items": [
+        {
+          "headline": "OpenAI Cuts the Price of Its Top AI Model by Over 20%",
+          "summary": "OpenAI announced on August 21 that it's cutting the price of GPT-5.6 Sol, its top-tier AI model, by more than 20% for the next three months. In plain terms: it now costs less for developers to build things with OpenAI's smartest model, as OpenAI competes with Anthropic and Chinese AI labs on price.",
+          "why_it_matters": "This is the same model that powers a lot of the AI chatbots and automation features baked into apps you may already use, so price cuts like this tend to trickle down into cheaper or more capable tools for you over time, even if you never touch OpenAI directly.",
+          "link": "https://www.investing.com/news/stock-market-news/openai-cuts-developer-pricing-for-frontier-gpt56-sol-model-by-more-than-20-4872186",
+          "source": "Reuters (via Investing.com)",
+          "tag": "Pricing",
+          "opportunity": {
+            "video": 2,
+            "social": 4,
+            "community": 3,
+            "act_now": false
+          }
+        }
+      ]
     },
     {
       "id": "creator-tools",
       "title": "Tools & Tips for Creators and Small Biz",
-      "items": []
+      "items": [
+        {
+          "headline": "Instagram's Free Edits App Can Now Turn a Still Photo Into a Video Clip",
+          "summary": "Meta's free video editor Edits (Instagram's answer to CapCut) added a feature where U.S. users type a description of the motion they want, and the app's AI animates a still photo into a short video clip. The update also adds better project folders for organizing multiple in-progress edits and richer, more flexible templates.",
+          "why_it_matters": "If you already use Edits to cut your Reels or Shorts, this gives you a free way to turn a product photo, graphic, or old still image into a moving clip, no reshoot, no separate AI app or subscription needed.",
+          "link": "https://www.socialmediatoday.com/news/edits-gets-improved-project-management-and-ai-features/828464/",
+          "source": "Social Media Today",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 5,
+            "social": 5,
+            "community": 7,
+            "act_now": false,
+            "angle": "I turned a plain product photo into a moving Reel using Instagram's free Edits app, here's how"
+          }
+        }
+      ]
     },
     {
       "id": "content-social",
       "title": "Content & Social Media Pulse",
-      "items": [
-        {
-          "headline": "Twitch Opens Paid Brand Sponsorships to Affiliates, Not Just Partners",
-          "summary": "Starting August 20, Twitch's Sponsorship Dashboard lets Affiliates (the entry-level tier below Partner) get discovered and considered for brand sponsorship campaigns, then run and get paid for those campaigns from the same dashboard. Until now, that door was open only to Partners outside of a few one-off promotions.",
-          "why_it_matters": "If you stream on Twitch as part of your content mix and you're an Affiliate rather than a Partner, this is a real new income stream you didn't have access to yesterday, worth a look even if you're a smaller channel.",
-          "link": "https://blog.twitch.tv/en/2026/08/20/sponsorships-are-now-available-to-affiliates/",
-          "source": "Twitch (official blog)",
-          "tag": "Platform Change",
-          "opportunity": {
-            "video": 3,
-            "social": 5,
-            "community": 6,
-            "act_now": true,
-            "action_note": "If you or anyone in your community streams on Twitch as an Affiliate, check the Sponsorship Dashboard this week to see what brand campaigns are now open to that tier."
-          }
-        }
-      ]
+      "items": []
     }
   ]
 }

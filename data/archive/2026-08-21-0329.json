@@ -1,0 +1,60 @@
+{
+  "generated_at_iso": "2026-08-21T03:29:36-10:00",
+  "generated_label": "Friday, August 21 · 3:29 AM HST",
+  "edition": "morning",
+  "categories": [
+    {
+      "id": "claude-anthropic",
+      "title": "Claude & Anthropic",
+      "items": [
+        {
+          "headline": "Anthropic Opens Claude Academy, a Free Course Hub for Learning AI",
+          "summary": "Anthropic launched Claude Academy on August 20, a free learning hub with self-paced courses that teach people how to actually use Claude, starting with a beginner-friendly \"Claude 101\" course and scaling up to more technical topics. No credit card is required, and you get a certificate when you finish a course.",
+          "why_it_matters": "If AI still feels like a moving target, this is a structured, judgment-free way to actually get comfortable with Claude at your own pace, straight from the company that builds it, and it's free.",
+          "link": "https://anthropic.skilljar.com/",
+          "source": "Anthropic (official)",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 6,
+            "social": 6,
+            "community": 8,
+            "act_now": true,
+            "action_note": "Go to anthropic.skilljar.com this week, work through the free Claude 101 course, and share the link in the Creator Sandbox Community as a low-pressure 'start here' resource for members who feel behind on AI.",
+            "angle": "I took Anthropic's brand-new free Claude course so you don't have to start from zero"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ai-industry",
+      "title": "Wider AI World",
+      "items": []
+    },
+    {
+      "id": "creator-tools",
+      "title": "Tools & Tips for Creators and Small Biz",
+      "items": []
+    },
+    {
+      "id": "content-social",
+      "title": "Content & Social Media Pulse",
+      "items": [
+        {
+          "headline": "Twitch Opens Paid Brand Sponsorships to Affiliates, Not Just Partners",
+          "summary": "Starting August 20, Twitch's Sponsorship Dashboard lets Affiliates (the entry-level tier below Partner) get discovered and considered for brand sponsorship campaigns, then run and get paid for those campaigns from the same dashboard. Until now, that door was open only to Partners outside of a few one-off promotions.",
+          "why_it_matters": "If you stream on Twitch as part of your content mix and you're an Affiliate rather than a Partner, this is a real new income stream you didn't have access to yesterday, worth a look even if you're a smaller channel.",
+          "link": "https://blog.twitch.tv/en/2026/08/20/sponsorships-are-now-available-to-affiliates/",
+          "source": "Twitch (official blog)",
+          "tag": "Platform Change",
+          "opportunity": {
+            "video": 3,
+            "social": 5,
+            "community": 6,
+            "act_now": true,
+            "action_note": "If you or anyone in your community streams on Twitch as an Affiliate, check the Sponsorship Dashboard this week to see what brand campaigns are now open to that tier."
+          }
+        }
+      ]
+    }
+  ]
+}
