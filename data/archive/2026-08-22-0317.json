@@ -1,0 +1,58 @@
+{
+  "generated_at_iso": "2026-08-22T03:17:22-10:00",
+  "generated_label": "Saturday, August 22 · 3:17 AM HST",
+  "edition": "morning",
+  "categories": [
+    {
+      "id": "claude-anthropic",
+      "title": "Claude & Anthropic",
+      "items": []
+    },
+    {
+      "id": "ai-industry",
+      "title": "Wider AI World",
+      "items": [
+        {
+          "headline": "OpenAI Cuts the Price of Its Top AI Model by Over 20%",
+          "summary": "OpenAI announced on August 21 that it's cutting the price of GPT-5.6 Sol, its top-tier AI model, by more than 20% for the next three months. In plain terms: it now costs less for developers to build things with OpenAI's smartest model, as OpenAI competes with Anthropic and Chinese AI labs on price.",
+          "why_it_matters": "This is the same model that powers a lot of the AI chatbots and automation features baked into apps you may already use, so price cuts like this tend to trickle down into cheaper or more capable tools for you over time, even if you never touch OpenAI directly.",
+          "link": "https://www.investing.com/news/stock-market-news/openai-cuts-developer-pricing-for-frontier-gpt56-sol-model-by-more-than-20-4872186",
+          "source": "Reuters (via Investing.com)",
+          "tag": "Pricing",
+          "opportunity": {
+            "video": 2,
+            "social": 4,
+            "community": 3,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "creator-tools",
+      "title": "Tools & Tips for Creators and Small Biz",
+      "items": [
+        {
+          "headline": "Instagram's Free Edits App Can Now Turn a Still Photo Into a Video Clip",
+          "summary": "Meta's free video editor Edits (Instagram's answer to CapCut) added a feature where U.S. users type a description of the motion they want, and the app's AI animates a still photo into a short video clip. The update also adds better project folders for organizing multiple in-progress edits and richer, more flexible templates.",
+          "why_it_matters": "If you already use Edits to cut your Reels or Shorts, this gives you a free way to turn a product photo, graphic, or old still image into a moving clip, no reshoot, no separate AI app or subscription needed.",
+          "link": "https://www.socialmediatoday.com/news/edits-gets-improved-project-management-and-ai-features/828464/",
+          "source": "Social Media Today",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 5,
+            "social": 5,
+            "community": 7,
+            "act_now": false,
+            "angle": "I turned a plain product photo into a moving Reel using Instagram's free Edits app, here's how"
+          }
+        }
+      ]
+    },
+    {
+      "id": "content-social",
+      "title": "Content & Social Media Pulse",
+      "items": []
+    }
+  ]
+}
