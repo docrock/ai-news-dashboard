@@ -1,75 +1,11 @@
 {
-  "generated_at_iso": "2026-08-23T03:19:16-10:00",
-  "generated_label": "Sunday, August 23 · 3:19 AM HST",
+  "generated_at_iso": "2026-08-24T03:34:28-10:00",
+  "generated_label": "Monday, August 24 · 3:34 AM HST",
   "edition": "morning",
   "categories": [
-    {
-      "id": "claude-anthropic",
-      "title": "Claude & Anthropic",
-      "items": [
-        {
-          "headline": "Claude Can Now Send Your Gmail and Manage Your Google Drive Files",
-          "summary": "Claude can now draft, send, reply to, and forward emails in Gmail, and search, share, move, or delete files in Google Drive, all from a normal chat. By default Claude shows you the exact message or action first and waits for your approval before anything actually goes out or changes.",
-          "why_it_matters": "If you already connect Gmail or Drive to Claude, you can now hand off real inbox and file cleanup instead of just getting a draft you still have to copy and send yourself, which is a real time-saver when you're running your business solo.",
-          "link": "https://www.androidauthority.com/claude-gmail-google-drive-integrations-3700330/",
-          "source": "Android Authority",
-          "tag": "Product Update",
-          "opportunity": {
-            "video": 6,
-            "social": 5,
-            "community": 8,
-            "act_now": true,
-            "action_note": "Connect Gmail and Google Drive from Claude's connectors menu this week and test it on a low-stakes email first so you understand the approval step before trusting it with client messages.",
-            "angle": "I let Claude answer my business email for a week, here's what it got right and where I still stepped in"
-          }
-        }
-      ]
-    },
-    {
-      "id": "ai-industry",
-      "title": "Wider AI World",
-      "items": [
-        {
-          "headline": "ChatGPT Can Now Read and Send Your Apple Messages on Mac",
-          "summary": "OpenAI released a plugin that lets ChatGPT open, search, summarize, and send iMessage, SMS, and RCS texts right from the Messages app on Apple Silicon Macs. It asks for your approval before sending anything, and OpenAI says the message processing happens locally on your Mac rather than in the cloud.",
-          "why_it_matters": "This could save you time triaging texts and drafting quick replies, but it also means giving an AI app access to your personal messages, so it's worth weighing the convenience against the privacy trade-off before you connect it.",
-          "link": "https://www.macrumors.com/2026/08/20/chatgpt-imessages-mac/",
-          "source": "MacRumors",
-          "tag": "Product Update",
-          "opportunity": {
-            "video": 3,
-            "social": 6,
-            "community": 5,
-            "act_now": false
-          }
-        }
-      ]
-    },
-    {
-      "id": "creator-tools",
-      "title": "Tools & Tips for Creators and Small Biz",
-      "items": [
-        {
-          "headline": "Google Slides Can Now Record Your Presentation as a Polished Video",
-          "summary": "Google added a \"Record\" option right inside Google Slides that uses Google Vids to capture you presenting, then automatically cleans it up with transcript-based editing and an optional AI voiceover. The result is a shareable video link, no separate recording or editing app needed.",
-          "why_it_matters": "If you ever turn a slide deck into a tutorial, client pitch, or course lesson, this cuts out a whole editing step, letting you record straight from Slides and hand someone a polished video without opening Resolve or Ecamm.",
-          "link": "https://workspaceupdates.googleblog.com/2026/08/record-presentations-in-google-slides-with-Google-Vids.html",
-          "source": "Google Workspace Updates",
-          "tag": "Product Update",
-          "opportunity": {
-            "video": 6,
-            "social": 4,
-            "community": 7,
-            "act_now": false,
-            "angle": "I turned a plain slide deck into a shareable video without touching a video editor, here's how"
-          }
-        }
-      ]
-    },
-    {
-      "id": "content-social",
-      "title": "Content & Social Media Pulse",
-      "items": []
-    }
+    { "id": "claude-anthropic", "title": "Claude & Anthropic", "items": [] },
+    { "id": "ai-industry", "title": "Wider AI World", "items": [] },
+    { "id": "creator-tools", "title": "Tools & Tips for Creators and Small Biz", "items": [] },
+    { "id": "content-social", "title": "Content & Social Media Pulse", "items": [] }
   ]
 }
