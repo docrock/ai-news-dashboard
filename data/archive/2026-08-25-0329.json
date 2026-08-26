@@ -1,0 +1,70 @@
+{
+  "generated_at_iso": "2026-08-25T03:29:22-10:00",
+  "generated_label": "Tuesday, August 25 · 3:29 AM HST",
+  "edition": "morning",
+  "categories": [
+    { "id": "claude-anthropic", "title": "Claude & Anthropic", "items": [] },
+    {
+      "id": "ai-industry",
+      "title": "Wider AI World",
+      "items": [
+        {
+          "headline": "ChatGPT Starts Showing Ads to Free Users Across Europe",
+          "summary": "Starting August 24, OpenAI began showing ads in ChatGPT's Free and Go plans across 31 European countries, the same ad format it quietly rolled out in the U.S. about six months ago. Ads stay visually separate from ChatGPT's actual answers, and paid plans (Plus, Pro, Business, Enterprise) never show them.",
+          "why_it_matters": "If you or people you know use the free version of ChatGPT, this is a reminder that 'free' AI tools increasingly come with ads baked in, which is worth knowing when you're comparing free versus paid AI tools for your own workflow.",
+          "link": "https://openai.com/index/chatgpt-ads-expands-across-europe/",
+          "source": "OpenAI (official)",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 2,
+            "social": 4,
+            "community": 5,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "creator-tools",
+      "title": "Tools & Tips for Creators and Small Biz",
+      "items": [
+        {
+          "headline": "CapCut's Free Design Tool Gets an AI Art Director and a Pro-Grade Image Model",
+          "summary": "CapCut upgraded its free web-based Design Studio with an 'infinite canvas' you can drop products, logos, and photos onto, a new AI agent that acts like an art director suggesting layout and style choices, reusable one-click 'Skills' for repeat tasks, and ByteDance's Seedream 5.0 Pro image model for generating and editing product photos.",
+          "why_it_matters": "If you sell anything online or make thumbnails and promo graphics, this gives you a free way to turn a plain product photo into polished, on-brand marketing images without opening Photoshop or hiring a designer.",
+          "link": "https://www.globenewswire.com/news-release/2026/08/14/3345553/0/en/capcut-design-studio-levels-up-new-skills-ecosystem-and-seedream-5-0-pro-model-bring-pro-grade-ai-design-to-everyone.html",
+          "source": "GlobeNewswire (CapCut press release)",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 7,
+            "social": 5,
+            "community": 8,
+            "act_now": false,
+            "angle": "I turned one product photo into a full set of marketing images using CapCut's free AI design tool, here's how"
+          }
+        }
+      ]
+    },
+    {
+      "id": "content-social",
+      "title": "Content & Social Media Pulse",
+      "items": [
+        {
+          "headline": "YouTube's New View-Counting Rule Has Big Creators Worried It'll Reward AI Slop",
+          "summary": "Days before YouTube's August 24 switch to counting a 'view' the instant a video starts playing (instead of after 30 seconds), high-profile creators like Moist Cr1TiKaL pushed back publicly, arguing the change will reward mass-produced, low-effort AI videos that grab a quick view without holding anyone's attention. YouTube maintains the change only affects the public view count, not ad earnings or Partner Program eligibility.",
+          "why_it_matters": "This is a good reminder that a rising view count doesn't mean rising interest, keep an eye on 'Engaged views' and average view duration in YouTube Analytics as your real signal, especially as this debate makes more low-effort AI content chase quick views.",
+          "link": "https://www.spokesman.com/stories/2026/aug/23/youtubers-worry-that-a-new-policy-will-lead-to-mor/",
+          "source": "The Spokesman-Review",
+          "tag": "Platform Change",
+          "opportunity": {
+            "video": 6,
+            "social": 8,
+            "community": 7,
+            "act_now": false,
+            "angle": "YouTube's view-count change is already sparking backlash, here's what's actually changing and why creators are worried"
+          }
+        }
+      ]
+    }
+  ]
+}

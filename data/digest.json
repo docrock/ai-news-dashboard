@@ -1,25 +1,60 @@
 {
-  "generated_at_iso": "2026-08-25T03:29:22-10:00",
-  "generated_label": "Tuesday, August 25 · 3:29 AM HST",
+  "generated_at_iso": "2026-08-26T03:32:44-10:00",
+  "generated_label": "Wednesday, August 26 · 3:32 AM HST",
   "edition": "morning",
   "categories": [
-    { "id": "claude-anthropic", "title": "Claude & Anthropic", "items": [] },
+    {
+      "id": "claude-anthropic",
+      "title": "Claude & Anthropic",
+      "items": [
+        {
+          "headline": "Claude's Memory Now Follows You Between Chat and Cowork",
+          "summary": "Anthropic merged Claude's memory so chat and Cowork (its project/task tool) now share one memory instead of two separate ones. Claude adds what it learns to memory as you talk instead of waiting until a conversation ends, and everything it remembers is listed under Settings > Memory, where you can read, edit, or delete any item.",
+          "why_it_matters": "If you use Claude for both quick questions and bigger projects, you no longer have to re-explain your business, brand voice, or an ongoing project every time you switch between the two, and you can see and clean out exactly what it's remembered about you.",
+          "link": "https://claude.com/blog/claudes-memory-works-everywhere-and-you-decide-whats-in-it",
+          "source": "Claude by Anthropic (official blog)",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 6,
+            "social": 5,
+            "community": 7,
+            "act_now": false,
+            "angle": "I tested Claude's new shared memory between chat and Cowork, here's what actually carries over"
+          }
+        },
+        {
+          "headline": "Anthropic Tells Investors the AI Market Could Be Worth $30+ Trillion, Ahead of a Possible IPO",
+          "summary": "Anthropic, the company behind Claude, is reportedly telling investors it sees the total money-making opportunity for AI work at more than $30 trillion a year, per the Wall Street Journal, as it raises money ahead of a possible stock market listing later this year. That's on top of Anthropic's own 2026 revenue run rate, which has already climbed past $30 billion.",
+          "why_it_matters": "You don't need to track Anthropic's finances closely, but this is a sign the company behind Claude is raising serious money and betting on years of continued investment, not scaling back, which matters if you're building content or workflows around Claude for the long haul.",
+          "link": "https://finance.yahoo.com/technology/ai/articles/anthropic-expected-tell-investors-sees-165618194.html",
+          "source": "Reuters (via Yahoo Finance)",
+          "tag": "Business News",
+          "opportunity": {
+            "video": 2,
+            "social": 4,
+            "community": 3,
+            "act_now": false
+          }
+        }
+      ]
+    },
     {
       "id": "ai-industry",
       "title": "Wider AI World",
       "items": [
         {
-          "headline": "ChatGPT Starts Showing Ads to Free Users Across Europe",
-          "summary": "Starting August 24, OpenAI began showing ads in ChatGPT's Free and Go plans across 31 European countries, the same ad format it quietly rolled out in the U.S. about six months ago. Ads stay visually separate from ChatGPT's actual answers, and paid plans (Plus, Pro, Business, Enterprise) never show them.",
-          "why_it_matters": "If you or people you know use the free version of ChatGPT, this is a reminder that 'free' AI tools increasingly come with ads baked in, which is worth knowing when you're comparing free versus paid AI tools for your own workflow.",
-          "link": "https://openai.com/index/chatgpt-ads-expands-across-europe/",
-          "source": "OpenAI (official)",
+          "headline": "ChatGPT's Scheduled Tasks Feature Is Now Free for Everyone",
+          "summary": "OpenAI opened up ChatGPT's task-scheduling tool to Free accounts on August 25-26. Free users can set up to three scheduled tasks, either one-time or recurring up to once a day in a flexible window like 'morning' or 'evening.' Paid plans still get exact times and tasks that trigger off events in Gmail, Slack, or GitHub.",
+          "why_it_matters": "If you use the free version of ChatGPT, you can now have it automatically do something on a recurring basis, for example, drafting a daily social caption idea or a weekly content-planning prompt, without paying for a subscription.",
+          "link": "https://www.engadget.com/2244194/free-accounts-can-now-access-chatgpts-upgraded-task-scheduling-tool/",
+          "source": "Engadget",
           "tag": "Product Update",
           "opportunity": {
-            "video": 2,
+            "video": 5,
             "social": 4,
-            "community": 5,
-            "act_now": false
+            "community": 6,
+            "act_now": false,
+            "angle": "Free ChatGPT can now run on a schedule, here are 3 recurring tasks worth setting up for your channel"
           }
         }
       ]
@@ -27,41 +62,24 @@
     {
       "id": "creator-tools",
       "title": "Tools & Tips for Creators and Small Biz",
-      "items": [
-        {
-          "headline": "CapCut's Free Design Tool Gets an AI Art Director and a Pro-Grade Image Model",
-          "summary": "CapCut upgraded its free web-based Design Studio with an 'infinite canvas' you can drop products, logos, and photos onto, a new AI agent that acts like an art director suggesting layout and style choices, reusable one-click 'Skills' for repeat tasks, and ByteDance's Seedream 5.0 Pro image model for generating and editing product photos.",
-          "why_it_matters": "If you sell anything online or make thumbnails and promo graphics, this gives you a free way to turn a plain product photo into polished, on-brand marketing images without opening Photoshop or hiring a designer.",
-          "link": "https://www.globenewswire.com/news-release/2026/08/14/3345553/0/en/capcut-design-studio-levels-up-new-skills-ecosystem-and-seedream-5-0-pro-model-bring-pro-grade-ai-design-to-everyone.html",
-          "source": "GlobeNewswire (CapCut press release)",
-          "tag": "Product Update",
-          "opportunity": {
-            "video": 7,
-            "social": 5,
-            "community": 8,
-            "act_now": false,
-            "angle": "I turned one product photo into a full set of marketing images using CapCut's free AI design tool, here's how"
-          }
-        }
-      ]
+      "items": []
     },
     {
       "id": "content-social",
       "title": "Content & Social Media Pulse",
       "items": [
         {
-          "headline": "YouTube's New View-Counting Rule Has Big Creators Worried It'll Reward AI Slop",
-          "summary": "Days before YouTube's August 24 switch to counting a 'view' the instant a video starts playing (instead of after 30 seconds), high-profile creators like Moist Cr1TiKaL pushed back publicly, arguing the change will reward mass-produced, low-effort AI videos that grab a quick view without holding anyone's attention. YouTube maintains the change only affects the public view count, not ad earnings or Partner Program eligibility.",
-          "why_it_matters": "This is a good reminder that a rising view count doesn't mean rising interest, keep an eye on 'Engaged views' and average view duration in YouTube Analytics as your real signal, especially as this debate makes more low-effort AI content chase quick views.",
-          "link": "https://www.spokesman.com/stories/2026/aug/23/youtubers-worry-that-a-new-policy-will-lead-to-mor/",
-          "source": "The Spokesman-Review",
-          "tag": "Platform Change",
+          "headline": "Brazil Fines TikTok's Parent Company $30 Million Over Kids' Data",
+          "summary": "Brazil's data protection authority fined ByteDance (TikTok's owner) close to $30 million, saying TikTok collected and processed personal data from millions of children and teens, including guest browsing sessions, without proper age checks or a valid legal basis.",
+          "why_it_matters": "This is a reminder that regulators worldwide are cracking down hard on how platforms handle young users' data, worth knowing if any of your content, ads, or community touches a younger audience on TikTok or elsewhere.",
+          "link": "https://www.aljazeera.com/news/2026/8/25/brazil-fines-tiktok-30m-for-child-data-privacy-violations",
+          "source": "Al Jazeera",
+          "tag": "Policy",
           "opportunity": {
-            "video": 6,
-            "social": 8,
-            "community": 7,
-            "act_now": false,
-            "angle": "YouTube's view-count change is already sparking backlash, here's what's actually changing and why creators are worried"
+            "video": 2,
+            "social": 4,
+            "community": 3,
+            "act_now": false
           }
         }
       ]
