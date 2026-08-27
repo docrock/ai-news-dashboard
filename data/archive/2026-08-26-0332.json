@@ -1,0 +1,88 @@
+{
+  "generated_at_iso": "2026-08-26T03:32:44-10:00",
+  "generated_label": "Wednesday, August 26 · 3:32 AM HST",
+  "edition": "morning",
+  "categories": [
+    {
+      "id": "claude-anthropic",
+      "title": "Claude & Anthropic",
+      "items": [
+        {
+          "headline": "Claude's Memory Now Follows You Between Chat and Cowork",
+          "summary": "Anthropic merged Claude's memory so chat and Cowork (its project/task tool) now share one memory instead of two separate ones. Claude adds what it learns to memory as you talk instead of waiting until a conversation ends, and everything it remembers is listed under Settings > Memory, where you can read, edit, or delete any item.",
+          "why_it_matters": "If you use Claude for both quick questions and bigger projects, you no longer have to re-explain your business, brand voice, or an ongoing project every time you switch between the two, and you can see and clean out exactly what it's remembered about you.",
+          "link": "https://claude.com/blog/claudes-memory-works-everywhere-and-you-decide-whats-in-it",
+          "source": "Claude by Anthropic (official blog)",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 6,
+            "social": 5,
+            "community": 7,
+            "act_now": false,
+            "angle": "I tested Claude's new shared memory between chat and Cowork, here's what actually carries over"
+          }
+        },
+        {
+          "headline": "Anthropic Tells Investors the AI Market Could Be Worth $30+ Trillion, Ahead of a Possible IPO",
+          "summary": "Anthropic, the company behind Claude, is reportedly telling investors it sees the total money-making opportunity for AI work at more than $30 trillion a year, per the Wall Street Journal, as it raises money ahead of a possible stock market listing later this year. That's on top of Anthropic's own 2026 revenue run rate, which has already climbed past $30 billion.",
+          "why_it_matters": "You don't need to track Anthropic's finances closely, but this is a sign the company behind Claude is raising serious money and betting on years of continued investment, not scaling back, which matters if you're building content or workflows around Claude for the long haul.",
+          "link": "https://finance.yahoo.com/technology/ai/articles/anthropic-expected-tell-investors-sees-165618194.html",
+          "source": "Reuters (via Yahoo Finance)",
+          "tag": "Business News",
+          "opportunity": {
+            "video": 2,
+            "social": 4,
+            "community": 3,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "ai-industry",
+      "title": "Wider AI World",
+      "items": [
+        {
+          "headline": "ChatGPT's Scheduled Tasks Feature Is Now Free for Everyone",
+          "summary": "OpenAI opened up ChatGPT's task-scheduling tool to Free accounts on August 25-26. Free users can set up to three scheduled tasks, either one-time or recurring up to once a day in a flexible window like 'morning' or 'evening.' Paid plans still get exact times and tasks that trigger off events in Gmail, Slack, or GitHub.",
+          "why_it_matters": "If you use the free version of ChatGPT, you can now have it automatically do something on a recurring basis, for example, drafting a daily social caption idea or a weekly content-planning prompt, without paying for a subscription.",
+          "link": "https://www.engadget.com/2244194/free-accounts-can-now-access-chatgpts-upgraded-task-scheduling-tool/",
+          "source": "Engadget",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 5,
+            "social": 4,
+            "community": 6,
+            "act_now": false,
+            "angle": "Free ChatGPT can now run on a schedule, here are 3 recurring tasks worth setting up for your channel"
+          }
+        }
+      ]
+    },
+    {
+      "id": "creator-tools",
+      "title": "Tools & Tips for Creators and Small Biz",
+      "items": []
+    },
+    {
+      "id": "content-social",
+      "title": "Content & Social Media Pulse",
+      "items": [
+        {
+          "headline": "Brazil Fines TikTok's Parent Company $30 Million Over Kids' Data",
+          "summary": "Brazil's data protection authority fined ByteDance (TikTok's owner) close to $30 million, saying TikTok collected and processed personal data from millions of children and teens, including guest browsing sessions, without proper age checks or a valid legal basis.",
+          "why_it_matters": "This is a reminder that regulators worldwide are cracking down hard on how platforms handle young users' data, worth knowing if any of your content, ads, or community touches a younger audience on TikTok or elsewhere.",
+          "link": "https://www.aljazeera.com/news/2026/8/25/brazil-fines-tiktok-30m-for-child-data-privacy-violations",
+          "source": "Al Jazeera",
+          "tag": "Policy",
+          "opportunity": {
+            "video": 2,
+            "social": 4,
+            "community": 3,
+            "act_now": false
+          }
+        }
+      ]
+    }
+  ]
+}
