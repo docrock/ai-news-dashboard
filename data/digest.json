@@ -1,6 +1,6 @@
 {
-  "generated_at_iso": "2026-08-27T03:29:59-10:00",
-  "generated_label": "Thursday, August 27 · 3:29 AM HST",
+  "generated_at_iso": "2026-08-29T03:21:17-10:00",
+  "generated_label": "Saturday, August 29 · 3:21 AM HST",
   "edition": "morning",
   "categories": [
     {
@@ -8,32 +8,31 @@
       "title": "Claude & Anthropic",
       "items": [
         {
-          "headline": "Anthropic and Salesforce Launch \"Claudeforce\" to Wire Claude Into Sales Data",
-          "summary": "Anthropic and Salesforce announced an expanded partnership called Claudeforce that plugs Claude directly into a company's Salesforce data, letting it prep for sales meetings, check deal health, and update customer records on its own. It launches with 37 prebuilt sales tasks for a small group of pilot customers now, with a wider preview planned for next month.",
-          "why_it_matters": "Most solo creators and small shops don't run Salesforce (a popular customer-database tool for bigger sales teams), but this is a preview of where business software is headed: AI plugged straight into the tools you already use instead of you copying and pasting between apps. Worth watching for a scaled-down version reaching everyday tools like a CRM or email inbox.",
-          "link": "https://www.anthropic.com/news/salesforce-anthropic-expanded-partnership",
+          "headline": "Claude in Chrome Is Now Fully Released, and It Can Act on Its Own",
+          "summary": "Anthropic's Claude in Chrome browser extension, which lets Claude see whatever page you're on and take actions like clicking links, filling out forms, and moving between tabs, is now generally available (out of beta) for paid Claude plans. New safety checks scan a page for hidden malicious instructions before Claude acts, so it can now do more without asking your approval for every single step.",
+          "why_it_matters": "If you'd been holding off on Claude in Chrome because it was 'still in beta,' this is Anthropic's signal that it's ready for daily use. That matters for a solo business owner who wants an assistant that can actually click around a site and fill in a form for you, not just answer questions in a chat window.",
+          "link": "https://claude.com/blog/claude-in-chrome-generally-available",
           "source": "Anthropic (official blog)",
-          "tag": "Business News",
+          "tag": "Product Update",
           "opportunity": {
-            "video": 2,
-            "social": 4,
-            "community": 2,
+            "video": 6,
+            "social": 5,
+            "community": 6,
             "act_now": false
           }
         },
         {
-          "headline": "Claude Code Adds a Command That Shows You How to Cut Your AI Bill",
-          "summary": "Anthropic's latest Claude Code update (its terminal-based AI coding assistant) adds a new `/claude-api cost-optimize` command that scans how you've been using it and walks you through concrete ways to spend less, like reusing cached answers or switching to a cheaper model for simple tasks. It also added a `/feedback` command that lets Claude draft its own bug report when something breaks.",
-          "why_it_matters": "If you or your viewers have started poking at Claude Code to build a simple site or automate a task without \"real\" coding, this tackles the question every beginner asks first: how do I keep this from quietly draining my wallet.",
-          "link": "https://code.claude.com/docs/en/changelog",
-          "source": "Claude Code changelog (Anthropic)",
-          "tag": "Product Update",
+          "headline": "Federal Judge Rules the Pentagon's Blacklisting of Anthropic Was Illegal",
+          "summary": "A U.S. federal judge ruled that the Department of Defense illegally blacklisted Anthropic as a \"national security supply chain risk\" after the company refused to let Claude be used for autonomous weapons or domestic mass surveillance. The judge called the government's justification \"illegal and baseless\" and said it violated Anthropic's First Amendment and due process rights.",
+          "why_it_matters": "This doesn't change how you use Claude day to day, but it's a reassuring data point about the company behind a tool a lot of us build our workflow around: Anthropic held its ground on where it won't let Claude be used, and won in court.",
+          "link": "https://www.cnbc.com/2026/08/28/judge-blocks-pentagon-blacklist--anthropic-.html",
+          "source": "CNBC",
+          "tag": "Policy",
           "opportunity": {
-            "video": 5,
-            "social": 3,
-            "community": 5,
-            "act_now": true,
-            "action_note": "If you use Claude Code, run `/claude-api cost-optimize` this week to see concrete, measured ways to trim your spend before your next bill lands."
+            "video": 2,
+            "social": 5,
+            "community": 3,
+            "act_now": false
           }
         }
       ]
@@ -43,62 +42,31 @@
       "title": "Wider AI World",
       "items": [
         {
-          "headline": "Google's Gemini Live Can Now Clean Your Inbox and Brief Your Day by Voice",
-          "summary": "Google upgraded its Gemini Live voice assistant so it can sort, star, archive, and delete Gmail messages hands-free, give you a spoken \"Daily Brief\" pulling from your email and calendar, and hand off bigger multi-step jobs (like drafting a document) to Google's Spark AI agent. The deeper features require a paid Google AI Plus or Pro subscription.",
-          "why_it_matters": "For a solo business owner juggling everything themselves, being able to talk to your phone and have it triage email or brief you on your day between meetings or on the drive to a shoot is a genuine time-saver, not just a gimmick.",
-          "link": "https://blog.google/innovation-and-ai/products/gemini-app/productivity-features-gemini-live/",
-          "source": "Google (official blog)",
+          "headline": "ChatGPT Can Now Juggle More Than One Gmail and Google Calendar Account",
+          "summary": "OpenAI updated ChatGPT so you can connect a personal and a work Gmail, Google Calendar, or Google Contacts account at the same time in one conversation, instead of being limited to just one. ChatGPT can now pull information from whichever connected account is relevant, or check across all of them together, when you ask it something.",
+          "why_it_matters": "If you run your business out of one inbox and keep a separate personal one, or juggle a couple of client accounts, this means you can finally ask ChatGPT to check your schedule or dig up an email without disconnecting and reconnecting accounts first.",
+          "link": "https://9to5mac.com/2026/08/28/chatgpt-and-codex-now-support-multiple-gmail-and-google-calendar-accounts/",
+          "source": "9to5Mac",
           "tag": "Product Update",
           "opportunity": {
-            "video": 7,
-            "social": 5,
-            "community": 7,
-            "act_now": false,
-            "angle": "I let Gemini Live clean out my inbox by voice for a day, here's what it got right and what it messed up"
-          }
-        },
-        {
-          "headline": "Viral AI Assistant Instinct Hits $2.5 Billion Valuation, Its Fine Print Is Raising Alarms",
-          "summary": "Instinct, a text-and-call AI assistant that connects to your email, calendar, and apps to handle tasks like booking appointments, just raised $350 million at a $2.5 billion valuation, just weeks after launch. Reporters found its terms of service grant it a broad, permanent license to store and use your data, and that it kept accessing accounts even after being disconnected.",
-          "why_it_matters": "A good reminder to actually read the permissions and terms before connecting any new AI assistant to your email, calendar, or client accounts, especially one this hyped and this new.",
-          "link": "https://techcrunch.com/2026/08/26/viral-ai-startup-instinct-has-raised-350-million-at-a-2-5-billion-valuation/",
-          "source": "TechCrunch",
-          "tag": "Business News",
-          "opportunity": {
-            "video": 6,
-            "social": 8,
-            "community": 8,
-            "act_now": false,
-            "angle": "This viral AI assistant wants a permanent license to everything you type, read the fine print before you connect it to anything"
-          }
-        },
-        {
-          "headline": "Bill Gates Calls for a \"Robot Tax\" and Jobs Reserved Just for Humans",
-          "summary": "In a new essay, Bill Gates argued that as AI takes over more work, governments should tax companies that replace employees with AI or robots (the way payroll taxes work today), and should set aside certain jobs, like childcare, that stay human-only.",
-          "why_it_matters": "It signals the AI-and-jobs conversation is moving from tech circles into mainstream policy debate, worth knowing about since it could eventually shape how AI use gets taxed or regulated for small businesses.",
-          "link": "https://techcrunch.com/2026/08/26/bill-gates-wants-to-see-a-robot-tax-and-human-reserved-jobs-to-mitigate-harms-from-ai/",
-          "source": "TechCrunch",
-          "tag": "Policy",
-          "opportunity": {
-            "video": 3,
-            "social": 6,
+            "video": 4,
+            "social": 4,
             "community": 6,
             "act_now": false
           }
         },
         {
-          "headline": "Google's Confusing Gemini Branding Is a Symptom of an Industry-Wide Problem",
-          "summary": "A TechCrunch analysis argues Google has splintered Gemini into too many separately branded features, like Spark and Daily Brief, forcing everyday users to learn a confusing lineup of names just to do simple things, and says this jargon problem is common across the whole AI industry, not just Google.",
-          "why_it_matters": "If you've ever felt lost trying to figure out which AI tool or feature does what, this confirms it's not just you. It's a real naming and messaging problem the big AI companies still haven't solved.",
-          "link": "https://techcrunch.com/2026/08/26/googles-gemini-has-a-branding-problem-and-so-does-the-rest-of-ai/",
-          "source": "TechCrunch",
-          "tag": "Opinion/Analysis",
+          "headline": "Google's New AI Model Turns Your Rambling Voice Notes Into Clean Text",
+          "summary": "Google launched Gemini 3.5 Transcribe, a speech-to-text AI that can catch you correcting yourself mid-sentence (\"let's meet Tuesday, no wait, Wednesday\"), strip out \"ums\" and \"ahs,\" and auto-format the result. It already powers Google's voice-typing keyboard feature and is coming soon to Chrome so you'll be able to dictate into any text box on the web.",
+          "why_it_matters": "If you dictate emails, video scripts, or social captions instead of typing them, this should mean noticeably cleaner results with less cleanup afterward once it rolls out more broadly to the tools you already use.",
+          "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/",
+          "source": "Google (official blog)",
+          "tag": "Product Update",
           "opportunity": {
-            "video": 4,
-            "social": 6,
-            "community": 7,
-            "act_now": false,
-            "angle": "Google's AI naming is so confusing even the tech press is calling it out, so if you feel lost, you're not the problem"
+            "video": 5,
+            "social": 3,
+            "community": 5,
+            "act_now": false
           }
         }
       ]
@@ -108,33 +76,18 @@
       "title": "Tools & Tips for Creators and Small Biz",
       "items": [
         {
-          "headline": "ElevenLabs Adds Composer, So You Can Fix One Part of an AI Song Without Regenerating the Whole Thing",
-          "summary": "ElevenLabs launched Composer inside its ElevenMusic tool, letting you rewrite just the chorus, extend a bridge, or generate alternate takes of a single section of an AI-made song while leaving the rest untouched.",
-          "why_it_matters": "Anyone using AI music for intros, outros, or podcast themes knows the pain of rerolling an entire track because one part was off. This turns AI music into something you can actually fine-tune like a real editor, instead of gambling on a full regenerate.",
-          "link": "https://www.digitalmusicnews.com/2026/08/25/elevenmusic-composer-section-by-section-song-editor/",
-          "source": "Digital Music News",
-          "tag": "Product Update",
-          "opportunity": {
-            "video": 6,
-            "social": 5,
-            "community": 7,
-            "act_now": false,
-            "angle": "I used to reroll a whole AI song to fix one bad chorus, now you can just fix the chorus"
-          }
-        },
-        {
-          "headline": "Shopify Auto-Upgraded Its Old Checkout Pages Yesterday, Which May Have Quietly Broken Ad Tracking",
-          "summary": "On August 26, Shopify automatically retired the legacy Thank You and Order Status pages for all non-Plus stores. Any custom tracking code merchants had placed in the old \"Additional Scripts\" box (Google Ads, Meta Pixel, etc.) stopped running and was deleted if they hadn't already moved it.",
-          "why_it_matters": "If you or your viewers sell anything through a Shopify store that isn't on the Plus plan, ad conversion tracking may have silently stopped working, and you won't know unless you check.",
-          "link": "https://help.shopify.com/en/manual/checkout-settings/customize-checkout-configurations/upgrade-thank-you-order-status",
-          "source": "Shopify Help Center",
-          "tag": "Platform Change",
+          "headline": "Runway Is Killing Its Unlimited Plan on September 1",
+          "summary": "Runway, the popular AI video generation tool, is retiring its Unlimited subscription. Monthly subscribers automatically move to the new Max plan at the same $95/month price on September 1, while annual Unlimited subscribers can choose to switch to Max or get a refund for their remaining months.",
+          "why_it_matters": "If you or someone in your circle pays for Runway's Unlimited plan, don't ignore this: Max works differently (9,500 monthly credits instead of unlimited generations), so it's worth checking your account now to understand how your usage will be affected before the switch happens automatically.",
+          "link": "https://help.runwayml.com/hc/en-us/articles/52068047744019-Unlimited-plan-is-switching-to-Max",
+          "source": "Runway (Help Center)",
+          "tag": "Pricing",
           "opportunity": {
             "video": 3,
-            "social": 4,
-            "community": 8,
-            "act_now": false,
-            "angle": "Your Shopify ad tracking might have quietly broken yesterday, here's the 10 minute fix"
+            "social": 3,
+            "community": 6,
+            "act_now": true,
+            "action_note": "If you're on Runway's Unlimited plan, log in this weekend before September 1 to see your new Max credit allotment, or request a refund if you're on an annual plan and want out instead."
           }
         }
       ]
@@ -144,16 +97,16 @@
       "title": "Content & Social Media Pulse",
       "items": [
         {
-          "headline": "Meta to Pay Up to $16.68 Billion Settling State Claims That Facebook and Instagram Were Designed to Hook Kids",
-          "summary": "On August 26, Meta agreed to pay as much as $16.68 billion to settle claims from 29 U.S. states that it built Facebook and Instagram to be addictive to children and mishandled kids' data. As part of the deal, teen accounts nationwide will get daily time limits and a midnight-to-6am usage block on both apps.",
-          "why_it_matters": "This is one of the largest platform accountability settlements yet, and it comes right after a similar TikTok fine over kids' data. If you run a business on Facebook or Instagram, or your content reaches teens, expect more built-in usage limits and scrutiny on these platforms going forward, another reminder not to build your whole business on rented land.",
-          "link": "https://www.axios.com/2026/08/26/meta-lawsuit-settlement-states-facebook",
-          "source": "Axios",
+          "headline": "Meta Takes Out Newspaper Ads Pressuring TikTok and YouTube on Teen Safety",
+          "summary": "Days after agreeing to a multibillion-dollar settlement over how Facebook and Instagram treated younger users, Meta ran full-page newspaper ads publicly pressuring TikTok and YouTube to adopt similar teen-safety measures, like usage time limits.",
+          "why_it_matters": "This is a sign more platforms may soon face similar pressure, restrictions, or settlements over how they treat younger users. Worth watching if your content or business reaches a teen audience on any of these platforms.",
+          "link": "https://www.bloomberg.com/news/articles/2026-08-28/meta-s-newspaper-ad-blitz-ups-pressure-on-social-media-rivals",
+          "source": "Bloomberg",
           "tag": "Policy",
           "opportunity": {
-            "video": 3,
-            "social": 6,
-            "community": 4,
+            "video": 2,
+            "social": 5,
+            "community": 3,
             "act_now": false
           }
         }
