@@ -1,6 +1,6 @@
 {
-  "generated_at_iso": "2026-08-29T03:21:17-10:00",
-  "generated_label": "Saturday, August 29 · 3:21 AM HST",
+  "generated_at_iso": "2026-08-30T03:21:05-10:00",
+  "generated_label": "Sunday, August 30 · 3:21 AM HST",
   "edition": "morning",
   "categories": [
     {
@@ -8,62 +8,44 @@
       "title": "Claude & Anthropic",
       "items": [
         {
-          "headline": "Claude in Chrome Is Now Fully Released, and It Can Act on Its Own",
-          "summary": "Anthropic's Claude in Chrome browser extension, which lets Claude see whatever page you're on and take actions like clicking links, filling out forms, and moving between tabs, is now generally available (out of beta) for paid Claude plans. New safety checks scan a page for hidden malicious instructions before Claude acts, so it can now do more without asking your approval for every single step.",
-          "why_it_matters": "If you'd been holding off on Claude in Chrome because it was 'still in beta,' this is Anthropic's signal that it's ready for daily use. That matters for a solo business owner who wants an assistant that can actually click around a site and fill in a form for you, not just answer questions in a chat window.",
-          "link": "https://claude.com/blog/claude-in-chrome-generally-available",
+          "headline": "Claude Code's \"25% Increase\" Is Actually a Cut, Coming September 14",
+          "summary": "Anthropic said it's permanently raising Claude Code's weekly usage limits by 25% for Pro, Max, Team, and Enterprise plans starting September 14. The catch: Claude Code has had a temporary 50% boost in place for months, so on that date your real limit drops about 17% from what you have right now, even though it's technically a \"25% increase\" over the original baseline.",
+          "why_it_matters": "If you use Claude Code (Anthropic's coding assistant tool) regularly, you'll hit your weekly cap sooner starting September 14. Worth checking your current usage now so a sudden cutoff mid-project doesn't catch you off guard.",
+          "link": "https://www.notebookcheck.net/Anthropic-announces-a-25-increase-to-Claude-Code-limits-but-there-s-a-17-catch.1382735.0.html",
+          "source": "Notebookcheck",
+          "tag": "Pricing",
+          "opportunity": {
+            "video": 4,
+            "social": 6,
+            "community": 6,
+            "act_now": true,
+            "action_note": "If you rely on Claude Code week to week, check your current usage under Settings before September 14 and plan heavier tasks around the coming drop in your weekly cap."
+          }
+        },
+        {
+          "headline": "Claude Can Now Browse the Web Right Inside the Desktop App, No Extension Needed",
+          "summary": "Anthropic added a built-in web browser to Claude's Cowork feature in the desktop app (Mac, Windows, and Linux in beta). When a task needs a website, Claude opens it in a side panel, reads the page, and can click and type to fill out forms or pull data, all without you installing the separate Claude in Chrome extension. It's a separate browser from your own, so Claude doesn't see your regular tabs or passwords unless you choose to bring specific site logins over.",
+          "why_it_matters": "If you've wanted Claude to handle web-based busywork, like checking a vendor portal or filling out a form, this makes it easier to get started since there's nothing extra to install. It's rolling out over the next week to Pro, Max, and Team plans.",
+          "link": "https://claude.com/blog/cowork-built-in-browser",
           "source": "Anthropic (official blog)",
           "tag": "Product Update",
           "opportunity": {
-            "video": 6,
+            "video": 7,
             "social": 5,
             "community": 6,
-            "act_now": false
+            "act_now": false,
+            "angle": "I gave Claude's new built-in browser a real business task and watched what it could (and couldn't) do"
           }
         },
         {
-          "headline": "Federal Judge Rules the Pentagon's Blacklisting of Anthropic Was Illegal",
-          "summary": "A U.S. federal judge ruled that the Department of Defense illegally blacklisted Anthropic as a \"national security supply chain risk\" after the company refused to let Claude be used for autonomous weapons or domestic mass surveillance. The judge called the government's justification \"illegal and baseless\" and said it violated Anthropic's First Amendment and due process rights.",
-          "why_it_matters": "This doesn't change how you use Claude day to day, but it's a reassuring data point about the company behind a tool a lot of us build our workflow around: Anthropic held its ground on where it won't let Claude be used, and won in court.",
-          "link": "https://www.cnbc.com/2026/08/28/judge-blocks-pentagon-blacklist--anthropic-.html",
-          "source": "CNBC",
-          "tag": "Policy",
+          "headline": "Anthropic Launches a Free Claude Offering for K-12 Schools",
+          "summary": "Anthropic introduced Claude for Teachers, a free tier for schools and districts that gives teachers centrally managed access to Claude with lesson-planning skills built around learning science and alignment to academic standards in all 50 states. Student data isn't used to train Anthropic's models.",
+          "why_it_matters": "If you do any tutoring, coaching, or homeschool-adjacent content, or just want to point a teacher friend or your kid's school toward a safe, free AI option, this is a concrete resource to share, not just another AI headline.",
+          "link": "https://www.anthropic.com/news/claude-for-teachers",
+          "source": "Anthropic (official news)",
+          "tag": "Product Update",
           "opportunity": {
             "video": 2,
-            "social": 5,
-            "community": 3,
-            "act_now": false
-          }
-        }
-      ]
-    },
-    {
-      "id": "ai-industry",
-      "title": "Wider AI World",
-      "items": [
-        {
-          "headline": "ChatGPT Can Now Juggle More Than One Gmail and Google Calendar Account",
-          "summary": "OpenAI updated ChatGPT so you can connect a personal and a work Gmail, Google Calendar, or Google Contacts account at the same time in one conversation, instead of being limited to just one. ChatGPT can now pull information from whichever connected account is relevant, or check across all of them together, when you ask it something.",
-          "why_it_matters": "If you run your business out of one inbox and keep a separate personal one, or juggle a couple of client accounts, this means you can finally ask ChatGPT to check your schedule or dig up an email without disconnecting and reconnecting accounts first.",
-          "link": "https://9to5mac.com/2026/08/28/chatgpt-and-codex-now-support-multiple-gmail-and-google-calendar-accounts/",
-          "source": "9to5Mac",
-          "tag": "Product Update",
-          "opportunity": {
-            "video": 4,
-            "social": 4,
-            "community": 6,
-            "act_now": false
-          }
-        },
-        {
-          "headline": "Google's New AI Model Turns Your Rambling Voice Notes Into Clean Text",
-          "summary": "Google launched Gemini 3.5 Transcribe, a speech-to-text AI that can catch you correcting yourself mid-sentence (\"let's meet Tuesday, no wait, Wednesday\"), strip out \"ums\" and \"ahs,\" and auto-format the result. It already powers Google's voice-typing keyboard feature and is coming soon to Chrome so you'll be able to dictate into any text box on the web.",
-          "why_it_matters": "If you dictate emails, video scripts, or social captions instead of typing them, this should mean noticeably cleaner results with less cleanup afterward once it rolls out more broadly to the tools you already use.",
-          "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/",
-          "source": "Google (official blog)",
-          "tag": "Product Update",
-          "opportunity": {
-            "video": 5,
             "social": 3,
             "community": 5,
             "act_now": false
@@ -72,45 +54,19 @@
       ]
     },
     {
+      "id": "ai-industry",
+      "title": "Wider AI World",
+      "items": []
+    },
+    {
       "id": "creator-tools",
       "title": "Tools & Tips for Creators and Small Biz",
-      "items": [
-        {
-          "headline": "Runway Is Killing Its Unlimited Plan on September 1",
-          "summary": "Runway, the popular AI video generation tool, is retiring its Unlimited subscription. Monthly subscribers automatically move to the new Max plan at the same $95/month price on September 1, while annual Unlimited subscribers can choose to switch to Max or get a refund for their remaining months.",
-          "why_it_matters": "If you or someone in your circle pays for Runway's Unlimited plan, don't ignore this: Max works differently (9,500 monthly credits instead of unlimited generations), so it's worth checking your account now to understand how your usage will be affected before the switch happens automatically.",
-          "link": "https://help.runwayml.com/hc/en-us/articles/52068047744019-Unlimited-plan-is-switching-to-Max",
-          "source": "Runway (Help Center)",
-          "tag": "Pricing",
-          "opportunity": {
-            "video": 3,
-            "social": 3,
-            "community": 6,
-            "act_now": true,
-            "action_note": "If you're on Runway's Unlimited plan, log in this weekend before September 1 to see your new Max credit allotment, or request a refund if you're on an annual plan and want out instead."
-          }
-        }
-      ]
+      "items": []
     },
     {
       "id": "content-social",
       "title": "Content & Social Media Pulse",
-      "items": [
-        {
-          "headline": "Meta Takes Out Newspaper Ads Pressuring TikTok and YouTube on Teen Safety",
-          "summary": "Days after agreeing to a multibillion-dollar settlement over how Facebook and Instagram treated younger users, Meta ran full-page newspaper ads publicly pressuring TikTok and YouTube to adopt similar teen-safety measures, like usage time limits.",
-          "why_it_matters": "This is a sign more platforms may soon face similar pressure, restrictions, or settlements over how they treat younger users. Worth watching if your content or business reaches a teen audience on any of these platforms.",
-          "link": "https://www.bloomberg.com/news/articles/2026-08-28/meta-s-newspaper-ad-blitz-ups-pressure-on-social-media-rivals",
-          "source": "Bloomberg",
-          "tag": "Policy",
-          "opportunity": {
-            "video": 2,
-            "social": 5,
-            "community": 3,
-            "act_now": false
-          }
-        }
-      ]
+      "items": []
     }
   ]
 }
