@@ -1,6 +1,6 @@
 {
-  "generated_at_iso": "2026-08-30T03:21:05-10:00",
-  "generated_label": "Sunday, August 30 · 3:21 AM HST",
+  "generated_at_iso": "2026-08-31T03:28:35-10:00",
+  "generated_label": "Monday, August 31 · 3:28 AM HST",
   "edition": "morning",
   "categories": [
     {
@@ -8,47 +8,33 @@
       "title": "Claude & Anthropic",
       "items": [
         {
-          "headline": "Claude Code's \"25% Increase\" Is Actually a Cut, Coming September 14",
-          "summary": "Anthropic said it's permanently raising Claude Code's weekly usage limits by 25% for Pro, Max, Team, and Enterprise plans starting September 14. The catch: Claude Code has had a temporary 50% boost in place for months, so on that date your real limit drops about 17% from what you have right now, even though it's technically a \"25% increase\" over the original baseline.",
-          "why_it_matters": "If you use Claude Code (Anthropic's coding assistant tool) regularly, you'll hit your weekly cap sooner starting September 14. Worth checking your current usage now so a sudden cutoff mid-project doesn't catch you off guard.",
-          "link": "https://www.notebookcheck.net/Anthropic-announces-a-25-increase-to-Claude-Code-limits-but-there-s-a-17-catch.1382735.0.html",
-          "source": "Notebookcheck",
-          "tag": "Pricing",
-          "opportunity": {
-            "video": 4,
-            "social": 6,
-            "community": 6,
-            "act_now": true,
-            "action_note": "If you rely on Claude Code week to week, check your current usage under Settings before September 14 and plan heavier tasks around the coming drop in your weekly cap."
-          }
-        },
-        {
-          "headline": "Claude Can Now Browse the Web Right Inside the Desktop App, No Extension Needed",
-          "summary": "Anthropic added a built-in web browser to Claude's Cowork feature in the desktop app (Mac, Windows, and Linux in beta). When a task needs a website, Claude opens it in a side panel, reads the page, and can click and type to fill out forms or pull data, all without you installing the separate Claude in Chrome extension. It's a separate browser from your own, so Claude doesn't see your regular tabs or passwords unless you choose to bring specific site logins over.",
-          "why_it_matters": "If you've wanted Claude to handle web-based busywork, like checking a vendor portal or filling out a form, this makes it easier to get started since there's nothing extra to install. It's rolling out over the next week to Pro, Max, and Team plans.",
-          "link": "https://claude.com/blog/cowork-built-in-browser",
-          "source": "Anthropic (official blog)",
-          "tag": "Product Update",
-          "opportunity": {
-            "video": 7,
-            "social": 5,
-            "community": 6,
-            "act_now": false,
-            "angle": "I gave Claude's new built-in browser a real business task and watched what it could (and couldn't) do"
-          }
-        },
-        {
-          "headline": "Anthropic Launches a Free Claude Offering for K-12 Schools",
-          "summary": "Anthropic introduced Claude for Teachers, a free tier for schools and districts that gives teachers centrally managed access to Claude with lesson-planning skills built around learning science and alignment to academic standards in all 50 states. Student data isn't used to train Anthropic's models.",
-          "why_it_matters": "If you do any tutoring, coaching, or homeschool-adjacent content, or just want to point a teacher friend or your kid's school toward a safe, free AI option, this is a concrete resource to share, not just another AI headline.",
-          "link": "https://www.anthropic.com/news/claude-for-teachers",
+          "headline": "Anthropic Launches Claude Design, a Canva/Figma Rival You Talk Into Existence",
+          "summary": "Anthropic just rolled out Claude Design, a new tool where you describe what you want (a prototype, a slide deck, a one-page flyer) and Claude builds it as a clickable, editable page, not just a static image. It's powered by Claude's strongest vision model and is rolling out today in research preview to Pro, Max, Team, and Enterprise plans at no extra cost.",
+          "why_it_matters": "If you already pay for Claude, you now have a free way to rough out a pitch deck, a one-pager, or a simple mockup without opening Canva or hiring a designer, just by describing what you want in plain English.",
+          "link": "https://www.anthropic.com/news/claude-design-anthropic-labs",
           "source": "Anthropic (official news)",
           "tag": "Product Update",
           "opportunity": {
+            "video": 8,
+            "social": 6,
+            "community": 7,
+            "act_now": false,
+            "angle": "I tried Anthropic's new Claude Design against Canva and Figma so you don't have to"
+          }
+        },
+        {
+          "headline": "Malware Is Hijacking People's Claude Logins to Burn Through Their Subscription",
+          "summary": "Anthropic is warning that common \"infostealer\" malware, the same kind that steals passwords saved in your browser, has been stealing people's logged-in Claude sessions and using them to run up usage on their accounts, all without needing a password or getting past two-factor login. Anthropic says it's signing out affected users, removing their saved payment methods, and refunding unauthorized charges, and stresses the malware isn't coming from Claude itself, it's already on the infected computer.",
+          "why_it_matters": "This is a reminder that your Claude account is only as safe as the computer you're logged in on. If you use antivirus software and a password manager and keep them updated, you're already ahead of this, but it's worth a quick check this week.",
+          "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-warns-infostealer-malware-is-hijacking-claude-sessions-to-drain-usage/",
+          "source": "BleepingComputer",
+          "tag": "Security",
+          "opportunity": {
             "video": 2,
-            "social": 3,
-            "community": 5,
-            "act_now": false
+            "social": 6,
+            "community": 7,
+            "act_now": true,
+            "action_note": "Run a malware scan on any computer you use for Claude this week, and check claude.ai's account security settings to sign out of any sessions or devices you don't recognize."
           }
         }
       ]
@@ -66,7 +52,23 @@
     {
       "id": "content-social",
       "title": "Content & Social Media Pulse",
-      "items": []
+      "items": [
+        {
+          "headline": "Instagram's New \"First Draft\" Tool Auto-Edits Your Reels in Under 10 Seconds",
+          "summary": "Instagram launched First Draft, a feature that takes a batch of video clips you've already shot and automatically trims them, cuts out dead air, and stitches together a rough first cut of a Reel, all in under 10 seconds. It's starting on iPhone, accessible either while recording or from your camera roll after picking multiple clips.",
+          "why_it_matters": "If Reels are part of your content mix, this can turn a pile of raw clips into a usable starting edit almost instantly, saving you the most tedious part of editing so you can spend your time polishing instead of assembling.",
+          "link": "https://techcrunch.com/2026/08/25/instagrams-first-draft-feature-aims-to-make-editing-reels-less-tedious/",
+          "source": "TechCrunch",
+          "tag": "Platform Change",
+          "opportunity": {
+            "video": 6,
+            "social": 5,
+            "community": 7,
+            "act_now": false,
+            "angle": "I tested Instagram's new First Draft auto-edit tool on real footage, here's what it got right and wrong"
+          }
+        }
+      ]
     }
   ]
 }

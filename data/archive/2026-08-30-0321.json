@@ -1,0 +1,72 @@
+{
+  "generated_at_iso": "2026-08-30T03:21:05-10:00",
+  "generated_label": "Sunday, August 30 · 3:21 AM HST",
+  "edition": "morning",
+  "categories": [
+    {
+      "id": "claude-anthropic",
+      "title": "Claude & Anthropic",
+      "items": [
+        {
+          "headline": "Claude Code's \"25% Increase\" Is Actually a Cut, Coming September 14",
+          "summary": "Anthropic said it's permanently raising Claude Code's weekly usage limits by 25% for Pro, Max, Team, and Enterprise plans starting September 14. The catch: Claude Code has had a temporary 50% boost in place for months, so on that date your real limit drops about 17% from what you have right now, even though it's technically a \"25% increase\" over the original baseline.",
+          "why_it_matters": "If you use Claude Code (Anthropic's coding assistant tool) regularly, you'll hit your weekly cap sooner starting September 14. Worth checking your current usage now so a sudden cutoff mid-project doesn't catch you off guard.",
+          "link": "https://www.notebookcheck.net/Anthropic-announces-a-25-increase-to-Claude-Code-limits-but-there-s-a-17-catch.1382735.0.html",
+          "source": "Notebookcheck",
+          "tag": "Pricing",
+          "opportunity": {
+            "video": 4,
+            "social": 6,
+            "community": 6,
+            "act_now": true,
+            "action_note": "If you rely on Claude Code week to week, check your current usage under Settings before September 14 and plan heavier tasks around the coming drop in your weekly cap."
+          }
+        },
+        {
+          "headline": "Claude Can Now Browse the Web Right Inside the Desktop App, No Extension Needed",
+          "summary": "Anthropic added a built-in web browser to Claude's Cowork feature in the desktop app (Mac, Windows, and Linux in beta). When a task needs a website, Claude opens it in a side panel, reads the page, and can click and type to fill out forms or pull data, all without you installing the separate Claude in Chrome extension. It's a separate browser from your own, so Claude doesn't see your regular tabs or passwords unless you choose to bring specific site logins over.",
+          "why_it_matters": "If you've wanted Claude to handle web-based busywork, like checking a vendor portal or filling out a form, this makes it easier to get started since there's nothing extra to install. It's rolling out over the next week to Pro, Max, and Team plans.",
+          "link": "https://claude.com/blog/cowork-built-in-browser",
+          "source": "Anthropic (official blog)",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 7,
+            "social": 5,
+            "community": 6,
+            "act_now": false,
+            "angle": "I gave Claude's new built-in browser a real business task and watched what it could (and couldn't) do"
+          }
+        },
+        {
+          "headline": "Anthropic Launches a Free Claude Offering for K-12 Schools",
+          "summary": "Anthropic introduced Claude for Teachers, a free tier for schools and districts that gives teachers centrally managed access to Claude with lesson-planning skills built around learning science and alignment to academic standards in all 50 states. Student data isn't used to train Anthropic's models.",
+          "why_it_matters": "If you do any tutoring, coaching, or homeschool-adjacent content, or just want to point a teacher friend or your kid's school toward a safe, free AI option, this is a concrete resource to share, not just another AI headline.",
+          "link": "https://www.anthropic.com/news/claude-for-teachers",
+          "source": "Anthropic (official news)",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 2,
+            "social": 3,
+            "community": 5,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "ai-industry",
+      "title": "Wider AI World",
+      "items": []
+    },
+    {
+      "id": "creator-tools",
+      "title": "Tools & Tips for Creators and Small Biz",
+      "items": []
+    },
+    {
+      "id": "content-social",
+      "title": "Content & Social Media Pulse",
+      "items": []
+    }
+  ]
+}
