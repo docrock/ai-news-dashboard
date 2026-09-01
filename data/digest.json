@@ -1,6 +1,6 @@
 {
-  "generated_at_iso": "2026-08-31T03:28:35-10:00",
-  "generated_label": "Monday, August 31 · 3:28 AM HST",
+  "generated_at_iso": "2026-09-01T03:32:34-10:00",
+  "generated_label": "Tuesday, September 1 · 3:32 AM HST",
   "edition": "morning",
   "categories": [
     {
@@ -8,33 +8,17 @@
       "title": "Claude & Anthropic",
       "items": [
         {
-          "headline": "Anthropic Launches Claude Design, a Canva/Figma Rival You Talk Into Existence",
-          "summary": "Anthropic just rolled out Claude Design, a new tool where you describe what you want (a prototype, a slide deck, a one-page flyer) and Claude builds it as a clickable, editable page, not just a static image. It's powered by Claude's strongest vision model and is rolling out today in research preview to Pro, Max, Team, and Enterprise plans at no extra cost.",
-          "why_it_matters": "If you already pay for Claude, you now have a free way to rough out a pitch deck, a one-pager, or a simple mockup without opening Canva or hiring a designer, just by describing what you want in plain English.",
-          "link": "https://www.anthropic.com/news/claude-design-anthropic-labs",
-          "source": "Anthropic (official news)",
-          "tag": "Product Update",
-          "opportunity": {
-            "video": 8,
-            "social": 6,
-            "community": 7,
-            "act_now": false,
-            "angle": "I tried Anthropic's new Claude Design against Canva and Figma so you don't have to"
-          }
-        },
-        {
-          "headline": "Malware Is Hijacking People's Claude Logins to Burn Through Their Subscription",
-          "summary": "Anthropic is warning that common \"infostealer\" malware, the same kind that steals passwords saved in your browser, has been stealing people's logged-in Claude sessions and using them to run up usage on their accounts, all without needing a password or getting past two-factor login. Anthropic says it's signing out affected users, removing their saved payment methods, and refunding unauthorized charges, and stresses the malware isn't coming from Claude itself, it's already on the infected computer.",
-          "why_it_matters": "This is a reminder that your Claude account is only as safe as the computer you're logged in on. If you use antivirus software and a password manager and keep them updated, you're already ahead of this, but it's worth a quick check this week.",
-          "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-warns-infostealer-malware-is-hijacking-claude-sessions-to-drain-usage/",
-          "source": "BleepingComputer",
-          "tag": "Security",
+          "headline": "Sony Music and Warner Chappell Sue Anthropic Over Claude's Training Data",
+          "summary": "Sony Music Publishing and Warner Chappell Music filed a lawsuit accusing Anthropic of illegally downloading tens of thousands of copyrighted songs (think Mariah Carey and Taylor Swift tracks) to train Claude, without permission or payment. Anthropic says it disagrees and will fight the case in court.",
+          "why_it_matters": "This doesn't change how you use Claude today, but it's a reminder that the legal ground under AI tools is still shifting. If you use any AI tool to help write, arrange, or produce music, it's worth double-checking that tool's licensing terms before you publish or sell something built with it.",
+          "link": "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/",
+          "source": "TechCrunch",
+          "tag": "Policy",
           "opportunity": {
             "video": 2,
-            "social": 6,
-            "community": 7,
-            "act_now": true,
-            "action_note": "Run a malware scan on any computer you use for Claude this week, and check claude.ai's account security settings to sign out of any sessions or devices you don't recognize."
+            "social": 5,
+            "community": 3,
+            "act_now": false
           }
         }
       ]
@@ -42,33 +26,49 @@
     {
       "id": "ai-industry",
       "title": "Wider AI World",
-      "items": []
+      "items": [
+        {
+          "headline": "Google Starts Replacing Google Assistant With Gemini on Android, September 4",
+          "summary": "Starting September 4, Google begins swapping out the old Google Assistant for Gemini on Android phones, tablets, watches, and earbuds. The rollout happens automatically over a few weeks, and once your device switches over there's no way to go back to the old Assistant.",
+          "why_it_matters": "If you or your viewers use an Android phone's voice assistant for quick tasks (setting timers, texting hands-free, checking the weather), the way it responds is about to change with no opt-out, so it's worth trying Gemini's voice mode once it appears rather than being caught off guard.",
+          "link": "https://the-decoder.com/google-will-shut-down-google-assistant-starting-september-2026-as-gemini-takes-over-on-android-and-wear-os/",
+          "source": "The Decoder",
+          "tag": "Platform Change",
+          "opportunity": {
+            "video": 6,
+            "social": 6,
+            "community": 5,
+            "act_now": true,
+            "action_note": "If you rely on Google Assistant on an Android phone, spend five minutes with Gemini's voice mode once it rolls out to your device so the switch on September 4 doesn't catch you mid-task."
+          }
+        }
+      ]
     },
     {
       "id": "creator-tools",
       "title": "Tools & Tips for Creators and Small Biz",
-      "items": []
+      "items": [
+        {
+          "headline": "OpenAI's Sora Video Tool Fully Shuts Down September 24, Grab Your Files Now",
+          "summary": "OpenAI is closing the door on Sora, its AI video generator, for good: the app already went dark in April, and the last piece, the developer API that some other apps plug into, stops working on September 24. After that, OpenAI deletes all associated Sora account data.",
+          "why_it_matters": "If you ever made clips with Sora, or if a video tool you use pulls in Sora under the hood, download anything you want to keep before September 24 or it's gone for good.",
+          "link": "https://help.openai.com/en/articles/20001152-what-to-know-about-the-sora-discontinuation",
+          "source": "OpenAI Help Center",
+          "tag": "Deprecation",
+          "opportunity": {
+            "video": 3,
+            "social": 3,
+            "community": 6,
+            "act_now": true,
+            "action_note": "Log into any Sora account you have and download the clips you want to keep before the API and remaining account data are deleted on September 24."
+          }
+        }
+      ]
     },
     {
       "id": "content-social",
       "title": "Content & Social Media Pulse",
-      "items": [
-        {
-          "headline": "Instagram's New \"First Draft\" Tool Auto-Edits Your Reels in Under 10 Seconds",
-          "summary": "Instagram launched First Draft, a feature that takes a batch of video clips you've already shot and automatically trims them, cuts out dead air, and stitches together a rough first cut of a Reel, all in under 10 seconds. It's starting on iPhone, accessible either while recording or from your camera roll after picking multiple clips.",
-          "why_it_matters": "If Reels are part of your content mix, this can turn a pile of raw clips into a usable starting edit almost instantly, saving you the most tedious part of editing so you can spend your time polishing instead of assembling.",
-          "link": "https://techcrunch.com/2026/08/25/instagrams-first-draft-feature-aims-to-make-editing-reels-less-tedious/",
-          "source": "TechCrunch",
-          "tag": "Platform Change",
-          "opportunity": {
-            "video": 6,
-            "social": 5,
-            "community": 7,
-            "act_now": false,
-            "angle": "I tested Instagram's new First Draft auto-edit tool on real footage, here's what it got right and wrong"
-          }
-        }
-      ]
+      "items": []
     }
   ]
 }
