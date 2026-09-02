@@ -1,6 +1,6 @@
 {
-  "generated_at_iso": "2026-09-01T03:32:34-10:00",
-  "generated_label": "Tuesday, September 1 · 3:32 AM HST",
+  "generated_at_iso": "2026-09-02T03:26:18-10:00",
+  "generated_label": "Wednesday, September 2 · 3:26 AM HST",
   "edition": "morning",
   "categories": [
     {
@@ -8,11 +8,32 @@
       "title": "Claude & Anthropic",
       "items": [
         {
-          "headline": "Sony Music and Warner Chappell Sue Anthropic Over Claude's Training Data",
-          "summary": "Sony Music Publishing and Warner Chappell Music filed a lawsuit accusing Anthropic of illegally downloading tens of thousands of copyrighted songs (think Mariah Carey and Taylor Swift tracks) to train Claude, without permission or payment. Anthropic says it disagrees and will fight the case in court.",
-          "why_it_matters": "This doesn't change how you use Claude today, but it's a reminder that the legal ground under AI tools is still shifting. If you use any AI tool to help write, arrange, or produce music, it's worth double-checking that tool's licensing terms before you publish or sell something built with it.",
-          "link": "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/",
-          "source": "TechCrunch",
+          "headline": "Anthropic Launches Claude Fable 5.1, Its Most Capable Model Yet for Coding and Research",
+          "summary": "Anthropic released Claude Fable 5.1, its strongest model yet for coding, research, and other complex work, plus a more permissive sibling called Mythos 5.1 that's only available to vetted cybersecurity and science organizations. Fable 5.1 is live now for everyone on a paid Claude plan, and Anthropic cut the price of reused (\"cached\") content, so typical use costs roughly 25% less than before.",
+          "why_it_matters": "If you're already paying for Claude, you have access to a noticeably smarter model today at a lower cost for the same kind of work, no upgrade or extra sign-up needed, so it's worth pointing Claude at something meaty (a video outline, a business plan, a tricky edit workflow question) and seeing what's different.",
+          "link": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+          "source": "Anthropic (official)",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 7,
+            "social": 6,
+            "community": 6,
+            "act_now": false,
+            "angle": "I put Anthropic's brand-new Claude Fable 5.1 to work on a real business task and compared it to the old model"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ai-industry",
+      "title": "Wider AI World",
+      "items": [
+        {
+          "headline": "The EU Just Declared ChatGPT a \"Search Engine,\" Triggering Stricter Rules",
+          "summary": "The European Commission officially classified ChatGPT as a \"Very Large Online Search Engine\" under its Digital Services Act, after OpenAI reported roughly 159 million monthly users in the EU, more than three times the threshold for that label. That puts ChatGPT under the same strict content and safety rules Google Search already has to follow in Europe, with a deadline of December 2026 to comply.",
+          "why_it_matters": "This is an EU rule, not a US one, so nothing changes for you today. But it's an early sign regulators are starting to treat AI chatbots like search engines rather than a lightly-watched new toy, which tends to lead to changes (like clearer source citations or content warnings) that eventually show up everywhere, including in the ChatGPT you use.",
+          "link": "https://www.searchenginejournal.com/chatgpt-is-now-a-very-large-online-search-engine-in-the-eu/587801/",
+          "source": "Search Engine Journal",
           "tag": "Policy",
           "opportunity": {
             "video": 2,
@@ -24,46 +45,9 @@
       ]
     },
     {
-      "id": "ai-industry",
-      "title": "Wider AI World",
-      "items": [
-        {
-          "headline": "Google Starts Replacing Google Assistant With Gemini on Android, September 4",
-          "summary": "Starting September 4, Google begins swapping out the old Google Assistant for Gemini on Android phones, tablets, watches, and earbuds. The rollout happens automatically over a few weeks, and once your device switches over there's no way to go back to the old Assistant.",
-          "why_it_matters": "If you or your viewers use an Android phone's voice assistant for quick tasks (setting timers, texting hands-free, checking the weather), the way it responds is about to change with no opt-out, so it's worth trying Gemini's voice mode once it appears rather than being caught off guard.",
-          "link": "https://the-decoder.com/google-will-shut-down-google-assistant-starting-september-2026-as-gemini-takes-over-on-android-and-wear-os/",
-          "source": "The Decoder",
-          "tag": "Platform Change",
-          "opportunity": {
-            "video": 6,
-            "social": 6,
-            "community": 5,
-            "act_now": true,
-            "action_note": "If you rely on Google Assistant on an Android phone, spend five minutes with Gemini's voice mode once it rolls out to your device so the switch on September 4 doesn't catch you mid-task."
-          }
-        }
-      ]
-    },
-    {
       "id": "creator-tools",
       "title": "Tools & Tips for Creators and Small Biz",
-      "items": [
-        {
-          "headline": "OpenAI's Sora Video Tool Fully Shuts Down September 24, Grab Your Files Now",
-          "summary": "OpenAI is closing the door on Sora, its AI video generator, for good: the app already went dark in April, and the last piece, the developer API that some other apps plug into, stops working on September 24. After that, OpenAI deletes all associated Sora account data.",
-          "why_it_matters": "If you ever made clips with Sora, or if a video tool you use pulls in Sora under the hood, download anything you want to keep before September 24 or it's gone for good.",
-          "link": "https://help.openai.com/en/articles/20001152-what-to-know-about-the-sora-discontinuation",
-          "source": "OpenAI Help Center",
-          "tag": "Deprecation",
-          "opportunity": {
-            "video": 3,
-            "social": 3,
-            "community": 6,
-            "act_now": true,
-            "action_note": "Log into any Sora account you have and download the clips you want to keep before the API and remaining account data are deleted on September 24."
-          }
-        }
-      ]
+      "items": []
     },
     {
       "id": "content-social",
