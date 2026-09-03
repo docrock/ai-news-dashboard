@@ -1,0 +1,58 @@
+{
+  "generated_at_iso": "2026-09-02T03:26:18-10:00",
+  "generated_label": "Wednesday, September 2 · 3:26 AM HST",
+  "edition": "morning",
+  "categories": [
+    {
+      "id": "claude-anthropic",
+      "title": "Claude & Anthropic",
+      "items": [
+        {
+          "headline": "Anthropic Launches Claude Fable 5.1, Its Most Capable Model Yet for Coding and Research",
+          "summary": "Anthropic released Claude Fable 5.1, its strongest model yet for coding, research, and other complex work, plus a more permissive sibling called Mythos 5.1 that's only available to vetted cybersecurity and science organizations. Fable 5.1 is live now for everyone on a paid Claude plan, and Anthropic cut the price of reused (\"cached\") content, so typical use costs roughly 25% less than before.",
+          "why_it_matters": "If you're already paying for Claude, you have access to a noticeably smarter model today at a lower cost for the same kind of work, no upgrade or extra sign-up needed, so it's worth pointing Claude at something meaty (a video outline, a business plan, a tricky edit workflow question) and seeing what's different.",
+          "link": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+          "source": "Anthropic (official)",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 7,
+            "social": 6,
+            "community": 6,
+            "act_now": false,
+            "angle": "I put Anthropic's brand-new Claude Fable 5.1 to work on a real business task and compared it to the old model"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ai-industry",
+      "title": "Wider AI World",
+      "items": [
+        {
+          "headline": "The EU Just Declared ChatGPT a \"Search Engine,\" Triggering Stricter Rules",
+          "summary": "The European Commission officially classified ChatGPT as a \"Very Large Online Search Engine\" under its Digital Services Act, after OpenAI reported roughly 159 million monthly users in the EU, more than three times the threshold for that label. That puts ChatGPT under the same strict content and safety rules Google Search already has to follow in Europe, with a deadline of December 2026 to comply.",
+          "why_it_matters": "This is an EU rule, not a US one, so nothing changes for you today. But it's an early sign regulators are starting to treat AI chatbots like search engines rather than a lightly-watched new toy, which tends to lead to changes (like clearer source citations or content warnings) that eventually show up everywhere, including in the ChatGPT you use.",
+          "link": "https://www.searchenginejournal.com/chatgpt-is-now-a-very-large-online-search-engine-in-the-eu/587801/",
+          "source": "Search Engine Journal",
+          "tag": "Policy",
+          "opportunity": {
+            "video": 2,
+            "social": 5,
+            "community": 3,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "creator-tools",
+      "title": "Tools & Tips for Creators and Small Biz",
+      "items": []
+    },
+    {
+      "id": "content-social",
+      "title": "Content & Social Media Pulse",
+      "items": []
+    }
+  ]
+}
