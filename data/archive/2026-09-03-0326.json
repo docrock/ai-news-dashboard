@@ -1,0 +1,87 @@
+{
+  "generated_at_iso": "2026-09-03T03:26:26-10:00",
+  "generated_label": "Thursday, September 3 · 3:26 AM HST",
+  "edition": "morning",
+  "categories": [
+    {
+      "id": "claude-anthropic",
+      "title": "Claude & Anthropic",
+      "items": [
+        {
+          "headline": "Claude's Slack Assistant Got Smarter About When to Speak Up",
+          "summary": "Anthropic updated Claude Tag, the AI helper you can add to a Slack channel, so it now reads an entire conversation for context instead of judging one message at a time. Anthropic says this makes it roughly 30% better at knowing when to jump in with something useful and when to just stay quiet.",
+          "why_it_matters": "If you run a team, a paid community, or coordinate with an editor or assistant over Slack, an AI that only chimes in when it actually has something to add is far less annoying to work alongside than one that interrupts every thread.",
+          "link": "https://claude.com/blog/claude-tag-now-reads-even-more-of-the-room",
+          "source": "Anthropic (official)",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 3,
+            "social": 4,
+            "community": 5,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "ai-industry",
+      "title": "Wider AI World",
+      "items": [
+        {
+          "headline": "Meta Says Its Newest AI Model Now Rivals ChatGPT and Claude",
+          "summary": "Meta released Muse Spark 1.3, its most capable AI model yet, saying it now matches the newest models from OpenAI and Anthropic on coding and multi-step \"agent\" tasks (where the AI works through a job on its own instead of answering one question at a time). It's live today in Meta's developer tools, with Instagram, Facebook, and the Meta AI assistant getting the upgrade soon.",
+          "why_it_matters": "Meta AI is already built into apps a lot of small businesses use daily for posting and messaging, so a smarter model under the hood means that built-in assistant inside Instagram and Facebook should get noticeably more useful without you having to do anything.",
+          "link": "https://www.axios.com/2026/09/02/meta-debuts-muse-spark-13-as-personal-agent-work-continues",
+          "source": "Axios",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 4,
+            "social": 5,
+            "community": 4,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "creator-tools",
+      "title": "Tools & Tips for Creators and Small Biz",
+      "items": [
+        {
+          "headline": "Adobe Just Put Photoshop, Firefly, and Premiere Inside Slack",
+          "summary": "Adobe launched \"Adobe for Slack,\" a new integration that lets Slack's built-in AI assistant call on more than 70 Adobe tools, including Photoshop, Firefly, Premiere, Express, and Acrobat, right from a chat message instead of opening each app separately.",
+          "why_it_matters": "It's only available on Slack's pricier Business+ and Enterprise+ plans for now, so most solo creators won't have access yet, but it's a preview of where things are headed: asking for a quick edit or graphic without leaving your team chat. Worth knowing about even if you're not ready to use it today.",
+          "link": "https://9to5mac.com/2026/09/02/adobe-brings-photoshop-firefly-and-70-creative-tools-to-slack-with-mcp-app/",
+          "source": "9to5Mac",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 4,
+            "social": 4,
+            "community": 5,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "content-social",
+      "title": "Content & Social Media Pulse",
+      "items": [
+        {
+          "headline": "Twitch's \"SUBtember\" Subscriber Discount Runs Through Early October",
+          "summary": "Twitch is running SUBtember, a monthlong promotion (August 28 through October 1) that discounts viewer subscriptions by 25-30%, with Twitch covering the difference so streamers still get their full normal payout. There's also a bonus window from September 12-18 where gifted \"Bits\" get an extra 10% added on top.",
+          "why_it_matters": "If you stream on Twitch or multistream there from Ecamm, this is a built-in reason to remind your audience to subscribe or gift subs this month, since the discount comes out of Twitch's pocket, not a cut to what you earn.",
+          "link": "https://blog.twitch.tv/en/2026/08/18/subtember-2026/",
+          "source": "Twitch (official blog)",
+          "tag": "Platform Change",
+          "opportunity": {
+            "video": 3,
+            "social": 4,
+            "community": 4,
+            "act_now": false
+          }
+        }
+      ]
+    }
+  ]
+}

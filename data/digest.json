@@ -1,43 +1,56 @@
 {
-  "generated_at_iso": "2026-09-03T03:26:26-10:00",
-  "generated_label": "Thursday, September 3 · 3:26 AM HST",
+  "generated_at_iso": "2026-09-04T03:23:22-10:00",
+  "generated_label": "Friday, September 4 · 3:23 AM HST",
   "edition": "morning",
   "categories": [
     {
       "id": "claude-anthropic",
       "title": "Claude & Anthropic",
-      "items": [
-        {
-          "headline": "Claude's Slack Assistant Got Smarter About When to Speak Up",
-          "summary": "Anthropic updated Claude Tag, the AI helper you can add to a Slack channel, so it now reads an entire conversation for context instead of judging one message at a time. Anthropic says this makes it roughly 30% better at knowing when to jump in with something useful and when to just stay quiet.",
-          "why_it_matters": "If you run a team, a paid community, or coordinate with an editor or assistant over Slack, an AI that only chimes in when it actually has something to add is far less annoying to work alongside than one that interrupts every thread.",
-          "link": "https://claude.com/blog/claude-tag-now-reads-even-more-of-the-room",
-          "source": "Anthropic (official)",
-          "tag": "Product Update",
-          "opportunity": {
-            "video": 3,
-            "social": 4,
-            "community": 5,
-            "act_now": false
-          }
-        }
-      ]
+      "items": []
     },
     {
       "id": "ai-industry",
       "title": "Wider AI World",
       "items": [
         {
-          "headline": "Meta Says Its Newest AI Model Now Rivals ChatGPT and Claude",
-          "summary": "Meta released Muse Spark 1.3, its most capable AI model yet, saying it now matches the newest models from OpenAI and Anthropic on coding and multi-step \"agent\" tasks (where the AI works through a job on its own instead of answering one question at a time). It's live today in Meta's developer tools, with Instagram, Facebook, and the Meta AI assistant getting the upgrade soon.",
-          "why_it_matters": "Meta AI is already built into apps a lot of small businesses use daily for posting and messaging, so a smarter model under the hood means that built-in assistant inside Instagram and Facebook should get noticeably more useful without you having to do anything.",
-          "link": "https://www.axios.com/2026/09/02/meta-debuts-muse-spark-13-as-personal-agent-work-continues",
-          "source": "Axios",
+          "headline": "OpenAI Launches Astra, a Big Upgrade to ChatGPT and Codex",
+          "summary": "OpenAI released Astra, a major upgrade to the model behind ChatGPT and its coding tool Codex, saying it's dramatically better at multi-step tasks like research, browsing the web, and software engineering. It's also the first OpenAI model good enough at finding computer security holes that the company is restricting who gets its full capabilities.",
+          "why_it_matters": "If you use ChatGPT or Codex for writing, research, or coding help, expect it to feel noticeably sharper at multi-step requests over the coming days, without you having to do anything or pay more.",
+          "link": "https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model/",
+          "source": "TechCrunch",
           "tag": "Product Update",
           "opportunity": {
-            "video": 4,
+            "video": 3,
+            "social": 5,
+            "community": 3,
+            "act_now": false
+          }
+        },
+        {
+          "headline": "ChatGPT, Claude, and Grok All Went Down at the Same Time Yesterday",
+          "summary": "On the morning of September 3, ChatGPT, Claude, and Grok all had outages within roughly the same few-hour window. Microsoft Azure, whose cloud infrastructure powers all three services, reported a networking problem in its East US region around the same time, though no single confirmed cause ties all three together. All three are back up and running now.",
+          "why_it_matters": "If your business leans on one AI tool to get work done, this is a good nudge to keep a backup tool or a non-AI fallback handy, since a single company's bad morning can ripple across several AI services at once.",
+          "link": "https://www.axios.com/2026/09/03/chatgpt-claude-grok-outages",
+          "source": "Axios",
+          "tag": "Service Outage",
+          "opportunity": {
+            "video": 2,
             "social": 5,
             "community": 4,
+            "act_now": false
+          }
+        },
+        {
+          "headline": "Google Releases Gemini 3.8 Flash, Its Third Fast-Model Upgrade in Six Weeks",
+          "summary": "Google rolled out Gemini 3.8 Flash, calling it the best version yet of its speedy, low-cost model for everyday tasks like writing, coding help, and multi-step reasoning. It's priced the same as the version it replaces, so anyone already using Gemini's fast tier gets the upgrade automatically at no extra cost.",
+          "why_it_matters": "If you or your team use Gemini for quick writing, research, or coding help, you should notice better answers on trickier requests starting now, with no price increase to worry about.",
+          "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+          "source": "Google (official blog)",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 2,
+            "social": 3,
+            "community": 3,
             "act_now": false
           }
         }
@@ -46,39 +59,40 @@
     {
       "id": "creator-tools",
       "title": "Tools & Tips for Creators and Small Biz",
-      "items": [
-        {
-          "headline": "Adobe Just Put Photoshop, Firefly, and Premiere Inside Slack",
-          "summary": "Adobe launched \"Adobe for Slack,\" a new integration that lets Slack's built-in AI assistant call on more than 70 Adobe tools, including Photoshop, Firefly, Premiere, Express, and Acrobat, right from a chat message instead of opening each app separately.",
-          "why_it_matters": "It's only available on Slack's pricier Business+ and Enterprise+ plans for now, so most solo creators won't have access yet, but it's a preview of where things are headed: asking for a quick edit or graphic without leaving your team chat. Worth knowing about even if you're not ready to use it today.",
-          "link": "https://9to5mac.com/2026/09/02/adobe-brings-photoshop-firefly-and-70-creative-tools-to-slack-with-mcp-app/",
-          "source": "9to5Mac",
-          "tag": "Product Update",
-          "opportunity": {
-            "video": 4,
-            "social": 4,
-            "community": 5,
-            "act_now": false
-          }
-        }
-      ]
+      "items": []
     },
     {
       "id": "content-social",
       "title": "Content & Social Media Pulse",
       "items": [
         {
-          "headline": "Twitch's \"SUBtember\" Subscriber Discount Runs Through Early October",
-          "summary": "Twitch is running SUBtember, a monthlong promotion (August 28 through October 1) that discounts viewer subscriptions by 25-30%, with Twitch covering the difference so streamers still get their full normal payout. There's also a bonus window from September 12-18 where gifted \"Bits\" get an extra 10% added on top.",
-          "why_it_matters": "If you stream on Twitch or multistream there from Ecamm, this is a built-in reason to remind your audience to subscribe or gift subs this month, since the discount comes out of Twitch's pocket, not a cut to what you earn.",
-          "link": "https://blog.twitch.tv/en/2026/08/18/subtember-2026/",
-          "source": "Twitch (official blog)",
+          "headline": "TikTok Comments Can Now Include Voice Messages, Polls, and Photo Albums",
+          "summary": "TikTok is rolling out four new ways to comment: Voice Comments (a 60-second audio clip under any video), Comment Polls that creators can add to their own posts with up to 5 options, Photo Carousel comments with up to 9 photos, and Live Photo comments. They're rolling out globally over the next month to accounts 18 and older.",
+          "why_it_matters": "These are simple, free ways to get your audience talking under your videos, try adding a poll to your next post to see what people actually want you to make next.",
+          "link": "https://techcrunch.com/2026/09/03/tiktok-comments-are-getting-more-interactive-with-voice-comments-polls-and-more/",
+          "source": "TechCrunch",
           "tag": "Platform Change",
           "opportunity": {
+            "video": 4,
+            "social": 6,
+            "community": 7,
+            "act_now": false,
+            "angle": "I tried TikTok's new comment polls to ask my audience what to make next, here's what happened."
+          }
+        },
+        {
+          "headline": "Instagram Will Limit the Reach of AI Persona Accounts That Don't Label Themselves",
+          "summary": "Instagram renamed its \"AI Creator\" label to \"AI-Generated Profile\" and will now restrict how far posts from AI-generated persona accounts spread if they don't use the label. It only applies to accounts built around a fully AI-generated person, not to creators who simply use AI tools to help make their content.",
+          "why_it_matters": "If you or anyone in your circle runs an account built around a fully AI-generated persona (not just a real person using AI tools to help), label it now or risk losing reach. If you're just using AI to help write or edit, this doesn't apply to you.",
+          "link": "https://techcrunch.com/2026/08/31/instagram-puts-new-limits-on-undisclosed-ai-profiles/",
+          "source": "TechCrunch",
+          "tag": "Policy",
+          "opportunity": {
             "video": 3,
-            "social": 4,
-            "community": 4,
-            "act_now": false
+            "social": 6,
+            "community": 7,
+            "act_now": false,
+            "angle": "Quick PSA for the Sandbox: if you're running an AI persona account, label it now before your reach quietly drops."
           }
         }
       ]
