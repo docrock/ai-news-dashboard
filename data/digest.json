@@ -1,56 +1,57 @@
 {
-  "generated_at_iso": "2026-09-04T03:23:22-10:00",
-  "generated_label": "Friday, September 4 · 3:23 AM HST",
+  "generated_at_iso": "2026-09-05T03:18:23-10:00",
+  "generated_label": "Saturday, September 5 · 3:18 AM HST",
   "edition": "morning",
   "categories": [
     {
       "id": "claude-anthropic",
       "title": "Claude & Anthropic",
-      "items": []
+      "items": [
+        {
+          "headline": "Anthropic Pushes Its IPO Back to Mid-October",
+          "summary": "Anthropic, the company behind Claude, had been expected to file paperwork for its stock market debut (an IPO, when a company first sells shares to the public) as soon as next week. That's now been pushed back, with marketing for the offering starting in mid-October and the actual listing expected before November's elections, at a valuation reports put near $2 trillion.",
+          "why_it_matters": "There's nothing to do here, but it's a useful sign of just how much money is flowing into the company behind the AI tool a lot of us use daily, and a public listing usually brings more scrutiny, new products, and pricing changes down the road.",
+          "link": "https://www.investing.com/news/company-news/anthropic-delays-ipo-launch-to-midoctober-at-earliest-reuters-reports-4890106",
+          "source": "Investing.com (via Reuters)",
+          "tag": "Company News",
+          "opportunity": {
+            "video": 1,
+            "social": 3,
+            "community": 2,
+            "act_now": false
+          }
+        }
+      ]
     },
     {
       "id": "ai-industry",
       "title": "Wider AI World",
       "items": [
         {
-          "headline": "OpenAI Launches Astra, a Big Upgrade to ChatGPT and Codex",
-          "summary": "OpenAI released Astra, a major upgrade to the model behind ChatGPT and its coding tool Codex, saying it's dramatically better at multi-step tasks like research, browsing the web, and software engineering. It's also the first OpenAI model good enough at finding computer security holes that the company is restricting who gets its full capabilities.",
-          "why_it_matters": "If you use ChatGPT or Codex for writing, research, or coding help, expect it to feel noticeably sharper at multi-step requests over the coming days, without you having to do anything or pay more.",
-          "link": "https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model/",
+          "headline": "Google Photos Can Now Clean Up and Organize Your Whole Library on Command",
+          "summary": "Google connected its Gemini Spark AI assistant to Google Photos, so paying subscribers can ask it to edit photos, automatically build and share albums, turn a photo of an event flyer into a calendar reminder, or set up a recurring task like finding the best weekly shots of your kids or pets to send to family. It's rolling out gradually in the US to Gemini AI Pro and Ultra subscribers.",
+          "why_it_matters": "If your camera roll or shared drive is a mess of event and behind-the-scenes photos, this could save you real time on the boring sorting-and-sharing work, without learning a new app.",
+          "link": "https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/",
           "source": "TechCrunch",
           "tag": "Product Update",
           "opportunity": {
             "video": 3,
-            "social": 5,
-            "community": 3,
+            "social": 4,
+            "community": 5,
             "act_now": false
           }
         },
         {
-          "headline": "ChatGPT, Claude, and Grok All Went Down at the Same Time Yesterday",
-          "summary": "On the morning of September 3, ChatGPT, Claude, and Grok all had outages within roughly the same few-hour window. Microsoft Azure, whose cloud infrastructure powers all three services, reported a networking problem in its East US region around the same time, though no single confirmed cause ties all three together. All three are back up and running now.",
-          "why_it_matters": "If your business leans on one AI tool to get work done, this is a good nudge to keep a backup tool or a non-AI fallback handy, since a single company's bad morning can ripple across several AI services at once.",
-          "link": "https://www.axios.com/2026/09/03/chatgpt-claude-grok-outages",
-          "source": "Axios",
-          "tag": "Service Outage",
-          "opportunity": {
-            "video": 2,
-            "social": 5,
-            "community": 4,
-            "act_now": false
-          }
-        },
-        {
-          "headline": "Google Releases Gemini 3.8 Flash, Its Third Fast-Model Upgrade in Six Weeks",
-          "summary": "Google rolled out Gemini 3.8 Flash, calling it the best version yet of its speedy, low-cost model for everyday tasks like writing, coding help, and multi-step reasoning. It's priced the same as the version it replaces, so anyone already using Gemini's fast tier gets the upgrade automatically at no extra cost.",
-          "why_it_matters": "If you or your team use Gemini for quick writing, research, or coding help, you should notice better answers on trickier requests starting now, with no price increase to worry about.",
-          "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
-          "source": "Google (official blog)",
+          "headline": "ChatGPT's Ad Business Hits $1 Billion a Year and Opens to More Small Businesses",
+          "summary": "OpenAI says ads inside ChatGPT are now pacing at $1 billion a year in revenue, less than 200 days after launching the feature. Its self-serve Ads Manager (which lets any business run ads without a sales contract, the way Google and Meta ads work) is now also opening to advertisers in India, Europe, the Middle East, and North Africa, and OpenAI says small and midsize businesses already make up a meaningful share of that spending.",
+          "why_it_matters": "If you already run ads on Google or Meta, ChatGPT ads are becoming a real, self-serve option worth testing, and since it's still new, competition and costs may be lower than on the bigger platforms.",
+          "link": "https://www.cnbc.com/2026/08/31/open-ai-chatgpt-ads-revenue.html",
+          "source": "CNBC",
           "tag": "Product Update",
           "opportunity": {
             "video": 2,
-            "social": 3,
-            "community": 3,
+            "social": 4,
+            "community": 5,
             "act_now": false
           }
         }
@@ -59,43 +60,27 @@
     {
       "id": "creator-tools",
       "title": "Tools & Tips for Creators and Small Biz",
-      "items": []
+      "items": [
+        {
+          "headline": "Microsoft's New Transcription AI Undercuts Every Big Rival on Price",
+          "summary": "Microsoft released MAI-Transcribe-2, a speech-to-text model that turns an hour of audio into text in about ten seconds, understands 60 languages, and can tell different speakers apart. Through the end of 2026 it's priced at just $0.10 per hour of audio, about 70% cheaper than Microsoft's own previous version and undercutting rival transcription tools from OpenAI, Google, and ElevenLabs.",
+          "why_it_matters": "If you pay for auto-captions, transcripts, or subtitles for your videos or podcast, it's worth watching for this to show up in the apps you already use, since it points toward cheaper, more accurate captions across the board.",
+          "link": "https://venturebeat.com/infrastructure/microsoft-ais-mai-transcribe-2-undercuts-openai-google-and-elevenlabs-on-price-and-speed",
+          "source": "VentureBeat",
+          "tag": "Pricing",
+          "opportunity": {
+            "video": 4,
+            "social": 3,
+            "community": 6,
+            "act_now": false
+          }
+        }
+      ]
     },
     {
       "id": "content-social",
       "title": "Content & Social Media Pulse",
-      "items": [
-        {
-          "headline": "TikTok Comments Can Now Include Voice Messages, Polls, and Photo Albums",
-          "summary": "TikTok is rolling out four new ways to comment: Voice Comments (a 60-second audio clip under any video), Comment Polls that creators can add to their own posts with up to 5 options, Photo Carousel comments with up to 9 photos, and Live Photo comments. They're rolling out globally over the next month to accounts 18 and older.",
-          "why_it_matters": "These are simple, free ways to get your audience talking under your videos, try adding a poll to your next post to see what people actually want you to make next.",
-          "link": "https://techcrunch.com/2026/09/03/tiktok-comments-are-getting-more-interactive-with-voice-comments-polls-and-more/",
-          "source": "TechCrunch",
-          "tag": "Platform Change",
-          "opportunity": {
-            "video": 4,
-            "social": 6,
-            "community": 7,
-            "act_now": false,
-            "angle": "I tried TikTok's new comment polls to ask my audience what to make next, here's what happened."
-          }
-        },
-        {
-          "headline": "Instagram Will Limit the Reach of AI Persona Accounts That Don't Label Themselves",
-          "summary": "Instagram renamed its \"AI Creator\" label to \"AI-Generated Profile\" and will now restrict how far posts from AI-generated persona accounts spread if they don't use the label. It only applies to accounts built around a fully AI-generated person, not to creators who simply use AI tools to help make their content.",
-          "why_it_matters": "If you or anyone in your circle runs an account built around a fully AI-generated persona (not just a real person using AI tools to help), label it now or risk losing reach. If you're just using AI to help write or edit, this doesn't apply to you.",
-          "link": "https://techcrunch.com/2026/08/31/instagram-puts-new-limits-on-undisclosed-ai-profiles/",
-          "source": "TechCrunch",
-          "tag": "Policy",
-          "opportunity": {
-            "video": 3,
-            "social": 6,
-            "community": 7,
-            "act_now": false,
-            "angle": "Quick PSA for the Sandbox: if you're running an AI persona account, label it now before your reach quietly drops."
-          }
-        }
-      ]
+      "items": []
     }
   ]
 }
