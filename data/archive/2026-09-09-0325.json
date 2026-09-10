@@ -1,0 +1,118 @@
+{
+  "generated_at_iso": "2026-09-09T03:25:02-10:00",
+  "generated_label": "Wednesday, September 9 · 3:25 AM HST",
+  "edition": "morning",
+  "categories": [
+    {
+      "id": "claude-anthropic",
+      "title": "Claude & Anthropic",
+      "items": [
+        {
+          "headline": "Claude Code's New 'Auto Mode' Stops Interrupting You for Permission",
+          "summary": "Claude Code, Anthropic's AI coding assistant, has a new Auto Mode (out now as an early research preview for Team plan users) where a built-in safety checker decides on its own which actions are safe to just run, and which ones need your OK. Instead of approving nearly every file edit or command one at a time, you only get interrupted when something looks genuinely risky.",
+          "why_it_matters": "If you've ever set Claude Code loose on a project and then had to babysit a string of 'approve this?' prompts, this is built to fix exactly that, letting you kick off a bigger automation and actually step away from the computer.",
+          "link": "https://claude.com/blog/auto-mode",
+          "source": "Claude by Anthropic",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 7,
+            "social": 5,
+            "community": 7,
+            "act_now": true,
+            "action_note": "Turn on Auto Mode the next time you run a Claude Code task and see whether it really lets you step away instead of approving prompts one by one.",
+            "angle": "I tried Claude Code's new hands-off Auto Mode so I didn't have to click 'approve' 40 times"
+          }
+        },
+        {
+          "headline": "Anthropic Reportedly Now Eyeing a Record $100 Billion Stock Listing",
+          "summary": "A week after pushing its stock market debut to mid-October, Anthropic (the company behind Claude) is reportedly now aiming to raise more than $100 billion in that IPO at a roughly $2 trillion valuation, which would make it the largest public stock offering ever, bigger than SpaceX's recent listing.",
+          "why_it_matters": "Nothing to act on here, but it shows just how much money is betting on Claude's growth, and a listing this size usually brings a wave of new press coverage, features, and pricing changes worth keeping an eye on.",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/everything-know-anthropic-ipo-135233230.html",
+          "source": "Yahoo Finance",
+          "tag": "Company News",
+          "opportunity": {
+            "video": 1,
+            "social": 4,
+            "community": 2,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "ai-industry",
+      "title": "Wider AI World",
+      "items": [
+        {
+          "headline": "Meta Launches Muse, a Personal AI Agent That Can Shop and Book Things for You",
+          "summary": "Meta released Muse, a personal AI agent that can handle tasks like online shopping, buying movie tickets, or scheduling appointments on your behalf. It's free to start (a payment card is required), available now on the web, iOS, and Android in the US, with paid tiers at $20 and $100 a month for heavier use.",
+          "why_it_matters": "This is the same kind of AI agent that got Meta in trouble just last week for changing a password and sending an email without permission during testing, so if you try Muse, start with low-stakes tasks and watch closely before handing it anything tied to your accounts or money.",
+          "link": "https://techcrunch.com/2026/09/08/meta-debuts-its-muse-ai-agent-will-consumers-trust-it/",
+          "source": "TechCrunch",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 5,
+            "social": 6,
+            "community": 5,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "creator-tools",
+      "title": "Tools & Tips for Creators and Small Biz",
+      "items": [
+        {
+          "headline": "ChatGPT Can Now Learn to Write in Your Voice From Your Gmail and Slack",
+          "summary": "OpenAI is rolling out a 'Writing Style' feature for ChatGPT Work (its business tier) that studies examples from your connected Gmail, Google Drive, Slack, or SharePoint to pick up your go-to phrases, sign-offs, and even how you use capital letters, then writes new emails or messages in that same voice.",
+          "why_it_matters": "If you're tired of re-explaining your tone every time you ask an AI tool to draft an email or a customer reply, this could save you the back-and-forth, just know it only learns from what's already in those connected apps, not what you type into the chat itself.",
+          "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-can-now-connect-to-your-personal-apps-to-mimic-writing-style/",
+          "source": "BleepingComputer",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 4,
+            "social": 4,
+            "community": 6,
+            "act_now": false
+          }
+        },
+        {
+          "headline": "Claude Now Has Ready-Made Blueprints for Small Retailers to Build Shopping Assistants",
+          "summary": "Anthropic released free blueprints (reference templates a developer can build from) that let online stores add a Claude-powered assistant to help shoppers compare products and fill their cart, plus a separate one that helps store owners handle inventory, pricing, and marketing. Anthropic says early partners saw cart sizes grow by roughly 30-35%.",
+          "why_it_matters": "If you sell products online, this lowers the bar for adding an AI shopping helper to your site before the holiday rush, worth a look even if you'd need a developer's help to actually wire it up.",
+          "link": "https://www.pymnts.com/news/artificial-intelligence/2026/anthropic-gives-retailers-blueprint-for-ai-shopping-agents/",
+          "source": "PYMNTS",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 3,
+            "social": 3,
+            "community": 5,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "content-social",
+      "title": "Content & Social Media Pulse",
+      "items": [
+        {
+          "headline": "X Retires Creator Ad-Revenue Sharing, Replaces It With 'Original Content Rewards'",
+          "summary": "X shut down its long-running ad-revenue-sharing payouts for creators on September 7 and opened applications on September 8 for a replacement called the Original Content Rewards Program, which pays based on original posts and genuine engagement rather than just ad impressions. It's open to Premium subscribers with at least 500 verified followers, with payments issued every two weeks.",
+          "why_it_matters": "If you post on X and were earning through the old ad-share program, you'll need to actively apply for the new one since it won't carry over automatically, so don't assume your payouts will just continue.",
+          "link": "https://techcrunch.com/2026/08/08/x-replaces-misaligned-revenue-sharing-program-with-original-content-rewards/",
+          "source": "TechCrunch",
+          "tag": "Platform Change",
+          "opportunity": {
+            "video": 2,
+            "social": 4,
+            "community": 4,
+            "act_now": true,
+            "action_note": "If you monetize posts on X, apply for the new Original Content Rewards Program in Creator Studio now since the old revenue-sharing payouts have already stopped."
+          }
+        }
+      ]
+    }
+  ]
+}
