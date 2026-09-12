@@ -1,58 +1,28 @@
 {
-  "generated_at_iso": "2026-09-11T03:23:23-10:00",
-  "generated_label": "Friday, September 11 · 3:23 AM HST",
+  "generated_at_iso": "2026-09-12T03:16:05-10:00",
+  "generated_label": "Saturday, September 12 · 3:16 AM HST",
   "edition": "morning",
   "categories": [
     {
       "id": "claude-anthropic",
       "title": "Claude & Anthropic",
-      "items": [
-        {
-          "headline": "Anthropic's Biggest Threat Report Yet: How Criminals Are Misusing Claude, and What They Stole",
-          "summary": "Anthropic published its most detailed threat intelligence report to date, covering nine months of misuse it found and shut down, cyberattacks, scams, propaganda campaigns, and even research that could help build weapons. A recurring pattern stood out: attackers who got into someone's AI setup weren't after the AI itself, they were after stolen API keys (the password-like codes that let apps and automations talk to Claude on your behalf) so they could rack up usage on someone else's account or dig further into connected systems.",
-          "why_it_matters": "If you've ever pasted an API key into an automation tool (like n8n or a custom script) to connect Claude to your business, treat that key like a spare house key: don't share it, don't hard-code it into a public file, and rotate it if you ever suspect it leaked.",
-          "link": "https://www.anthropic.com/threat-intelligence-report-september-2026",
-          "source": "Anthropic",
-          "tag": "Research",
-          "opportunity": {
-            "video": 3,
-            "social": 5,
-            "community": 5,
-            "act_now": false
-          }
-        }
-      ]
+      "items": []
     },
     {
       "id": "ai-industry",
       "title": "Wider AI World",
       "items": [
         {
-          "headline": "Apple Confirms the New AI-Powered Siri Arrives This Month",
-          "summary": "Apple confirmed its long-awaited overhaul of Siri, internally branded 'Siri AI,' will roll out in English with iOS 27 on September 14, with five more languages following in October. The new Siri gets its own standalone app, can hold real back-and-forth conversations, understands what's on your screen or in a photo, and can take actions inside apps like Messages and Reminders based on what you're doing in the moment.",
-          "why_it_matters": "This is the update that finally brings Apple's assistant closer to what Claude or ChatGPT can already do, worth a look the week it lands since most of your audience will have it on their iPhone whether they ask for it or not.",
-          "link": "https://9to5mac.com/2026/09/09/apple-confirms-siri-ai-launches-in-english-this-month-will-add-five-languages-in-october/",
-          "source": "9to5Mac",
+          "headline": "Google Finally Brings Gemini to Windows as Its Own Desktop App",
+          "summary": "Google released a native Gemini app for Windows 10 and 11 on September 10, letting you summon it with an Alt+Space keyboard shortcut instead of opening a browser tab. It runs as a lightweight background app, connects to your Gmail and Google Drive, and can generate images without leaving whatever you're working on.",
+          "why_it_matters": "If you're on a Windows PC and already use Gemini for research or writing help, this is a faster way to reach it than digging through browser tabs, the same convenience Claude and ChatGPT's desktop apps already offer.",
+          "link": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-windows/",
+          "source": "Google Blog",
           "tag": "Product Update",
           "opportunity": {
-            "video": 7,
-            "social": 7,
+            "video": 3,
+            "social": 4,
             "community": 5,
-            "act_now": false,
-            "angle": "I tested the new AI Siri the day it landed on iOS 27, here's what it actually gets right (and wrong)"
-          }
-        },
-        {
-          "headline": "California Becomes First State to License Independent AI Auditors",
-          "summary": "Governor Gavin Newsom signed a new law creating the nation's first state registry of independent AI auditors, people and firms certified to check AI companies' safety and bias claims instead of AI companies grading their own homework. The registry itself won't be up and running until 2029, but it sets the direction: outside verification of AI safety claims is coming.",
-          "why_it_matters": "You don't need to do anything about this one, but it's an early sign that 'independently verified' AI claims may become a real selling point, worth remembering the next time a tool's marketing leans hard on unverified safety promises.",
-          "link": "https://www.gov.ca.gov/2026/09/09/governor-newsom-signs-first-in-the-nation-ai-safeguards-to-protect-californians-calls-on-the-federal-government-to-do-its-part/",
-          "source": "Office of Governor Gavin Newsom",
-          "tag": "Policy",
-          "opportunity": {
-            "video": 1,
-            "social": 3,
-            "community": 2,
             "act_now": false
           }
         }
@@ -63,33 +33,32 @@
       "title": "Tools & Tips for Creators and Small Biz",
       "items": [
         {
-          "headline": "Adobe Stuffs Five AI Video Generators Right Into Premiere Pro's Timeline",
-          "summary": "Adobe released a big AI update for Premiere Pro that lets you draw a blank spot on your timeline, describe what you want, and generate it without leaving the app, with a choice of Adobe's own Firefly model or partner models from Google Veo, Runway, Kling, or Luma. The same update adds in-timeline AI sound effects, music, and soundscape generation, plus an AI assistant inside After Effects.",
-          "why_it_matters": "This is Adobe's answer to the kind of AI-assisted editing DaVinci Resolve has been building toward, worth a look even if you're a Resolve loyalist since it shows where AI video generation inside a real editor (not a separate app) is heading.",
-          "link": "https://blog.adobe.com/en/publish/2026/09/08/generate-create-directly-in-your-timeline-with-new-ai-powered-innovations-in-premiere-after-effects",
-          "source": "Adobe Blog",
+          "headline": "ChatGPT's Image Generator Just Got Twice as Fast and a Lot More Precise",
+          "summary": "OpenAI released Images 2.5 for ChatGPT on September 8, cutting generation time roughly in half and fixing a common complaint: asking it to change one small thing, like a shirt color, used to also shift other parts of the picture you didn't touch. It also added a 'Sketch' mode (type @Sketch) where you rough out a layout by hand and let the AI finish it.",
+          "why_it_matters": "If you've used ChatGPT to whip up a thumbnail or social graphic and gotten frustrated when a tiny edit request wrecked the rest of the image, this update is aimed straight at that problem, worth a retry on your next thumbnail.",
+          "link": "https://9to5mac.com/2026/09/08/openai-releases-chatgpt-images-2-5-with-sharper-details-and-more-precise-editing/",
+          "source": "9to5Mac",
           "tag": "Product Update",
           "opportunity": {
-            "video": 7,
-            "social": 5,
+            "video": 6,
+            "social": 4,
             "community": 6,
             "act_now": false,
-            "angle": "I tried generating video and sound right inside Premiere's timeline so you don't have to switch apps"
+            "angle": "I tested ChatGPT's new Images 2.5 to see if a small edit still wrecks the rest of your thumbnail"
           }
         },
         {
-          "headline": "Notion Just Switched Off Its Premium AI Models By Default",
-          "summary": "Starting September 10, Notion turned premium AI models (the more capable, higher-cost options) off by default for Notion Agent in every workspace. A workspace owner or admin now has to manually turn one on in Settings before anyone on the team can use it, and doing so spends Notion credits, which are billed separately.",
-          "why_it_matters": "If you or your team uses Notion's AI features, this could quietly make Notion Agent feel dumber overnight, worth checking your workspace settings if AI answers suddenly seem off, you may just need an admin to flip premium models back on.",
-          "link": "https://www.notion.com/releases/2026-09-09",
-          "source": "Notion",
+          "headline": "Universal Music and ElevenLabs Are Building a Legal Way to Remix Licensed Songs With AI",
+          "summary": "Universal Music Group and ElevenLabs (the AI voice and audio company) announced a multi-year deal on September 10 to build a new AI platform where fans can create remixes, mashups, and new versions of songs from artists who opt in, with the label and songwriters getting paid instead of another lawsuit.",
+          "why_it_matters": "This is another sign, like Suno's licensed relaunch earlier this month, that AI-generated music for your videos is moving from 'scraped and risky' toward 'legal and paid', worth watching if copyright worries have kept you away from AI music tools.",
+          "link": "https://www.prnewswire.com/news-releases/universal-music-group-and-elevenlabs-announce-multi-year-strategic-agreement-beginning-with-a-new-licensed-ai-music-creation-platform-302875284.html",
+          "source": "PR Newswire (Universal Music Group)",
           "tag": "Product Update",
           "opportunity": {
-            "video": 2,
-            "social": 3,
-            "community": 6,
-            "act_now": true,
-            "action_note": "If you use Notion Agent for your business, check Settings → Notion AI this week and turn premium models back on if your answers have gotten noticeably worse since September 10."
+            "video": 3,
+            "social": 4,
+            "community": 5,
+            "act_now": false
           }
         }
       ]
@@ -99,18 +68,18 @@
       "title": "Content & Social Media Pulse",
       "items": [
         {
-          "headline": "Old YouTube Studio App Versions Stopped Working This Week",
-          "summary": "YouTube confirmed that Studio mobile app versions 24.31.6 and earlier are no longer supported as of September 9. If your phone hasn't auto-updated the app recently, features may break or stop loading until you grab the latest version from the App Store or Play Store.",
-          "why_it_matters": "A quick, boring, two-minute fix: if your YouTube Studio app has been acting glitchy on your phone this week, this is almost certainly why, update it before you assume something bigger is wrong.",
-          "link": "https://support.google.com/youtube/answer/9072033?hl=en",
-          "source": "YouTube Help",
+          "headline": "Instagram Will Now Throttle Reach for AI Profiles That Don't Disclose Themselves",
+          "summary": "Instagram announced on August 31 that it renamed its 'AI creator' label to 'AI-generated profile' and will start reducing how far posts from AI-persona accounts spread if they don't clearly disclose they're AI-generated.",
+          "why_it_matters": "If you or anyone in your community runs an account built around an AI avatar or virtual persona, check your profile settings now, since skipping the disclosure label could quietly tank how many people see your posts.",
+          "link": "https://techcrunch.com/2026/08/31/instagram-puts-new-limits-on-undisclosed-ai-profiles/",
+          "source": "TechCrunch",
           "tag": "Platform Change",
           "opportunity": {
-            "video": 1,
-            "social": 2,
-            "community": 4,
+            "video": 2,
+            "social": 3,
+            "community": 5,
             "act_now": true,
-            "action_note": "Open the App Store or Play Store on your phone right now and update the YouTube Studio app so you don't lose access mid-upload."
+            "action_note": "If you or anyone in your community runs an Instagram account built around an AI persona or avatar, confirm it's labeled 'AI-generated profile' in settings this week before reach gets throttled."
           }
         }
       ]
