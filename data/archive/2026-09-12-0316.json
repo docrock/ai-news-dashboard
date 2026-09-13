@@ -1,0 +1,88 @@
+{
+  "generated_at_iso": "2026-09-12T03:16:05-10:00",
+  "generated_label": "Saturday, September 12 · 3:16 AM HST",
+  "edition": "morning",
+  "categories": [
+    {
+      "id": "claude-anthropic",
+      "title": "Claude & Anthropic",
+      "items": []
+    },
+    {
+      "id": "ai-industry",
+      "title": "Wider AI World",
+      "items": [
+        {
+          "headline": "Google Finally Brings Gemini to Windows as Its Own Desktop App",
+          "summary": "Google released a native Gemini app for Windows 10 and 11 on September 10, letting you summon it with an Alt+Space keyboard shortcut instead of opening a browser tab. It runs as a lightweight background app, connects to your Gmail and Google Drive, and can generate images without leaving whatever you're working on.",
+          "why_it_matters": "If you're on a Windows PC and already use Gemini for research or writing help, this is a faster way to reach it than digging through browser tabs, the same convenience Claude and ChatGPT's desktop apps already offer.",
+          "link": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-windows/",
+          "source": "Google Blog",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 3,
+            "social": 4,
+            "community": 5,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "creator-tools",
+      "title": "Tools & Tips for Creators and Small Biz",
+      "items": [
+        {
+          "headline": "ChatGPT's Image Generator Just Got Twice as Fast and a Lot More Precise",
+          "summary": "OpenAI released Images 2.5 for ChatGPT on September 8, cutting generation time roughly in half and fixing a common complaint: asking it to change one small thing, like a shirt color, used to also shift other parts of the picture you didn't touch. It also added a 'Sketch' mode (type @Sketch) where you rough out a layout by hand and let the AI finish it.",
+          "why_it_matters": "If you've used ChatGPT to whip up a thumbnail or social graphic and gotten frustrated when a tiny edit request wrecked the rest of the image, this update is aimed straight at that problem, worth a retry on your next thumbnail.",
+          "link": "https://9to5mac.com/2026/09/08/openai-releases-chatgpt-images-2-5-with-sharper-details-and-more-precise-editing/",
+          "source": "9to5Mac",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 6,
+            "social": 4,
+            "community": 6,
+            "act_now": false,
+            "angle": "I tested ChatGPT's new Images 2.5 to see if a small edit still wrecks the rest of your thumbnail"
+          }
+        },
+        {
+          "headline": "Universal Music and ElevenLabs Are Building a Legal Way to Remix Licensed Songs With AI",
+          "summary": "Universal Music Group and ElevenLabs (the AI voice and audio company) announced a multi-year deal on September 10 to build a new AI platform where fans can create remixes, mashups, and new versions of songs from artists who opt in, with the label and songwriters getting paid instead of another lawsuit.",
+          "why_it_matters": "This is another sign, like Suno's licensed relaunch earlier this month, that AI-generated music for your videos is moving from 'scraped and risky' toward 'legal and paid', worth watching if copyright worries have kept you away from AI music tools.",
+          "link": "https://www.prnewswire.com/news-releases/universal-music-group-and-elevenlabs-announce-multi-year-strategic-agreement-beginning-with-a-new-licensed-ai-music-creation-platform-302875284.html",
+          "source": "PR Newswire (Universal Music Group)",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 3,
+            "social": 4,
+            "community": 5,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "content-social",
+      "title": "Content & Social Media Pulse",
+      "items": [
+        {
+          "headline": "Instagram Will Now Throttle Reach for AI Profiles That Don't Disclose Themselves",
+          "summary": "Instagram announced on August 31 that it renamed its 'AI creator' label to 'AI-generated profile' and will start reducing how far posts from AI-persona accounts spread if they don't clearly disclose they're AI-generated.",
+          "why_it_matters": "If you or anyone in your community runs an account built around an AI avatar or virtual persona, check your profile settings now, since skipping the disclosure label could quietly tank how many people see your posts.",
+          "link": "https://techcrunch.com/2026/08/31/instagram-puts-new-limits-on-undisclosed-ai-profiles/",
+          "source": "TechCrunch",
+          "tag": "Platform Change",
+          "opportunity": {
+            "video": 2,
+            "social": 3,
+            "community": 5,
+            "act_now": true,
+            "action_note": "If you or anyone in your community runs an Instagram account built around an AI persona or avatar, confirm it's labeled 'AI-generated profile' in settings this week before reach gets throttled."
+          }
+        }
+      ]
+    }
+  ]
+}

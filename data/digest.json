@@ -1,28 +1,60 @@
 {
-  "generated_at_iso": "2026-09-12T03:16:05-10:00",
-  "generated_label": "Saturday, September 12 · 3:16 AM HST",
+  "generated_at_iso": "2026-09-13T03:16:11-10:00",
+  "generated_label": "Sunday, September 13 · 3:16 AM HST",
   "edition": "morning",
   "categories": [
     {
       "id": "claude-anthropic",
       "title": "Claude & Anthropic",
-      "items": []
+      "items": [
+        {
+          "headline": "Anthropic's CEO Says the Whole AI Industry Needs to Slow Down, and Puts Outside Watchdogs Inside the Building",
+          "summary": "In an essay published September 12, Anthropic CEO Dario Amodei argued AI companies are improving their models faster than anyone can keep them safe, and said Anthropic will let outside safety reviewers work inside the company full-time, with the same badge access and laptops as employees, to check its work.",
+          "why_it_matters": "You don't need to do anything here, but it's a sign the company behind Claude is publicly admitting the tech is moving fast enough to worry even its own maker, worth knowing next time a viewer asks 'is AI getting out of hand?'",
+          "link": "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/",
+          "source": "TechCrunch",
+          "tag": "Policy",
+          "opportunity": {
+            "video": 4,
+            "social": 7,
+            "community": 4,
+            "act_now": false,
+            "angle": "Even the guy who makes Claude says slow down. Here's what that actually means for us."
+          }
+        },
+        {
+          "headline": "Claude Code's Bigger Weekly Limit Disappears Tomorrow",
+          "summary": "A temporary 50% boost to Claude Code's weekly usage allowance ends September 14. Anthropic is making a smaller, permanent 25% increase over the old limit, but compared to what you have right now, that's about a 17% cut starting tomorrow.",
+          "why_it_matters": "If you lean on Claude Code for editing scripts, building tools, or automating parts of your workflow, today is your last day with the current higher weekly quota, so knock out anything usage-heavy now instead of after the cut lands.",
+          "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-cutting-claude-codes-current-weekly-limits-by-17-percent/",
+          "source": "Bleeping Computer",
+          "tag": "Pricing",
+          "opportunity": {
+            "video": 5,
+            "social": 6,
+            "community": 7,
+            "act_now": true,
+            "action_note": "If you use Claude Code, do your heaviest tasks today, September 13, before the weekly limit drops back down on September 14.",
+            "angle": "Use it or lose it: Claude Code's bigger weekly limit is gone as of tomorrow."
+          }
+        }
+      ]
     },
     {
       "id": "ai-industry",
       "title": "Wider AI World",
       "items": [
         {
-          "headline": "Google Finally Brings Gemini to Windows as Its Own Desktop App",
-          "summary": "Google released a native Gemini app for Windows 10 and 11 on September 10, letting you summon it with an Alt+Space keyboard shortcut instead of opening a browser tab. It runs as a lightweight background app, connects to your Gmail and Google Drive, and can generate images without leaving whatever you're working on.",
-          "why_it_matters": "If you're on a Windows PC and already use Gemini for research or writing help, this is a faster way to reach it than digging through browser tabs, the same convenience Claude and ChatGPT's desktop apps already offer.",
-          "link": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-windows/",
-          "source": "Google Blog",
-          "tag": "Product Update",
+          "headline": "OpenAI's Sam Altman and Elon Musk Both Say They'll Slow Down Too",
+          "summary": "Hours after Anthropic's CEO called for the AI industry to pace itself and let outside reviewers check its safety work, OpenAI's Sam Altman posted that OpenAI \"will do the same,\" and Elon Musk backed the idea too, a rare public agreement between three usually-competing AI companies.",
+          "why_it_matters": "For anyone who's felt like AI tools change faster than you can keep up, this is a small signal that even the companies building them agree the pace has gotten uncomfortable, not a reason to change anything you're doing today.",
+          "link": "https://www.mediaite.com/media/elon-musk-and-sam-altman-agree-with-anthropic-boss-ai-must-slow-down-to-avoid-catastrophic-damage/",
+          "source": "Mediaite",
+          "tag": "Policy",
           "opportunity": {
             "video": 3,
-            "social": 4,
-            "community": 5,
+            "social": 6,
+            "community": 3,
             "act_now": false
           }
         }
@@ -31,55 +63,24 @@
     {
       "id": "creator-tools",
       "title": "Tools & Tips for Creators and Small Biz",
-      "items": [
-        {
-          "headline": "ChatGPT's Image Generator Just Got Twice as Fast and a Lot More Precise",
-          "summary": "OpenAI released Images 2.5 for ChatGPT on September 8, cutting generation time roughly in half and fixing a common complaint: asking it to change one small thing, like a shirt color, used to also shift other parts of the picture you didn't touch. It also added a 'Sketch' mode (type @Sketch) where you rough out a layout by hand and let the AI finish it.",
-          "why_it_matters": "If you've used ChatGPT to whip up a thumbnail or social graphic and gotten frustrated when a tiny edit request wrecked the rest of the image, this update is aimed straight at that problem, worth a retry on your next thumbnail.",
-          "link": "https://9to5mac.com/2026/09/08/openai-releases-chatgpt-images-2-5-with-sharper-details-and-more-precise-editing/",
-          "source": "9to5Mac",
-          "tag": "Product Update",
-          "opportunity": {
-            "video": 6,
-            "social": 4,
-            "community": 6,
-            "act_now": false,
-            "angle": "I tested ChatGPT's new Images 2.5 to see if a small edit still wrecks the rest of your thumbnail"
-          }
-        },
-        {
-          "headline": "Universal Music and ElevenLabs Are Building a Legal Way to Remix Licensed Songs With AI",
-          "summary": "Universal Music Group and ElevenLabs (the AI voice and audio company) announced a multi-year deal on September 10 to build a new AI platform where fans can create remixes, mashups, and new versions of songs from artists who opt in, with the label and songwriters getting paid instead of another lawsuit.",
-          "why_it_matters": "This is another sign, like Suno's licensed relaunch earlier this month, that AI-generated music for your videos is moving from 'scraped and risky' toward 'legal and paid', worth watching if copyright worries have kept you away from AI music tools.",
-          "link": "https://www.prnewswire.com/news-releases/universal-music-group-and-elevenlabs-announce-multi-year-strategic-agreement-beginning-with-a-new-licensed-ai-music-creation-platform-302875284.html",
-          "source": "PR Newswire (Universal Music Group)",
-          "tag": "Product Update",
-          "opportunity": {
-            "video": 3,
-            "social": 4,
-            "community": 5,
-            "act_now": false
-          }
-        }
-      ]
+      "items": []
     },
     {
       "id": "content-social",
       "title": "Content & Social Media Pulse",
       "items": [
         {
-          "headline": "Instagram Will Now Throttle Reach for AI Profiles That Don't Disclose Themselves",
-          "summary": "Instagram announced on August 31 that it renamed its 'AI creator' label to 'AI-generated profile' and will start reducing how far posts from AI-persona accounts spread if they don't clearly disclose they're AI-generated.",
-          "why_it_matters": "If you or anyone in your community runs an account built around an AI avatar or virtual persona, check your profile settings now, since skipping the disclosure label could quietly tank how many people see your posts.",
-          "link": "https://techcrunch.com/2026/08/31/instagram-puts-new-limits-on-undisclosed-ai-profiles/",
-          "source": "TechCrunch",
+          "headline": "Twitch Is Testing an AI Coach That Reviews Your Stream and Tells You What to Fix",
+          "summary": "Twitch announced on September 11 that it's testing an AI 'Stream Coach' with a small group of streamers, which looks at your broadcast afterward and gives feedback on what worked, where viewers engaged most, and suggestions like adding a bio or using Clips.",
+          "why_it_matters": "If you or anyone in your community streams on Twitch, this is worth watching as a preview of the kind of after-the-fact AI feedback tool that will likely show up on YouTube Live and other platforms next.",
+          "link": "https://www.dexerto.com/twitch/twitch-is-testing-an-ai-stream-coach-that-gives-creators-feedback-after-every-broadcast-3408520/",
+          "source": "Dexerto",
           "tag": "Platform Change",
           "opportunity": {
-            "video": 2,
-            "social": 3,
-            "community": 5,
-            "act_now": true,
-            "action_note": "If you or anyone in your community runs an Instagram account built around an AI persona or avatar, confirm it's labeled 'AI-generated profile' in settings this week before reach gets throttled."
+            "video": 5,
+            "social": 5,
+            "community": 6,
+            "act_now": false
           }
         }
       ]
