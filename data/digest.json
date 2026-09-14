@@ -1,6 +1,6 @@
 {
-  "generated_at_iso": "2026-09-13T03:16:11-10:00",
-  "generated_label": "Sunday, September 13 · 3:16 AM HST",
+  "generated_at_iso": "2026-09-14T03:22:19-10:00",
+  "generated_label": "Monday, September 14 · 3:22 AM HST",
   "edition": "morning",
   "categories": [
     {
@@ -8,34 +8,33 @@
       "title": "Claude & Anthropic",
       "items": [
         {
-          "headline": "Anthropic's CEO Says the Whole AI Industry Needs to Slow Down, and Puts Outside Watchdogs Inside the Building",
-          "summary": "In an essay published September 12, Anthropic CEO Dario Amodei argued AI companies are improving their models faster than anyone can keep them safe, and said Anthropic will let outside safety reviewers work inside the company full-time, with the same badge access and laptops as employees, to check its work.",
-          "why_it_matters": "You don't need to do anything here, but it's a sign the company behind Claude is publicly admitting the tech is moving fast enough to worry even its own maker, worth knowing next time a viewer asks 'is AI getting out of hand?'",
-          "link": "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/",
-          "source": "TechCrunch",
-          "tag": "Policy",
-          "opportunity": {
-            "video": 4,
-            "social": 7,
-            "community": 4,
-            "act_now": false,
-            "angle": "Even the guy who makes Claude says slow down. Here's what that actually means for us."
-          }
-        },
-        {
-          "headline": "Claude Code's Bigger Weekly Limit Disappears Tomorrow",
-          "summary": "A temporary 50% boost to Claude Code's weekly usage allowance ends September 14. Anthropic is making a smaller, permanent 25% increase over the old limit, but compared to what you have right now, that's about a 17% cut starting tomorrow.",
-          "why_it_matters": "If you lean on Claude Code for editing scripts, building tools, or automating parts of your workflow, today is your last day with the current higher weekly quota, so knock out anything usage-heavy now instead of after the cut lands.",
+          "headline": "Claude Code's Weekly Limit Cut Is Live Today, and Anthropic Got Called Out for How It Announced It",
+          "summary": "Starting today, September 14, the temporary 50% boost to Claude Code's weekly usage allowance has ended. Anthropic replaced it with a smaller, permanent 25% increase over the original limit, which works out to about 17% less than what heavy users have had for the past four months. Anthropic's first announcement framed it as a straight win and only added the 17% reduction after users called out the confusing math.",
+          "why_it_matters": "If you use Claude Code for editing scripts, building automations, or other coding tasks, your weekly quota just got smaller starting today, so check your usage in account settings and don't be surprised if you hit the ceiling sooner than you're used to.",
           "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-cutting-claude-codes-current-weekly-limits-by-17-percent/",
           "source": "Bleeping Computer",
           "tag": "Pricing",
           "opportunity": {
-            "video": 5,
-            "social": 6,
-            "community": 7,
+            "video": 3,
+            "social": 5,
+            "community": 6,
             "act_now": true,
-            "action_note": "If you use Claude Code, do your heaviest tasks today, September 13, before the weekly limit drops back down on September 14.",
-            "angle": "Use it or lose it: Claude Code's bigger weekly limit is gone as of tomorrow."
+            "action_note": "Check your Claude Code weekly usage today under account Settings, and shift any heavy scripting or automation work earlier in your week now that the ceiling is lower."
+          }
+        },
+        {
+          "headline": "Anthropic Asked 1,000 Small Business Owners About AI. Here's What They Actually Said.",
+          "summary": "Anthropic ran free half-day AI workshops in 10 U.S. cities this year and surveyed the small business owners who showed up. 81% said they're open to using AI tools, but their top complaint was that employees don't know how or when to actually use them, and half named data security as their biggest hesitation.",
+          "why_it_matters": "If you've wondered whether other small business owners feel as unsure about AI as you do, the survey says yes, most do, and the fix people asked for most wasn't more tools, it was hands-on practice time with the ones they already have.",
+          "link": "https://claude.com/blog/what-1-000-small-business-owners-taught-us-about-ai",
+          "source": "Claude (Anthropic Blog)",
+          "tag": "Research",
+          "opportunity": {
+            "video": 4,
+            "social": 6,
+            "community": 8,
+            "act_now": false,
+            "angle": "Turns out most small business owners feel exactly as unsure about AI as you do. Here's the workshop takeaway that surprised me most."
           }
         }
       ]
@@ -45,17 +44,18 @@
       "title": "Wider AI World",
       "items": [
         {
-          "headline": "OpenAI's Sam Altman and Elon Musk Both Say They'll Slow Down Too",
-          "summary": "Hours after Anthropic's CEO called for the AI industry to pace itself and let outside reviewers check its safety work, OpenAI's Sam Altman posted that OpenAI \"will do the same,\" and Elon Musk backed the idea too, a rare public agreement between three usually-competing AI companies.",
-          "why_it_matters": "For anyone who's felt like AI tools change faster than you can keep up, this is a small signal that even the companies building them agree the pace has gotten uncomfortable, not a reason to change anything you're doing today.",
-          "link": "https://www.mediaite.com/media/elon-musk-and-sam-altman-agree-with-anthropic-boss-ai-must-slow-down-to-avoid-catastrophic-damage/",
-          "source": "Mediaite",
+          "headline": "Trump Tells AI's Own CEOs to Stop Asking Him to Slow Down",
+          "summary": "Days after the heads of Anthropic, OpenAI, and xAI all publicly called for the AI industry to pace itself, President Trump rejected the idea, telling reporters \"whoever wins AI wins.\" Meanwhile Congress has only a narrow window to pass any AI safety rules before lawmakers leave town for the November midterms.",
+          "why_it_matters": "Nothing changes for your business today, but the fight over AI rules just moved from tech companies talking to each other into Washington, worth knowing if a client or viewer asks whether AI regulation is actually coming.",
+          "link": "https://www.yahoo.com/news/us/article/trump-rejects-call-by-ceos-of-anthropic-openai-and-xai-to-slow-ai-down-whoever-wins-with-ai-wins-182008851.html",
+          "source": "Yahoo News",
           "tag": "Policy",
           "opportunity": {
             "video": 3,
-            "social": 6,
-            "community": 3,
-            "act_now": false
+            "social": 7,
+            "community": 4,
+            "act_now": false,
+            "angle": "The AI slowdown debate just went political. Here's why that matters more than another model release."
           }
         }
       ]
@@ -68,22 +68,7 @@
     {
       "id": "content-social",
       "title": "Content & Social Media Pulse",
-      "items": [
-        {
-          "headline": "Twitch Is Testing an AI Coach That Reviews Your Stream and Tells You What to Fix",
-          "summary": "Twitch announced on September 11 that it's testing an AI 'Stream Coach' with a small group of streamers, which looks at your broadcast afterward and gives feedback on what worked, where viewers engaged most, and suggestions like adding a bio or using Clips.",
-          "why_it_matters": "If you or anyone in your community streams on Twitch, this is worth watching as a preview of the kind of after-the-fact AI feedback tool that will likely show up on YouTube Live and other platforms next.",
-          "link": "https://www.dexerto.com/twitch/twitch-is-testing-an-ai-stream-coach-that-gives-creators-feedback-after-every-broadcast-3408520/",
-          "source": "Dexerto",
-          "tag": "Platform Change",
-          "opportunity": {
-            "video": 5,
-            "social": 5,
-            "community": 6,
-            "act_now": false
-          }
-        }
-      ]
+      "items": []
     }
   ]
 }
