@@ -1,0 +1,74 @@
+{
+  "generated_at_iso": "2026-09-14T03:22:19-10:00",
+  "generated_label": "Monday, September 14 · 3:22 AM HST",
+  "edition": "morning",
+  "categories": [
+    {
+      "id": "claude-anthropic",
+      "title": "Claude & Anthropic",
+      "items": [
+        {
+          "headline": "Claude Code's Weekly Limit Cut Is Live Today, and Anthropic Got Called Out for How It Announced It",
+          "summary": "Starting today, September 14, the temporary 50% boost to Claude Code's weekly usage allowance has ended. Anthropic replaced it with a smaller, permanent 25% increase over the original limit, which works out to about 17% less than what heavy users have had for the past four months. Anthropic's first announcement framed it as a straight win and only added the 17% reduction after users called out the confusing math.",
+          "why_it_matters": "If you use Claude Code for editing scripts, building automations, or other coding tasks, your weekly quota just got smaller starting today, so check your usage in account settings and don't be surprised if you hit the ceiling sooner than you're used to.",
+          "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-cutting-claude-codes-current-weekly-limits-by-17-percent/",
+          "source": "Bleeping Computer",
+          "tag": "Pricing",
+          "opportunity": {
+            "video": 3,
+            "social": 5,
+            "community": 6,
+            "act_now": true,
+            "action_note": "Check your Claude Code weekly usage today under account Settings, and shift any heavy scripting or automation work earlier in your week now that the ceiling is lower."
+          }
+        },
+        {
+          "headline": "Anthropic Asked 1,000 Small Business Owners About AI. Here's What They Actually Said.",
+          "summary": "Anthropic ran free half-day AI workshops in 10 U.S. cities this year and surveyed the small business owners who showed up. 81% said they're open to using AI tools, but their top complaint was that employees don't know how or when to actually use them, and half named data security as their biggest hesitation.",
+          "why_it_matters": "If you've wondered whether other small business owners feel as unsure about AI as you do, the survey says yes, most do, and the fix people asked for most wasn't more tools, it was hands-on practice time with the ones they already have.",
+          "link": "https://claude.com/blog/what-1-000-small-business-owners-taught-us-about-ai",
+          "source": "Claude (Anthropic Blog)",
+          "tag": "Research",
+          "opportunity": {
+            "video": 4,
+            "social": 6,
+            "community": 8,
+            "act_now": false,
+            "angle": "Turns out most small business owners feel exactly as unsure about AI as you do. Here's the workshop takeaway that surprised me most."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ai-industry",
+      "title": "Wider AI World",
+      "items": [
+        {
+          "headline": "Trump Tells AI's Own CEOs to Stop Asking Him to Slow Down",
+          "summary": "Days after the heads of Anthropic, OpenAI, and xAI all publicly called for the AI industry to pace itself, President Trump rejected the idea, telling reporters \"whoever wins AI wins.\" Meanwhile Congress has only a narrow window to pass any AI safety rules before lawmakers leave town for the November midterms.",
+          "why_it_matters": "Nothing changes for your business today, but the fight over AI rules just moved from tech companies talking to each other into Washington, worth knowing if a client or viewer asks whether AI regulation is actually coming.",
+          "link": "https://www.yahoo.com/news/us/article/trump-rejects-call-by-ceos-of-anthropic-openai-and-xai-to-slow-ai-down-whoever-wins-with-ai-wins-182008851.html",
+          "source": "Yahoo News",
+          "tag": "Policy",
+          "opportunity": {
+            "video": 3,
+            "social": 7,
+            "community": 4,
+            "act_now": false,
+            "angle": "The AI slowdown debate just went political. Here's why that matters more than another model release."
+          }
+        }
+      ]
+    },
+    {
+      "id": "creator-tools",
+      "title": "Tools & Tips for Creators and Small Biz",
+      "items": []
+    },
+    {
+      "id": "content-social",
+      "title": "Content & Social Media Pulse",
+      "items": []
+    }
+  ]
+}

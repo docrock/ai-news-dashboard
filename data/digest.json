@@ -1,61 +1,45 @@
 {
-  "generated_at_iso": "2026-09-14T03:22:19-10:00",
-  "generated_label": "Monday, September 14 · 3:22 AM HST",
+  "generated_at_iso": "2026-09-15T03:19:37-10:00",
+  "generated_label": "Tuesday, September 15 · 3:19 AM HST",
   "edition": "morning",
   "categories": [
     {
       "id": "claude-anthropic",
       "title": "Claude & Anthropic",
-      "items": [
-        {
-          "headline": "Claude Code's Weekly Limit Cut Is Live Today, and Anthropic Got Called Out for How It Announced It",
-          "summary": "Starting today, September 14, the temporary 50% boost to Claude Code's weekly usage allowance has ended. Anthropic replaced it with a smaller, permanent 25% increase over the original limit, which works out to about 17% less than what heavy users have had for the past four months. Anthropic's first announcement framed it as a straight win and only added the 17% reduction after users called out the confusing math.",
-          "why_it_matters": "If you use Claude Code for editing scripts, building automations, or other coding tasks, your weekly quota just got smaller starting today, so check your usage in account settings and don't be surprised if you hit the ceiling sooner than you're used to.",
-          "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-cutting-claude-codes-current-weekly-limits-by-17-percent/",
-          "source": "Bleeping Computer",
-          "tag": "Pricing",
-          "opportunity": {
-            "video": 3,
-            "social": 5,
-            "community": 6,
-            "act_now": true,
-            "action_note": "Check your Claude Code weekly usage today under account Settings, and shift any heavy scripting or automation work earlier in your week now that the ceiling is lower."
-          }
-        },
-        {
-          "headline": "Anthropic Asked 1,000 Small Business Owners About AI. Here's What They Actually Said.",
-          "summary": "Anthropic ran free half-day AI workshops in 10 U.S. cities this year and surveyed the small business owners who showed up. 81% said they're open to using AI tools, but their top complaint was that employees don't know how or when to actually use them, and half named data security as their biggest hesitation.",
-          "why_it_matters": "If you've wondered whether other small business owners feel as unsure about AI as you do, the survey says yes, most do, and the fix people asked for most wasn't more tools, it was hands-on practice time with the ones they already have.",
-          "link": "https://claude.com/blog/what-1-000-small-business-owners-taught-us-about-ai",
-          "source": "Claude (Anthropic Blog)",
-          "tag": "Research",
-          "opportunity": {
-            "video": 4,
-            "social": 6,
-            "community": 8,
-            "act_now": false,
-            "angle": "Turns out most small business owners feel exactly as unsure about AI as you do. Here's the workshop takeaway that surprised me most."
-          }
-        }
-      ]
+      "items": []
     },
     {
       "id": "ai-industry",
       "title": "Wider AI World",
       "items": [
         {
-          "headline": "Trump Tells AI's Own CEOs to Stop Asking Him to Slow Down",
-          "summary": "Days after the heads of Anthropic, OpenAI, and xAI all publicly called for the AI industry to pace itself, President Trump rejected the idea, telling reporters \"whoever wins AI wins.\" Meanwhile Congress has only a narrow window to pass any AI safety rules before lawmakers leave town for the November midterms.",
-          "why_it_matters": "Nothing changes for your business today, but the fight over AI rules just moved from tech companies talking to each other into Washington, worth knowing if a client or viewer asks whether AI regulation is actually coming.",
-          "link": "https://www.yahoo.com/news/us/article/trump-rejects-call-by-ceos-of-anthropic-openai-and-xai-to-slow-ai-down-whoever-wins-with-ai-wins-182008851.html",
-          "source": "Yahoo News",
-          "tag": "Policy",
+          "headline": "Your Apple Watch Can Now Record and Summarize Your Conversations (If You Turn It On)",
+          "summary": "Apple's new Watch Series 12 and Watch Ultra 4 add \"Audio Intelligence,\" a set of opt-in features that use the watch's microphone: Live Rewind shows you a text snippet of what was just said in the last 15 seconds, and Siri Recap quietly takes notes all day and writes you a summary you can check later. Nothing is saved permanently unless you ask Siri to keep it.",
+          "why_it_matters": "If you're the type who blanks on what a client or collaborator just said mid-meeting, this could replace a separate note-taking app, but it also means anyone nearby wearing one could be quietly logging your conversation, so it's worth knowing before you talk business near a Watch Series 12.",
+          "link": "https://www.macrumors.com/2026/09/09/audio-intelligence-features/",
+          "source": "MacRumors",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 4,
+            "social": 6,
+            "community": 6,
+            "act_now": false
+          }
+        },
+        {
+          "headline": "Google Is Quietly Testing Paying Website Owners When Its AI Answers Use Their Content",
+          "summary": "Google is piloting a program called \"AI Contribution\" that pays a limited group of publishers, mostly small and mid-sized sites, based on how often their web content gets pulled into Google's AI Overviews, AI Mode, and Gemini answers. Invited publishers see the earnings tracked in a new widget inside Google Search Console.",
+          "why_it_matters": "If you run a blog, niche site, or article-based part of your business and you've suspected Google's AI answers are quietly eating your traffic, this is Google's first real attempt to pay some of that back, so it's worth checking your Search Console account to see if you've been invited.",
+          "link": "https://searchengineland.com/google-tests-paying-publishers-for-using-its-content-in-ai-mode-ai-overviews-and-gemini-488382",
+          "source": "Search Engine Land",
+          "tag": "Pricing",
           "opportunity": {
             "video": 3,
-            "social": 7,
-            "community": 4,
-            "act_now": false,
-            "angle": "The AI slowdown debate just went political. Here's why that matters more than another model release."
+            "social": 5,
+            "community": 7,
+            "act_now": true,
+            "action_note": "Log into Google Search Console this week and look for a new AI Contribution or AI earnings widget on any site you own, since only invited publishers currently see it.",
+            "angle": "Google might finally be paying you back for the blog traffic AI Overviews stole. Here's how to check if you're eligible."
           }
         }
       ]
@@ -63,12 +47,43 @@
     {
       "id": "creator-tools",
       "title": "Tools & Tips for Creators and Small Biz",
-      "items": []
+      "items": [
+        {
+          "headline": "Riverside Can Now Blast Your Podcast Clips to Every Social Platform From One Screen",
+          "summary": "Riverside's recording and editing platform shipped a free update that lets you cross-post video and clips to all your connected social accounts at once, see per-platform analytics on how each post did, and publish directly to LinkedIn and X with upgraded formatting.",
+          "why_it_matters": "If you already record with Riverside and have been manually re-uploading the same clip to five different apps after every episode, this update alone could save you an hour or more each week.",
+          "link": "https://riverside.com/university/product-updates",
+          "source": "Riverside",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 5,
+            "social": 4,
+            "community": 7,
+            "act_now": false,
+            "angle": "I tested Riverside's new one-click cross-posting so you don't have to upload the same clip five times."
+          }
+        }
+      ]
     },
     {
       "id": "content-social",
       "title": "Content & Social Media Pulse",
-      "items": []
+      "items": [
+        {
+          "headline": "Spotify Starts Labeling AI-Generated Musicians This Week, and Hiding Them From Recommendations",
+          "summary": "Spotify has begun rolling out an \"AI Persona\" badge on artist profiles that use an AI-generated face and identity. Artists can self-label voluntarily, or Spotify tags ones it identifies on its own as \"Likely AI Persona,\" and those profiles get left out of algorithmic and editorial recommendations unless a listener already follows them.",
+          "why_it_matters": "If you put an AI voice or AI-generated cover art under an artist alias for background music on your videos or podcast, this is why that track might stop showing up in Discover Weekly, and it's a preview of the kind of AI-labeling rules likely coming to other platforms next.",
+          "link": "https://newsroom.spotify.com/2026-08-11/ai-persona-badges-transparency/",
+          "source": "Spotify Newsroom",
+          "tag": "Platform Change",
+          "opportunity": {
+            "video": 3,
+            "social": 6,
+            "community": 5,
+            "act_now": false
+          }
+        }
+      ]
     }
   ]
 }
