@@ -1,0 +1,89 @@
+{
+  "generated_at_iso": "2026-09-15T03:19:37-10:00",
+  "generated_label": "Tuesday, September 15 · 3:19 AM HST",
+  "edition": "morning",
+  "categories": [
+    {
+      "id": "claude-anthropic",
+      "title": "Claude & Anthropic",
+      "items": []
+    },
+    {
+      "id": "ai-industry",
+      "title": "Wider AI World",
+      "items": [
+        {
+          "headline": "Your Apple Watch Can Now Record and Summarize Your Conversations (If You Turn It On)",
+          "summary": "Apple's new Watch Series 12 and Watch Ultra 4 add \"Audio Intelligence,\" a set of opt-in features that use the watch's microphone: Live Rewind shows you a text snippet of what was just said in the last 15 seconds, and Siri Recap quietly takes notes all day and writes you a summary you can check later. Nothing is saved permanently unless you ask Siri to keep it.",
+          "why_it_matters": "If you're the type who blanks on what a client or collaborator just said mid-meeting, this could replace a separate note-taking app, but it also means anyone nearby wearing one could be quietly logging your conversation, so it's worth knowing before you talk business near a Watch Series 12.",
+          "link": "https://www.macrumors.com/2026/09/09/audio-intelligence-features/",
+          "source": "MacRumors",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 4,
+            "social": 6,
+            "community": 6,
+            "act_now": false
+          }
+        },
+        {
+          "headline": "Google Is Quietly Testing Paying Website Owners When Its AI Answers Use Their Content",
+          "summary": "Google is piloting a program called \"AI Contribution\" that pays a limited group of publishers, mostly small and mid-sized sites, based on how often their web content gets pulled into Google's AI Overviews, AI Mode, and Gemini answers. Invited publishers see the earnings tracked in a new widget inside Google Search Console.",
+          "why_it_matters": "If you run a blog, niche site, or article-based part of your business and you've suspected Google's AI answers are quietly eating your traffic, this is Google's first real attempt to pay some of that back, so it's worth checking your Search Console account to see if you've been invited.",
+          "link": "https://searchengineland.com/google-tests-paying-publishers-for-using-its-content-in-ai-mode-ai-overviews-and-gemini-488382",
+          "source": "Search Engine Land",
+          "tag": "Pricing",
+          "opportunity": {
+            "video": 3,
+            "social": 5,
+            "community": 7,
+            "act_now": true,
+            "action_note": "Log into Google Search Console this week and look for a new AI Contribution or AI earnings widget on any site you own, since only invited publishers currently see it.",
+            "angle": "Google might finally be paying you back for the blog traffic AI Overviews stole. Here's how to check if you're eligible."
+          }
+        }
+      ]
+    },
+    {
+      "id": "creator-tools",
+      "title": "Tools & Tips for Creators and Small Biz",
+      "items": [
+        {
+          "headline": "Riverside Can Now Blast Your Podcast Clips to Every Social Platform From One Screen",
+          "summary": "Riverside's recording and editing platform shipped a free update that lets you cross-post video and clips to all your connected social accounts at once, see per-platform analytics on how each post did, and publish directly to LinkedIn and X with upgraded formatting.",
+          "why_it_matters": "If you already record with Riverside and have been manually re-uploading the same clip to five different apps after every episode, this update alone could save you an hour or more each week.",
+          "link": "https://riverside.com/university/product-updates",
+          "source": "Riverside",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 5,
+            "social": 4,
+            "community": 7,
+            "act_now": false,
+            "angle": "I tested Riverside's new one-click cross-posting so you don't have to upload the same clip five times."
+          }
+        }
+      ]
+    },
+    {
+      "id": "content-social",
+      "title": "Content & Social Media Pulse",
+      "items": [
+        {
+          "headline": "Spotify Starts Labeling AI-Generated Musicians This Week, and Hiding Them From Recommendations",
+          "summary": "Spotify has begun rolling out an \"AI Persona\" badge on artist profiles that use an AI-generated face and identity. Artists can self-label voluntarily, or Spotify tags ones it identifies on its own as \"Likely AI Persona,\" and those profiles get left out of algorithmic and editorial recommendations unless a listener already follows them.",
+          "why_it_matters": "If you put an AI voice or AI-generated cover art under an artist alias for background music on your videos or podcast, this is why that track might stop showing up in Discover Weekly, and it's a preview of the kind of AI-labeling rules likely coming to other platforms next.",
+          "link": "https://newsroom.spotify.com/2026-08-11/ai-persona-badges-transparency/",
+          "source": "Spotify Newsroom",
+          "tag": "Platform Change",
+          "opportunity": {
+            "video": 3,
+            "social": 6,
+            "community": 5,
+            "act_now": false
+          }
+        }
+      ]
+    }
+  ]
+}

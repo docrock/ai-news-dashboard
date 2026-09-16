@@ -1,45 +1,91 @@
 {
-  "generated_at_iso": "2026-09-15T03:19:37-10:00",
-  "generated_label": "Tuesday, September 15 · 3:19 AM HST",
+  "generated_at_iso": "2026-09-16T03:17:02-10:00",
+  "generated_label": "Wednesday, September 16 · 3:17 AM HST",
   "edition": "morning",
   "categories": [
     {
       "id": "claude-anthropic",
       "title": "Claude & Anthropic",
-      "items": []
+      "items": [
+        {
+          "headline": "Claude Now Has Its Own Built-In Browser, and It's Rolling Out This Week",
+          "summary": "Claude's desktop app (Mac, Windows, and Linux) now includes its own separate web browser that Claude can drive itself, opening in a side panel to search, click, and fill out forms when a task needs the web. It's completely separate from your regular browser, so Claude can't see your tabs, bookmarks, or saved passwords.",
+          "why_it_matters": "If you use Claude for research, booking, or online busywork, this means you can hand off a multi-step web task and let it work in its own window while you keep doing something else, without pasting screenshots back and forth.",
+          "link": "https://the-decoder.com/claude-cowork-now-runs-its-own-browser-inside-the-desktop-app/",
+          "source": "The Decoder",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 7,
+            "social": 6,
+            "community": 7,
+            "act_now": true,
+            "action_note": "Open Claude's desktop app this week and try the new built-in browser on a real research or booking task to see if it beats your current workflow.",
+            "angle": "I let Claude drive its own browser for a real task, here's what it got right and where I still had to step in."
+          }
+        },
+        {
+          "headline": "Claude for Small Business Just Got 43 New Ready-Made Workflows",
+          "summary": "Anthropic added 43 pre-built workflows and 27 new app connections to its small-business version of Claude, linking it to everyday tools like Shopify, Square, Stripe, Zapier, Xero, and Gusto. Every automated workflow still requires your final \"yes\" before it actually does anything.",
+          "why_it_matters": "If you're already paying for Claude and run a small shop or service business, these are done-for-you starting points for tasks like lead follow-up or reporting instead of building your own prompt from scratch, and Anthropic is also running free in-person workshops in 10 U.S. cities this fall.",
+          "link": "https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs",
+          "source": "Claude (Anthropic Blog)",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 5,
+            "social": 5,
+            "community": 9,
+            "act_now": false,
+            "angle": "Claude just shipped 43 done-for-you workflows for small business owners. I tried the ones that actually apply to a one-person shop."
+          }
+        },
+        {
+          "headline": "Google Just Let All Its Engineers Use Rival Anthropic's Claude for Coding",
+          "summary": "Google has historically required its own engineers to use its in-house Gemini AI and blocked outside tools like Claude Code. That rule just changed: every Google engineer can now use Anthropic's Claude Opus 5 for coding through Google's internal developer tool, though Gemini stays the official default.",
+          "why_it_matters": "When Google's own engineers get permission to reach for a competitor's AI instead of their own, it's a real-world signal about which tool people trust for getting coding-style work done, worth remembering next time you're picking an AI tool based on marketing instead of results.",
+          "link": "https://dataconomy.com/2026/09/15/google-opens-anthropic-claude-access-for-engineers/",
+          "source": "Dataconomy",
+          "tag": "Industry News",
+          "opportunity": {
+            "video": 4,
+            "social": 8,
+            "community": 5,
+            "act_now": false,
+            "angle": "Even Google's own engineers just got permission to use Claude over Gemini. Here's why that's a bigger deal than another benchmark chart."
+          }
+        }
+      ]
     },
     {
       "id": "ai-industry",
       "title": "Wider AI World",
       "items": [
         {
-          "headline": "Your Apple Watch Can Now Record and Summarize Your Conversations (If You Turn It On)",
-          "summary": "Apple's new Watch Series 12 and Watch Ultra 4 add \"Audio Intelligence,\" a set of opt-in features that use the watch's microphone: Live Rewind shows you a text snippet of what was just said in the last 15 seconds, and Siri Recap quietly takes notes all day and writes you a summary you can check later. Nothing is saved permanently unless you ask Siri to keep it.",
-          "why_it_matters": "If you're the type who blanks on what a client or collaborator just said mid-meeting, this could replace a separate note-taking app, but it also means anyone nearby wearing one could be quietly logging your conversation, so it's worth knowing before you talk business near a Watch Series 12.",
-          "link": "https://www.macrumors.com/2026/09/09/audio-intelligence-features/",
-          "source": "MacRumors",
+          "headline": "Apple's Rebuilt Siri Finally Launched, and It's Actually Conversational Now",
+          "summary": "Apple released iOS, iPadOS, and macOS 27 this week with a rebuilt Siri, powered in part by Google's Gemini AI, that can hold a real back-and-forth conversation and understand what's on your screen. It's still labeled \"beta,\" works in English only for now, and some features have daily usage caps.",
+          "why_it_matters": "If you've written Siri off as useless for years, this is the first version worth actually testing on your iPhone, just don't expect it to be flawless yet since Apple itself is still calling it a beta.",
+          "link": "https://www.apple.com/newsroom/2026/09/siri-ai-a-profoundly-more-capable-and-personal-assistant-is-here/",
+          "source": "Apple Newsroom",
           "tag": "Product Update",
           "opportunity": {
-            "video": 4,
+            "video": 5,
             "social": 6,
-            "community": 6,
-            "act_now": false
+            "community": 5,
+            "act_now": false,
+            "angle": "Apple's new Siri finally talks like a real AI assistant. I tested it on day one so you don't have to update blind."
           }
         },
         {
-          "headline": "Google Is Quietly Testing Paying Website Owners When Its AI Answers Use Their Content",
-          "summary": "Google is piloting a program called \"AI Contribution\" that pays a limited group of publishers, mostly small and mid-sized sites, based on how often their web content gets pulled into Google's AI Overviews, AI Mode, and Gemini answers. Invited publishers see the earnings tracked in a new widget inside Google Search Console.",
-          "why_it_matters": "If you run a blog, niche site, or article-based part of your business and you've suspected Google's AI answers are quietly eating your traffic, this is Google's first real attempt to pay some of that back, so it's worth checking your Search Console account to see if you've been invited.",
-          "link": "https://searchengineland.com/google-tests-paying-publishers-for-using-its-content-in-ai-mode-ai-overviews-and-gemini-488382",
-          "source": "Search Engine Land",
-          "tag": "Pricing",
+          "headline": "California Just Passed the Toughest AI Chatbot Safety Law in the Country",
+          "summary": "Governor Newsom signed a package of laws requiring companies to safety-test AI chatbots before launch, notify parents if a young user shows signs of emotional distress, and pay fines of up to $1 million per child harmed, plus a ban on addictive social media feeds for anyone under 16.",
+          "why_it_matters": "If you or your business ever add an AI chatbot to a website (even a simple customer-service bot), California's new rules are likely to become the template other states copy next, so it's worth knowing the ground is shifting even if you're nowhere near California.",
+          "link": "https://www.gov.ca.gov/2026/09/10/governor-newsom-signs-the-strongest-child-safety-chatbot-and-social-media-laws-in-the-nation/",
+          "source": "Office of Governor Gavin Newsom",
+          "tag": "Policy",
           "opportunity": {
             "video": 3,
-            "social": 5,
-            "community": 7,
-            "act_now": true,
-            "action_note": "Log into Google Search Console this week and look for a new AI Contribution or AI earnings widget on any site you own, since only invited publishers currently see it.",
-            "angle": "Google might finally be paying you back for the blog traffic AI Overviews stole. Here's how to check if you're eligible."
+            "social": 6,
+            "community": 4,
+            "act_now": false
           }
         }
       ]
@@ -49,18 +95,18 @@
       "title": "Tools & Tips for Creators and Small Biz",
       "items": [
         {
-          "headline": "Riverside Can Now Blast Your Podcast Clips to Every Social Platform From One Screen",
-          "summary": "Riverside's recording and editing platform shipped a free update that lets you cross-post video and clips to all your connected social accounts at once, see per-platform analytics on how each post did, and publish directly to LinkedIn and X with upgraded formatting.",
-          "why_it_matters": "If you already record with Riverside and have been manually re-uploading the same clip to five different apps after every episode, this update alone could save you an hour or more each week.",
-          "link": "https://riverside.com/university/product-updates",
-          "source": "Riverside",
-          "tag": "Product Update",
+          "headline": "Canva Is Giving Away Free AI Training and a Certificate, Right From Your Phone",
+          "summary": "Canva's annual \"World Tour\" is back, offering hundreds of free workshops in more than 40 cities worldwide plus mobile-friendly courses through Canva's Design School, including a brand-new, free \"AI Essentials Certification\" open to anyone, not just Canva Pro subscribers.",
+          "why_it_matters": "If AI features inside Canva (or AI tools in general) still feel confusing, this free, beginner-level course walks through practical basics like writing better prompts and using AI to build simple interactive content, no design background required, and you get a certificate at the end.",
+          "link": "https://www.canva.com/newsroom/news/introducing-canva-world-tour/",
+          "source": "Canva Newsroom",
+          "tag": "Tutorial",
           "opportunity": {
-            "video": 5,
+            "video": 4,
             "social": 4,
-            "community": 7,
+            "community": 8,
             "act_now": false,
-            "angle": "I tested Riverside's new one-click cross-posting so you don't have to upload the same clip five times."
+            "angle": "Canva's giving away a free AI certification. Here's what it actually teaches, and whether it's worth your hour."
           }
         }
       ]
@@ -70,16 +116,16 @@
       "title": "Content & Social Media Pulse",
       "items": [
         {
-          "headline": "Spotify Starts Labeling AI-Generated Musicians This Week, and Hiding Them From Recommendations",
-          "summary": "Spotify has begun rolling out an \"AI Persona\" badge on artist profiles that use an AI-generated face and identity. Artists can self-label voluntarily, or Spotify tags ones it identifies on its own as \"Likely AI Persona,\" and those profiles get left out of algorithmic and editorial recommendations unless a listener already follows them.",
-          "why_it_matters": "If you put an AI voice or AI-generated cover art under an artist alias for background music on your videos or podcast, this is why that track might stop showing up in Discover Weekly, and it's a preview of the kind of AI-labeling rules likely coming to other platforms next.",
-          "link": "https://newsroom.spotify.com/2026-08-11/ai-persona-badges-transparency/",
-          "source": "Spotify Newsroom",
-          "tag": "Platform Change",
+          "headline": "YouTube Creators Just Premiered Their Shows at the Venice and Toronto Film Festivals",
+          "summary": "For the first time, YouTube brought five creator-made shows to the red carpet at both the Venice and Toronto International Film Festivals, including a nature documentary shot in the Galápagos and an interview series, screened alongside traditional studio films.",
+          "why_it_matters": "This isn't a tool you can use today, but it's a sign of where YouTube is pushing things: well-produced, long-form creator content is being treated more like film and TV, which is worth knowing if you're investing time in higher-production videos rather than quick clips.",
+          "link": "https://blog.youtube/news-and-events/youtube-creators-venice-toronto-film-festivals/",
+          "source": "YouTube Blog",
+          "tag": "Industry News",
           "opportunity": {
             "video": 3,
             "social": 6,
-            "community": 5,
+            "community": 3,
             "act_now": false
           }
         }
