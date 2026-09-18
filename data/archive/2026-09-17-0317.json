@@ -1,0 +1,91 @@
+{
+  "generated_at_iso": "2026-09-17T03:17:35-1000",
+  "generated_label": "Thursday, September 17 · 3:17 AM HST",
+  "edition": "morning",
+  "categories": [
+    {
+      "id": "claude-anthropic",
+      "title": "Claude & Anthropic",
+      "items": [
+        {
+          "headline": "Claude Just Merged Its Two Apps Into One, and Added Doc and Slide Makers",
+          "summary": "Anthropic combined \"Claude Cowork\" (its workspace for bigger, multi-step tasks) and regular Claude chat into a single app, so you no longer have to decide upfront whether your request is a quick question or a bigger project. It also added two new built-in tools, Claude Docs and Claude Slides, that let Claude write a document or build a slide deck with you, which you can then download as a Word or PowerPoint file.",
+          "why_it_matters": "If you've ever been confused about which \"Claude\" to open for a task, that decision is gone, and if you use Word or PowerPoint for client presentations, scripts, or outlines, you can now build a rough draft right inside Claude instead of switching apps.",
+          "link": "https://9to5mac.com/2026/09/16/anthropic-merging-claude-cowork-with-chat/",
+          "source": "9to5Mac",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 8,
+            "social": 7,
+            "community": 8,
+            "act_now": true,
+            "action_note": "Once the update reaches your Claude Pro account this week, test Claude Docs and Claude Slides on a real script outline or client deck to see if it replaces a step in your workflow.",
+            "angle": "Claude just merged its two apps and gave itself a Word processor and PowerPoint. I put the new Docs and Slides tools to a real test."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ai-industry",
+      "title": "Wider AI World",
+      "items": [
+        {
+          "headline": "ChatGPT Starts Testing Ads, Including One That Lets You Book a Handyman Mid-Chat",
+          "summary": "OpenAI began testing a new ad format inside ChatGPT called \"Sponsored Agents,\" where a clearly labeled ad opens into its own branded conversation instead of sending you to a website. Home-services marketplace Angi and furniture retailer Wayfair are the first companies trying it, letting a user go from discussing a broken faucet to booking a local contractor without leaving the chat.",
+          "why_it_matters": "If you use ChatGPT for research or shopping, expect ads to start showing up in your answers going forward, and if you run a small service business, this is an early look at a new kind of ad spot that may eventually be worth testing alongside Google and Facebook ads.",
+          "link": "https://openai.com/index/testing-ads-in-chatgpt/",
+          "source": "OpenAI",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 4,
+            "social": 7,
+            "community": 5,
+            "act_now": false,
+            "angle": "ChatGPT just started running ads inside your conversations. Here's what that means for how AI search stays free, and what it means for your marketing dollars."
+          }
+        }
+      ]
+    },
+    {
+      "id": "creator-tools",
+      "title": "Tools & Tips for Creators and Small Biz",
+      "items": [
+        {
+          "headline": "Canva Just Bundled Four Pro Design Apps Into One Free-to-Start Suite",
+          "summary": "Canva launched \"Canva ProSuite,\" bringing together its Affinity (photo editing and layout), Cavalry (motion graphics), Flourish (data charts), and Leonardo (AI image generation) apps with over 100 new features, including a major photo-editing update to Affinity. The core Affinity and Cavalry apps stay completely free; a paid plan only adds extras like AI tools and team features.",
+          "why_it_matters": "If you've been paying for Photoshop or After Effects just for basic photo touch-ups or motion graphics on your thumbnails and channel art, this gives you a free, professional-grade alternative bundled right alongside the Canva tools you probably already use.",
+          "link": "https://www.creativeboom.com/news/canva-launches-prosuite-bringing-affinity-cavalry-flourish-and-leonardo-together-with-more-than-new-100-features/",
+          "source": "Creative Boom",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 6,
+            "social": 5,
+            "community": 7,
+            "act_now": false,
+            "angle": "I tried Canva's free Affinity photo editor so you don't have to pay for Photoshop. Here's how it actually stacks up."
+          }
+        }
+      ]
+    },
+    {
+      "id": "content-social",
+      "title": "Content & Social Media Pulse",
+      "items": [
+        {
+          "headline": "Meta Launched Paid Subscriptions for Facebook, Instagram, and WhatsApp, With a Business Tier",
+          "summary": "Meta introduced \"Meta One,\" a family of subscription plans (from $2.99 to $19.99 a month) that unlock more AI image and video generation and extra creative tools. A separate $14.99/month \"Essential\" business tier adds a verified badge, impersonation protection, and access to Meta's AI business agent on WhatsApp.",
+          "why_it_matters": "If you use Facebook or Instagram to promote your business, the new business tier is worth a look since it bundles the verified badge and WhatsApp automation you might already be paying for elsewhere, though it's smart to compare it against your current tools before adding another subscription.",
+          "link": "https://about.fb.com/news/2026/09/introducing-meta-one-subscription-service-more-features-ai/",
+          "source": "Meta Newsroom",
+          "tag": "Pricing",
+          "opportunity": {
+            "video": 4,
+            "social": 6,
+            "community": 6,
+            "act_now": false
+          }
+        }
+      ]
+    }
+  ]
+}
