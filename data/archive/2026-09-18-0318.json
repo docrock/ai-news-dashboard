@@ -1,0 +1,122 @@
+{
+  "generated_at_iso": "2026-09-18T03:18:26-1000",
+  "generated_label": "Friday, September 18 · 3:18 AM HST",
+  "edition": "morning",
+  "categories": [
+    {
+      "id": "claude-anthropic",
+      "title": "Claude & Anthropic",
+      "items": [
+        {
+          "headline": "Anthropic Says Claude Now Leads a Quarter of Its Own Research and Development",
+          "summary": "Anthropic announced that Claude now \"leads\" about 26% and \"collaborates\" on roughly 90% of the company's own AI research work, up from essentially zero at the start of the year. \"Leads\" means Claude can take a project from a plain-English instruction to a finished result mostly on its own, with a human still checking the work.",
+          "why_it_matters": "This is a behind-the-scenes signal of how fast Claude itself is improving, which likely means faster, more capable updates landing in the Claude apps you already use. There's nothing you need to do about it today, but it's a useful stat to have in your back pocket next time someone asks \"is AI really moving that fast?\"",
+          "link": "https://www.washingtontimes.com/news/2026/sep/17/anthropic-says-claude-helping-build-next-version/",
+          "source": "Washington Times (AP)",
+          "tag": "Research",
+          "opportunity": {
+            "video": 5,
+            "social": 7,
+            "community": 4,
+            "act_now": false,
+            "angle": "Anthropic says Claude is now building the next Claude. I break down what that actually means, and what it doesn't."
+          }
+        },
+        {
+          "headline": "Claude for Small Business Adds 43 New Workflows and Brings Back Its Free Nationwide Workshop Tour",
+          "summary": "Anthropic expanded \"Claude for Small Business\" with 43 ready-made workflows and 27 new app integrations (tools like QuickBooks, HubSpot, and Square), and relaunched its free half-day \"Claude SMB Tour\" workshops with partner Tenex in 10 cities this fall, including Boston, Phoenix, Tampa, and Raleigh. Attendees get a free one-month Claude Max subscription.",
+          "why_it_matters": "If a workshop city is anywhere near you, it's a free crash course in using Claude for real business tasks, with a free month of the paid plan thrown in. Even if you can't travel, a connected partner webinar series runs late September through November, so there's likely a remote way in too.",
+          "link": "https://www.unite.ai/anthropic-adds-43-workflows-27-integrations-to-claude-for-small-business/",
+          "source": "Unite.AI",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 5,
+            "social": 5,
+            "community": 9,
+            "act_now": true,
+            "action_note": "Look up whether a Fall SMB Tour stop lands near you, or watch for the partner webinar series (late September through November), so you can grab the free month of Claude Max and test a real workflow.",
+            "angle": "I'm digging into Claude's new small business workflow templates this week. If any of you catch a tour stop or webinar, let's compare notes."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ai-industry",
+      "title": "Wider AI World",
+      "items": [
+        {
+          "headline": "OpenAI Is Retiring GPT-5.5 From ChatGPT on October 14, Here's What Replaces It",
+          "summary": "OpenAI will pull the GPT-5.5 model out of ChatGPT, ChatGPT Work, and its Codex coding tool on October 14, replacing it with the newer GPT-5.6 Sol and GPT-6 Astra models. The change only affects the ChatGPT app and Codex, not people using the OpenAI API directly with their own key.",
+          "why_it_matters": "If you or your team lean on a specific saved chat, custom GPT, or Codex project built around GPT-5.5, it'll auto-switch to a newer model on October 14. It's worth testing your regular prompts against the new models now instead of finding out something broke on launch day.",
+          "link": "https://www.gizmochina.com/2026/09/16/openai-retiring-gpt-5-5-on-october-14-you-may-need-to-update-your-workflow/",
+          "source": "Gizmochina",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 3,
+            "social": 4,
+            "community": 5,
+            "act_now": true,
+            "action_note": "If you rely on ChatGPT or Codex for regular work, open a chat with the newer default model this week and confirm your usual prompts still get the results you expect before the October 14 switchover."
+          }
+        },
+        {
+          "headline": "Gmail's Search Bar Can Now Answer Questions About Your Email in Plain English, Worldwide",
+          "summary": "Google rolled out \"AI Overviews\" in Gmail search to paid Google Workspace and Google One users globally (English only for now). Instead of typing keywords, you can type a real question like \"what did my accountant say about the deadline\" and get a short summary pulled from your actual emails.",
+          "why_it_matters": "If your inbox is a pile of client emails, sponsor deals, and receipts, this turns Gmail search into something closer to asking an assistant, saving you the scroll-and-hunt when you need one specific detail fast.",
+          "link": "https://workspaceupdates.googleblog.com/2026/09/gmail-searchs-ai-overviews-now-available-globally.html",
+          "source": "Google Workspace Updates",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 4,
+            "social": 5,
+            "community": 6,
+            "act_now": true,
+            "action_note": "In Gmail settings, confirm \"Smart features in Gmail, Chat, and Meet\" is turned on so AI Overviews shows up the next time you search your inbox."
+          }
+        }
+      ]
+    },
+    {
+      "id": "creator-tools",
+      "title": "Tools & Tips for Creators and Small Biz",
+      "items": [
+        {
+          "headline": "Canva Is Giving Away a Free 1-Hour \"AI Essentials\" Certificate as Part of Its World Tour",
+          "summary": "As part of the 2026 Canva World Tour, Canva Design School launched a free, self-paced \"AI Essentials\" course that takes about an hour and ends with a shareable certificate, covering how to create, collaborate, and generate content with Canva's built-in AI tools.",
+          "why_it_matters": "It's a no-cost, no-pressure way to actually learn the AI tools already sitting inside Canva instead of guessing your way through them, and the certificate is something you (or your community members) can genuinely add to a LinkedIn profile.",
+          "link": "https://www.canva.com/design-school/courses/ai-essentials/",
+          "source": "Canva Design School",
+          "tag": "Tutorial",
+          "opportunity": {
+            "video": 4,
+            "social": 3,
+            "community": 8,
+            "act_now": true,
+            "action_note": "Share the free Canva AI Essentials course link in the Creator Sandbox Community this week as a \"do this in under an hour\" nudge ahead of Saturday's Zoom.",
+            "angle": "I did Canva's free 1-hour AI certificate so you don't have to guess if it's worth your lunch break. Here's what's actually in it."
+          }
+        }
+      ]
+    },
+    {
+      "id": "content-social",
+      "title": "Content & Social Media Pulse",
+      "items": [
+        {
+          "headline": "Meta Launches a One-Stop \"Creator Marketing Hub\" and Brings Paid Livestream Deals to Instagram",
+          "summary": "Meta combined its Creator Marketplace and Partnership Ads tools into a single \"Creator Marketing Hub,\" where brands can find creators, message them, and turn a post into a paid ad without leaving the platform. Starting September 29, that same system lets brands sponsor a creator's Instagram Live and run it as a paid partnership ad, a format that was previously Facebook-only.",
+          "why_it_matters": "If you ever do brand deals or want to, this is the new front door brands will use to find and pay creators on Instagram and Facebook. If you host live product demos or Q&As, sponsored Lives are a new way to get paid for something you're probably already doing.",
+          "link": "https://www.mediapost.com/publications/article/418022/meta-launches-creator-marketing-hub-live-video-ad.html",
+          "source": "MediaPost",
+          "tag": "Platform Change",
+          "opportunity": {
+            "video": 3,
+            "social": 6,
+            "community": 6,
+            "act_now": false
+          }
+        }
+      ]
+    }
+  ]
+}
