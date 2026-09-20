@@ -1,0 +1,58 @@
+{
+  "generated_at_iso": "2026-09-19T03:17:32-1000",
+  "generated_label": "Saturday, September 19 · 3:17 AM HST",
+  "edition": "morning",
+  "categories": [
+    {
+      "id": "claude-anthropic",
+      "title": "Claude & Anthropic",
+      "items": [
+        {
+          "headline": "Security Researchers Used Claude to Hack Into OpenAI in Under 72 Hours",
+          "summary": "A three-person team at the security startup Hacktron AI used Anthropic's Claude Opus 5 model to chain together two bugs, a flaw in how OpenAI's public help forum handled photo files, and a login weakness that let one hijacked forum account also unlock an employee's ChatGPT and internal code access. It was done as part of OpenAI's official bug bounty program (a legal, paid way for researchers to report security holes), and OpenAI has since fixed both issues and paid the team $6,500.",
+          "why_it_matters": "There's nothing to do here, but it's a real-world reminder of how far AI coding assistants have come at both finding and (in the wrong hands) exploiting security gaps, which is worth keeping in mind if you or your team ever reuse the same login across a public forum and a more sensitive account.",
+          "link": "https://techcrunch.com/2026/09/18/researchers-used-anthropics-claude-to-hack-into-openai/",
+          "source": "TechCrunch",
+          "tag": "Research",
+          "opportunity": {
+            "video": 3,
+            "social": 7,
+            "community": 3,
+            "act_now": false,
+            "angle": "Claude just got used to hack into OpenAI. Here's what that story actually says about how powerful (and risky) AI agents have gotten."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ai-industry",
+      "title": "Wider AI World",
+      "items": [
+        {
+          "headline": "Meta's AI Agent 'Muse' Now Runs on Mac and Can Actually Do Things, Not Just Chat",
+          "summary": "Meta released a native Mac app for Muse, its personal AI agent, on September 18. Unlike a normal chatbot, Muse can work inside your actual Mail, Calendar, Notes, and files to complete a task for you, though you choose what it's allowed to touch and it asks first before doing anything sensitive. It's free to start with weekly usage limits (paid plans unlock more), but for now it's US-only.",
+          "why_it_matters": "If \"AI agents that do work for you instead of just answering questions\" has sounded interesting but too expensive or complicated to try, this is a free, low-risk way to test the idea on your own Mac, like having it draft a calendar invite or sort through a backlog of emails.",
+          "link": "https://techcrunch.com/2026/09/18/metas-muse-hits-mac-letting-the-ai-take-actions-on-your-computer/",
+          "source": "TechCrunch",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 4,
+            "social": 5,
+            "community": 6,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "creator-tools",
+      "title": "Tools & Tips for Creators and Small Biz",
+      "items": []
+    },
+    {
+      "id": "content-social",
+      "title": "Content & Social Media Pulse",
+      "items": []
+    }
+  ]
+}
