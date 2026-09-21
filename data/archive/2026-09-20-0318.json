@@ -1,0 +1,75 @@
+{
+  "generated_at_iso": "2026-09-20T03:18:14-1000",
+  "generated_label": "Sunday, September 20 · 3:18 AM HST",
+  "edition": "morning",
+  "categories": [
+    {
+      "id": "claude-anthropic",
+      "title": "Claude & Anthropic",
+      "items": [
+        {
+          "headline": "A No-Click Security Bug Hit Claude Code and Other AI Coding Tools, Anthropic Already Fixed It",
+          "summary": "Security researchers disclosed \"Plugin4Shell,\" a serious bug in how four popular AI coding assistants, Claude Code, OpenAI's Codex, GitHub Copilot, and Google's Gemini CLI, install plugin updates. Someone who controlled a plugin's code could silently swap in malicious code the next time it auto-updated, no click or approval needed. Anthropic already patched Claude Code, OpenAI patched Codex, but GitHub Copilot has no fix yet and Google is retiring Gemini CLI instead of fixing it.",
+          "why_it_matters": "If you use Claude Code (or any AI coding assistant) with plugins, update to the latest version today so you're covered, and hold off installing new GitHub Copilot plugins from people you don't know until Microsoft ships a fix.",
+          "link": "https://thehackernews.com/2026/09/plugin4shell-lets-repository-owners.html",
+          "source": "The Hacker News",
+          "tag": "Security Alert",
+          "opportunity": {
+            "video": 5,
+            "social": 7,
+            "community": 6,
+            "act_now": true,
+            "action_note": "Update Claude Code to the latest version today (the fix landed in 2.1.179 and later) and skip installing any new GitHub Copilot plugins from unfamiliar sources until Microsoft patches the flaw.",
+            "angle": "A zero-click bug just hit the AI coding tools we all rely on, including Claude Code. Here's what actually happened and what to update right now."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ai-industry",
+      "title": "Wider AI World",
+      "items": [
+        {
+          "headline": "Meta's Muse Just Became the #1 Free App on iPhone, Passing ChatGPT",
+          "summary": "A little over a week after launching as its own standalone app, Meta's Muse, an AI agent that can actually do tasks like book a table or manage your email instead of just chatting, hit the No. 1 spot on Apple's U.S. App Store, pushing ChatGPT down to No. 2. The jump comes right after Meta expanded Muse to Mac earlier this month.",
+          "why_it_matters": "This doesn't mean Muse is \"better,\" but it's a strong sign that everyday people are genuinely curious about AI that takes action for them instead of just answering questions, worth a look if that idea has interested you but felt too complicated to try.",
+          "link": "https://9to5mac.com/2026/09/18/metas-new-muse-ai-agent-app-overtakes-chatgpt-as-top-iphone-app/",
+          "source": "9to5Mac",
+          "tag": "Company News",
+          "opportunity": {
+            "video": 4,
+            "social": 6,
+            "community": 5,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "creator-tools",
+      "title": "Tools & Tips for Creators and Small Biz",
+      "items": [
+        {
+          "headline": "OpenAI's Sora Video Tool Shuts Off Completely on September 24, Just 4 Days From Now",
+          "summary": "OpenAI is shutting down developer (API) access to its Sora video-generation models for good on September 24, with no replacement model offered. This is separate from the Sora app, which already closed back in April, this final shutdown affects any tool or workflow that quietly generates video by calling Sora behind the scenes.",
+          "why_it_matters": "If any app or automation you use for AI video (even one you didn't build yourself) runs on Sora under the hood, it will stop working after September 24, so it's worth checking now and lining up an alternative like Google's Veo 3.1 or Runway before then.",
+          "link": "https://help.openai.com/en/articles/20001152-what-to-know-about-the-sora-discontinuation",
+          "source": "OpenAI Help Center",
+          "tag": "Deprecation",
+          "opportunity": {
+            "video": 6,
+            "social": 5,
+            "community": 6,
+            "act_now": true,
+            "action_note": "Check whether any AI video tool or automation you use runs on OpenAI's Sora API, and if so, switch it to an alternative like Google's Veo 3.1 or Runway before access shuts off on September 24."
+          }
+        }
+      ]
+    },
+    {
+      "id": "content-social",
+      "title": "Content & Social Media Pulse",
+      "items": []
+    }
+  ]
+}

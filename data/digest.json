@@ -1,46 +1,30 @@
 {
-  "generated_at_iso": "2026-09-20T03:18:14-1000",
-  "generated_label": "Sunday, September 20 · 3:18 AM HST",
+  "generated_at_iso": "2026-09-21T03:21:20-1000",
+  "generated_label": "Monday, September 21 · 3:21 AM HST",
   "edition": "morning",
   "categories": [
     {
       "id": "claude-anthropic",
       "title": "Claude & Anthropic",
-      "items": [
-        {
-          "headline": "A No-Click Security Bug Hit Claude Code and Other AI Coding Tools, Anthropic Already Fixed It",
-          "summary": "Security researchers disclosed \"Plugin4Shell,\" a serious bug in how four popular AI coding assistants, Claude Code, OpenAI's Codex, GitHub Copilot, and Google's Gemini CLI, install plugin updates. Someone who controlled a plugin's code could silently swap in malicious code the next time it auto-updated, no click or approval needed. Anthropic already patched Claude Code, OpenAI patched Codex, but GitHub Copilot has no fix yet and Google is retiring Gemini CLI instead of fixing it.",
-          "why_it_matters": "If you use Claude Code (or any AI coding assistant) with plugins, update to the latest version today so you're covered, and hold off installing new GitHub Copilot plugins from people you don't know until Microsoft ships a fix.",
-          "link": "https://thehackernews.com/2026/09/plugin4shell-lets-repository-owners.html",
-          "source": "The Hacker News",
-          "tag": "Security Alert",
-          "opportunity": {
-            "video": 5,
-            "social": 7,
-            "community": 6,
-            "act_now": true,
-            "action_note": "Update Claude Code to the latest version today (the fix landed in 2.1.179 and later) and skip installing any new GitHub Copilot plugins from unfamiliar sources until Microsoft patches the flaw.",
-            "angle": "A zero-click bug just hit the AI coding tools we all rely on, including Claude Code. Here's what actually happened and what to update right now."
-          }
-        }
-      ]
+      "items": []
     },
     {
       "id": "ai-industry",
       "title": "Wider AI World",
       "items": [
         {
-          "headline": "Meta's Muse Just Became the #1 Free App on iPhone, Passing ChatGPT",
-          "summary": "A little over a week after launching as its own standalone app, Meta's Muse, an AI agent that can actually do tasks like book a table or manage your email instead of just chatting, hit the No. 1 spot on Apple's U.S. App Store, pushing ChatGPT down to No. 2. The jump comes right after Meta expanded Muse to Mac earlier this month.",
-          "why_it_matters": "This doesn't mean Muse is \"better,\" but it's a strong sign that everyday people are genuinely curious about AI that takes action for them instead of just answering questions, worth a look if that idea has interested you but felt too complicated to try.",
-          "link": "https://9to5mac.com/2026/09/18/metas-new-muse-ai-agent-app-overtakes-chatgpt-as-top-iphone-app/",
-          "source": "9to5Mac",
-          "tag": "Company News",
+          "headline": "A New Lawsuit Claims Anthropic, OpenAI, Google, and xAI Illegally Agreed to Slow Down AI",
+          "summary": "A proposed class-action lawsuit filed Friday accuses Anthropic, OpenAI, Google, and Elon Musk's xAI of striking an illegal agreement to intentionally slow down AI progress. It points to Anthropic CEO Dario Amodei publishing an essay calling for the industry to coordinate on \"pacing\" development, after which the other companies' leaders publicly agreed, which the suit argues amounts to rivals illegally agreeing to hold back how fast their products improve.",
+          "why_it_matters": "There's nothing to act on here, but if you pay for ChatGPT, Claude, Gemini, or Grok, it's a useful reality check: a public promise from AI companies to \"slow down for safety\" can also look, legally, like competitors agreeing to hold back the same product you're paying to keep getting better.",
+          "link": "https://www.cbsnews.com/news/ai-slowdown-lawsuit-openai-anthropic-google/",
+          "source": "CBS News",
+          "tag": "Policy",
           "opportunity": {
-            "video": 4,
-            "social": 6,
-            "community": 5,
-            "act_now": false
+            "video": 3,
+            "social": 7,
+            "community": 4,
+            "act_now": false,
+            "angle": "Four AI companies just got sued for agreeing to slow down. Wait, isn't slowing down supposed to be the safe move? Here's the twist."
           }
         }
       ]
@@ -50,18 +34,19 @@
       "title": "Tools & Tips for Creators and Small Biz",
       "items": [
         {
-          "headline": "OpenAI's Sora Video Tool Shuts Off Completely on September 24, Just 4 Days From Now",
-          "summary": "OpenAI is shutting down developer (API) access to its Sora video-generation models for good on September 24, with no replacement model offered. This is separate from the Sora app, which already closed back in April, this final shutdown affects any tool or workflow that quietly generates video by calling Sora behind the scenes.",
-          "why_it_matters": "If any app or automation you use for AI video (even one you didn't build yourself) runs on Sora under the hood, it will stop working after September 24, so it's worth checking now and lining up an alternative like Google's Veo 3.1 or Runway before then.",
-          "link": "https://help.openai.com/en/articles/20001152-what-to-know-about-the-sora-discontinuation",
-          "source": "OpenAI Help Center",
-          "tag": "Deprecation",
+          "headline": "DaVinci Resolve Can Now Take Orders From Claude, Right Inside the Editor",
+          "summary": "Blackmagic Design's DaVinci Resolve 21.1 update added a built-in \"MCP\" connector (a technical bridge that lets an AI assistant talk directly to other software) so Claude, Claude Code, and ChatGPT's Codex can now organize your media, cut highlight reels, and run batch renders inside Resolve using plain-English instructions instead of manual clicking. This AI-assistant control only works in the paid Resolve Studio edition ($295 one-time), not the free version.",
+          "why_it_matters": "This is a legitimate way to hand off tedious, repetitive edits, like syncing multicam clips, sorting a messy media pool, or batch-exporting a render queue, to Claude by just describing what you want, right inside the editor you already use, instead of learning to write scripts yourself.",
+          "link": "https://www.cined.com/davinci-resolve-21-1-released-ai-assistant-integration-via-mcp-individual-hdr-trims-and-python-scripting-moves-to-studio/",
+          "source": "CineD",
+          "tag": "Product Update",
           "opportunity": {
-            "video": 6,
-            "social": 5,
-            "community": 6,
+            "video": 9,
+            "social": 6,
+            "community": 8,
             "act_now": true,
-            "action_note": "Check whether any AI video tool or automation you use runs on OpenAI's Sora API, and if so, switch it to an alternative like Google's Veo 3.1 or Runway before access shuts off on September 24."
+            "action_note": "Update to DaVinci Resolve Studio 21.1, go to File > Setup AI Assistants to connect Claude, and test it on a real task this week, like asking it to organize a media pool or batch-rename a render queue.",
+            "angle": "I connected Claude straight to DaVinci Resolve using its new built-in AI bridge. Here's what it can (and can't) actually do for your edit."
           }
         }
       ]
@@ -69,7 +54,23 @@
     {
       "id": "content-social",
       "title": "Content & Social Media Pulse",
-      "items": []
+      "items": [
+        {
+          "headline": "Threads Adds Podcast Cards, Transcripts, and Guest Tags for Creators",
+          "summary": "Meta's Threads app rolled out new podcast tools: a podcast profile card and banner on a host's profile, episode links that turn into tappable \"listen now\" cards inside a post, the option to post a full transcript people can read along with, and the ability to tag guests featured in an episode.",
+          "why_it_matters": "If you host a podcast, or turn your livestreams into one, these tools give Threads users an easy way to discover and sample an episode without ever leaving the app, worth testing on your next episode's launch post.",
+          "link": "https://about.fb.com/news/2026/09/threads-expands-podcast-toolkit-for-creators-and-listeners/",
+          "source": "Meta Newsroom",
+          "tag": "Platform Change",
+          "opportunity": {
+            "video": 3,
+            "social": 5,
+            "community": 6,
+            "act_now": true,
+            "action_note": "Turn on the podcast profile card on your Threads account and post your next episode there with the transcript attached to see how the new listen-now card performs."
+          }
+        }
+      ]
     }
   ]
 }
