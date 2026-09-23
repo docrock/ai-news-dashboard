@@ -1,0 +1,103 @@
+{
+  "generated_at_iso": "2026-09-22T03:18:11-1000",
+  "generated_label": "Tuesday, September 22 · 3:18 AM HST",
+  "edition": "morning",
+  "categories": [
+    {
+      "id": "claude-anthropic",
+      "title": "Claude & Anthropic",
+      "items": []
+    },
+    {
+      "id": "ai-industry",
+      "title": "Wider AI World",
+      "items": [
+        {
+          "headline": "Amazon Blocks Meta's New AI Shopping Assistant",
+          "summary": "Meta's Muse, a new AI assistant that can browse websites and buy things on your behalf, got cut off from Amazon.com over the weekend after Amazon said the AI was accessing its site without permission and without identifying itself as a bot (a bot is just automated software pretending to browse like a person).",
+          "why_it_matters": "If you've been curious about AI \"agents\" that shop, book travel, or fill out forms for you, this is a reminder that the technology is brand new and other websites can shut an agent out at any time, so don't hand one your accounts or payment info without understanding the limits.",
+          "link": "https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com/",
+          "source": "TechCrunch",
+          "tag": "Platform Change",
+          "opportunity": {
+            "video": 5,
+            "social": 7,
+            "community": 5,
+            "act_now": false,
+            "angle": "Doc's take: Meta's AI agent went shopping without asking, and Amazon shut the door, this is the trust problem every AI agent tool still has to solve before you should let one near your wallet."
+          }
+        },
+        {
+          "headline": "Google Opens Preorders for Its $899 AI-First 'Googlebook' Laptop",
+          "summary": "Google started taking preorders for Googlebook, a new line of laptops built with partners like Acer, Dell, HP, and Lenovo around its Gemini AI assistant, including an AI-powered cursor and a dictation tool that cleans up rambling voice notes into readable text; it ships October 4.",
+          "why_it_matters": "If you're due for a new laptop, this shows where the big tech companies think everyday computing is headed, with AI built into the operating system itself rather than just an app you open, so it's worth knowing about before your next hardware purchase.",
+          "link": "https://techcrunch.com/2026/09/21/googles-899-googlebook-is-a-bet-that-youll-buy-a-new-laptop-for-gemini/",
+          "source": "TechCrunch",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 4,
+            "social": 5,
+            "community": 5,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "creator-tools",
+      "title": "Tools & Tips for Creators and Small Biz",
+      "items": []
+    },
+    {
+      "id": "content-social",
+      "title": "Content & Social Media Pulse",
+      "items": [
+        {
+          "headline": "YouTube Will Stop Auto-Blocking Longer Shorts Over Music Copyright Claims Starting Sept 24",
+          "summary": "Starting September 24, 2026, YouTube Shorts between 1 and 3 minutes long that get a Content ID claim (an automated copyright match, usually for music) will no longer be automatically blocked from playing, they'll just show the claim while you dispute or fix it. Shorts under 1 minute aren't affected by this change.",
+          "why_it_matters": "If you or your audience make longer-format Shorts with music, a copyright match used to take the whole video down instantly. Now it stays watchable while you sort out the claim, which is a real relief if you've ever had a Short vanish overnight over a few seconds of a song.",
+          "link": "https://support.google.com/youtube/answer/15424877?hl=en",
+          "source": "YouTube Help (official)",
+          "tag": "Policy",
+          "opportunity": {
+            "video": 6,
+            "social": 5,
+            "community": 7,
+            "act_now": false,
+            "angle": "Doc Rock explains: your claimed Short isn't dead anymore, here's what actually happens now"
+          }
+        },
+        {
+          "headline": "YouTube's Annual 'Made on YouTube' Creator Event Happens Tomorrow, Sept 23",
+          "summary": "YouTube's yearly \"Made on YouTube\" event, where the platform typically unveils its biggest creator-facing features for the year ahead, takes place September 23, 2026 in New York City.",
+          "why_it_matters": "This is usually where YouTube drops its biggest news of the year for creators, new monetization tools, AI features, Shorts changes, so it's worth watching live or catching the recap fast, since whatever's announced will dominate creator conversation for weeks.",
+          "link": "https://blog.youtube/madeonyoutube/",
+          "source": "YouTube Blog (official)",
+          "tag": "Event",
+          "opportunity": {
+            "video": 7,
+            "social": 6,
+            "community": 6,
+            "act_now": true,
+            "action_note": "Block time tomorrow (Sept 23) to watch or follow recaps of Made on YouTube live, since it's YouTube's biggest annual creator announcement event.",
+            "angle": "Doc Rock live-reacts or does a same-day breakdown of whatever YouTube drops at Made on YouTube"
+          }
+        },
+        {
+          "headline": "X Now Tells Users When a Government Forced It to Restrict Their Posts",
+          "summary": "On September 21, 2026, X expanded its \"Under the Hood\" transparency tool so any eligible account can see if a post or account had its visibility limited due to a government legal demand, including which country made the request, plus a downloadable report of the details.",
+          "why_it_matters": "If a post of yours mysteriously loses reach on X, you can now check whether it was a government-ordered restriction rather than just the algorithm or a mistake on your end, useful if you ever post about business regulations or local politics in a market with stricter speech laws.",
+          "link": "https://techcrunch.com/2026/09/21/x-will-now-tell-users-when-governments-have-forced-it-to-limit-your-posts/",
+          "source": "TechCrunch",
+          "tag": "Platform Change",
+          "opportunity": {
+            "video": 2,
+            "social": 4,
+            "community": 3,
+            "act_now": false
+          }
+        }
+      ]
+    }
+  ]
+}

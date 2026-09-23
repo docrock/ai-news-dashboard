@@ -1,42 +1,44 @@
 {
-  "generated_at_iso": "2026-09-22T03:18:11-1000",
-  "generated_label": "Tuesday, September 22 · 3:18 AM HST",
+  "generated_at_iso": "2026-09-23T03:15:27-1000",
+  "generated_label": "Wednesday, September 23 · 3:15 AM HST",
   "edition": "morning",
   "categories": [
     {
       "id": "claude-anthropic",
       "title": "Claude & Anthropic",
-      "items": []
+      "items": [
+        {
+          "headline": "Anthropic Releases Claude Opus 5.5, Its Smartest Model Yet at a Lower Price",
+          "summary": "Anthropic launched Claude Opus 5.5, which matches the performance of its priciest model (Fable 5.1) on most tasks while costing 40% less to run, with faster responses too. It's available now on Claude's website and app, plus AWS, Google Cloud, and Microsoft Azure.",
+          "why_it_matters": "If you use Claude for writing scripts, brainstorming, or editing, this is a straight upgrade: better answers, faster replies, and a lower bill, so it's worth checking that you're on the new model instead of an older one.",
+          "link": "https://www.anthropic.com/claude-opus-5-5",
+          "source": "Anthropic (official)",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 6,
+            "social": 7,
+            "community": 6,
+            "act_now": true,
+            "action_note": "Switch to Claude Opus 5.5 in your Claude app or Claude Code settings this week and run one real task through it (a script draft or an edit-heavy note) to see the speed and cost difference firsthand.",
+            "angle": "Doc tests Anthropic's new Opus 5.5 on a real editing task to see if faster and cheaper still means better."
+          }
+        }
+      ]
     },
     {
       "id": "ai-industry",
       "title": "Wider AI World",
       "items": [
         {
-          "headline": "Amazon Blocks Meta's New AI Shopping Assistant",
-          "summary": "Meta's Muse, a new AI assistant that can browse websites and buy things on your behalf, got cut off from Amazon.com over the weekend after Amazon said the AI was accessing its site without permission and without identifying itself as a bot (a bot is just automated software pretending to browse like a person).",
-          "why_it_matters": "If you've been curious about AI \"agents\" that shop, book travel, or fill out forms for you, this is a reminder that the technology is brand new and other websites can shut an agent out at any time, so don't hand one your accounts or payment info without understanding the limits.",
-          "link": "https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com/",
-          "source": "TechCrunch",
-          "tag": "Platform Change",
-          "opportunity": {
-            "video": 5,
-            "social": 7,
-            "community": 5,
-            "act_now": false,
-            "angle": "Doc's take: Meta's AI agent went shopping without asking, and Amazon shut the door, this is the trust problem every AI agent tool still has to solve before you should let one near your wallet."
-          }
-        },
-        {
-          "headline": "Google Opens Preorders for Its $899 AI-First 'Googlebook' Laptop",
-          "summary": "Google started taking preorders for Googlebook, a new line of laptops built with partners like Acer, Dell, HP, and Lenovo around its Gemini AI assistant, including an AI-powered cursor and a dictation tool that cleans up rambling voice notes into readable text; it ships October 4.",
-          "why_it_matters": "If you're due for a new laptop, this shows where the big tech companies think everyday computing is headed, with AI built into the operating system itself rather than just an app you open, so it's worth knowing about before your next hardware purchase.",
-          "link": "https://techcrunch.com/2026/09/21/googles-899-googlebook-is-a-bet-that-youll-buy-a-new-laptop-for-gemini/",
-          "source": "TechCrunch",
-          "tag": "Product Update",
+          "headline": "OpenAI Cuts ChatGPT's Top AI Model Prices in Half With New GPT-6 Sol and Luna",
+          "summary": "OpenAI released two new versions of its GPT-6 model, called Sol and Luna, at roughly half the price of the models they replace. OpenAI confirmed these are permanent prices, not a limited-time deal, and the models bring improvements to coding, accuracy, and computer-use tasks.",
+          "why_it_matters": "AI subscriptions and API costs keep dropping as OpenAI and Anthropic compete on price, which is good news if you or your team use ChatGPT for writing, research, or automation, expect more capability for the same (or less) money.",
+          "link": "https://venturebeat.com/technology/openai-releases-gpt-6-sol-and-luna-models-slashing-api-costs-50-or-more",
+          "source": "VentureBeat",
+          "tag": "Pricing",
           "opportunity": {
             "video": 4,
-            "social": 5,
+            "social": 6,
             "community": 5,
             "act_now": false
           }
@@ -46,55 +48,56 @@
     {
       "id": "creator-tools",
       "title": "Tools & Tips for Creators and Small Biz",
-      "items": []
+      "items": [
+        {
+          "headline": "Perplexity's Free AI Browser 'Comet' Adds Voice Chat and Ad Blocking on Android",
+          "summary": "Comet, Perplexity's free AI-powered web browser, got a big Android update: you can now talk to its built-in assistant to pull information from all your open tabs at once, get one-tap summaries of long pages, and block ads with a built-in blocker.",
+          "why_it_matters": "If you're drowning in open browser tabs while researching a video topic or a product for your shop, a free assistant that can talk through what's on all of them at once (instead of you reading each one) is a real time-saver.",
+          "link": "https://play.google.com/store/apps/details?id=ai.perplexity.comet",
+          "source": "Perplexity (Google Play)",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 4,
+            "social": 5,
+            "community": 6,
+            "act_now": false
+          }
+        }
+      ]
     },
     {
       "id": "content-social",
       "title": "Content & Social Media Pulse",
       "items": [
         {
-          "headline": "YouTube Will Stop Auto-Blocking Longer Shorts Over Music Copyright Claims Starting Sept 24",
-          "summary": "Starting September 24, 2026, YouTube Shorts between 1 and 3 minutes long that get a Content ID claim (an automated copyright match, usually for music) will no longer be automatically blocked from playing, they'll just show the claim while you dispute or fix it. Shorts under 1 minute aren't affected by this change.",
-          "why_it_matters": "If you or your audience make longer-format Shorts with music, a copyright match used to take the whole video down instantly. Now it stays watchable while you sort out the claim, which is a real relief if you've ever had a Short vanish overnight over a few seconds of a song.",
-          "link": "https://support.google.com/youtube/answer/15424877?hl=en",
-          "source": "YouTube Help (official)",
-          "tag": "Policy",
-          "opportunity": {
-            "video": 6,
-            "social": 5,
-            "community": 7,
-            "act_now": false,
-            "angle": "Doc Rock explains: your claimed Short isn't dead anymore, here's what actually happens now"
-          }
-        },
-        {
-          "headline": "YouTube's Annual 'Made on YouTube' Creator Event Happens Tomorrow, Sept 23",
-          "summary": "YouTube's yearly \"Made on YouTube\" event, where the platform typically unveils its biggest creator-facing features for the year ahead, takes place September 23, 2026 in New York City.",
-          "why_it_matters": "This is usually where YouTube drops its biggest news of the year for creators, new monetization tools, AI features, Shorts changes, so it's worth watching live or catching the recap fast, since whatever's announced will dominate creator conversation for weeks.",
+          "headline": "YouTube's 'Made on YouTube' Event Adds AI Video Tool to Shorts",
+          "summary": "At its annual Made on YouTube event, YouTube announced a custom, faster version of Google's Veo 3 AI video model built into Shorts, letting anyone type an idea and get a short video clip with sound. It can also take a still photo and make it move using motion copied from a video. It's rolling out first in the US, UK, Canada, Australia, and New Zealand.",
+          "why_it_matters": "You don't need editing skills or footage to test a Shorts idea anymore, you can type a description and get a usable clip, which is worth a look if you've been wanting to experiment with Shorts but don't have b-roll on hand.",
           "link": "https://blog.youtube/madeonyoutube/",
           "source": "YouTube Blog (official)",
-          "tag": "Event",
+          "tag": "Product Update",
           "opportunity": {
             "video": 7,
             "social": 6,
             "community": 6,
-            "act_now": true,
-            "action_note": "Block time tomorrow (Sept 23) to watch or follow recaps of Made on YouTube live, since it's YouTube's biggest annual creator announcement event.",
-            "angle": "Doc Rock live-reacts or does a same-day breakdown of whatever YouTube drops at Made on YouTube"
+            "act_now": false,
+            "angle": "Doc tries YouTube's new AI Shorts tool live and shows what it actually gets right (and wrong)."
           }
         },
         {
-          "headline": "X Now Tells Users When a Government Forced It to Restrict Their Posts",
-          "summary": "On September 21, 2026, X expanded its \"Under the Hood\" transparency tool so any eligible account can see if a post or account had its visibility limited due to a government legal demand, including which country made the request, plus a downloadable report of the details.",
-          "why_it_matters": "If a post of yours mysteriously loses reach on X, you can now check whether it was a government-ordered restriction rather than just the algorithm or a mistake on your end, useful if you ever post about business regulations or local politics in a market with stricter speech laws.",
-          "link": "https://techcrunch.com/2026/09/21/x-will-now-tell-users-when-governments-have-forced-it-to-limit-your-posts/",
-          "source": "TechCrunch",
-          "tag": "Platform Change",
+          "headline": "TikTok's New AI-Labeling Rules Take Effect Tomorrow, September 24",
+          "summary": "TikTok's updated Community Guidelines kick in September 24, requiring creators to clearly label any video where AI was used to realistically depict a person or scene. TikTok already auto-detects AI content and slaps on an 'AI-generated' label that creators can't remove, and unlabeled AI content risks reduced reach or removal.",
+          "why_it_matters": "If you've used an AI voice, avatar, or video tool in anything you've posted or plan to post on TikTok, check that it's labeled correctly before the new rules kick in, since getting caught without a label can quietly tank how many people see your video.",
+          "link": "https://www.socialmediatoday.com/news/tiktok-updates-community-guidelines-misinformation-bullying/757740/",
+          "source": "Social Media Today",
+          "tag": "Policy",
           "opportunity": {
-            "video": 2,
-            "social": 4,
-            "community": 3,
-            "act_now": false
+            "video": 5,
+            "social": 6,
+            "community": 7,
+            "act_now": true,
+            "action_note": "Review any TikTok posts that use AI voice, avatar, or video tools and make sure they're labeled before the new Community Guidelines take effect September 24.",
+            "angle": "Doc walks through exactly how to label AI content on TikTok before the new rules start counting against you."
           }
         }
       ]
