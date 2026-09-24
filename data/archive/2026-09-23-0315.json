@@ -1,0 +1,106 @@
+{
+  "generated_at_iso": "2026-09-23T03:15:27-1000",
+  "generated_label": "Wednesday, September 23 · 3:15 AM HST",
+  "edition": "morning",
+  "categories": [
+    {
+      "id": "claude-anthropic",
+      "title": "Claude & Anthropic",
+      "items": [
+        {
+          "headline": "Anthropic Releases Claude Opus 5.5, Its Smartest Model Yet at a Lower Price",
+          "summary": "Anthropic launched Claude Opus 5.5, which matches the performance of its priciest model (Fable 5.1) on most tasks while costing 40% less to run, with faster responses too. It's available now on Claude's website and app, plus AWS, Google Cloud, and Microsoft Azure.",
+          "why_it_matters": "If you use Claude for writing scripts, brainstorming, or editing, this is a straight upgrade: better answers, faster replies, and a lower bill, so it's worth checking that you're on the new model instead of an older one.",
+          "link": "https://www.anthropic.com/claude-opus-5-5",
+          "source": "Anthropic (official)",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 6,
+            "social": 7,
+            "community": 6,
+            "act_now": true,
+            "action_note": "Switch to Claude Opus 5.5 in your Claude app or Claude Code settings this week and run one real task through it (a script draft or an edit-heavy note) to see the speed and cost difference firsthand.",
+            "angle": "Doc tests Anthropic's new Opus 5.5 on a real editing task to see if faster and cheaper still means better."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ai-industry",
+      "title": "Wider AI World",
+      "items": [
+        {
+          "headline": "OpenAI Cuts ChatGPT's Top AI Model Prices in Half With New GPT-6 Sol and Luna",
+          "summary": "OpenAI released two new versions of its GPT-6 model, called Sol and Luna, at roughly half the price of the models they replace. OpenAI confirmed these are permanent prices, not a limited-time deal, and the models bring improvements to coding, accuracy, and computer-use tasks.",
+          "why_it_matters": "AI subscriptions and API costs keep dropping as OpenAI and Anthropic compete on price, which is good news if you or your team use ChatGPT for writing, research, or automation, expect more capability for the same (or less) money.",
+          "link": "https://venturebeat.com/technology/openai-releases-gpt-6-sol-and-luna-models-slashing-api-costs-50-or-more",
+          "source": "VentureBeat",
+          "tag": "Pricing",
+          "opportunity": {
+            "video": 4,
+            "social": 6,
+            "community": 5,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "creator-tools",
+      "title": "Tools & Tips for Creators and Small Biz",
+      "items": [
+        {
+          "headline": "Perplexity's Free AI Browser 'Comet' Adds Voice Chat and Ad Blocking on Android",
+          "summary": "Comet, Perplexity's free AI-powered web browser, got a big Android update: you can now talk to its built-in assistant to pull information from all your open tabs at once, get one-tap summaries of long pages, and block ads with a built-in blocker.",
+          "why_it_matters": "If you're drowning in open browser tabs while researching a video topic or a product for your shop, a free assistant that can talk through what's on all of them at once (instead of you reading each one) is a real time-saver.",
+          "link": "https://play.google.com/store/apps/details?id=ai.perplexity.comet",
+          "source": "Perplexity (Google Play)",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 4,
+            "social": 5,
+            "community": 6,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "content-social",
+      "title": "Content & Social Media Pulse",
+      "items": [
+        {
+          "headline": "YouTube's 'Made on YouTube' Event Adds AI Video Tool to Shorts",
+          "summary": "At its annual Made on YouTube event, YouTube announced a custom, faster version of Google's Veo 3 AI video model built into Shorts, letting anyone type an idea and get a short video clip with sound. It can also take a still photo and make it move using motion copied from a video. It's rolling out first in the US, UK, Canada, Australia, and New Zealand.",
+          "why_it_matters": "You don't need editing skills or footage to test a Shorts idea anymore, you can type a description and get a usable clip, which is worth a look if you've been wanting to experiment with Shorts but don't have b-roll on hand.",
+          "link": "https://blog.youtube/madeonyoutube/",
+          "source": "YouTube Blog (official)",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 7,
+            "social": 6,
+            "community": 6,
+            "act_now": false,
+            "angle": "Doc tries YouTube's new AI Shorts tool live and shows what it actually gets right (and wrong)."
+          }
+        },
+        {
+          "headline": "TikTok's New AI-Labeling Rules Take Effect Tomorrow, September 24",
+          "summary": "TikTok's updated Community Guidelines kick in September 24, requiring creators to clearly label any video where AI was used to realistically depict a person or scene. TikTok already auto-detects AI content and slaps on an 'AI-generated' label that creators can't remove, and unlabeled AI content risks reduced reach or removal.",
+          "why_it_matters": "If you've used an AI voice, avatar, or video tool in anything you've posted or plan to post on TikTok, check that it's labeled correctly before the new rules kick in, since getting caught without a label can quietly tank how many people see your video.",
+          "link": "https://www.socialmediatoday.com/news/tiktok-updates-community-guidelines-misinformation-bullying/757740/",
+          "source": "Social Media Today",
+          "tag": "Policy",
+          "opportunity": {
+            "video": 5,
+            "social": 6,
+            "community": 7,
+            "act_now": true,
+            "action_note": "Review any TikTok posts that use AI voice, avatar, or video tools and make sure they're labeled before the new Community Guidelines take effect September 24.",
+            "angle": "Doc walks through exactly how to label AI content on TikTok before the new rules start counting against you."
+          }
+        }
+      ]
+    }
+  ]
+}
