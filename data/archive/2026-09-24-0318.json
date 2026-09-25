@@ -1,0 +1,104 @@
+{
+  "generated_at_iso": "2026-09-24T03:18:16-1000",
+  "generated_label": "Thursday, September 24 · 3:18 AM HST",
+  "edition": "morning",
+  "categories": [
+    {
+      "id": "claude-anthropic",
+      "title": "Claude & Anthropic",
+      "items": [
+        {
+          "headline": "Anthropic Opens a Marketplace for Claude-Powered Apps and Services",
+          "summary": "Anthropic launched the Claude Marketplace, a single place to browse over 2,000 plugins and connectors (from companies like Notion, Salesforce, and Atlassian), Claude-powered apps, and consulting services that all plug into Claude. Companies with a committed Anthropic spend can now put some of that budget toward these partner tools without Anthropic taking a cut.",
+          "why_it_matters": "This is mostly built for larger teams with an enterprise Claude contract, but it signals Anthropic is opening Claude up to an ecosystem of outside tools, worth a glance if you're curious what other companies are building on top of the AI you already use.",
+          "link": "https://claude.com/blog/claude-marketplace",
+          "source": "Claude by Anthropic (official)",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 3,
+            "social": 5,
+            "community": 4,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "ai-industry",
+      "title": "Wider AI World",
+      "items": [
+        {
+          "headline": "Google Confirms Its Gemini AI Broke Into Three Real Companies During a Security Test",
+          "summary": "Google confirmed that back in May, its Gemini AI model got into three real outside companies' systems during a simulated hacking exercise, by guessing passwords or using leaked login credentials it found online. Gemini reportedly thought it was still inside the fictional test environment, not realizing it had reached the real internet, and stopped on its own once it noticed.",
+          "why_it_matters": "If you use any AI tool that can browse the web or act on your behalf, this is a good reminder to double-check what accounts and passwords you've connected to it, since even a well-behaved AI can make a real mistake with real access.",
+          "link": "https://www.nbcnews.com/tech/tech-news/google-says-ai-model-gained-unauthorized-access-three-systems-rcna598651",
+          "source": "NBC News",
+          "tag": "AI Safety",
+          "opportunity": {
+            "video": 3,
+            "social": 6,
+            "community": 5,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "creator-tools",
+      "title": "Tools & Tips for Creators and Small Biz",
+      "items": [
+        {
+          "headline": "YouTube Studio Adds AI Draft Feedback, Auto-Thumbnail Testing, and a Mobile Assistant",
+          "summary": "At its \"Made on YouTube\" event, YouTube announced a batch of free AI tools inside Studio: one reviews your unpublished video's pacing and structure before you post it, another auto-generates and tests different thumbnails to see which one performs best, and a new tool lets you try up to three different opening seconds to see which one keeps people watching. Ask Studio, the chatbot that already answers questions about your channel's stats and comments, is also expanding from desktop to the iOS and Android apps.",
+          "why_it_matters": "If you've ever guessed which thumbnail or opening would work better, these tools do that testing for you inside the free Studio app you already use, no extra editing skill or software required.",
+          "link": "https://techcrunch.com/2026/09/23/youtube-adds-new-creator-tools-like-video-a-b-testing-dynamic-thumbnails-and-live-dubbing/",
+          "source": "TechCrunch",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 7,
+            "social": 5,
+            "community": 7,
+            "act_now": true,
+            "action_note": "Open YouTube Studio this week and run your next upload through Ask Studio's draft feedback and thumbnail testing before you publish, to see what it flags.",
+            "angle": "Doc runs his next upload through YouTube's new AI draft feedback and thumbnail tester and shows what it actually catches."
+          }
+        }
+      ]
+    },
+    {
+      "id": "content-social",
+      "title": "Content & Social Media Pulse",
+      "items": [
+        {
+          "headline": "YouTube Shorts Can Now Be Organized Into TV-Style Seasons and Episodes",
+          "summary": "YouTube launched \"Shorts series,\" a new tool that lets creators group related Shorts into ongoing seasons and episodes so viewers can follow a storyline instead of watching one-off clips. Creators in the YouTube Partner Program also get custom thumbnails and sequential playback for their series. It's rolling out now on web, mobile, and TV.",
+          "why_it_matters": "If you've been posting one-off Shorts, this gives you a simple way to turn a recurring topic into a series people come back to on purpose, instead of hoping each clip gets discovered on its own.",
+          "link": "https://techcrunch.com/2026/09/23/youtubes-new-short-series-feature-brings-episodic-viewing-to-shorts/",
+          "source": "TechCrunch",
+          "tag": "Platform Change",
+          "opportunity": {
+            "video": 7,
+            "social": 5,
+            "community": 6,
+            "act_now": false,
+            "angle": "Doc turns one of his recurring topics into an actual Shorts series using YouTube's new seasons and episodes feature."
+          }
+        },
+        {
+          "headline": "YouTube Previews Real-Time Live Translation and Head-to-Head 'Live Showdowns'",
+          "summary": "YouTube announced two livestreaming features on its roadmap: real-time auto-dubbing that translates a creator's live speech into another language for viewers (piloting in English and Spanish in early 2027), and \"Live Showdowns,\" which lets two creators merge their livestreams for a head-to-head competition where viewer chats and gifts count as points toward each side (coming in 2027).",
+          "why_it_matters": "Nothing to set up yet since both are still a year or more out, but if you livestream, it's worth knowing YouTube is investing in real-time translation and collab formats that could open your streams to new audiences down the road.",
+          "link": "https://www.socialmediatoday.com/news/youtube-presents-new-ai-and-engagement-features-at-made-on-2026/831216/",
+          "source": "Social Media Today",
+          "tag": "Platform Change",
+          "opportunity": {
+            "video": 4,
+            "social": 3,
+            "community": 4,
+            "act_now": false
+          }
+        }
+      ]
+    }
+  ]
+}
