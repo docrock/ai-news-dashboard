@@ -1,0 +1,121 @@
+{
+  "generated_at_iso": "2026-09-29T03:18:00-1000",
+  "generated_label": "Tuesday, September 29 · 3:18 AM HST",
+  "edition": "morning",
+  "categories": [
+    {
+      "id": "claude-anthropic",
+      "title": "Claude & Anthropic",
+      "items": [
+        {
+          "headline": "Claude Sonnet 5.5 Launches: Faster, Cheaper, and Much Better at Coding",
+          "summary": "Anthropic released Sonnet 5.5 on September 28. It runs over 30% faster and costs up to 30% less per task than Sonnet 5, and it gets close to Opus 5.5 on everyday knowledge work.",
+          "why_it_matters": "Sonnet is the workhorse model most people use for writing, research, and automations, so you get better results for less money without changing how you work.",
+          "link": "https://www.anthropic.com/claude-sonnet-5-5",
+          "source": "Anthropic",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 7,
+            "social": 6,
+            "community": 7,
+            "act_now": true,
+            "action_note": "Open Claude, switch to Sonnet 5.5, and rerun one of your regular prompts this week to compare it against your current results.",
+            "angle": "I ran my everyday Claude tasks on the new Sonnet 5.5 so you can see if it's worth switching"
+          }
+        },
+        {
+          "headline": "Claude Opus 5.5 Arrives at About 40% Lower Cost",
+          "summary": "Anthropic's top Opus model now matches its Fable 5.1 model on most tasks, writes more clearly, and is over 30% faster than Opus 5. Typical workloads cost about 40% less.",
+          "why_it_matters": "The most capable Claude is now cheaper to use, which matters if you pay per use through automations or apps built on Claude's API (the way software talks to Claude).",
+          "link": "https://www.anthropic.com/news/claude-opus-5-5",
+          "source": "Anthropic",
+          "tag": "Pricing",
+          "opportunity": {
+            "video": 5,
+            "social": 4,
+            "community": 5,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "ai-industry",
+      "title": "Wider AI World",
+      "items": [
+        {
+          "headline": "Meta Launches an Enterprise AI Platform, Including an Agent for Small Businesses",
+          "summary": "Meta announced its Enterprise Platform, which includes Meta Business Agent, an AI assistant that can answer customer questions, book appointments, and follow up with leads on Meta's messaging apps. It also unveiled Muse for Small Business, which connects to tools like Canva, Slack, Zoom, and Asana.",
+          "why_it_matters": "If your customers already message you on Facebook, Instagram, or WhatsApp, an AI that handles first replies could save time, though it's worth testing before trusting it with sales.",
+          "link": "https://www.cnbc.com/2026/09/29/meta-launches-muse-for-small-business-zuckerberg-pushes-enterprise-ai.html",
+          "source": "CNBC",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 5,
+            "social": 6,
+            "community": 6,
+            "act_now": false
+          }
+        },
+        {
+          "headline": "Adobe Forecasts AI Chatbot Shopping Traffic to Jump 130% This Holiday Season",
+          "summary": "Adobe expects visits to US online stores that come from AI chatbots like ChatGPT and Claude to rise 130% from last year, with online sales up 6.7% to $275.1 billion in November and December.",
+          "why_it_matters": "More of your customers will ask an AI what to buy, so clear product descriptions and FAQs on your site now can help you get recommended.",
+          "link": "https://news.adobe.com/news/2026/09/adobe-us-holiday-shopping-season-to-hit-record",
+          "source": "Adobe",
+          "tag": "Research",
+          "opportunity": {
+            "video": 5,
+            "social": 5,
+            "community": 6,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "creator-tools",
+      "title": "Tools & Tips for Creators and Small Biz",
+      "items": [
+        {
+          "headline": "YouTube Studio Adds AI Draft Feedback, Ask Studio on Mobile, and Gemini Editing in Shorts",
+          "summary": "At Made on YouTube, YouTube announced that Ask Studio, its AI Q&A helper, is coming to iOS and Android, plus AI feedback on unpublished videos about structure and storytelling. Gemini Omni also becomes a chat-based editing helper in Shorts and the YouTube Create app.",
+          "why_it_matters": "Free AI coaching on your drafts before you publish is a low-effort way to improve videos, especially if you don't have an editor or a second opinion.",
+          "link": "https://techcrunch.com/2026/09/23/youtube-releases-new-ai-features-for-creators-within-its-studio-app/",
+          "source": "TechCrunch",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 8,
+            "social": 6,
+            "community": 7,
+            "act_now": true,
+            "action_note": "Check YouTube Studio this week for the draft feedback and Ask Studio features and test them on your next unpublished video.",
+            "angle": "I let YouTube's new AI critique my unpublished video, here's what it said"
+          }
+        }
+      ]
+    },
+    {
+      "id": "content-social",
+      "title": "Content & Social Media Pulse",
+      "items": [
+        {
+          "headline": "YouTube Live Gets Showdowns, Real-Time Auto Dubbing, and a Practice Mode",
+          "summary": "YouTube is adding Live showdowns (creators merge streams for friendly head-to-head competitions), real-time auto dubbing to reach other languages, and a wider Watch With feature. A private Live Practice Mode for rehearsing your setup is rolling out in the mobile app.",
+          "why_it_matters": "If you livestream, you can rehearse privately before going live and eventually reach viewers who speak other languages without extra work.",
+          "link": "https://blog.youtube/news-and-events/innovation-youtube-era-made-on-viewers-creators/",
+          "source": "YouTube Blog",
+          "tag": "Platform Change",
+          "opportunity": {
+            "video": 7,
+            "social": 5,
+            "community": 6,
+            "act_now": true,
+            "action_note": "Try Live Practice Mode in the YouTube mobile app before your next stream to test your setup.",
+            "angle": "YouTube Live just added auto dubbing and practice mode, and I tried both"
+          }
+        }
+      ]
+    }
+  ]
+}
