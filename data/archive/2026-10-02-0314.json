@@ -1,0 +1,57 @@
+{
+  "generated_at_iso": "2026-10-02T03:14:08-10:00",
+  "generated_label": "Friday, October 2 · 3:14 AM HST",
+  "edition": "morning",
+  "categories": [
+    {
+      "id": "claude-anthropic",
+      "title": "Claude & Anthropic",
+      "items": [
+        {
+          "headline": "Claude Code Gets \"Mods\": Small Add-Ons That Change How It Works",
+          "summary": "Anthropic added mods to Claude Code (its tool for writing and editing software through chat). They're small bits of code that tweak prompts, add screens, or replace features, and you can write your own or ask Claude Code to build one.",
+          "why_it_matters": "If you use Claude Code for your own projects, you can now shape it to your workflow instead of taking it as-is, and install ready-made mods from the plugin directory.",
+          "link": "https://claude.com/blog/claude-code-mods",
+          "source": "Claude Blog",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 6,
+            "social": 4,
+            "community": 5,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "ai-industry",
+      "title": "Wider AI World",
+      "items": [
+        {
+          "headline": "OpenAI Launches \"Dots,\" Always-On AI Agents That Work in the Background",
+          "summary": "At its developer event, OpenAI introduced Dots: assistants (AI agents) that run on their own cloud computer, connect to thousands of apps, and work toward goals you set, reporting back through ChatGPT, Slack, or Teams. Rollout starts with Pro and Business Premium users in eligible markets.",
+          "why_it_matters": "This is the clearest push yet toward an AI that handles recurring chores for you, so it's worth deciding now what tasks you'd trust one with and what limits you'd set.",
+          "link": "https://techcrunch.com/2026/09/29/openai-launches-dots-its-bubbly-agentic-avatar/",
+          "source": "TechCrunch",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 6,
+            "social": 6,
+            "community": 5,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "creator-tools",
+      "title": "Tools & Tips for Creators and Small Biz",
+      "items": []
+    },
+    {
+      "id": "content-social",
+      "title": "Content & Social Media Pulse",
+      "items": []
+    }
+  ]
+}

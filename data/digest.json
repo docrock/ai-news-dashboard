@@ -1,43 +1,28 @@
 {
-  "generated_at_iso": "2026-10-02T03:14:08-10:00",
-  "generated_label": "Friday, October 2 · 3:14 AM HST",
+  "generated_at_iso": "2026-10-03T03:09:44-10:00",
+  "generated_label": "Saturday, October 3 · 3:09 AM HST",
   "edition": "morning",
   "categories": [
     {
       "id": "claude-anthropic",
       "title": "Claude & Anthropic",
-      "items": [
-        {
-          "headline": "Claude Code Gets \"Mods\": Small Add-Ons That Change How It Works",
-          "summary": "Anthropic added mods to Claude Code (its tool for writing and editing software through chat). They're small bits of code that tweak prompts, add screens, or replace features, and you can write your own or ask Claude Code to build one.",
-          "why_it_matters": "If you use Claude Code for your own projects, you can now shape it to your workflow instead of taking it as-is, and install ready-made mods from the plugin directory.",
-          "link": "https://claude.com/blog/claude-code-mods",
-          "source": "Claude Blog",
-          "tag": "Product Update",
-          "opportunity": {
-            "video": 6,
-            "social": 4,
-            "community": 5,
-            "act_now": false
-          }
-        }
-      ]
+      "items": []
     },
     {
       "id": "ai-industry",
       "title": "Wider AI World",
       "items": [
         {
-          "headline": "OpenAI Launches \"Dots,\" Always-On AI Agents That Work in the Background",
-          "summary": "At its developer event, OpenAI introduced Dots: assistants (AI agents) that run on their own cloud computer, connect to thousands of apps, and work toward goals you set, reporting back through ChatGPT, Slack, or Teams. Rollout starts with Pro and Business Premium users in eligible markets.",
-          "why_it_matters": "This is the clearest push yet toward an AI that handles recurring chores for you, so it's worth deciding now what tasks you'd trust one with and what limits you'd set.",
-          "link": "https://techcrunch.com/2026/09/29/openai-launches-dots-its-bubbly-agentic-avatar/",
-          "source": "TechCrunch",
-          "tag": "Product Update",
+          "headline": "OpenAI's New GPT-6.1 Sol Costs One-Fifth as Much as Its Flagship Model",
+          "summary": "OpenAI released GPT-6.1 Sol, a cheaper model that comes close to its top GPT-6 Astra on coding and computer-control tasks. Developers pay $2 per million input tokens (roughly 750,000 words) and $10 per million output tokens, about 80% less than Astra.",
+          "why_it_matters": "Cheaper AI usually flows down to the apps and automations small businesses already pay for, so expect more capable tools at lower prices, and it's a good moment to compare what you're paying now.",
+          "link": "https://www.marktechpost.com/2026/09/30/openai-releases-gpt-6-1-sol-near-astra-coding-and-computer-use-at-one-fifth-of-astras-token-price/",
+          "source": "MarkTechPost",
+          "tag": "Pricing",
           "opportunity": {
-            "video": 6,
-            "social": 6,
-            "community": 5,
+            "video": 4,
+            "social": 5,
+            "community": 4,
             "act_now": false
           }
         }
