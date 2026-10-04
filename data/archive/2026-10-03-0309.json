@@ -1,0 +1,42 @@
+{
+  "generated_at_iso": "2026-10-03T03:09:44-10:00",
+  "generated_label": "Saturday, October 3 · 3:09 AM HST",
+  "edition": "morning",
+  "categories": [
+    {
+      "id": "claude-anthropic",
+      "title": "Claude & Anthropic",
+      "items": []
+    },
+    {
+      "id": "ai-industry",
+      "title": "Wider AI World",
+      "items": [
+        {
+          "headline": "OpenAI's New GPT-6.1 Sol Costs One-Fifth as Much as Its Flagship Model",
+          "summary": "OpenAI released GPT-6.1 Sol, a cheaper model that comes close to its top GPT-6 Astra on coding and computer-control tasks. Developers pay $2 per million input tokens (roughly 750,000 words) and $10 per million output tokens, about 80% less than Astra.",
+          "why_it_matters": "Cheaper AI usually flows down to the apps and automations small businesses already pay for, so expect more capable tools at lower prices, and it's a good moment to compare what you're paying now.",
+          "link": "https://www.marktechpost.com/2026/09/30/openai-releases-gpt-6-1-sol-near-astra-coding-and-computer-use-at-one-fifth-of-astras-token-price/",
+          "source": "MarkTechPost",
+          "tag": "Pricing",
+          "opportunity": {
+            "video": 4,
+            "social": 5,
+            "community": 4,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "creator-tools",
+      "title": "Tools & Tips for Creators and Small Biz",
+      "items": []
+    },
+    {
+      "id": "content-social",
+      "title": "Content & Social Media Pulse",
+      "items": []
+    }
+  ]
+}
