@@ -1,0 +1,71 @@
+{
+  "generated_at_iso": "2026-10-08T03:14:00-10:00",
+  "generated_label": "Thursday, October 8 · 3:14 AM HST",
+  "edition": "morning",
+  "categories": [
+    {
+      "id": "claude-anthropic",
+      "title": "Claude & Anthropic",
+      "items": [
+        {
+          "headline": "Claude Haiku 5.5 launches at about one-tenth of the old price",
+          "summary": "Anthropic released Haiku 5.5, its smallest and fastest model, at $0.10 per million input tokens (a token is roughly a word fragment) versus $1.00 for Haiku 4.5. It adds an adjustable effort setting and is built for high-volume jobs like summaries and sorting.",
+          "why_it_matters": "If you use tools or automations built on Claude, cheaper and faster models like this tend to lower your bills and speed up customer-facing chat and workflows.",
+          "link": "https://www.anthropic.com/claude-haiku-5-5",
+          "source": "Anthropic",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 5,
+            "social": 6,
+            "community": 5,
+            "act_now": false
+          }
+        },
+        {
+          "headline": "Claude Sonnet 5.5 is faster and better at slides and spreadsheets",
+          "summary": "Sonnet 5.5, the everyday Claude model, writes more than 30% faster than Sonnet 5, uses fewer tokens per task, and has a stronger design sense for documents, slides, and spreadsheets. Price is unchanged at $2 / $10 per million tokens.",
+          "why_it_matters": "It is the model most people get in the Claude apps, so everyday writing and deck work should feel quicker and more polished without costing more.",
+          "link": "https://www.anthropic.com/claude-sonnet-5-5",
+          "source": "Anthropic",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 7,
+            "social": 6,
+            "community": 7,
+            "act_now": false,
+            "angle": "I put Claude Sonnet 5.5 through real small-business work so you can see what actually changed"
+          }
+        },
+        {
+          "headline": "Anthropic puts $100 million into training 10,000 Claude engineers",
+          "summary": "Anthropic announced the Claude Frontier Academy, a residency program to train 10,000 engineers to roll out Claude inside companies by the end of 2027, with Accenture, Deloitte, and McKinsey among launch partners.",
+          "why_it_matters": "It signals how fast big businesses are adopting Claude, and that hands-on help for small teams to adopt it is likely to grow too.",
+          "link": "https://www.anthropic.com/news/claude-frontier-academy",
+          "source": "Anthropic",
+          "tag": "Opinion/Analysis",
+          "opportunity": {
+            "video": 2,
+            "social": 4,
+            "community": 2,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "ai-industry",
+      "title": "Wider AI World",
+      "items": []
+    },
+    {
+      "id": "creator-tools",
+      "title": "Tools & Tips for Creators and Small Biz",
+      "items": []
+    },
+    {
+      "id": "content-social",
+      "title": "Content & Social Media Pulse",
+      "items": []
+    }
+  ]
+}
