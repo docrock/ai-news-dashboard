@@ -1,0 +1,56 @@
+{
+  "generated_at_iso": "2026-10-09T03:20:00-10:00",
+  "generated_label": "Friday, October 9 · 3:20 AM HST",
+  "edition": "morning",
+  "categories": [
+    {
+      "id": "claude-anthropic",
+      "title": "Claude & Anthropic",
+      "items": [
+        {
+          "headline": "Anthropic updates its Usage Policy, effective November 12",
+          "summary": "The rules for using Claude now spell out bans on fake-account influence campaigns, deceptive election tactics, and weapons or surveillance tools. They also require human oversight when AI controls physical hardware.",
+          "why_it_matters": "For most creators and small businesses nothing changes, but if you build automations or run Claude for clients, skim the new rules before November 12 so you stay on the right side.",
+          "link": "https://www.anthropic.com/news/2026-usage-policy-update",
+          "source": "Anthropic",
+          "tag": "Policy",
+          "opportunity": {
+            "video": 3,
+            "social": 4,
+            "community": 4,
+            "act_now": false
+          }
+        },
+        {
+          "headline": "Anthropic launches a Cyber Mission to help defend power, water, and open-source software",
+          "summary": "Anthropic is giving security teams that protect critical infrastructure access to Claude and threat research, and offering a free scanner that checks open-source projects for security holes.",
+          "why_it_matters": "The effect is indirect, but the free scanner could matter if you rely on open-source tools, and it shows where Anthropic is putting its energy.",
+          "link": "https://www.anthropic.com/news/anthropic-cyber-mission",
+          "source": "Anthropic",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 3,
+            "social": 4,
+            "community": 3,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "ai-industry",
+      "title": "Wider AI World",
+      "items": []
+    },
+    {
+      "id": "creator-tools",
+      "title": "Tools & Tips for Creators and Small Biz",
+      "items": []
+    },
+    {
+      "id": "content-social",
+      "title": "Content & Social Media Pulse",
+      "items": []
+    }
+  ]
+}

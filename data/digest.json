@@ -1,6 +1,6 @@
 {
-  "generated_at_iso": "2026-10-09T03:20:00-10:00",
-  "generated_label": "Friday, October 9 · 3:20 AM HST",
+  "generated_at_iso": "2026-10-10T03:12:00-10:00",
+  "generated_label": "Saturday, October 10 · 3:12 AM HST",
   "edition": "morning",
   "categories": [
     {
@@ -8,29 +8,15 @@
       "title": "Claude & Anthropic",
       "items": [
         {
-          "headline": "Anthropic updates its Usage Policy, effective November 12",
-          "summary": "The rules for using Claude now spell out bans on fake-account influence campaigns, deceptive election tactics, and weapons or surveillance tools. They also require human oversight when AI controls physical hardware.",
-          "why_it_matters": "For most creators and small businesses nothing changes, but if you build automations or run Claude for clients, skim the new rules before November 12 so you stay on the right side.",
-          "link": "https://www.anthropic.com/news/2026-usage-policy-update",
+          "headline": "Anthropic opens its Cyber Verification Program to more defenders",
+          "summary": "Anthropic merged its Cyber Verification Program with Project Glasswing and split access into three tiers (Defense, Red Team, Specialized). Vetted security teams, including smaller firms, open-source maintainers and some individual researchers, get fewer blocking filters on Claude's most capable models.",
+          "why_it_matters": "If you or your web developer do any security work, Claude will refuse less often once verified. For everyone else it shows how Anthropic decides who gets the most powerful tools.",
+          "link": "https://www.anthropic.com/news/cyber-verification-program",
           "source": "Anthropic",
           "tag": "Policy",
           "opportunity": {
-            "video": 3,
-            "social": 4,
-            "community": 4,
-            "act_now": false
-          }
-        },
-        {
-          "headline": "Anthropic launches a Cyber Mission to help defend power, water, and open-source software",
-          "summary": "Anthropic is giving security teams that protect critical infrastructure access to Claude and threat research, and offering a free scanner that checks open-source projects for security holes.",
-          "why_it_matters": "The effect is indirect, but the free scanner could matter if you rely on open-source tools, and it shows where Anthropic is putting its energy.",
-          "link": "https://www.anthropic.com/news/anthropic-cyber-mission",
-          "source": "Anthropic",
-          "tag": "Product Update",
-          "opportunity": {
-            "video": 3,
-            "social": 4,
+            "video": 2,
+            "social": 3,
             "community": 3,
             "act_now": false
           }
@@ -40,7 +26,22 @@
     {
       "id": "ai-industry",
       "title": "Wider AI World",
-      "items": []
+      "items": [
+        {
+          "headline": "GPT-6 rolls out in ChatGPT with a new \"Intelligent UI\"",
+          "summary": "OpenAI says GPT-6 is rolling out globally in ChatGPT, with answers that can include visuals and interactive elements. Reports say the GPT-6 Sol model goes to paid subscribers and the lighter GPT-6 Luna to Free and Go users.",
+          "why_it_matters": "If you use free ChatGPT, you should see a noticeable upgrade without paying. It is also a good moment to compare it side by side with Claude on your own everyday tasks.",
+          "link": "https://openai.com/index/gpt-6-for-everyone/",
+          "source": "OpenAI",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 6,
+            "social": 6,
+            "community": 6,
+            "act_now": false
+          }
+        }
+      ]
     },
     {
       "id": "creator-tools",
