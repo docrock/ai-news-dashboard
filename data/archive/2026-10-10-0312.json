@@ -1,0 +1,57 @@
+{
+  "generated_at_iso": "2026-10-10T03:12:00-10:00",
+  "generated_label": "Saturday, October 10 · 3:12 AM HST",
+  "edition": "morning",
+  "categories": [
+    {
+      "id": "claude-anthropic",
+      "title": "Claude & Anthropic",
+      "items": [
+        {
+          "headline": "Anthropic opens its Cyber Verification Program to more defenders",
+          "summary": "Anthropic merged its Cyber Verification Program with Project Glasswing and split access into three tiers (Defense, Red Team, Specialized). Vetted security teams, including smaller firms, open-source maintainers and some individual researchers, get fewer blocking filters on Claude's most capable models.",
+          "why_it_matters": "If you or your web developer do any security work, Claude will refuse less often once verified. For everyone else it shows how Anthropic decides who gets the most powerful tools.",
+          "link": "https://www.anthropic.com/news/cyber-verification-program",
+          "source": "Anthropic",
+          "tag": "Policy",
+          "opportunity": {
+            "video": 2,
+            "social": 3,
+            "community": 3,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "ai-industry",
+      "title": "Wider AI World",
+      "items": [
+        {
+          "headline": "GPT-6 rolls out in ChatGPT with a new \"Intelligent UI\"",
+          "summary": "OpenAI says GPT-6 is rolling out globally in ChatGPT, with answers that can include visuals and interactive elements. Reports say the GPT-6 Sol model goes to paid subscribers and the lighter GPT-6 Luna to Free and Go users.",
+          "why_it_matters": "If you use free ChatGPT, you should see a noticeable upgrade without paying. It is also a good moment to compare it side by side with Claude on your own everyday tasks.",
+          "link": "https://openai.com/index/gpt-6-for-everyone/",
+          "source": "OpenAI",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 6,
+            "social": 6,
+            "community": 6,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "creator-tools",
+      "title": "Tools & Tips for Creators and Small Biz",
+      "items": []
+    },
+    {
+      "id": "content-social",
+      "title": "Content & Social Media Pulse",
+      "items": []
+    }
+  ]
+}
