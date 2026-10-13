@@ -1,0 +1,43 @@
+{
+  "generated_at_iso": "2026-10-11T03:09:30-10:00",
+  "generated_label": "Sunday, October 11 · 3:09 AM HST",
+  "edition": "morning",
+  "categories": [
+    {
+      "id": "claude-anthropic",
+      "title": "Claude & Anthropic",
+      "items": [
+        {
+          "headline": "Anthropic updates its Usage Policy, effective November 12",
+          "summary": "Anthropic's new Usage Policy adds a clear ban on fake accounts, fabricated news sites and hidden-origin promotional campaigns, tightens rules on covert tracking and weapons, and requires a human reviewer for high-risk uses like health, finance and legal decisions. Most everyday use is unchanged.",
+          "why_it_matters": "If you use Claude to run social accounts or marketing, make sure your content is clearly yours and not part of a network of fake or disguised accounts. Otherwise nothing changes for normal use.",
+          "link": "https://www.anthropic.com/news/2026-usage-policy-update",
+          "source": "Anthropic",
+          "tag": "Policy",
+          "opportunity": {
+            "video": 3,
+            "social": 4,
+            "community": 5,
+            "act_now": true,
+            "action_note": "Skim the updated Usage Policy before November 12 and check that any Claude-powered marketing or social workflows don't involve fake or disguised accounts."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ai-industry",
+      "title": "Wider AI World",
+      "items": []
+    },
+    {
+      "id": "creator-tools",
+      "title": "Tools & Tips for Creators and Small Biz",
+      "items": []
+    },
+    {
+      "id": "content-social",
+      "title": "Content & Social Media Pulse",
+      "items": []
+    }
+  ]
+}
