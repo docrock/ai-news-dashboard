@@ -1,0 +1,43 @@
+{
+  "generated_at_iso": "2026-10-13T03:19:00-10:00",
+  "generated_label": "Tuesday, October 13 · 3:19 AM HST",
+  "edition": "morning",
+  "categories": [
+    {
+      "id": "claude-anthropic",
+      "title": "Claude & Anthropic",
+      "items": [
+        {
+          "headline": "Claude Haiku 5.5 launches as Anthropic's cheapest, fastest model",
+          "summary": "Anthropic released Haiku 5.5, its small, low-cost model, on October 7. It costs about 75% less than the previous Haiku, and it adds an adjustable effort setting so you can trade cost against thinking depth. Max and Team plans also get a new monthly API credit.",
+          "why_it_matters": "If you use Claude through automations or apps that call it behind the scenes (the API), this makes quick jobs like summaries, sorting and customer replies much cheaper.",
+          "link": "https://www.anthropic.com/claude-haiku-5-5",
+          "source": "Anthropic",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 5,
+            "social": 5,
+            "community": 6,
+            "act_now": true,
+            "action_note": "Check your Claude Max plan settings for the new monthly API credit and use it to test Haiku 5.5 in one automation this week."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ai-industry",
+      "title": "Wider AI World",
+      "items": []
+    },
+    {
+      "id": "creator-tools",
+      "title": "Tools & Tips for Creators and Small Biz",
+      "items": []
+    },
+    {
+      "id": "content-social",
+      "title": "Content & Social Media Pulse",
+      "items": []
+    }
+  ]
+}
