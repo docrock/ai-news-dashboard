@@ -1,0 +1,42 @@
+{
+  "generated_at_iso": "2026-10-14T03:15:00-10:00",
+  "generated_label": "Wednesday, October 14 · 3:15 AM HST",
+  "edition": "morning",
+  "categories": [
+    {
+      "id": "claude-anthropic",
+      "title": "Claude & Anthropic",
+      "items": [
+        {
+          "headline": "Anthropic updates its Usage Policy, effective November 12",
+          "summary": "Anthropic published its 2026 Usage Policy update on October 8. It mostly clarifies existing rules: it groups fake-account and influence campaigns together, spells out limits on weapons and surveillance, and says AI advice in areas like health, legal and financial decisions needs a qualified human reviewer.",
+          "why_it_matters": "Everyday writing, editing and marketing use isn't affected. If you use Claude to help make decisions about clients, customers or employees, plan on a human check and tell people AI was involved. Also confirm your business isn't majority-owned by parties in unsupported regions.",
+          "link": "https://www.anthropic.com/news/2026-usage-policy-update",
+          "source": "Anthropic",
+          "tag": "Policy",
+          "opportunity": {
+            "video": 3,
+            "social": 3,
+            "community": 5,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "ai-industry",
+      "title": "Wider AI World",
+      "items": []
+    },
+    {
+      "id": "creator-tools",
+      "title": "Tools & Tips for Creators and Small Biz",
+      "items": []
+    },
+    {
+      "id": "content-social",
+      "title": "Content & Social Media Pulse",
+      "items": []
+    }
+  ]
+}
