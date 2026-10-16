@@ -1,0 +1,70 @@
+{
+  "generated_at_iso": "2026-10-15T03:10:00-10:00",
+  "generated_label": "Thursday, October 15 · 3:10 AM HST",
+  "edition": "morning",
+  "categories": [
+    {
+      "id": "claude-anthropic",
+      "title": "Claude & Anthropic",
+      "items": [
+        {
+          "headline": "Claude will show official voting info ahead of the US midterms",
+          "summary": "Anthropic says Claude will pull state-specific voting information from the nonpartisan group Democracy Works and show official vote counts on election night. It also tightened rules to keep Claude even-handed on politics and to catch election-related misuse.",
+          "why_it_matters": "If you or your customers ask Claude about voting, you'll get official sources instead of guesses. If you post election content, expect Claude to stay neutral and refuse campaign-style manipulation.",
+          "link": "https://www.anthropic.com/news/2026-us-midterms",
+          "source": "Anthropic",
+          "tag": "Policy",
+          "opportunity": {
+            "video": 3,
+            "social": 4,
+            "community": 4,
+            "act_now": false
+          }
+        },
+        {
+          "headline": "Anthropic opens a Singapore office and signs a government agreement",
+          "summary": "Anthropic is opening its fifth Asia-Pacific office in Singapore and signed an agreement with the country's digital ministry covering AI safety, testing and responsible use.",
+          "why_it_matters": "It signals Claude is expanding globally, which usually means better support and local-language improvements for international audiences, but nothing changes in your day-to-day use.",
+          "link": "https://www.anthropic.com/news/singapore-office-opening",
+          "source": "Anthropic",
+          "tag": "Opinion/Analysis",
+          "opportunity": {
+            "video": 2,
+            "social": 3,
+            "community": 3,
+            "act_now": false
+          }
+        },
+        {
+          "headline": "Anthropic updates its Usage Policy, effective November 12",
+          "summary": "Anthropic published its 2026 Usage Policy update on October 8. It mostly clarifies existing rules: it groups fake-account and influence campaigns together, spells out limits on weapons and surveillance, and says AI advice in areas like health, legal and financial decisions needs a qualified human reviewer.",
+          "why_it_matters": "Everyday writing, editing and marketing use isn't affected. If you use Claude to help make decisions about clients, customers or employees, plan on a human check and tell people AI was involved. Also confirm your business isn't majority-owned by parties in unsupported regions.",
+          "link": "https://www.anthropic.com/news/2026-usage-policy-update",
+          "source": "Anthropic",
+          "tag": "Policy",
+          "opportunity": {
+            "video": 3,
+            "social": 3,
+            "community": 5,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "ai-industry",
+      "title": "Wider AI World",
+      "items": []
+    },
+    {
+      "id": "creator-tools",
+      "title": "Tools & Tips for Creators and Small Biz",
+      "items": []
+    },
+    {
+      "id": "content-social",
+      "title": "Content & Social Media Pulse",
+      "items": []
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
-  "generated_at_iso": "2026-10-15T03:10:00-10:00",
-  "generated_label": "Thursday, October 15 · 3:10 AM HST",
+  "generated_at_iso": "2026-10-16T03:08:38-10:00",
+  "generated_label": "Friday, October 16 · 3:08 AM HST",
   "edition": "morning",
   "categories": [
     {
@@ -8,44 +8,16 @@
       "title": "Claude & Anthropic",
       "items": [
         {
-          "headline": "Claude will show official voting info ahead of the US midterms",
-          "summary": "Anthropic says Claude will pull state-specific voting information from the nonpartisan group Democracy Works and show official vote counts on election night. It also tightened rules to keep Claude even-handed on politics and to catch election-related misuse.",
-          "why_it_matters": "If you or your customers ask Claude about voting, you'll get official sources instead of guesses. If you post election content, expect Claude to stay neutral and refuse campaign-style manipulation.",
-          "link": "https://www.anthropic.com/news/2026-us-midterms",
+          "headline": "Anthropic gives outside experts deeper access to check its AI's safety",
+          "summary": "Anthropic is giving a six-person team from METR, an independent nonprofit that tests AI models, near-internal access to its systems, and METR will publish its own risk findings. Other groups like SecureBio and Accenture are involved too, with more access granted as trust grows.",
+          "why_it_matters": "If you rely on Claude for your business, this is a sign that someone other than Anthropic is double-checking the safety claims, which is useful context when clients or your audience ask whether AI tools can be trusted.",
+          "link": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
           "source": "Anthropic",
           "tag": "Policy",
-          "opportunity": {
-            "video": 3,
-            "social": 4,
-            "community": 4,
-            "act_now": false
-          }
-        },
-        {
-          "headline": "Anthropic opens a Singapore office and signs a government agreement",
-          "summary": "Anthropic is opening its fifth Asia-Pacific office in Singapore and signed an agreement with the country's digital ministry covering AI safety, testing and responsible use.",
-          "why_it_matters": "It signals Claude is expanding globally, which usually means better support and local-language improvements for international audiences, but nothing changes in your day-to-day use.",
-          "link": "https://www.anthropic.com/news/singapore-office-opening",
-          "source": "Anthropic",
-          "tag": "Opinion/Analysis",
           "opportunity": {
             "video": 2,
-            "social": 3,
-            "community": 3,
-            "act_now": false
-          }
-        },
-        {
-          "headline": "Anthropic updates its Usage Policy, effective November 12",
-          "summary": "Anthropic published its 2026 Usage Policy update on October 8. It mostly clarifies existing rules: it groups fake-account and influence campaigns together, spells out limits on weapons and surveillance, and says AI advice in areas like health, legal and financial decisions needs a qualified human reviewer.",
-          "why_it_matters": "Everyday writing, editing and marketing use isn't affected. If you use Claude to help make decisions about clients, customers or employees, plan on a human check and tell people AI was involved. Also confirm your business isn't majority-owned by parties in unsupported regions.",
-          "link": "https://www.anthropic.com/news/2026-usage-policy-update",
-          "source": "Anthropic",
-          "tag": "Policy",
-          "opportunity": {
-            "video": 3,
-            "social": 3,
-            "community": 5,
+            "social": 4,
+            "community": 4,
             "act_now": false
           }
         }
@@ -54,7 +26,22 @@
     {
       "id": "ai-industry",
       "title": "Wider AI World",
-      "items": []
+      "items": [
+        {
+          "headline": "ChatGPT's Chrome extension can now work across all your open tabs",
+          "summary": "OpenAI upgraded the ChatGPT Chrome extension so it can read several open tabs at once, compare products or services, fill out forms and draft emails from what's on screen. It also adds tab grouping.",
+          "why_it_matters": "For a small business owner this means less copy-and-paste when comparing vendors or answering emails, but double-check anything it fills in before you hit submit.",
+          "link": "https://www.newsbytesapp.com/news/science/openai-lets-chatgpt-work-across-your-open-chrome-tabs/story",
+          "source": "NewsBytes",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 6,
+            "social": 5,
+            "community": 6,
+            "act_now": false
+          }
+        }
+      ]
     },
     {
       "id": "creator-tools",
