@@ -1,0 +1,57 @@
+{
+  "generated_at_iso": "2026-10-16T03:08:38-10:00",
+  "generated_label": "Friday, October 16 · 3:08 AM HST",
+  "edition": "morning",
+  "categories": [
+    {
+      "id": "claude-anthropic",
+      "title": "Claude & Anthropic",
+      "items": [
+        {
+          "headline": "Anthropic gives outside experts deeper access to check its AI's safety",
+          "summary": "Anthropic is giving a six-person team from METR, an independent nonprofit that tests AI models, near-internal access to its systems, and METR will publish its own risk findings. Other groups like SecureBio and Accenture are involved too, with more access granted as trust grows.",
+          "why_it_matters": "If you rely on Claude for your business, this is a sign that someone other than Anthropic is double-checking the safety claims, which is useful context when clients or your audience ask whether AI tools can be trusted.",
+          "link": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+          "source": "Anthropic",
+          "tag": "Policy",
+          "opportunity": {
+            "video": 2,
+            "social": 4,
+            "community": 4,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "ai-industry",
+      "title": "Wider AI World",
+      "items": [
+        {
+          "headline": "ChatGPT's Chrome extension can now work across all your open tabs",
+          "summary": "OpenAI upgraded the ChatGPT Chrome extension so it can read several open tabs at once, compare products or services, fill out forms and draft emails from what's on screen. It also adds tab grouping.",
+          "why_it_matters": "For a small business owner this means less copy-and-paste when comparing vendors or answering emails, but double-check anything it fills in before you hit submit.",
+          "link": "https://www.newsbytesapp.com/news/science/openai-lets-chatgpt-work-across-your-open-chrome-tabs/story",
+          "source": "NewsBytes",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 6,
+            "social": 5,
+            "community": 6,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "creator-tools",
+      "title": "Tools & Tips for Creators and Small Biz",
+      "items": []
+    },
+    {
+      "id": "content-social",
+      "title": "Content & Social Media Pulse",
+      "items": []
+    }
+  ]
+}
