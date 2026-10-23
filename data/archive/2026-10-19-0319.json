@@ -1,0 +1,42 @@
+{
+  "generated_at_iso": "2026-10-19T03:19:23-10:00",
+  "generated_label": "Monday, October 19 · 3:19 AM HST",
+  "edition": "morning",
+  "categories": [
+    {
+      "id": "claude-anthropic",
+      "title": "Claude & Anthropic",
+      "items": [
+        {
+          "headline": "Anthropic sets aside company shares for a new Public Benefit Fund",
+          "summary": "Anthropic says it will commit 5% of its shares to a new fund for public-good giving, with more added as the company grows. The fund can't be used for lobbying or political giving, and details on how it's run are coming in the next few months.",
+          "why_it_matters": "It's a signal of how one of the biggest AI companies plans to handle AI's effects on jobs and the economy, which is useful context if you rely on Claude in your business.",
+          "link": "https://www.anthropic.com/news/public-benefit-fund",
+          "source": "Anthropic",
+          "tag": "Policy",
+          "opportunity": {
+            "video": 3,
+            "social": 5,
+            "community": 3,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "ai-industry",
+      "title": "Wider AI World",
+      "items": []
+    },
+    {
+      "id": "creator-tools",
+      "title": "Tools & Tips for Creators and Small Biz",
+      "items": []
+    },
+    {
+      "id": "content-social",
+      "title": "Content & Social Media Pulse",
+      "items": []
+    }
+  ]
+}

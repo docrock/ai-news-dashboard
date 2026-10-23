@@ -1,6 +1,6 @@
 {
-  "generated_at_iso": "2026-10-19T03:19:23-10:00",
-  "generated_label": "Monday, October 19 · 3:19 AM HST",
+  "generated_at_iso": "2026-10-23T03:12:00-10:00",
+  "generated_label": "Friday, October 23 · 3:12 AM HST",
   "edition": "morning",
   "categories": [
     {
@@ -8,16 +8,16 @@
       "title": "Claude & Anthropic",
       "items": [
         {
-          "headline": "Anthropic sets aside company shares for a new Public Benefit Fund",
-          "summary": "Anthropic says it will commit 5% of its shares to a new fund for public-good giving, with more added as the company grows. The fund can't be used for lobbying or political giving, and details on how it's run are coming in the next few months.",
-          "why_it_matters": "It's a signal of how one of the biggest AI companies plans to handle AI's effects on jobs and the economy, which is useful context if you rely on Claude in your business.",
-          "link": "https://www.anthropic.com/news/public-benefit-fund",
+          "headline": "Anthropic hands its Agent Skills standard to a neutral foundation",
+          "summary": "Agent Skills, the simple 'instruction folder' format that teaches AI assistants how to do a specific task, is moving to the Agentic AI Foundation under the Linux Foundation. More than 70 tools, including ChatGPT, Cursor and GitHub Copilot, already support it.",
+          "why_it_matters": "A skill you build once for Claude can work in other AI tools too, so your time spent writing reusable workflows isn't locked to one app.",
+          "link": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
           "source": "Anthropic",
-          "tag": "Policy",
+          "tag": "Product Update",
           "opportunity": {
-            "video": 3,
+            "video": 6,
             "social": 5,
-            "community": 3,
+            "community": 6,
             "act_now": false
           }
         }
