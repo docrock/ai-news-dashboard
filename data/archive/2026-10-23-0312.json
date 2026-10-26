@@ -1,0 +1,42 @@
+{
+  "generated_at_iso": "2026-10-23T03:12:00-10:00",
+  "generated_label": "Friday, October 23 · 3:12 AM HST",
+  "edition": "morning",
+  "categories": [
+    {
+      "id": "claude-anthropic",
+      "title": "Claude & Anthropic",
+      "items": [
+        {
+          "headline": "Anthropic hands its Agent Skills standard to a neutral foundation",
+          "summary": "Agent Skills, the simple 'instruction folder' format that teaches AI assistants how to do a specific task, is moving to the Agentic AI Foundation under the Linux Foundation. More than 70 tools, including ChatGPT, Cursor and GitHub Copilot, already support it.",
+          "why_it_matters": "A skill you build once for Claude can work in other AI tools too, so your time spent writing reusable workflows isn't locked to one app.",
+          "link": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+          "source": "Anthropic",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 6,
+            "social": 5,
+            "community": 6,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "ai-industry",
+      "title": "Wider AI World",
+      "items": []
+    },
+    {
+      "id": "creator-tools",
+      "title": "Tools & Tips for Creators and Small Biz",
+      "items": []
+    },
+    {
+      "id": "content-social",
+      "title": "Content & Social Media Pulse",
+      "items": []
+    }
+  ]
+}
