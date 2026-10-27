@@ -1,0 +1,43 @@
+{
+  "generated_at_iso": "2026-10-26T03:20:13-10:00",
+  "generated_label": "Monday, October 26 · 3:20 AM HST",
+  "edition": "morning",
+  "categories": [
+    {
+      "id": "claude-anthropic",
+      "title": "Claude & Anthropic",
+      "items": [
+        {
+          "headline": "Anthropic files its IPO paperwork with the SEC",
+          "summary": "Anthropic announced it has filed an S-1, the registration statement a company submits to the U.S. Securities and Exchange Commission (SEC) when it plans to sell shares to the public for the first time. The announcement page is brief, so details like share count and pricing are not yet confirmed.",
+          "why_it_matters": "If you build your workflow on Claude, this is a sign the company is stable and well funded, though a public company will also answer to investors, which can affect pricing and priorities over time.",
+          "link": "https://www.anthropic.com/news/s1-sec",
+          "source": "Anthropic News",
+          "tag": "Opinion/Analysis",
+          "opportunity": {
+            "video": 5,
+            "social": 7,
+            "community": 4,
+            "act_now": false,
+            "angle": "Anthropic is going public. Here is what that means if you use Claude for your business."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ai-industry",
+      "title": "Wider AI World",
+      "items": []
+    },
+    {
+      "id": "creator-tools",
+      "title": "Tools & Tips for Creators and Small Biz",
+      "items": []
+    },
+    {
+      "id": "content-social",
+      "title": "Content & Social Media Pulse",
+      "items": []
+    }
+  ]
+}

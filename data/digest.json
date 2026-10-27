@@ -1,6 +1,6 @@
 {
-  "generated_at_iso": "2026-10-26T03:20:13-10:00",
-  "generated_label": "Monday, October 26 · 3:20 AM HST",
+  "generated_at_iso": "2026-10-27T03:25:00-10:00",
+  "generated_label": "Tuesday, October 27 · 3:25 AM HST",
   "edition": "morning",
   "categories": [
     {
@@ -8,18 +8,18 @@
       "title": "Claude & Anthropic",
       "items": [
         {
-          "headline": "Anthropic files its IPO paperwork with the SEC",
-          "summary": "Anthropic announced it has filed an S-1, the registration statement a company submits to the U.S. Securities and Exchange Commission (SEC) when it plans to sell shares to the public for the first time. The announcement page is brief, so details like share count and pricing are not yet confirmed.",
-          "why_it_matters": "If you build your workflow on Claude, this is a sign the company is stable and well funded, though a public company will also answer to investors, which can affect pricing and priorities over time.",
-          "link": "https://www.anthropic.com/news/s1-sec",
+          "headline": "Anthropic donates Agent Skills to a neutral open-standards foundation",
+          "summary": "Agent Skills are simple folders of instructions (a SKILL.md file plus optional scripts) that teach an AI how to do a specific job. Anthropic handed the standard to the Agentic AI Foundation, a Linux Foundation project, and says over 70 platforms including ChatGPT, GitHub Copilot and VS Code already support it.",
+          "why_it_matters": "A skill you write once for Claude can work in other AI tools too, so the time you spend teaching an AI your business processes is less likely to be wasted if you switch tools.",
+          "link": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
           "source": "Anthropic News",
-          "tag": "Opinion/Analysis",
+          "tag": "Product Update",
           "opportunity": {
-            "video": 5,
-            "social": 7,
-            "community": 4,
+            "video": 7,
+            "social": 5,
+            "community": 7,
             "act_now": false,
-            "angle": "Anthropic is going public. Here is what that means if you use Claude for your business."
+            "angle": "I turned my own workflow into an AI skill, and it now works in more than just Claude."
           }
         }
       ]
