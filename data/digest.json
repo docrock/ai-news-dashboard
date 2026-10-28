@@ -1,6 +1,6 @@
 {
-  "generated_at_iso": "2026-10-27T03:25:00-10:00",
-  "generated_label": "Tuesday, October 27 · 3:25 AM HST",
+  "generated_at_iso": "2026-10-28T03:29:59-10:00",
+  "generated_label": "Wednesday, October 28 · 3:30 AM HST",
   "edition": "morning",
   "categories": [
     {
@@ -8,18 +8,17 @@
       "title": "Claude & Anthropic",
       "items": [
         {
-          "headline": "Anthropic donates Agent Skills to a neutral open-standards foundation",
-          "summary": "Agent Skills are simple folders of instructions (a SKILL.md file plus optional scripts) that teach an AI how to do a specific job. Anthropic handed the standard to the Agentic AI Foundation, a Linux Foundation project, and says over 70 platforms including ChatGPT, GitHub Copilot and VS Code already support it.",
-          "why_it_matters": "A skill you write once for Claude can work in other AI tools too, so the time you spend teaching an AI your business processes is less likely to be wasted if you switch tools.",
-          "link": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+          "headline": "Anthropic files to go public with an IPO filing",
+          "summary": "On October 26 Anthropic, the company behind Claude, filed a registration statement (called an S-1) with the SEC for a proposed initial public offering, meaning it plans to sell shares to the public for the first time.",
+          "why_it_matters": "If you build your business on Claude, this is a sign of a company with long-term staying power, though a public company may eventually face pressure on pricing and plans, so keep your workflows portable.",
+          "link": "https://www.anthropic.com/news/s1-sec",
           "source": "Anthropic News",
-          "tag": "Product Update",
+          "tag": "Policy",
           "opportunity": {
-            "video": 7,
-            "social": 5,
-            "community": 7,
-            "act_now": false,
-            "angle": "I turned my own workflow into an AI skill, and it now works in more than just Claude."
+            "video": 4,
+            "social": 6,
+            "community": 5,
+            "act_now": false
           }
         }
       ]

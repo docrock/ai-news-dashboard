@@ -1,0 +1,43 @@
+{
+  "generated_at_iso": "2026-10-27T03:25:00-10:00",
+  "generated_label": "Tuesday, October 27 · 3:25 AM HST",
+  "edition": "morning",
+  "categories": [
+    {
+      "id": "claude-anthropic",
+      "title": "Claude & Anthropic",
+      "items": [
+        {
+          "headline": "Anthropic donates Agent Skills to a neutral open-standards foundation",
+          "summary": "Agent Skills are simple folders of instructions (a SKILL.md file plus optional scripts) that teach an AI how to do a specific job. Anthropic handed the standard to the Agentic AI Foundation, a Linux Foundation project, and says over 70 platforms including ChatGPT, GitHub Copilot and VS Code already support it.",
+          "why_it_matters": "A skill you write once for Claude can work in other AI tools too, so the time you spend teaching an AI your business processes is less likely to be wasted if you switch tools.",
+          "link": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+          "source": "Anthropic News",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 7,
+            "social": 5,
+            "community": 7,
+            "act_now": false,
+            "angle": "I turned my own workflow into an AI skill, and it now works in more than just Claude."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ai-industry",
+      "title": "Wider AI World",
+      "items": []
+    },
+    {
+      "id": "creator-tools",
+      "title": "Tools & Tips for Creators and Small Biz",
+      "items": []
+    },
+    {
+      "id": "content-social",
+      "title": "Content & Social Media Pulse",
+      "items": []
+    }
+  ]
+}
