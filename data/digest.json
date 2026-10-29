@@ -1,6 +1,6 @@
 {
-  "generated_at_iso": "2026-10-28T03:29:59-10:00",
-  "generated_label": "Wednesday, October 28 · 3:30 AM HST",
+  "generated_at_iso": "2026-10-29T03:12:43-10:00",
+  "generated_label": "Thursday, October 29 · 3:12 AM HST",
   "edition": "morning",
   "categories": [
     {
@@ -8,16 +8,31 @@
       "title": "Claude & Anthropic",
       "items": [
         {
-          "headline": "Anthropic files to go public with an IPO filing",
-          "summary": "On October 26 Anthropic, the company behind Claude, filed a registration statement (called an S-1) with the SEC for a proposed initial public offering, meaning it plans to sell shares to the public for the first time.",
-          "why_it_matters": "If you build your business on Claude, this is a sign of a company with long-term staying power, though a public company may eventually face pressure on pricing and plans, so keep your workflows portable.",
-          "link": "https://www.anthropic.com/news/s1-sec",
+          "headline": "Anthropic donates Agent Skills to a neutral foundation, and 70+ apps already use it",
+          "summary": "Agent Skills are simple folders of instructions that teach an AI assistant how to do a specific job your way. Anthropic gave the open standard to the Agentic AI Foundation, and more than 70 platforms, including ChatGPT, Cursor and GitHub Copilot, already support it.",
+          "why_it_matters": "A skill you write once for Claude can follow you to other AI tools, so the time you spend teaching an AI your process isn't locked into one company.",
+          "link": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
           "source": "Anthropic News",
-          "tag": "Policy",
+          "tag": "Product Update",
           "opportunity": {
-            "video": 4,
-            "social": 6,
-            "community": 5,
+            "video": 7,
+            "social": 5,
+            "community": 7,
+            "act_now": false,
+            "angle": "I built one skill and used it in three different AI apps"
+          }
+        },
+        {
+          "headline": "Anthropic gives governments a 40% discount on Claude through GSA deal",
+          "summary": "A new agreement with the U.S. General Services Administration cuts the price of Claude Enterprise, Claude for Government and the API by 40% for federal, state, local and tribal buyers.",
+          "why_it_matters": "It's aimed at government, not you, but it shows Claude is becoming standard business software, which supports its staying power if you build on it.",
+          "link": "https://www.anthropic.com/news/expanding-partnership-gsa",
+          "source": "Anthropic News",
+          "tag": "Pricing",
+          "opportunity": {
+            "video": 2,
+            "social": 3,
+            "community": 2,
             "act_now": false
           }
         }

@@ -1,0 +1,42 @@
+{
+  "generated_at_iso": "2026-10-28T03:29:59-10:00",
+  "generated_label": "Wednesday, October 28 · 3:30 AM HST",
+  "edition": "morning",
+  "categories": [
+    {
+      "id": "claude-anthropic",
+      "title": "Claude & Anthropic",
+      "items": [
+        {
+          "headline": "Anthropic files to go public with an IPO filing",
+          "summary": "On October 26 Anthropic, the company behind Claude, filed a registration statement (called an S-1) with the SEC for a proposed initial public offering, meaning it plans to sell shares to the public for the first time.",
+          "why_it_matters": "If you build your business on Claude, this is a sign of a company with long-term staying power, though a public company may eventually face pressure on pricing and plans, so keep your workflows portable.",
+          "link": "https://www.anthropic.com/news/s1-sec",
+          "source": "Anthropic News",
+          "tag": "Policy",
+          "opportunity": {
+            "video": 4,
+            "social": 6,
+            "community": 5,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "ai-industry",
+      "title": "Wider AI World",
+      "items": []
+    },
+    {
+      "id": "creator-tools",
+      "title": "Tools & Tips for Creators and Small Biz",
+      "items": []
+    },
+    {
+      "id": "content-social",
+      "title": "Content & Social Media Pulse",
+      "items": []
+    }
+  ]
+}
