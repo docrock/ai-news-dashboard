@@ -1,6 +1,6 @@
 {
-  "generated_at_iso": "2026-10-30T03:30:00-10:00",
-  "generated_label": "Friday, October 30 · 3:30 AM HST",
+  "generated_at_iso": "2026-11-04T03:20:00-10:00",
+  "generated_label": "Wednesday, November 4 · 3:20 AM HST",
   "edition": "morning",
   "categories": [
     {
@@ -8,16 +8,16 @@
       "title": "Claude & Anthropic",
       "items": [
         {
-          "headline": "Anthropic files to go public on Nasdaq under the ticker \"ANT\"",
-          "summary": "Anthropic filed paperwork (called an S-1) with the SEC for an initial public offering, meaning it plans to sell shares to the public. The share price and number of shares aren't set yet, and nothing can be bought until the filing is approved.",
-          "why_it_matters": "For anyone building a business on Claude, this signals the company is aiming for long-term staying power, and the public filing should eventually reveal how the business is doing.",
-          "link": "https://www.anthropic.com/news/s1-sec",
+          "headline": "Anthropic hands its \"Agent Skills\" standard to the Linux Foundation",
+          "summary": "Agent Skills are the packaged instructions that teach an AI assistant how to do a specific job, like Claude's Skills. Anthropic donated the standard to the Agentic AI Foundation, a neutral group under the Linux Foundation, so no single company controls it. More than 70 AI platforms already support it.",
+          "why_it_matters": "A skill you build once for Claude should keep working across more tools over time, so the time you put into custom skills is a safer bet.",
+          "link": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
           "source": "Anthropic News",
-          "tag": "Opinion/Analysis",
+          "tag": "Policy",
           "opportunity": {
-            "video": 4,
-            "social": 6,
-            "community": 4,
+            "video": 6,
+            "social": 4,
+            "community": 6,
             "act_now": false
           }
         }
