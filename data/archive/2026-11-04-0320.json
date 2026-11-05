@@ -1,0 +1,42 @@
+{
+  "generated_at_iso": "2026-11-04T03:20:00-10:00",
+  "generated_label": "Wednesday, November 4 · 3:20 AM HST",
+  "edition": "morning",
+  "categories": [
+    {
+      "id": "claude-anthropic",
+      "title": "Claude & Anthropic",
+      "items": [
+        {
+          "headline": "Anthropic hands its \"Agent Skills\" standard to the Linux Foundation",
+          "summary": "Agent Skills are the packaged instructions that teach an AI assistant how to do a specific job, like Claude's Skills. Anthropic donated the standard to the Agentic AI Foundation, a neutral group under the Linux Foundation, so no single company controls it. More than 70 AI platforms already support it.",
+          "why_it_matters": "A skill you build once for Claude should keep working across more tools over time, so the time you put into custom skills is a safer bet.",
+          "link": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+          "source": "Anthropic News",
+          "tag": "Policy",
+          "opportunity": {
+            "video": 6,
+            "social": 4,
+            "community": 6,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "ai-industry",
+      "title": "Wider AI World",
+      "items": []
+    },
+    {
+      "id": "creator-tools",
+      "title": "Tools & Tips for Creators and Small Biz",
+      "items": []
+    },
+    {
+      "id": "content-social",
+      "title": "Content & Social Media Pulse",
+      "items": []
+    }
+  ]
+}
