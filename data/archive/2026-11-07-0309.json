@@ -1,0 +1,57 @@
+{
+  "generated_at_iso": "2026-11-07T03:09:27-10:00",
+  "generated_label": "Saturday, November 7 · 3:10 AM HST",
+  "edition": "morning",
+  "categories": [
+    {
+      "id": "claude-anthropic",
+      "title": "Claude & Anthropic",
+      "items": [
+        {
+          "headline": "Claude adds a Personal Finance tool that reads your bank and card spending",
+          "summary": "Anthropic announced a Personal Finance feature that lets you connect bank and credit card accounts through Plaid (a service that securely links apps to your bank) and ask Claude about your spending. Access is read-only, so Claude can't move, manage, or invest your money.",
+          "why_it_matters": "If you run a one-person business, you could ask Claude where your subscriptions and software costs are piling up. Read what it can see before you connect real accounts.",
+          "link": "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/",
+          "source": "TechCrunch",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 6,
+            "social": 6,
+            "community": 6,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "ai-industry",
+      "title": "Wider AI World",
+      "items": [
+        {
+          "headline": "ChatGPT Images 2.6 adds animated GIFs and reusable reference images",
+          "summary": "OpenAI rolled out ChatGPT Images 2.6 on November 4. It can now make animated GIFs and lets you reuse reference images, and it is available to ChatGPT and Codex users on web, desktop and mobile.",
+          "why_it_matters": "Quick branded GIFs and consistent look-alike images are handy for social posts and email without hiring a designer. Try it on one post this week.",
+          "link": "https://aiweekly.co/alerts/openai-ships-chatgpt-images-26-with-gifs-and-faster-api-models",
+          "source": "AI Weekly",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 5,
+            "social": 6,
+            "community": 6,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "creator-tools",
+      "title": "Tools & Tips for Creators and Small Biz",
+      "items": []
+    },
+    {
+      "id": "content-social",
+      "title": "Content & Social Media Pulse",
+      "items": []
+    }
+  ]
+}
