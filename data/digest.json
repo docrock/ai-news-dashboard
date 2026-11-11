@@ -1,6 +1,6 @@
 {
-  "generated_at_iso": "2026-11-10T03:14:35-10:00",
-  "generated_label": "Tuesday, November 10 · 3:14 AM HST",
+  "generated_at_iso": "2026-11-11T03:13:43-10:00",
+  "generated_label": "Wednesday, November 11 · 3:13 AM HST",
   "edition": "morning",
   "categories": [
     {
@@ -8,32 +8,47 @@
       "title": "Claude & Anthropic",
       "items": [
         {
-          "headline": "Claude Fable 5.2 launches for all users, with a faster, clearer model",
-          "summary": "Anthropic released Claude Fable 5.2 on November 9. It is up to 30% faster than Fable 5.1 and blocks far fewer legitimate requests (about 55% fewer in early testing). Pro plans and standard Team seats get it for up to 50% of weekly usage limits.",
-          "why_it_matters": "If you pay for Claude Pro or Team, you can try the newest top-tier model on real work this week. Anthropic still suggests Opus 5.5 for most everyday tasks and Fable for the big, open-ended jobs.",
-          "link": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
-          "source": "Anthropic",
+          "headline": "Your favorite apps now open right inside Claude, including Canva, Adobe, HubSpot and Notion",
+          "summary": "Anthropic's new Interactive Connectors let partner apps like Canva, Adobe, Dropbox, HubSpot, Notion, Asana and monday.com open inside a Claude chat, so you and Claude can work in the same tool without switching tabs. It is rolling out on the web and the Claude desktop app on all plans, with Figma and Shopify coming later.",
+          "why_it_matters": "If you already pay for Canva or keep your business in Notion or HubSpot, you can now ask Claude to build or fix something and watch it happen inside that app instead of copying and pasting between windows.",
+          "link": "https://claude.com/resources/articles/interactive-connectors-full-tool",
+          "source": "Claude Blog",
           "tag": "Product Update",
           "opportunity": {
-            "video": 7,
-            "social": 7,
-            "community": 6,
+            "video": 8,
+            "social": 6,
+            "community": 8,
             "act_now": true,
-            "action_note": "Switch to Fable 5.2 in Claude on one real project this week and compare it to Opus 5.5, since the Pro-plan usage allowance is limited.",
-            "angle": "I put Claude's brand-new Fable 5.2 through a real small-business task"
+            "action_note": "Connect Canva inside Claude this week and try building a thumbnail or social graphic from a chat, so you can demo it before everyone else does.",
+            "angle": "I made a YouTube thumbnail in Canva without ever leaving Claude"
           }
         },
         {
-          "headline": "Anthropic starts its IPO roadshow",
-          "summary": "On November 10 Anthropic began the roadshow, the investor tour that comes before a company sells stock to the public for the first time. It follows the S-1 filing (the official paperwork for going public) from October 26.",
-          "why_it_matters": "It signals Anthropic is a long-term company, which matters if your business leans on Claude. Nothing changes in your plan today.",
-          "link": "https://www.anthropic.com/news/roadshow-launch",
-          "source": "Anthropic",
-          "tag": "Opinion/Analysis",
+          "headline": "Claude adds Whiteboards and Sheets for brainstorming and simple spreadsheets",
+          "summary": "Claude Whiteboards (a shared brainstorming board) and Claude Sheets (spreadsheets Claude builds and edits with you, including formulas and drop-downs) are now in beta on all paid plans, on web, desktop and mobile. Claude Dashboards was also renamed Claude Data and is now generally available for people who connect a data source.",
+          "why_it_matters": "Planning a content calendar, a launch timeline or a simple budget can now happen in one place: brainstorm on a board, then have Claude turn it into a sheet with owners and dates.",
+          "link": "https://claude.com/resources/articles/sheets-whiteboards-data",
+          "source": "Claude Blog",
+          "tag": "Product Update",
           "opportunity": {
-            "video": 3,
+            "video": 7,
             "social": 5,
-            "community": 2,
+            "community": 7,
+            "act_now": false,
+            "angle": "I planned a month of videos on Claude's new whiteboard in 20 minutes"
+          }
+        },
+        {
+          "headline": "Claude Meetings beta can join your video calls and turn them into task lists",
+          "summary": "Anthropic also launched Claude Meetings, which can sit in on workplace video calls and turn the discussion into plans and to-dos. It is in beta for Team and Enterprise plans only.",
+          "why_it_matters": "Most solo creators on Pro won't see this yet, but it shows where Claude is heading: one tool to replace your separate note-taker, whiteboard and spreadsheet.",
+          "link": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/",
+          "source": "TechCrunch",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 4,
+            "social": 5,
+            "community": 4,
             "act_now": false
           }
         }
@@ -42,12 +57,58 @@
     {
       "id": "ai-industry",
       "title": "Wider AI World",
-      "items": []
+      "items": [
+        {
+          "headline": "Google opens its top model, Gemini 4 Carbon, to AI Ultra subscribers and developers",
+          "summary": "Google made Gemini 4 Carbon, its most powerful model, available on November 10 to AI Ultra subscribers (about $100 a month in the US) in the Gemini app and AI Mode in Search, and to paying developers. Google says its cheaper Gemini 4 Argon is still the right pick for most everyday work.",
+          "why_it_matters": "Unless you pay for the top Ultra tier you won't notice a change; for most small businesses the takeaway is that the free and mid-tier tools you already use remain the sensible choice.",
+          "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+          "source": "Google Blog",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 4,
+            "social": 6,
+            "community": 3,
+            "act_now": false
+          }
+        },
+        {
+          "headline": "ChatGPT now lets businesses claim a profile, a bit like a Google Business listing",
+          "summary": "OpenAI launched Businesses in ChatGPT in beta: eligible businesses can claim and verify their profile, update details, and see how often ChatGPT mentions them and how many people click through to their site. Branded chat agents for businesses are starting with US online stores and service businesses.",
+          "why_it_matters": "More customers ask ChatGPT for recommendations instead of Googling, so claiming your profile is a cheap way to make sure it describes your business correctly; OpenAI has not promised it boosts your ranking.",
+          "link": "https://www.digit.in/news/general/openai-introduces-business-hub-in-chatgpt-lets-companies-connect-with-customers-through-ai-agents.html",
+          "source": "Digit",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 6,
+            "social": 7,
+            "community": 8,
+            "act_now": false,
+            "angle": "Is ChatGPT telling people the wrong thing about your business? Here's how to check"
+          }
+        }
+      ]
     },
     {
       "id": "creator-tools",
       "title": "Tools & Tips for Creators and Small Biz",
-      "items": []
+      "items": [
+        {
+          "headline": "Adobe MAX: Premiere Pro gets an AI editing agent, object removal and a new Color Mode",
+          "summary": "At Adobe MAX on November 10, Adobe showed its Creative Agent coming to Premiere Pro to handle repetitive edits like applying effects across a timeline, plus a beta tool that removes unwanted objects from video and a new color grading mode. Adobe is also releasing a connector that lets chatbots like ChatGPT, Claude and Gemini use Adobe features.",
+          "why_it_matters": "Video editors on any software should watch this: AI that does the boring timeline chores is arriving in pro editors, and it raises the bar for what DaVinci Resolve will need to match.",
+          "link": "https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/",
+          "source": "TechCrunch",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 7,
+            "social": 6,
+            "community": 5,
+            "act_now": false,
+            "angle": "Adobe's new Premiere AI agent vs. how I edit in Resolve today"
+          }
+        }
+      ]
     },
     {
       "id": "content-social",

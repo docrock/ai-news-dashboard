@@ -1,0 +1,58 @@
+{
+  "generated_at_iso": "2026-11-10T03:14:35-10:00",
+  "generated_label": "Tuesday, November 10 · 3:14 AM HST",
+  "edition": "morning",
+  "categories": [
+    {
+      "id": "claude-anthropic",
+      "title": "Claude & Anthropic",
+      "items": [
+        {
+          "headline": "Claude Fable 5.2 launches for all users, with a faster, clearer model",
+          "summary": "Anthropic released Claude Fable 5.2 on November 9. It is up to 30% faster than Fable 5.1 and blocks far fewer legitimate requests (about 55% fewer in early testing). Pro plans and standard Team seats get it for up to 50% of weekly usage limits.",
+          "why_it_matters": "If you pay for Claude Pro or Team, you can try the newest top-tier model on real work this week. Anthropic still suggests Opus 5.5 for most everyday tasks and Fable for the big, open-ended jobs.",
+          "link": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+          "source": "Anthropic",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 7,
+            "social": 7,
+            "community": 6,
+            "act_now": true,
+            "action_note": "Switch to Fable 5.2 in Claude on one real project this week and compare it to Opus 5.5, since the Pro-plan usage allowance is limited.",
+            "angle": "I put Claude's brand-new Fable 5.2 through a real small-business task"
+          }
+        },
+        {
+          "headline": "Anthropic starts its IPO roadshow",
+          "summary": "On November 10 Anthropic began the roadshow, the investor tour that comes before a company sells stock to the public for the first time. It follows the S-1 filing (the official paperwork for going public) from October 26.",
+          "why_it_matters": "It signals Anthropic is a long-term company, which matters if your business leans on Claude. Nothing changes in your plan today.",
+          "link": "https://www.anthropic.com/news/roadshow-launch",
+          "source": "Anthropic",
+          "tag": "Opinion/Analysis",
+          "opportunity": {
+            "video": 3,
+            "social": 5,
+            "community": 2,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "ai-industry",
+      "title": "Wider AI World",
+      "items": []
+    },
+    {
+      "id": "creator-tools",
+      "title": "Tools & Tips for Creators and Small Biz",
+      "items": []
+    },
+    {
+      "id": "content-social",
+      "title": "Content & Social Media Pulse",
+      "items": []
+    }
+  ]
+}
