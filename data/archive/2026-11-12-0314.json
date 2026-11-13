@@ -1,0 +1,118 @@
+{
+  "generated_at_iso": "2026-11-12T03:14:25-10:00",
+  "generated_label": "Thursday, November 12 · 3:14 AM HST",
+  "edition": "morning",
+  "categories": [
+    {
+      "id": "claude-anthropic",
+      "title": "Claude & Anthropic",
+      "items": []
+    },
+    {
+      "id": "ai-industry",
+      "title": "Wider AI World",
+      "items": [
+        {
+          "headline": "ChatGPT is retiring its older voice modes on December 11",
+          "summary": "OpenAI says ChatGPT's Advanced and Standard voice options go away on December 11, and everyone gets moved to the newer Live voice experience. Old voice chats stay in your history, and video and screen sharing keep using Advanced voice for now.",
+          "why_it_matters": "If you use ChatGPT voice to brainstorm, draft scripts or practice pitches hands-free, expect it to sound and behave differently next month, so try Live voice now instead of being surprised mid-project.",
+          "link": "https://interestingengineering.com/ai-robotics/chatgpt-drops-two-voice-modes-december-2026",
+          "source": "Interesting Engineering",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 3,
+            "social": 6,
+            "community": 5,
+            "act_now": false
+          }
+        },
+        {
+          "headline": "Meta's Muse app can now build you a custom planner or tracker from one sentence",
+          "summary": "Meta added Spaces to Muse, its AI assistant app: you describe what you want, like an event tracker or a shopping list, and Muse builds a small interactive page for it. Spaces can link to apps like Gmail, Google Calendar and Instagram as those connections roll out.",
+          "why_it_matters": "It is a free, no-code way to make simple business helpers, such as a content calendar or a client follow-up tracker, without learning a spreadsheet or app builder.",
+          "link": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
+          "source": "TechCrunch",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 5,
+            "social": 5,
+            "community": 6,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "creator-tools",
+      "title": "Tools & Tips for Creators and Small Biz",
+      "items": [
+        {
+          "headline": "DaVinci Resolve 21.2 is out: faster renders on new Macs, touchscreen editing and new film-look LUTs",
+          "summary": "Blackmagic released Resolve 21.2 as a free update for both the free and Studio versions. It adds touchscreen support on the newest MacBook Pro, up to 5x faster rendering on M5 Pro and M5 Max chips, and new Generation 6 color LUTs (preset color looks) and film looks.",
+          "why_it_matters": "It is a free speed and color upgrade, but projects opened in 21.2 will not open in the older 20.3.2, so back up your projects before you click update.",
+          "link": "https://www.newsshooter.com/2026/11/04/blackmagic-design-davinci-resolve-21-2/",
+          "source": "Newsshooter",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 8,
+            "social": 5,
+            "community": 7,
+            "act_now": true,
+            "action_note": "Back up your Resolve project library this week, then install 21.2 and test the new film-look LUTs on a recent project before your next edit.",
+            "angle": "Resolve 21.2: what changed, and the one thing to do before you update"
+          }
+        },
+        {
+          "headline": "Medium launches TK, a free writing and notes app with a built-in AI helper",
+          "summary": "Medium released TK, a web app for drafting and organizing notes with an @TK assistant that gives feedback and helps you find what you wrote before, rather than writing whole posts for you. Writers can also add a note explaining how AI was used in a piece.",
+          "why_it_matters": "If you blog, write newsletters or keep idea notes for videos, this is a free place to draft with AI feedback while keeping your own voice front and center.",
+          "link": "https://techcrunch.com/2026/11/09/mediums-new-tk-app-brings-ai-assistance-directly-into-the-writing-process/",
+          "source": "TechCrunch",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 4,
+            "social": 4,
+            "community": 6,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "content-social",
+      "title": "Content & Social Media Pulse",
+      "items": [
+        {
+          "headline": "YouTube is testing a $20 minimum payout instead of $100 for some creators",
+          "summary": "YouTube is running a temporary test that lowers the AdSense payout minimum from $100 to $20 for a random group of creators in the US, India and Indonesia, starting with October 2026 payments. It changes how soon you get paid, not how much you earn, and you can raise the threshold back in AdSense for YouTube.",
+          "why_it_matters": "Smaller channels could see money land in their bank account months sooner, which helps cash flow for anyone just getting monetized.",
+          "link": "https://www.tubefilter.com/2026/10/28/youtube-partner-program-lower-payout-threshold-test/",
+          "source": "Tubefilter",
+          "tag": "Platform Change",
+          "opportunity": {
+            "video": 5,
+            "social": 6,
+            "community": 7,
+            "act_now": false,
+            "angle": "YouTube might pay you at $20 now: here's how to check if you're in the test"
+          }
+        },
+        {
+          "headline": "Instagram is testing 90-minute horizontal videos to compete with YouTube",
+          "summary": "Instagram's new Features format lets a small group of creators in Brazil and the US upload horizontal videos up to 90 minutes long, and link Reels clips to the full video. There is no ad revenue share yet, though Instagram is reportedly paying some YouTubers directly to post there.",
+          "why_it_matters": "Long-form may soon be an option on Instagram, but with no clear pay model, YouTube is still the safer home for your full-length videos; treat this as one to watch, not one to move to.",
+          "link": "https://techcrunch.com/2026/10/26/watch-out-youtube-instagram-goes-from-short-form-to-90-minute-videos/",
+          "source": "TechCrunch",
+          "tag": "Platform Change",
+          "opportunity": {
+            "video": 6,
+            "social": 7,
+            "community": 6,
+            "act_now": false,
+            "angle": "Instagram wants your long videos. Should you give them up? My take"
+          }
+        }
+      ]
+    }
+  ]
+}

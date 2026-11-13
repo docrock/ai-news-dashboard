@@ -1,42 +1,101 @@
 {
-  "generated_at_iso": "2026-11-12T03:14:25-10:00",
-  "generated_label": "Thursday, November 12 · 3:14 AM HST",
+  "generated_at_iso": "2026-11-13T04:44:20-10:00",
+  "generated_label": "Friday, November 13 · 4:44 AM HST",
   "edition": "morning",
   "categories": [
     {
       "id": "claude-anthropic",
       "title": "Claude & Anthropic",
-      "items": []
+      "items": [
+        {
+          "headline": "Claude had a sign-in outage early Friday; a fix is in",
+          "summary": "Anthropic's status page reported login failures on claude.ai and Claude Code early on November 13, with Cowork also running slow. A fix went out at 11:05 UTC (1:05 AM Hawaii time) and the team moved to monitoring it.",
+          "why_it_matters": "If Claude kicked you out or wouldn't let you sign in this morning, it wasn't your account or your password; try again before you start resetting things.",
+          "link": "https://www.businesstoday.in/technology/news/story/claude-ai-outage-anthropic-investigates-login-failures-as-ai-chatbot-and-coding-tools-face-outage-567403-2026-11-13",
+          "source": "Business Today",
+          "tag": "Service Status",
+          "opportunity": {
+            "video": 1,
+            "social": 4,
+            "community": 4,
+            "act_now": false
+          }
+        },
+        {
+          "headline": "Claude Meetings is now actually rolling out to Team and Enterprise plans",
+          "summary": "Announced earlier this week, Claude Meetings started rolling out in beta on November 12. Claude can join a Google Meet call as a visible participant, take notes, answer questions and build docs, whiteboards or slides while you talk.",
+          "why_it_matters": "If your business is on a Claude Team plan, you can now try having Claude sit in on client or planning calls and hand you the to-do list at the end; individual Pro and Max plans don't have it yet.",
+          "link": "https://support.claude.com/en/articles/12138966-release-notes",
+          "source": "Claude Help Center",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 5,
+            "social": 4,
+            "community": 4,
+            "act_now": false
+          }
+        },
+        {
+          "headline": "Claude Desktop now tells you when a scheduled task failed or never ran",
+          "summary": "In the November 10 desktop update, scheduled tasks in Cowork and Code show a status on their card, like \"Last run failed\", \"Needs input\" or \"Didn't run\", plus why a due task hasn't started yet. A November 12 update also adds a Download button for files your tasks create.",
+          "why_it_matters": "If you've set Claude up to do a chore on a schedule, like a weekly report, you can now see at a glance whether it actually ran instead of discovering a gap days later.",
+          "link": "https://claude.com/docs/cowork/changelog",
+          "source": "Claude Desktop Changelog",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 4,
+            "social": 2,
+            "community": 5,
+            "act_now": false
+          }
+        }
+      ]
     },
     {
       "id": "ai-industry",
       "title": "Wider AI World",
       "items": [
         {
-          "headline": "ChatGPT is retiring its older voice modes on December 11",
-          "summary": "OpenAI says ChatGPT's Advanced and Standard voice options go away on December 11, and everyone gets moved to the newer Live voice experience. Old voice chats stay in your history, and video and screen sharing keep using Advanced voice for now.",
-          "why_it_matters": "If you use ChatGPT voice to brainstorm, draft scripts or practice pitches hands-free, expect it to sound and behave differently next month, so try Live voice now instead of being surprised mid-project.",
-          "link": "https://interestingengineering.com/ai-robotics/chatgpt-drops-two-voice-modes-december-2026",
-          "source": "Interesting Engineering",
-          "tag": "Product Update",
+          "headline": "Notion says some Notion AI chats may have been exposed in a hack at one of its AI vendors",
+          "summary": "Fireworks AI, a company Notion used to run some AI models, was hacked, and Notion says chat transcripts from its Notion AI \"Insights\" feature may have been in the stolen data, affecting under 1% of workspaces. Notion has switched Insights off and stopped using Fireworks, and says its own systems were not breached.",
+          "why_it_matters": "It's a real-world reminder that anything you paste into an AI chat, like a password, API key or client detail, can end up somewhere you didn't expect, so keep secrets out of AI chats in every tool.",
+          "link": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/",
+          "source": "TechCrunch",
+          "tag": "Security",
           "opportunity": {
             "video": 3,
             "social": 6,
-            "community": 5,
+            "community": 7,
+            "act_now": true,
+            "action_note": "Check your inbox for a notice from Notion today, and change any password or API key you ever pasted into a Notion AI chat, since affected transcripts may be in attackers' hands.",
+            "angle": "The one thing you should never paste into an AI chat (Notion just showed us why)"
+          }
+        },
+        {
+          "headline": "Google's Gemini smart glasses are up for preorder, starting at $395",
+          "summary": "Google opened preorders on November 12 for its first Gemini glasses, made with Samsung, with Warby Parker frames from $395 and Gentle Monster frames from $449. They ship December 10 in the US and South Korea, work with iPhone and Android, and use a camera and speakers (no screen) so you can ask Gemini about what you're looking at, translate conversations or read small print aloud.",
+          "why_it_matters": "This is the first real rival to Meta's Ray-Ban glasses, and hands-free, point-of-view capture could be handy for creators filming behind-the-scenes or how-to content, but it's worth waiting for real reviews before you buy.",
+          "link": "https://androidguys.com/news/google-gemini-glasses-preorders-pricing-december-launch/",
+          "source": "AndroidGuys",
+          "tag": "Product Launch",
+          "opportunity": {
+            "video": 5,
+            "social": 6,
+            "community": 4,
             "act_now": false
           }
         },
         {
-          "headline": "Meta's Muse app can now build you a custom planner or tracker from one sentence",
-          "summary": "Meta added Spaces to Muse, its AI assistant app: you describe what you want, like an event tracker or a shopping list, and Muse builds a small interactive page for it. Spaces can link to apps like Gmail, Google Calendar and Instagram as those connections roll out.",
-          "why_it_matters": "It is a free, no-code way to make simple business helpers, such as a content calendar or a client follow-up tracker, without learning a spreadsheet or app builder.",
-          "link": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
+          "headline": "Nvidia CEO Jensen Huang is out, with CFO Colette Kress stepping in for now",
+          "summary": "Nvidia's board said in an SEC filing that Jensen Huang has resigned as CEO, with finance chief Colette Kress serving as interim CEO while the company searches for a permanent replacement. The move follows a board investigation into Huang's reported ties to a suspected Chinese spy.",
+          "why_it_matters": "Nvidia makes the chips that power most of the AI tools you use, so you'll hear about this everywhere; it won't change your apps tomorrow, but watch for any ripple effects on AI pricing and supply over the coming months.",
+          "link": "https://techcrunch.com/2026/11/12/jensen-huang-is-out-at-nvidia-who-is-colette-kress-his-interim-replacement/",
           "source": "TechCrunch",
-          "tag": "Product Update",
+          "tag": "Industry News",
           "opportunity": {
-            "video": 5,
+            "video": 1,
             "social": 5,
-            "community": 6,
+            "community": 2,
             "act_now": false
           }
         }
@@ -47,31 +106,29 @@
       "title": "Tools & Tips for Creators and Small Biz",
       "items": [
         {
-          "headline": "DaVinci Resolve 21.2 is out: faster renders on new Macs, touchscreen editing and new film-look LUTs",
-          "summary": "Blackmagic released Resolve 21.2 as a free update for both the free and Studio versions. It adds touchscreen support on the newest MacBook Pro, up to 5x faster rendering on M5 Pro and M5 Max chips, and new Generation 6 color LUTs (preset color looks) and film looks.",
-          "why_it_matters": "It is a free speed and color upgrade, but projects opened in 21.2 will not open in the older 20.3.2, so back up your projects before you click update.",
-          "link": "https://www.newsshooter.com/2026/11/04/blackmagic-design-davinci-resolve-21-2/",
-          "source": "Newsshooter",
+          "headline": "Riverside's Magic Clips can now pull short clips from your finished edit",
+          "summary": "Riverside's November 3 update lets Magic Clips, its tool that auto-picks short highlight clips, work from the edited version of your project instead of the raw recording. It also adds custom motion graphics you describe in a sentence, using AI credits on the Pro+ plan.",
+          "why_it_matters": "If you record podcasts or interviews in Riverside, your Shorts and Reels will now match the cleaned-up version you actually published, which saves a round of re-trimming.",
+          "link": "https://riverside.com/university/product-updates",
+          "source": "Riverside",
           "tag": "Product Update",
           "opportunity": {
-            "video": 8,
-            "social": 5,
-            "community": 7,
-            "act_now": true,
-            "action_note": "Back up your Resolve project library this week, then install 21.2 and test the new film-look LUTs on a recent project before your next edit.",
-            "angle": "Resolve 21.2: what changed, and the one thing to do before you update"
+            "video": 5,
+            "social": 3,
+            "community": 6,
+            "act_now": false
           }
         },
         {
-          "headline": "Medium launches TK, a free writing and notes app with a built-in AI helper",
-          "summary": "Medium released TK, a web app for drafting and organizing notes with an @TK assistant that gives feedback and helps you find what you wrote before, rather than writing whole posts for you. Writers can also add a note explaining how AI was used in a piece.",
-          "why_it_matters": "If you blog, write newsletters or keep idea notes for videos, this is a free place to draft with AI feedback while keeping your own voice front and center.",
-          "link": "https://techcrunch.com/2026/11/09/mediums-new-tk-app-brings-ai-assistance-directly-into-the-writing-process/",
-          "source": "TechCrunch",
+          "headline": "Descript can now build a branded layout pack from your logo and colors",
+          "summary": "In its early-November release roundup, Descript added an AI feature that turns your brand guidelines, logo and colors into a ready-made set of on-brand video layouts. Descript's connection for AI assistants (called MCP) now uses Claude by default, and Claude Code can plug into it.",
+          "why_it_matters": "Instead of hand-building title cards and lower thirds, a solo creator can get a consistent branded look across every video in one step.",
+          "link": "https://descript.canny.io/changelog",
+          "source": "Descript Changelog",
           "tag": "Product Update",
           "opportunity": {
-            "video": 4,
-            "social": 4,
+            "video": 6,
+            "social": 3,
             "community": 6,
             "act_now": false
           }
@@ -83,33 +140,31 @@
       "title": "Content & Social Media Pulse",
       "items": [
         {
-          "headline": "YouTube is testing a $20 minimum payout instead of $100 for some creators",
-          "summary": "YouTube is running a temporary test that lowers the AdSense payout minimum from $100 to $20 for a random group of creators in the US, India and Indonesia, starting with October 2026 payments. It changes how soon you get paid, not how much you earn, and you can raise the threshold back in AdSense for YouTube.",
-          "why_it_matters": "Smaller channels could see money land in their bank account months sooner, which helps cash flow for anyone just getting monetized.",
-          "link": "https://www.tubefilter.com/2026/10/28/youtube-partner-program-lower-payout-threshold-test/",
-          "source": "Tubefilter",
-          "tag": "Platform Change",
-          "opportunity": {
-            "video": 5,
-            "social": 6,
-            "community": 7,
-            "act_now": false,
-            "angle": "YouTube might pay you at $20 now: here's how to check if you're in the test"
-          }
-        },
-        {
-          "headline": "Instagram is testing 90-minute horizontal videos to compete with YouTube",
-          "summary": "Instagram's new Features format lets a small group of creators in Brazil and the US upload horizontal videos up to 90 minutes long, and link Reels clips to the full video. There is no ad revenue share yet, though Instagram is reportedly paying some YouTubers directly to post there.",
-          "why_it_matters": "Long-form may soon be an option on Instagram, but with no clear pay model, YouTube is still the safer home for your full-length videos; treat this as one to watch, not one to move to.",
-          "link": "https://techcrunch.com/2026/10/26/watch-out-youtube-instagram-goes-from-short-form-to-90-minute-videos/",
-          "source": "TechCrunch",
+          "headline": "Instagram's new Effect Builder lets anyone make a Stories effect by describing it",
+          "summary": "Instagram launched Effect Builder, a web tool inside its Edits app where you type what you want an effect to look like and AI builds it, with no coding or design skills needed. Meta reviews each effect (usually in under 24 hours), then it shows up in the Stories effects browser with your handle on it, linking back to your profile. It's US and 18+ for now.",
+          "why_it_matters": "A branded effect is a fun, free way for a small business or creator to get their name in front of new people every time someone else uses it in their Stories.",
+          "link": "https://www.socialmediatoday.com/news/instagram-launches-visual-effects-creator-for-edits/874205/",
+          "source": "Social Media Today",
           "tag": "Platform Change",
           "opportunity": {
             "video": 6,
-            "social": 7,
+            "social": 6,
             "community": 6,
-            "act_now": false,
-            "angle": "Instagram wants your long videos. Should you give them up? My take"
+            "act_now": false
+          }
+        },
+        {
+          "headline": "LinkedIn explains its new AI-powered feed, which shows more posts from people you don't follow",
+          "summary": "LinkedIn shared how its updated recommendation system uses AI to understand what posts are about, and it is now surfacing more posts from people outside your network when they match a reader's interests.",
+          "why_it_matters": "Your LinkedIn posts can now reach people who aren't connected to you yet, so posts that stick clearly to one topic you're known for have a better shot at finding new clients.",
+          "link": "https://www.socialmediatoday.com/news/linkedin-explains-its-improved-content-recommendation-system/874206/",
+          "source": "Social Media Today",
+          "tag": "Platform Change",
+          "opportunity": {
+            "video": 3,
+            "social": 5,
+            "community": 6,
+            "act_now": false
           }
         }
       ]
