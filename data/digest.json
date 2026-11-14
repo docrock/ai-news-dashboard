@@ -1,6 +1,6 @@
 {
-  "generated_at_iso": "2026-11-13T04:44:20-10:00",
-  "generated_label": "Friday, November 13 · 4:44 AM HST",
+  "generated_at_iso": "2026-11-14T03:12:01-10:00",
+  "generated_label": "Saturday, November 14 · 3:12 AM HST",
   "edition": "morning",
   "categories": [
     {
@@ -8,11 +8,11 @@
       "title": "Claude & Anthropic",
       "items": [
         {
-          "headline": "Claude had a sign-in outage early Friday; a fix is in",
-          "summary": "Anthropic's status page reported login failures on claude.ai and Claude Code early on November 13, with Cowork also running slow. A fix went out at 11:05 UTC (1:05 AM Hawaii time) and the team moved to monitoring it.",
-          "why_it_matters": "If Claude kicked you out or wouldn't let you sign in this morning, it wasn't your account or your password; try again before you start resetting things.",
-          "link": "https://www.businesstoday.in/technology/news/story/claude-ai-outage-anthropic-investigates-login-failures-as-ai-chatbot-and-coding-tools-face-outage-567403-2026-11-13",
-          "source": "Business Today",
+          "headline": "Claude went down a second time Friday, this time hitting the app, Code and connectors",
+          "summary": "Hours after Friday morning's sign-in problem was fixed, a second incident caused errors across claude.ai, the Claude API, Claude Code and connectors (the add-ons that link Claude to apps like Docs and Sheets). Anthropic reported recovery by mid-afternoon UTC, though connectors stayed slow for longer, and it hasn't said what caused either outage.",
+          "why_it_matters": "If a Claude chat, a scheduled task or a connected app failed on you Friday, rerun it now instead of assuming your setup is broken.",
+          "link": "https://www.androidauthority.com/anthropic-claude-outage-nov-2026-3735078/",
+          "source": "Android Authority",
           "tag": "Service Status",
           "opportunity": {
             "video": 1,
@@ -22,30 +22,16 @@
           }
         },
         {
-          "headline": "Claude Meetings is now actually rolling out to Team and Enterprise plans",
-          "summary": "Announced earlier this week, Claude Meetings started rolling out in beta on November 12. Claude can join a Google Meet call as a visible participant, take notes, answer questions and build docs, whiteboards or slides while you talk.",
-          "why_it_matters": "If your business is on a Claude Team plan, you can now try having Claude sit in on client or planning calls and hand you the to-do list at the end; individual Pro and Max plans don't have it yet.",
-          "link": "https://support.claude.com/en/articles/12138966-release-notes",
-          "source": "Claude Help Center",
-          "tag": "Product Update",
+          "headline": "Anthropic's stock is expected to start trading Thursday, Nov. 19",
+          "summary": "Anthropic set a price range of $70 to $78 per share for its IPO (its first sale of stock to the public) and plans to list on the Nasdaq under the ticker \"ANT.\" Reports say pricing lands Nov. 18 with trading the next day, which CNBC calls the capstone of a big week for AI stocks.",
+          "why_it_matters": "Nothing changes in the Claude app you pay for, but expect a week of headlines about Anthropic's value, and a public company has to report its results every quarter, which can shape pricing and plan decisions down the road.",
+          "link": "https://www.cnbc.com/2026/11/13/stock-market-next-week-outlook-for-nov-16-20-2026.html",
+          "source": "CNBC",
+          "tag": "Business",
           "opportunity": {
-            "video": 5,
-            "social": 4,
-            "community": 4,
-            "act_now": false
-          }
-        },
-        {
-          "headline": "Claude Desktop now tells you when a scheduled task failed or never ran",
-          "summary": "In the November 10 desktop update, scheduled tasks in Cowork and Code show a status on their card, like \"Last run failed\", \"Needs input\" or \"Didn't run\", plus why a due task hasn't started yet. A November 12 update also adds a Download button for files your tasks create.",
-          "why_it_matters": "If you've set Claude up to do a chore on a schedule, like a weekly report, you can now see at a glance whether it actually ran instead of discovering a gap days later.",
-          "link": "https://claude.com/docs/cowork/changelog",
-          "source": "Claude Desktop Changelog",
-          "tag": "Product Update",
-          "opportunity": {
-            "video": 4,
-            "social": 2,
-            "community": 5,
+            "video": 3,
+            "social": 6,
+            "community": 3,
             "act_now": false
           }
         }
@@ -56,46 +42,45 @@
       "title": "Wider AI World",
       "items": [
         {
-          "headline": "Notion says some Notion AI chats may have been exposed in a hack at one of its AI vendors",
-          "summary": "Fireworks AI, a company Notion used to run some AI models, was hacked, and Notion says chat transcripts from its Notion AI \"Insights\" feature may have been in the stolen data, affecting under 1% of workspaces. Notion has switched Insights off and stopped using Fireworks, and says its own systems were not breached.",
-          "why_it_matters": "It's a real-world reminder that anything you paste into an AI chat, like a password, API key or client detail, can end up somewhere you didn't expect, so keep secrets out of AI chats in every tool.",
-          "link": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/",
+          "headline": "ChatGPT Wallet lets its \"dots\" AI agents buy things for you, with your OK",
+          "summary": "OpenAI launched ChatGPT Wallet, which lets its personal AI agents (called dots) pick products and complete checkout for you. You save a card once, then approve each purchase with Face ID or Touch ID. It starts with a limited group of U.S. ChatGPT Pro subscribers, and it won't work on sites that block AI agents.",
+          "why_it_matters": "If you sell online, AI shoppers are starting to show up at real checkouts, so it's worth making sure your store doesn't accidentally block them and that your product pages clearly spell out price, sizes and shipping.",
+          "link": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
           "source": "TechCrunch",
-          "tag": "Security",
+          "tag": "Product Update",
           "opportunity": {
-            "video": 3,
-            "social": 6,
-            "community": 7,
-            "act_now": true,
-            "action_note": "Check your inbox for a notice from Notion today, and change any password or API key you ever pasted into a Notion AI chat, since affected transcripts may be in attackers' hands.",
-            "angle": "The one thing you should never paste into an AI chat (Notion just showed us why)"
+            "video": 4,
+            "social": 7,
+            "community": 5,
+            "act_now": false,
+            "angle": "AI agents can now shop for you. Here's what that means if you sell stuff online"
           }
         },
         {
-          "headline": "Google's Gemini smart glasses are up for preorder, starting at $395",
-          "summary": "Google opened preorders on November 12 for its first Gemini glasses, made with Samsung, with Warby Parker frames from $395 and Gentle Monster frames from $449. They ship December 10 in the US and South Korea, work with iPhone and Android, and use a camera and speakers (no screen) so you can ask Gemini about what you're looking at, translate conversations or read small print aloud.",
-          "why_it_matters": "This is the first real rival to Meta's Ray-Ban glasses, and hands-free, point-of-view capture could be handy for creators filming behind-the-scenes or how-to content, but it's worth waiting for real reviews before you buy.",
-          "link": "https://androidguys.com/news/google-gemini-glasses-preorders-pricing-december-launch/",
-          "source": "AndroidGuys",
-          "tag": "Product Launch",
+          "headline": "Microsoft's global Outlook and Teams outage is over after more than a day",
+          "summary": "A Microsoft 365 outage that started Thursday knocked out Outlook email, calendar invites and Copilot for many businesses worldwide. Microsoft blamed a network capacity upgrade, not a hack, and said early Saturday that service was restored. It also broke AI tools that plug into Microsoft 365, including Claude's Outlook connector.",
+          "why_it_matters": "If your business runs on Outlook, check for stuck or missing emails and meeting invites from Thursday and Friday, and resend anything important.",
+          "link": "https://www.cbsnews.com/news/microsoft-battling-major-outage/",
+          "source": "CBS News",
+          "tag": "Service Status",
           "opportunity": {
-            "video": 5,
-            "social": 6,
-            "community": 4,
+            "video": 1,
+            "social": 4,
+            "community": 5,
             "act_now": false
           }
         },
         {
-          "headline": "Nvidia CEO Jensen Huang is out, with CFO Colette Kress stepping in for now",
-          "summary": "Nvidia's board said in an SEC filing that Jensen Huang has resigned as CEO, with finance chief Colette Kress serving as interim CEO while the company searches for a permanent replacement. The move follows a board investigation into Huang's reported ties to a suspected Chinese spy.",
-          "why_it_matters": "Nvidia makes the chips that power most of the AI tools you use, so you'll hear about this everywhere; it won't change your apps tomorrow, but watch for any ripple effects on AI pricing and supply over the coming months.",
-          "link": "https://techcrunch.com/2026/11/12/jensen-huang-is-out-at-nvidia-who-is-colette-kress-his-interim-replacement/",
+          "headline": "Meta's Muse AI agent can now phone U.S. businesses for paying users",
+          "summary": "Meta's AI assistant Muse can now place phone calls to U.S. businesses on a user's behalf, for example to book a table or deal with the cable company. It's for paid Muse plans, which start at $20 a month.",
+          "why_it_matters": "Small businesses that take bookings or orders by phone should expect more calls from AI agents, so decide now how you or your staff want to handle them instead of just hanging up.",
+          "link": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/",
           "source": "TechCrunch",
-          "tag": "Industry News",
+          "tag": "Product Update",
           "opportunity": {
-            "video": 1,
-            "social": 5,
-            "community": 2,
+            "video": 3,
+            "social": 6,
+            "community": 6,
             "act_now": false
           }
         }
@@ -106,31 +91,18 @@
       "title": "Tools & Tips for Creators and Small Biz",
       "items": [
         {
-          "headline": "Riverside's Magic Clips can now pull short clips from your finished edit",
-          "summary": "Riverside's November 3 update lets Magic Clips, its tool that auto-picks short highlight clips, work from the edited version of your project instead of the raw recording. It also adds custom motion graphics you describe in a sentence, using AI credits on the Pro+ plan.",
-          "why_it_matters": "If you record podcasts or interviews in Riverside, your Shorts and Reels will now match the cleaned-up version you actually published, which saves a round of re-trimming.",
-          "link": "https://riverside.com/university/product-updates",
-          "source": "Riverside",
-          "tag": "Product Update",
-          "opportunity": {
-            "video": 5,
-            "social": 3,
-            "community": 6,
-            "act_now": false
-          }
-        },
-        {
-          "headline": "Descript can now build a branded layout pack from your logo and colors",
-          "summary": "In its early-November release roundup, Descript added an AI feature that turns your brand guidelines, logo and colors into a ready-made set of on-brand video layouts. Descript's connection for AI assistants (called MCP) now uses Claude by default, and Claude Code can plug into it.",
-          "why_it_matters": "Instead of hand-building title cards and lower thirds, a solo creator can get a consistent branded look across every video in one step.",
-          "link": "https://descript.canny.io/changelog",
-          "source": "Descript Changelog",
+          "headline": "Meta's free Edits app adds speed ramps and automatic audio balancing",
+          "summary": "Edits, Meta's free phone video editor for Reels, now has speed curves, which smoothly speed a clip up or slow it down. You can use presets or draw your own. It also got automatic audio balancing that evens out voice and music levels, and more control over how long text animations stay on screen.",
+          "why_it_matters": "Smooth speed ramps and balanced audio used to mean a desktop editor; now you can do both on your phone for free before posting a Reel.",
+          "link": "https://www.socialmediatoday.com/news/edits-app-gets-speed-curves-and-auto-audio-balancing/874586/",
+          "source": "Social Media Today",
           "tag": "Product Update",
           "opportunity": {
             "video": 6,
-            "social": 3,
-            "community": 6,
-            "act_now": false
+            "social": 5,
+            "community": 7,
+            "act_now": false,
+            "angle": "Speed ramps on your phone for free: trying the new Edits speed curves"
           }
         }
       ]
@@ -140,30 +112,31 @@
       "title": "Content & Social Media Pulse",
       "items": [
         {
-          "headline": "Instagram's new Effect Builder lets anyone make a Stories effect by describing it",
-          "summary": "Instagram launched Effect Builder, a web tool inside its Edits app where you type what you want an effect to look like and AI builds it, with no coding or design skills needed. Meta reviews each effect (usually in under 24 hours), then it shows up in the Stories effects browser with your handle on it, linking back to your profile. It's US and 18+ for now.",
-          "why_it_matters": "A branded effect is a fun, free way for a small business or creator to get their name in front of new people every time someone else uses it in their Stories.",
-          "link": "https://www.socialmediatoday.com/news/instagram-launches-visual-effects-creator-for-edits/874205/",
-          "source": "Social Media Today",
-          "tag": "Platform Change",
-          "opportunity": {
-            "video": 6,
-            "social": 6,
-            "community": 6,
-            "act_now": false
-          }
-        },
-        {
-          "headline": "LinkedIn explains its new AI-powered feed, which shows more posts from people you don't follow",
-          "summary": "LinkedIn shared how its updated recommendation system uses AI to understand what posts are about, and it is now surfacing more posts from people outside your network when they match a reader's interests.",
-          "why_it_matters": "Your LinkedIn posts can now reach people who aren't connected to you yet, so posts that stick clearly to one topic you're known for have a better shot at finding new clients.",
-          "link": "https://www.socialmediatoday.com/news/linkedin-explains-its-improved-content-recommendation-system/874206/",
-          "source": "Social Media Today",
+          "headline": "X now lets anyone clip your videos, and you can't turn it off",
+          "summary": "X added a \"clip video\" option to videos two minutes or longer, letting anyone cut and repost a piece with a label linking back to your original. Both you and the clipper get credit toward X's creator payouts, but there's no opt-out; deleting your original post is the only way to remove the clips. Live broadcasts can't be clipped yet.",
+          "why_it_matters": "If you post long videos on X, assume any moment can become a standalone clip, so make sure your name or brand is on screen throughout.",
+          "link": "https://techcrunch.com/2026/11/10/x-launches-its-own-clipping-feature-to-spur-influencer-engagement/",
+          "source": "TechCrunch",
           "tag": "Platform Change",
           "opportunity": {
             "video": 3,
-            "social": 5,
-            "community": 6,
+            "social": 7,
+            "community": 5,
+            "act_now": false,
+            "angle": "X just made your videos clippable by anyone, with no off switch"
+          }
+        },
+        {
+          "headline": "X raises its photo and video limit from 4 to 20 per post",
+          "summary": "X now allows up to 20 photos and videos in a single post, up from the four it has allowed since the Twitter days. It's live on the web first, and phone users may need to update the app to see it.",
+          "why_it_matters": "You can now post the same 20-slide carousel or photo dump on X that you already make for Instagram and Threads, with no trimming.",
+          "link": "https://9to5mac.com/2026/11/12/x-now-lets-you-share-5x-more-photos-and-videos-per-post/",
+          "source": "9to5Mac",
+          "tag": "Platform Change",
+          "opportunity": {
+            "video": 1,
+            "social": 4,
+            "community": 4,
             "act_now": false
           }
         }
