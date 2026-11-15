@@ -1,0 +1,146 @@
+{
+  "generated_at_iso": "2026-11-14T03:12:01-10:00",
+  "generated_label": "Saturday, November 14 · 3:12 AM HST",
+  "edition": "morning",
+  "categories": [
+    {
+      "id": "claude-anthropic",
+      "title": "Claude & Anthropic",
+      "items": [
+        {
+          "headline": "Claude went down a second time Friday, this time hitting the app, Code and connectors",
+          "summary": "Hours after Friday morning's sign-in problem was fixed, a second incident caused errors across claude.ai, the Claude API, Claude Code and connectors (the add-ons that link Claude to apps like Docs and Sheets). Anthropic reported recovery by mid-afternoon UTC, though connectors stayed slow for longer, and it hasn't said what caused either outage.",
+          "why_it_matters": "If a Claude chat, a scheduled task or a connected app failed on you Friday, rerun it now instead of assuming your setup is broken.",
+          "link": "https://www.androidauthority.com/anthropic-claude-outage-nov-2026-3735078/",
+          "source": "Android Authority",
+          "tag": "Service Status",
+          "opportunity": {
+            "video": 1,
+            "social": 4,
+            "community": 4,
+            "act_now": false
+          }
+        },
+        {
+          "headline": "Anthropic's stock is expected to start trading Thursday, Nov. 19",
+          "summary": "Anthropic set a price range of $70 to $78 per share for its IPO (its first sale of stock to the public) and plans to list on the Nasdaq under the ticker \"ANT.\" Reports say pricing lands Nov. 18 with trading the next day, which CNBC calls the capstone of a big week for AI stocks.",
+          "why_it_matters": "Nothing changes in the Claude app you pay for, but expect a week of headlines about Anthropic's value, and a public company has to report its results every quarter, which can shape pricing and plan decisions down the road.",
+          "link": "https://www.cnbc.com/2026/11/13/stock-market-next-week-outlook-for-nov-16-20-2026.html",
+          "source": "CNBC",
+          "tag": "Business",
+          "opportunity": {
+            "video": 3,
+            "social": 6,
+            "community": 3,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "ai-industry",
+      "title": "Wider AI World",
+      "items": [
+        {
+          "headline": "ChatGPT Wallet lets its \"dots\" AI agents buy things for you, with your OK",
+          "summary": "OpenAI launched ChatGPT Wallet, which lets its personal AI agents (called dots) pick products and complete checkout for you. You save a card once, then approve each purchase with Face ID or Touch ID. It starts with a limited group of U.S. ChatGPT Pro subscribers, and it won't work on sites that block AI agents.",
+          "why_it_matters": "If you sell online, AI shoppers are starting to show up at real checkouts, so it's worth making sure your store doesn't accidentally block them and that your product pages clearly spell out price, sizes and shipping.",
+          "link": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
+          "source": "TechCrunch",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 4,
+            "social": 7,
+            "community": 5,
+            "act_now": false,
+            "angle": "AI agents can now shop for you. Here's what that means if you sell stuff online"
+          }
+        },
+        {
+          "headline": "Microsoft's global Outlook and Teams outage is over after more than a day",
+          "summary": "A Microsoft 365 outage that started Thursday knocked out Outlook email, calendar invites and Copilot for many businesses worldwide. Microsoft blamed a network capacity upgrade, not a hack, and said early Saturday that service was restored. It also broke AI tools that plug into Microsoft 365, including Claude's Outlook connector.",
+          "why_it_matters": "If your business runs on Outlook, check for stuck or missing emails and meeting invites from Thursday and Friday, and resend anything important.",
+          "link": "https://www.cbsnews.com/news/microsoft-battling-major-outage/",
+          "source": "CBS News",
+          "tag": "Service Status",
+          "opportunity": {
+            "video": 1,
+            "social": 4,
+            "community": 5,
+            "act_now": false
+          }
+        },
+        {
+          "headline": "Meta's Muse AI agent can now phone U.S. businesses for paying users",
+          "summary": "Meta's AI assistant Muse can now place phone calls to U.S. businesses on a user's behalf, for example to book a table or deal with the cable company. It's for paid Muse plans, which start at $20 a month.",
+          "why_it_matters": "Small businesses that take bookings or orders by phone should expect more calls from AI agents, so decide now how you or your staff want to handle them instead of just hanging up.",
+          "link": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/",
+          "source": "TechCrunch",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 3,
+            "social": 6,
+            "community": 6,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "creator-tools",
+      "title": "Tools & Tips for Creators and Small Biz",
+      "items": [
+        {
+          "headline": "Meta's free Edits app adds speed ramps and automatic audio balancing",
+          "summary": "Edits, Meta's free phone video editor for Reels, now has speed curves, which smoothly speed a clip up or slow it down. You can use presets or draw your own. It also got automatic audio balancing that evens out voice and music levels, and more control over how long text animations stay on screen.",
+          "why_it_matters": "Smooth speed ramps and balanced audio used to mean a desktop editor; now you can do both on your phone for free before posting a Reel.",
+          "link": "https://www.socialmediatoday.com/news/edits-app-gets-speed-curves-and-auto-audio-balancing/874586/",
+          "source": "Social Media Today",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 6,
+            "social": 5,
+            "community": 7,
+            "act_now": false,
+            "angle": "Speed ramps on your phone for free: trying the new Edits speed curves"
+          }
+        }
+      ]
+    },
+    {
+      "id": "content-social",
+      "title": "Content & Social Media Pulse",
+      "items": [
+        {
+          "headline": "X now lets anyone clip your videos, and you can't turn it off",
+          "summary": "X added a \"clip video\" option to videos two minutes or longer, letting anyone cut and repost a piece with a label linking back to your original. Both you and the clipper get credit toward X's creator payouts, but there's no opt-out; deleting your original post is the only way to remove the clips. Live broadcasts can't be clipped yet.",
+          "why_it_matters": "If you post long videos on X, assume any moment can become a standalone clip, so make sure your name or brand is on screen throughout.",
+          "link": "https://techcrunch.com/2026/11/10/x-launches-its-own-clipping-feature-to-spur-influencer-engagement/",
+          "source": "TechCrunch",
+          "tag": "Platform Change",
+          "opportunity": {
+            "video": 3,
+            "social": 7,
+            "community": 5,
+            "act_now": false,
+            "angle": "X just made your videos clippable by anyone, with no off switch"
+          }
+        },
+        {
+          "headline": "X raises its photo and video limit from 4 to 20 per post",
+          "summary": "X now allows up to 20 photos and videos in a single post, up from the four it has allowed since the Twitter days. It's live on the web first, and phone users may need to update the app to see it.",
+          "why_it_matters": "You can now post the same 20-slide carousel or photo dump on X that you already make for Instagram and Threads, with no trimming.",
+          "link": "https://9to5mac.com/2026/11/12/x-now-lets-you-share-5x-more-photos-and-videos-per-post/",
+          "source": "9to5Mac",
+          "tag": "Platform Change",
+          "opportunity": {
+            "video": 1,
+            "social": 4,
+            "community": 4,
+            "act_now": false
+          }
+        }
+      ]
+    }
+  ]
+}
