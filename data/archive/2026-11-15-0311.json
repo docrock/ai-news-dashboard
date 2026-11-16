@@ -1,0 +1,86 @@
+{
+  "generated_at_iso": "2026-11-15T03:11:56-10:00",
+  "generated_label": "Sunday, November 15 · 3:11 AM HST",
+  "edition": "morning",
+  "categories": [
+    {
+      "id": "claude-anthropic",
+      "title": "Claude & Anthropic",
+      "items": [
+        {
+          "headline": "Claude Code's Projects helper now checks in with you instead of waiting to be asked",
+          "summary": "In Claude Code's Projects beta, one 'coordinator' Claude hands pieces of a job to several helper sessions running side by side. Anthropic says the coordinator is now much more proactive: it answers your questions in the project chat and gives you status updates on each running task.",
+          "why_it_matters": "If you're on a Pro or Max plan and use Claude Code to build small tools or automations, you can now manage several jobs from one conversation without chasing each one, though Projects uses up your plan limits faster.",
+          "link": "https://x.com/ClaudeDevs/status/2121375309287301360",
+          "source": "Claude Devs on X",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 5,
+            "social": 4,
+            "community": 4,
+            "act_now": false
+          }
+        },
+        {
+          "headline": "Claude Enterprise switches chat and Cowork into one combined app on Nov. 16",
+          "summary": "Starting tomorrow, Nov. 16, Anthropic turns on the combined chat-and-Cowork experience by default for existing Claude Enterprise organizations that haven't already made a choice. Cowork is the mode where Claude works on longer tasks with your files.",
+          "why_it_matters": "If your day job or a client gives you Claude through an Enterprise plan, the app may look different Monday morning; if you run the account, an owner can still opt out in the admin settings before the switch.",
+          "link": "https://support.claude.com/en/articles/17444462-set-up-and-manage-the-new-unified-claude-experience-for-your-enterprise-organization",
+          "source": "Claude Help Center",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 2,
+            "social": 3,
+            "community": 3,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "ai-industry",
+      "title": "Wider AI World",
+      "items": []
+    },
+    {
+      "id": "creator-tools",
+      "title": "Tools & Tips for Creators and Small Biz",
+      "items": [
+        {
+          "headline": "ElevenLabs, the AI voice company, previews an app for meeting notes and dictation",
+          "summary": "ElevenLabs unveiled ElevenAI, an early-access app that records and summarizes meetings, lets you search past calls, and turns your speech into cleaned-up text in other apps, in more than 90 languages. Its built-in assistant can also draft follow-up emails from a meeting summary.",
+          "why_it_matters": "If you pay for a separate notetaker and a dictation tool, this could eventually roll both into one, but it's aimed at teams and you have to request early access, so it's one to watch rather than buy today.",
+          "link": "https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams/",
+          "source": "TechCrunch",
+          "tag": "New Tool",
+          "opportunity": {
+            "video": 4,
+            "social": 5,
+            "community": 6,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "content-social",
+      "title": "Content & Social Media Pulse",
+      "items": [
+        {
+          "headline": "YouTube adds limited-edition Live gifts and a Shorts effect for the GTA VI launch on Nov. 19",
+          "summary": "YouTube is marking the Grand Theft Auto VI release with a 24-hour creator livestream starting at midnight ET on Nov. 19, five limited-edition YouTube Live gifts (one free for eligible viewers), and a 'Visit Vice City' Shorts effect that puts you in front of themed backgrounds.",
+          "why_it_matters": "You don't need to be a gamer to notice the trend: YouTube keeps building paid and free 'gifts' into Live, which is a growing way for livestreamers to earn, and big launch weeks like this are when viewers learn to use them.",
+          "link": "https://wersm.com/youtube-turns-gta-vi-launch-into-a-live-community-event/",
+          "source": "WeRSM",
+          "tag": "Platform Change",
+          "opportunity": {
+            "video": 3,
+            "social": 5,
+            "community": 3,
+            "act_now": false
+          }
+        }
+      ]
+    }
+  ]
+}
