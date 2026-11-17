@@ -1,0 +1,92 @@
+{
+  "generated_at_iso": "2026-11-16T03:16:55-10:00",
+  "generated_label": "Monday, November 16 · 3:16 AM HST",
+  "edition": "morning",
+  "categories": [
+    {
+      "id": "claude-anthropic",
+      "title": "Claude & Anthropic",
+      "items": [
+        {
+          "headline": "Claude Duet's U.S. waitlist is cleared: everyone who signed up has been invited",
+          "summary": "Claude Duet is Anthropic's preview app where Claude acts as a proactive assistant that checks in and handles tasks for you, running on its Opus 5.5 model. Anthropic's Duet lead says every U.S. Pro, Max and Ultra subscriber who was on the waitlist as of Nov. 12 now has an invite, and new sign-ups can still join the list.",
+          "why_it_matters": "If you pay for Claude in the U.S. and joined the list, check your email, because you can try it now; if you never signed up, getting on the list today puts you in the next wave, though it's still U.S.-only and not on Team or Enterprise plans.",
+          "link": "https://x.com/ahuja_karan/status/2121332990836163033",
+          "source": "Karan Ahuja (Anthropic) on X",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 7,
+            "social": 5,
+            "community": 6,
+            "act_now": true,
+            "action_note": "Check your inbox for a Claude Duet invite today, or join the waitlist at claude.com now if you never signed up, so you can test it before your audience starts asking.",
+            "angle": "Claude Duet finally let me in. Here's what an AI that checks in on you actually does all day."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ai-industry",
+      "title": "Wider AI World",
+      "items": [
+        {
+          "headline": "Apple opens a free study app that lets U.S. iPhone owners ask an AI health questions",
+          "summary": "Apple and OpenEvidence, a medical AI service used by doctors, launched the Apple Health AI Usage Study app for up to 200,000 U.S. adults 21 and older with an iPhone 15 Pro or newer on iOS 26. You ask everyday health questions and get answers with links to the medical research behind them; Apple says it's a research study, not a diagnosis tool.",
+          "why_it_matters": "It's the first time Apple has put an AI chatbot in people's hands, and the way it shows its sources is a good model for how you should judge any AI health answer, including ones from ChatGPT or Claude.",
+          "link": "https://www.apple.com/newsroom/2026/11/apple-launches-research-study-to-explore-the-use-of-ai-for-health/",
+          "source": "Apple Newsroom",
+          "tag": "New App",
+          "opportunity": {
+            "video": 3,
+            "social": 5,
+            "community": 5,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "creator-tools",
+      "title": "Tools & Tips for Creators and Small Biz",
+      "items": [
+        {
+          "headline": "Last call: DaVinci Resolve Studio is 20% off ($236) only through Friday, Nov. 20",
+          "summary": "Blackmagic Design cut the paid Studio version of DaVinci Resolve from $295 to $236 at resellers worldwide, and a range of its editing keyboards and color panels are also 20% off while stocks last. The sale ends this Friday, a week before Black Friday, and Blackmagic rarely discounts Studio.",
+          "why_it_matters": "If you've been editing on the free version and keep bumping into locked features like the AI tools or faster exports, this is the cheapest you're likely to see the one-time Studio license this year.",
+          "link": "https://www.newsshooter.com/2026/10/20/blackmagic-davinci-resolve-studio-20-off/",
+          "source": "Newsshooter",
+          "tag": "Pricing",
+          "opportunity": {
+            "video": 6,
+            "social": 7,
+            "community": 8,
+            "act_now": true,
+            "action_note": "Post the $236 Resolve Studio deal to the Creator Sandbox and your socials today, since it ends Friday, Nov. 20 and won't carry into Black Friday weekend.",
+            "angle": "Free Resolve vs. Studio: is the $236 upgrade worth it before Friday?"
+          }
+        }
+      ]
+    },
+    {
+      "id": "content-social",
+      "title": "Content & Social Media Pulse",
+      "items": [
+        {
+          "headline": "YouTube Studio can now turn a widescreen podcast episode into vertical Shorts",
+          "summary": "YouTube expanded its built-in clips tool so podcasters can cut a vertical Short from a widescreen episode without leaving YouTube Studio; it reframes the shot to keep the action in view, adds captions automatically, and links the Short back to the full episode. You'll find it under Content, then the video, then Clips and Shorts.",
+          "why_it_matters": "If you record a show or a livestream, this is a free way to make Shorts that send viewers to the full episode, with no extra editing app needed, though you'll still want to check the framing and captions.",
+          "link": "https://www.searchenginejournal.com/youtube-studio-clips-podcast-episodes-shorts/597408/",
+          "source": "Search Engine Journal",
+          "tag": "Platform Change",
+          "opportunity": {
+            "video": 7,
+            "social": 5,
+            "community": 7,
+            "act_now": false,
+            "angle": "I let YouTube Studio cut my podcast into Shorts. Can it replace your clip tool?"
+          }
+        }
+      ]
+    }
+  ]
+}
