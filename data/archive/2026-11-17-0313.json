@@ -1,0 +1,89 @@
+{
+  "generated_at_iso": "2026-11-17T03:13:27-10:00",
+  "generated_label": "Tuesday, November 17 · 3:13 AM HST",
+  "edition": "morning",
+  "categories": [
+    {
+      "id": "claude-anthropic",
+      "title": "Claude & Anthropic",
+      "items": [
+        {
+          "headline": "Anthropic's stock price gets set Wednesday, with trading as ANT expected Thursday",
+          "summary": "Anthropic, the company behind Claude, is expected to lock in its share price on Nov. 18 and start trading on the Nasdaq under the ticker ANT on Nov. 19. The planned range is $70 to $78 a share, and the Financial Times reports bankers may push the final price above that range.",
+          "why_it_matters": "This won't change how Claude works for you this week, but going public means more money for building Claude and more public pressure on pricing and plans, so expect lots of audience questions about whether to buy the stock (that's a call for a financial adviser, not an AI channel).",
+          "link": "https://www.cnbc.com/2026/11/16/anthropic-ipo-date-price-range.html",
+          "source": "CNBC",
+          "tag": "Business",
+          "opportunity": {
+            "video": 3,
+            "social": 6,
+            "community": 3,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "ai-industry",
+      "title": "Wider AI World",
+      "items": [
+        {
+          "headline": "Gemini can now read your Google Wallet to spot subscriptions and help you budget",
+          "summary": "U.S. users of Google's Gemini app can now connect Google Wallet, then ask things like which subscriptions went up in price this year or how to set a holiday budget, and get charts right in the chat. Gemini can only read the data; it can't move money, and you can turn the connection off under Settings > Personal Intelligence > Connected Apps.",
+          "why_it_matters": "If you run a small business on a personal card, this is an easy way to hunt down forgotten software subscriptions, but think twice before handing an AI your spending history, and check the new Memory Summary to see what it keeps.",
+          "link": "https://blog.google/innovation-and-ai/products/gemini-app/google-wallet-gemini-app/",
+          "source": "Google Blog",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 4,
+            "social": 5,
+            "community": 6,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "creator-tools",
+      "title": "Tools & Tips for Creators and Small Biz",
+      "items": []
+    },
+    {
+      "id": "content-social",
+      "title": "Content & Social Media Pulse",
+      "items": [
+        {
+          "headline": "YouTube view counts now include people watching together on a TV",
+          "summary": "When YouTube estimates that several people are watching one video on a shared TV, it now adds those extra 'co-views' to the public view count. Phone, computer and tablet plays still count once each, older counts won't change, and a new 'co-view rate' shows up in YouTube Studio's Advanced Mode under Device Type.",
+          "why_it_matters": "Your view counts may tick up if people watch you on the living-room TV, but YouTube says ad earnings and Partner Program eligibility don't change, so don't read a bump as a raise.",
+          "link": "https://www.dexerto.com/entertainment/youtube-now-shows-co-views-in-big-shake-up-to-view-counts-3428863/",
+          "source": "Dexerto",
+          "tag": "Platform Change",
+          "opportunity": {
+            "video": 7,
+            "social": 8,
+            "community": 7,
+            "act_now": true,
+            "action_note": "Open YouTube Studio's Advanced Mode this week and note your co-view rate under Device Type, so you have a baseline before your view counts start shifting.",
+            "angle": "YouTube just started counting your couch. Here's what that does to your views (and what it doesn't do to your paycheck)"
+          }
+        },
+        {
+          "headline": "Instagram adds Amazon affiliate links to Reels and feed posts",
+          "summary": "Instagram is letting creators tag Amazon products in Reels and regular posts, up to 30 products per Reel or 20 per feed post, and creators can see the commission rate on each item before tagging it.",
+          "why_it_matters": "If you already recommend gear on Instagram, you can now earn from it without the 'link in bio' shuffle, but check Amazon's Associates rules and label posts clearly as affiliate.",
+          "link": "https://www.socialmediatoday.com/news/instagram-adds-amazon-affiliate-links/874817",
+          "source": "Social Media Today",
+          "tag": "Monetization",
+          "opportunity": {
+            "video": 5,
+            "social": 6,
+            "community": 7,
+            "act_now": false,
+            "angle": "Your gear posts on Instagram can finally pay you. Here's how to set up Amazon tags the right way"
+          }
+        }
+      ]
+    }
+  ]
+}
