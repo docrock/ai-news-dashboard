@@ -1,6 +1,6 @@
 {
-  "generated_at_iso": "2026-11-18T03:13:50-10:00",
-  "generated_label": "Wednesday, November 18 · 3:13 AM HST",
+  "generated_at_iso": "2026-11-19T03:13:00-10:00",
+  "generated_label": "Thursday, November 19 · 3:13 AM HST",
   "edition": "morning",
   "categories": [
     {
@@ -8,17 +8,18 @@
       "title": "Claude & Anthropic",
       "items": [
         {
-          "headline": "Claude Desktop now lets you pick how often the app updates",
-          "summary": "A new release channel setting in the Claude Desktop app lets you stay on Stable (the default, which gets fewer, better-tested updates) or switch to Latest, which updates about once a day so new features and fixes reach you sooner.",
-          "why_it_matters": "If you rely on Claude Desktop for client work, leave it on Stable for fewer surprises; if you like trying new Claude features first, Latest gets them to you faster, with a bit more risk of bugs.",
-          "link": "https://support.claude.com/en/articles/12138966-release-notes",
-          "source": "Claude Release Notes",
-          "tag": "Product Update",
+          "headline": "Anthropic's IPO is priced at $83 a share, and ANT starts trading on Nasdaq today",
+          "summary": "Anthropic set its stock price at $83, above the $70 to $78 range it had pitched, selling about 980 million shares in what CNBC calls the largest IPO on record (roughly $81 billion). Shares begin trading on the Nasdaq under the ticker ANT on Thursday, Nov. 19.",
+          "why_it_matters": "Nothing changes in your Claude app today, but the company behind it now answers to public shareholders, which usually means more pressure to grow paid plans, so expect pricing and plan tweaks to get more attention in the months ahead.",
+          "link": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+          "source": "Anthropic News",
+          "tag": "Business",
           "opportunity": {
-            "video": 3,
-            "social": 3,
+            "video": 4,
+            "social": 7,
             "community": 4,
-            "act_now": false
+            "act_now": false,
+            "angle": "The company behind my favorite AI tool just went public. Here is what that means for your subscription"
           }
         }
       ]
@@ -28,44 +29,15 @@
       "title": "Wider AI World",
       "items": [
         {
-          "headline": "Google makes Gemini's do-it-for-you Tasks mode free in the U.S. and five other countries",
-          "summary": "Free Gemini users in the U.S., Japan, Korea, Canada, Australia and India can now flip the switch from 'Chat' to 'Task' in the Gemini app, describe an errand, and let Gemini work through the steps for them. It used to need a paid plan, and phone calls, texting and payments are U.S.-only for now.",
-          "why_it_matters": "This is the first time a lot of everyday people get an AI 'agent' (an assistant that takes actions, not just answers) for free, so expect your audience to start asking what it can safely be trusted to do.",
-          "link": "https://9to5google.com/2026/11/17/gemini-tasks-free/",
-          "source": "9to5Google",
+          "headline": "Microsoft previews Autopilot, a Copilot helper that keeps working while your laptop is closed",
+          "summary": "At its Ignite conference, Microsoft opened a preview of Autopilot, an always-on AI agent (a helper that carries out multi-step chores on its own) that runs scheduled tasks on its own cloud computer and checks with you before steps you mark as needing approval. For now it is limited to eligible U.S. business customers in Microsoft's early-access program.",
+          "why_it_matters": "If your business runs on Microsoft 365, this is a preview of where Copilot is heading: less chatting, more handing off routine admin, though most small shops will have to wait for a wider release.",
+          "link": "https://winbuzzer.com/2026/11/18/microsoft-opens-preview-of-autopilot-an-ai-assistant-coworkers-can-message-xcxwbn/",
+          "source": "WinBuzzer",
           "tag": "Product Update",
-          "opportunity": {
-            "video": 6,
-            "social": 6,
-            "community": 7,
-            "act_now": false,
-            "angle": "Google's AI assistant will now run your errands for free. I gave it three real small-business chores to see what it can handle"
-          }
-        },
-        {
-          "headline": "Google will keep your 'temporary' Gemini chats for about two months instead of 72 hours",
-          "summary": "Google is extending how long it holds Gemini temporary chats, and chats made with history turned off, from 72 hours to roughly two months, rolling out worldwide over the coming weeks. Google says those chats still won't train its AI, and it's splitting the old 'Keep Activity' switch into two separate controls for history and training.",
-          "why_it_matters": "If you paste client details or business numbers into Gemini assuming 'temporary' means gone in three days, that's no longer true, so check your settings and keep sensitive info out.",
-          "link": "https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/",
-          "source": "TechCrunch",
-          "tag": "Policy",
           "opportunity": {
             "video": 3,
-            "social": 6,
-            "community": 6,
-            "act_now": false
-          }
-        },
-        {
-          "headline": "OpenAI releases GPT-6.2 Astra and Sol, a week after Claude's 5.2 update",
-          "summary": "OpenAI's new GPT-6.2 Astra and Sol models are an incremental upgrade aimed at long, professional projects, and they're available to paid ChatGPT users in ChatGPT Work and Codex (OpenAI's coding tool). OpenAI also cut Astra's price for developers by 20 percent.",
-          "why_it_matters": "The big AI companies are now trading upgrades every week, so you don't need to switch tools each time; stick with what works for you and test a new model only on a task you already know well.",
-          "link": "https://9to5google.com/2026/11/17/openai-releases-gpt-6-2-astra-and-sol-for-complex-projects-a-week-after-claude-5-2/",
-          "source": "9to5Google",
-          "tag": "Product Update",
-          "opportunity": {
-            "video": 4,
-            "social": 6,
+            "social": 4,
             "community": 4,
             "act_now": false
           }
@@ -77,29 +49,29 @@
       "title": "Tools & Tips for Creators and Small Biz",
       "items": [
         {
-          "headline": "Suno, the AI song maker, now turns songs into short music videos",
-          "summary": "Suno's new Visuals feature makes lyric videos, album art and clips of up to 15 seconds that follow a song's lyrics and beat, with characters that lip-sync, and you can extend and stitch clips into longer videos. Video uses its own credits, and filters block likenesses of real artists and public figures.",
-          "why_it_matters": "If you already use Suno for intro music or jingles, you can now get a matching visual for Shorts or promos without opening an editor, though check the credit costs before you build a habit around it.",
-          "link": "https://thenextweb.com/news/suno-visuals-ai-video-lyric-videos-album-art",
-          "source": "The Next Web",
-          "tag": "Product Update",
-          "opportunity": {
-            "video": 5,
-            "social": 5,
-            "community": 5,
-            "act_now": false
-          }
-        },
-        {
-          "headline": "HeyGen's new Avatar 6 makes AI talking-head videos look more natural",
-          "summary": "HeyGen, a tool that turns a script into a video of a digital presenter (or a digital copy of you), replaced its older avatar engines with Avatar 6, which outputs 2K video and aims for less robotic, repetitive movement. There's also a faster Turbo version, and plan prices didn't change.",
-          "why_it_matters": "Small businesses using AI presenters for training or product explainers get more lifelike results at the same price, but realism makes it more important to tell viewers when a video is AI-generated.",
-          "link": "https://www.heygen.com/models/heygen-avatar-6",
-          "source": "HeyGen",
+          "headline": "GoDaddy's Airo AI Builder makes a website or online store from a typed or spoken description",
+          "summary": "GoDaddy launched Airo AI Builder, which builds a site or a simple online store from a text or voice prompt. There is a free tier, and paid plans start at $9.99 a month.",
+          "why_it_matters": "If you have been putting off a website for your side business or a landing page for a course, this is a low-cost way to get a first draft up in an afternoon and then tweak it.",
+          "link": "https://www.investing.com/news/company-news/godaddy-launches-ai-website-builder-for-small-businesses-93CH-5030164",
+          "source": "Investing.com",
           "tag": "Product Update",
           "opportunity": {
             "video": 5,
             "social": 4,
+            "community": 6,
+            "act_now": false
+          }
+        },
+        {
+          "headline": "Small business bank Novo adds an AI helper and free AI-assisted tax prep for some sole proprietors",
+          "summary": "Novo, an online bank for small and independent businesses, added AI features across banking, payroll, tax and credit, including an assistant you can ask questions in plain English and free AI-assisted do-it-yourself tax prep for eligible sole proprietors and LLCs.",
+          "why_it_matters": "Solo creators who bank with Novo could save on bookkeeping and tax prep this season; for everyone else, it is a sign your business bank will soon offer an AI assistant too.",
+          "link": "https://www.prnewswire.com/news-releases/novo-launches-ai-capabilities-across-banking-payroll-tax-and-credit-to-help-small-businesses-scale-faster-302941398.html",
+          "source": "PR Newswire (Novo)",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 2,
+            "social": 3,
             "community": 5,
             "act_now": false
           }
@@ -111,19 +83,17 @@
       "title": "Content & Social Media Pulse",
       "items": [
         {
-          "headline": "YouTube's Ask Studio AI helper is now on everyone's Studio phone app, and it can look at your sketches",
-          "summary": "Ask Studio, the AI chat assistant inside YouTube Studio, is now available to all YouTube Studio mobile users on iPhone and Android. You can talk to it, upload sketches, photos or still frames (up to 10 images) for thumbnail ideas and framing feedback, and get comment-sentiment summaries and title or script drafts on the go.",
-          "why_it_matters": "You can now brainstorm thumbnails and check what viewers are saying from your phone, using your own channel data instead of a general chatbot, though some suggestions are still limited to select countries and languages.",
-          "link": "https://www.socialmediatoday.com/news/youtube-expands-ai-powered-creative-chatbot-to-all-mobile-users/874802/",
-          "source": "Social Media Today",
+          "headline": "TikTok creator videos start showing up on Disney+ in December",
+          "summary": "Disney confirmed this week that curated, opt-in TikTok creator videos will begin appearing in a short-video section of Disney+ in December, timed to the run-up to the 'Avengers: Doomsday' movie. Creators join by invitation, and Disney has not said whether they will earn anything extra.",
+          "why_it_matters": "It is another sign that short vertical videos made by everyday creators are now being treated like TV, so a well-made Short or TikTok can travel much further than the app you posted it on.",
+          "link": "https://deadline.com/2026/11/tiktok-creator-videos-disney-plus-hulu-avengers-doomsday-1237226429/",
+          "source": "Deadline",
           "tag": "Platform Change",
           "opportunity": {
-            "video": 7,
+            "video": 3,
             "social": 5,
-            "community": 7,
-            "act_now": true,
-            "action_note": "Open Ask Studio in the YouTube Studio phone app this week and upload a thumbnail sketch for your next video to see if its feedback is worth adding to your workflow.",
-            "angle": "I let YouTube's AI critique my thumbnail sketches from my phone. Here's what it got right and wrong"
+            "community": 4,
+            "act_now": false
           }
         }
       ]

@@ -1,0 +1,132 @@
+{
+  "generated_at_iso": "2026-11-18T03:13:50-10:00",
+  "generated_label": "Wednesday, November 18 · 3:13 AM HST",
+  "edition": "morning",
+  "categories": [
+    {
+      "id": "claude-anthropic",
+      "title": "Claude & Anthropic",
+      "items": [
+        {
+          "headline": "Claude Desktop now lets you pick how often the app updates",
+          "summary": "A new release channel setting in the Claude Desktop app lets you stay on Stable (the default, which gets fewer, better-tested updates) or switch to Latest, which updates about once a day so new features and fixes reach you sooner.",
+          "why_it_matters": "If you rely on Claude Desktop for client work, leave it on Stable for fewer surprises; if you like trying new Claude features first, Latest gets them to you faster, with a bit more risk of bugs.",
+          "link": "https://support.claude.com/en/articles/12138966-release-notes",
+          "source": "Claude Release Notes",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 3,
+            "social": 3,
+            "community": 4,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "ai-industry",
+      "title": "Wider AI World",
+      "items": [
+        {
+          "headline": "Google makes Gemini's do-it-for-you Tasks mode free in the U.S. and five other countries",
+          "summary": "Free Gemini users in the U.S., Japan, Korea, Canada, Australia and India can now flip the switch from 'Chat' to 'Task' in the Gemini app, describe an errand, and let Gemini work through the steps for them. It used to need a paid plan, and phone calls, texting and payments are U.S.-only for now.",
+          "why_it_matters": "This is the first time a lot of everyday people get an AI 'agent' (an assistant that takes actions, not just answers) for free, so expect your audience to start asking what it can safely be trusted to do.",
+          "link": "https://9to5google.com/2026/11/17/gemini-tasks-free/",
+          "source": "9to5Google",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 6,
+            "social": 6,
+            "community": 7,
+            "act_now": false,
+            "angle": "Google's AI assistant will now run your errands for free. I gave it three real small-business chores to see what it can handle"
+          }
+        },
+        {
+          "headline": "Google will keep your 'temporary' Gemini chats for about two months instead of 72 hours",
+          "summary": "Google is extending how long it holds Gemini temporary chats, and chats made with history turned off, from 72 hours to roughly two months, rolling out worldwide over the coming weeks. Google says those chats still won't train its AI, and it's splitting the old 'Keep Activity' switch into two separate controls for history and training.",
+          "why_it_matters": "If you paste client details or business numbers into Gemini assuming 'temporary' means gone in three days, that's no longer true, so check your settings and keep sensitive info out.",
+          "link": "https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/",
+          "source": "TechCrunch",
+          "tag": "Policy",
+          "opportunity": {
+            "video": 3,
+            "social": 6,
+            "community": 6,
+            "act_now": false
+          }
+        },
+        {
+          "headline": "OpenAI releases GPT-6.2 Astra and Sol, a week after Claude's 5.2 update",
+          "summary": "OpenAI's new GPT-6.2 Astra and Sol models are an incremental upgrade aimed at long, professional projects, and they're available to paid ChatGPT users in ChatGPT Work and Codex (OpenAI's coding tool). OpenAI also cut Astra's price for developers by 20 percent.",
+          "why_it_matters": "The big AI companies are now trading upgrades every week, so you don't need to switch tools each time; stick with what works for you and test a new model only on a task you already know well.",
+          "link": "https://9to5google.com/2026/11/17/openai-releases-gpt-6-2-astra-and-sol-for-complex-projects-a-week-after-claude-5-2/",
+          "source": "9to5Google",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 4,
+            "social": 6,
+            "community": 4,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "creator-tools",
+      "title": "Tools & Tips for Creators and Small Biz",
+      "items": [
+        {
+          "headline": "Suno, the AI song maker, now turns songs into short music videos",
+          "summary": "Suno's new Visuals feature makes lyric videos, album art and clips of up to 15 seconds that follow a song's lyrics and beat, with characters that lip-sync, and you can extend and stitch clips into longer videos. Video uses its own credits, and filters block likenesses of real artists and public figures.",
+          "why_it_matters": "If you already use Suno for intro music or jingles, you can now get a matching visual for Shorts or promos without opening an editor, though check the credit costs before you build a habit around it.",
+          "link": "https://thenextweb.com/news/suno-visuals-ai-video-lyric-videos-album-art",
+          "source": "The Next Web",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 5,
+            "social": 5,
+            "community": 5,
+            "act_now": false
+          }
+        },
+        {
+          "headline": "HeyGen's new Avatar 6 makes AI talking-head videos look more natural",
+          "summary": "HeyGen, a tool that turns a script into a video of a digital presenter (or a digital copy of you), replaced its older avatar engines with Avatar 6, which outputs 2K video and aims for less robotic, repetitive movement. There's also a faster Turbo version, and plan prices didn't change.",
+          "why_it_matters": "Small businesses using AI presenters for training or product explainers get more lifelike results at the same price, but realism makes it more important to tell viewers when a video is AI-generated.",
+          "link": "https://www.heygen.com/models/heygen-avatar-6",
+          "source": "HeyGen",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 5,
+            "social": 4,
+            "community": 5,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "content-social",
+      "title": "Content & Social Media Pulse",
+      "items": [
+        {
+          "headline": "YouTube's Ask Studio AI helper is now on everyone's Studio phone app, and it can look at your sketches",
+          "summary": "Ask Studio, the AI chat assistant inside YouTube Studio, is now available to all YouTube Studio mobile users on iPhone and Android. You can talk to it, upload sketches, photos or still frames (up to 10 images) for thumbnail ideas and framing feedback, and get comment-sentiment summaries and title or script drafts on the go.",
+          "why_it_matters": "You can now brainstorm thumbnails and check what viewers are saying from your phone, using your own channel data instead of a general chatbot, though some suggestions are still limited to select countries and languages.",
+          "link": "https://www.socialmediatoday.com/news/youtube-expands-ai-powered-creative-chatbot-to-all-mobile-users/874802/",
+          "source": "Social Media Today",
+          "tag": "Platform Change",
+          "opportunity": {
+            "video": 7,
+            "social": 5,
+            "community": 7,
+            "act_now": true,
+            "action_note": "Open Ask Studio in the YouTube Studio phone app this week and upload a thumbnail sketch for your next video to see if its feedback is worth adding to your workflow.",
+            "angle": "I let YouTube's AI critique my thumbnail sketches from my phone. Here's what it got right and wrong"
+          }
+        }
+      ]
+    }
+  ]
+}
