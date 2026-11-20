@@ -1,0 +1,102 @@
+{
+  "generated_at_iso": "2026-11-19T03:13:00-10:00",
+  "generated_label": "Thursday, November 19 · 3:13 AM HST",
+  "edition": "morning",
+  "categories": [
+    {
+      "id": "claude-anthropic",
+      "title": "Claude & Anthropic",
+      "items": [
+        {
+          "headline": "Anthropic's IPO is priced at $83 a share, and ANT starts trading on Nasdaq today",
+          "summary": "Anthropic set its stock price at $83, above the $70 to $78 range it had pitched, selling about 980 million shares in what CNBC calls the largest IPO on record (roughly $81 billion). Shares begin trading on the Nasdaq under the ticker ANT on Thursday, Nov. 19.",
+          "why_it_matters": "Nothing changes in your Claude app today, but the company behind it now answers to public shareholders, which usually means more pressure to grow paid plans, so expect pricing and plan tweaks to get more attention in the months ahead.",
+          "link": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+          "source": "Anthropic News",
+          "tag": "Business",
+          "opportunity": {
+            "video": 4,
+            "social": 7,
+            "community": 4,
+            "act_now": false,
+            "angle": "The company behind my favorite AI tool just went public. Here is what that means for your subscription"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ai-industry",
+      "title": "Wider AI World",
+      "items": [
+        {
+          "headline": "Microsoft previews Autopilot, a Copilot helper that keeps working while your laptop is closed",
+          "summary": "At its Ignite conference, Microsoft opened a preview of Autopilot, an always-on AI agent (a helper that carries out multi-step chores on its own) that runs scheduled tasks on its own cloud computer and checks with you before steps you mark as needing approval. For now it is limited to eligible U.S. business customers in Microsoft's early-access program.",
+          "why_it_matters": "If your business runs on Microsoft 365, this is a preview of where Copilot is heading: less chatting, more handing off routine admin, though most small shops will have to wait for a wider release.",
+          "link": "https://winbuzzer.com/2026/11/18/microsoft-opens-preview-of-autopilot-an-ai-assistant-coworkers-can-message-xcxwbn/",
+          "source": "WinBuzzer",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 3,
+            "social": 4,
+            "community": 4,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "creator-tools",
+      "title": "Tools & Tips for Creators and Small Biz",
+      "items": [
+        {
+          "headline": "GoDaddy's Airo AI Builder makes a website or online store from a typed or spoken description",
+          "summary": "GoDaddy launched Airo AI Builder, which builds a site or a simple online store from a text or voice prompt. There is a free tier, and paid plans start at $9.99 a month.",
+          "why_it_matters": "If you have been putting off a website for your side business or a landing page for a course, this is a low-cost way to get a first draft up in an afternoon and then tweak it.",
+          "link": "https://www.investing.com/news/company-news/godaddy-launches-ai-website-builder-for-small-businesses-93CH-5030164",
+          "source": "Investing.com",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 5,
+            "social": 4,
+            "community": 6,
+            "act_now": false
+          }
+        },
+        {
+          "headline": "Small business bank Novo adds an AI helper and free AI-assisted tax prep for some sole proprietors",
+          "summary": "Novo, an online bank for small and independent businesses, added AI features across banking, payroll, tax and credit, including an assistant you can ask questions in plain English and free AI-assisted do-it-yourself tax prep for eligible sole proprietors and LLCs.",
+          "why_it_matters": "Solo creators who bank with Novo could save on bookkeeping and tax prep this season; for everyone else, it is a sign your business bank will soon offer an AI assistant too.",
+          "link": "https://www.prnewswire.com/news-releases/novo-launches-ai-capabilities-across-banking-payroll-tax-and-credit-to-help-small-businesses-scale-faster-302941398.html",
+          "source": "PR Newswire (Novo)",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 2,
+            "social": 3,
+            "community": 5,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "content-social",
+      "title": "Content & Social Media Pulse",
+      "items": [
+        {
+          "headline": "TikTok creator videos start showing up on Disney+ in December",
+          "summary": "Disney confirmed this week that curated, opt-in TikTok creator videos will begin appearing in a short-video section of Disney+ in December, timed to the run-up to the 'Avengers: Doomsday' movie. Creators join by invitation, and Disney has not said whether they will earn anything extra.",
+          "why_it_matters": "It is another sign that short vertical videos made by everyday creators are now being treated like TV, so a well-made Short or TikTok can travel much further than the app you posted it on.",
+          "link": "https://deadline.com/2026/11/tiktok-creator-videos-disney-plus-hulu-avengers-doomsday-1237226429/",
+          "source": "Deadline",
+          "tag": "Platform Change",
+          "opportunity": {
+            "video": 3,
+            "social": 5,
+            "community": 4,
+            "act_now": false
+          }
+        }
+      ]
+    }
+  ]
+}
