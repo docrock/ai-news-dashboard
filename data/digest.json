@@ -1,6 +1,6 @@
 {
-  "generated_at_iso": "2026-11-20T03:13:03-10:00",
-  "generated_label": "Friday, November 20 · 3:13 AM HST",
+  "generated_at_iso": "2026-11-21T03:10:12-10:00",
+  "generated_label": "Saturday, November 21 · 3:10 AM HST",
   "edition": "morning",
   "categories": [
     {
@@ -8,30 +8,30 @@
       "title": "Claude & Anthropic",
       "items": [
         {
-          "headline": "Anthropic's stock closes its first day up 17%, valuing the Claude maker at about $1.76 trillion",
-          "summary": "Shares of Anthropic (ticker ANT) closed Thursday at $97.17, about 17% above the $83 IPO price, after briefly trading as high as $111.50. That puts the company behind Claude at roughly $1.76 trillion on paper.",
-          "why_it_matters": "Nothing changes in your Claude account today, but a cash-rich, publicly traded Anthropic is a strong sign Claude will keep getting investment and isn't going anywhere, which matters if you're building your business workflows on it.",
-          "link": "https://www.cnn.com/2026/11/19/business/live-news/anthropic-ipo",
-          "source": "CNN",
-          "tag": "Opinion/Analysis",
+          "headline": "Claude can now use the computer for Team and Enterprise accounts (beta)",
+          "summary": "As of November 20, Claude's computer use feature, where it looks at your screen and works inside the desktop apps you allow, is in beta for Team and Enterprise plans. It's rolling out gradually, and an admin has to switch it on.",
+          "why_it_matters": "If your small team is on a Claude Team plan, you can soon hand Claude repetitive clicking jobs (filling forms, moving data between apps) instead of doing them yourself.",
+          "link": "https://support.claude.com/en/articles/12138966-release-notes",
+          "source": "Claude Help Center release notes",
+          "tag": "Product Update",
           "opportunity": {
-            "video": 3,
-            "social": 6,
-            "community": 4,
+            "video": 5,
+            "social": 4,
+            "community": 5,
             "act_now": false
           }
         },
         {
-          "headline": "Claude Code adds an experimental 'Code Mode' that bundles several steps into one",
-          "summary": "Claude Code, Anthropic's coding assistant that runs in a computer's terminal (the text-command window), has a new opt-in Code Mode that lets Claude write a small script to chain several actions together in one step instead of doing them one at a time. It's experimental and switched on with a settings flag.",
-          "why_it_matters": "If you use Claude Code to build small tools or automations for your business, this may make multi-step jobs faster, but it's an early test, so beginners can safely wait until it becomes a regular feature.",
-          "link": "https://dataconomy.com/2026/11/19/anthropic-adds-code-mode-to-claude-code-for-chained",
-          "source": "Dataconomy",
-          "tag": "Product Update",
+          "headline": "An Anthropic researcher claims he and Claude proved the Riemann hypothesis, math's most famous unsolved problem",
+          "summary": "Anthropic mathematician Levent Alpöge released a computer-checked proof he says he built with Claude, but no written paper or outside expert review exists yet. The same day, a Stanford professor posted a separate, all-human proof attempt.",
+          "why_it_matters": "Don't take the headlines as settled: this is an unverified claim for now, but it's a sign AI is starting to help with genuinely hard thinking work, not just writing emails.",
+          "link": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
+          "source": "TechCrunch",
+          "tag": "Research",
           "opportunity": {
             "video": 3,
-            "social": 2,
-            "community": 2,
+            "social": 6,
+            "community": 3,
             "act_now": false
           }
         }
@@ -42,31 +42,18 @@
       "title": "Wider AI World",
       "items": [
         {
-          "headline": "Google releases Gemini 4 Neon, a faster mid-tier model for paying Gemini users",
-          "summary": "Google launched Gemini 4 Neon, a new model that it says delivers near top-tier quality at faster speeds and lower cost. In the Gemini app it's available to Google AI Pro and Ultra subscribers, who pick it manually from the model menu; free users stay on the lighter models.",
-          "why_it_matters": "If you already pay for Google AI Pro, you have a stronger option for long documents and analysis today, and it gives you a fair head-to-head against Claude before you decide which subscription is worth keeping.",
-          "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
-          "source": "Google Blog",
-          "tag": "Product Update",
-          "opportunity": {
-            "video": 5,
-            "social": 6,
-            "community": 4,
-            "act_now": false
-          }
-        },
-        {
-          "headline": "Gemini's Mac app can now click around your computer to finish tasks for you",
-          "summary": "Google added 'computer use' to the Gemini desktop app for macOS, meaning Gemini can operate apps on your Mac to complete a task on your behalf. You can pause or stop it at any time and approve its actions before they happen.",
-          "why_it_matters": "This is the same 'AI that does the clicking for you' idea Claude and ChatGPT are pushing, now from Google on the Mac, so if you're a Mac-based solo business owner it's another way to hand off boring admin chores, as long as you keep an eye on what it does.",
-          "link": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you",
+          "headline": "More banks say you're on the hook if an AI agent you give your login to goes wrong, even after a hack",
+          "summary": "Citi updated its online banking agreement so customers are responsible for whatever an outside AI agent (an AI assistant that acts for you, like booking or paying things) does in their account, even if the tool is hacked. JPMorgan, Bank of America and others have taken similar positions.",
+          "why_it_matters": "Before you let ChatGPT, Gemini or any AI helper log into your business or personal bank account, know that your bank may not cover the losses if something goes wrong.",
+          "link": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/",
           "source": "TechCrunch",
-          "tag": "Product Update",
+          "tag": "Policy",
           "opportunity": {
-            "video": 6,
+            "video": 4,
             "social": 6,
-            "community": 5,
-            "act_now": false
+            "community": 7,
+            "act_now": false,
+            "angle": "Before you give an AI your bank login, read this"
           }
         }
       ]
@@ -76,17 +63,18 @@
       "title": "Tools & Tips for Creators and Small Biz",
       "items": [
         {
-          "headline": "Canva adds a single switch to turn off its AI features for Free and Pro accounts",
-          "summary": "Canva is rolling out a setting that hides its generative AI tools, such as Magic Write, Magic Design, and Magic Expand, all in one place, plus a separate option to see fewer AI-made templates. AI stays on by default, and the rollout is gradual, so you may not see it yet.",
-          "why_it_matters": "If AI buttons clutter your design workflow, or you want to promise clients that your graphics are made without AI, you can now control that yourself without upgrading to a team plan.",
-          "link": "https://www.creativebloq.com/news/the-canva-ai-off-switch-finally-recognises-the-artist-backlash",
-          "source": "Creative Bloq",
+          "headline": "Synthesia now makes AI avatar videos right inside a Claude chat",
+          "summary": "Synthesia, the AI talking-avatar video service, launched a connector for Claude: you add it once, sign in, and then ask Claude to create or revise a video, choosing the avatar, voiceover, style and length. Videos use your normal Synthesia credits.",
+          "why_it_matters": "You can go from script idea to finished explainer or training video in one conversation, without learning another editing app.",
+          "link": "https://www.synthesia.io/post/synthesia-connector-claude",
+          "source": "Synthesia Blog",
           "tag": "Product Update",
           "opportunity": {
-            "video": 4,
-            "social": 6,
+            "video": 7,
+            "social": 4,
             "community": 6,
-            "act_now": false
+            "act_now": false,
+            "angle": "I made a whole training video without leaving Claude"
           }
         }
       ]
@@ -96,33 +84,34 @@
       "title": "Content & Social Media Pulse",
       "items": [
         {
-          "headline": "Instagram's new Content Protection alerts you when someone reposts your Reels",
-          "summary": "Instagram now scans for copies of a creator's original Reels and lets them block the repost or add a link back to the original. To qualify, the Reel must also be posted (or cross-posted) to Facebook, and a small group is testing detection of AI-altered copies that reuse the original audio.",
-          "why_it_matters": "If you've ever found your videos reuploaded by someone else, this gives you a free way to get credit or shut it down, and turning on Facebook cross-posting is the simple step that makes your Reels eligible.",
-          "link": "https://techcrunch.com/2026/11/17/instagrams-new-tool-for-creators-targets-unauthorized-reposts-and-ai-modified-videos/",
-          "source": "TechCrunch",
+          "headline": "YouTube now counts extra people watching on a TV in your public view count",
+          "summary": "When YouTube estimates several people watched one TV playback together, that one play can now add several views to the public count. Phone, tablet and computer views still count once, ad pay and Partner Program eligibility don't change, and Studio adds a new 'co-view rate' number.",
+          "why_it_matters": "Your view counts on TV-heavy videos may jump without your earnings moving, so don't read a spike as a sudden income boost, but it's a handy number to show sponsors.",
+          "link": "https://winbuzzer.com/2026/11/18/one-tv-playback-several-public-youtube-views-xcxwbn/",
+          "source": "WinBuzzer",
           "tag": "Platform Change",
           "opportunity": {
             "video": 7,
-            "social": 6,
-            "community": 7,
+            "social": 7,
+            "community": 6,
             "act_now": true,
-            "action_note": "Check Instagram's professional dashboard for Content Protection this week and turn on Facebook cross-posting for your Reels so new ones are covered.",
-            "angle": "Somebody stole my Reel, so I tested Instagram's new Content Protection tool"
+            "action_note": "Check your co-view rate in YouTube Studio this week and note it before your next sponsor pitch, since your public view counts now include it.",
+            "angle": "Why your YouTube views just went up (and your paycheck didn't)"
           }
         },
         {
-          "headline": "TikTok begins rolling out Likeness Detection to help creators find AI deepfakes of themselves",
-          "summary": "TikTok says it has started rolling out an opt-in Likeness Detection feature that, after you verify your identity, scans for AI-generated videos using your face so you can review and report them. It also launched a tool anyone can use to check whether a video is AI-generated.",
-          "why_it_matters": "If you're the face of your brand, AI fakes of you selling something you never endorsed are a real risk, and this gives TikTok creators a way to catch them, similar to the likeness tool YouTube already offers.",
-          "link": "https://euronews.com/2026/11/20/tiktok-rolls-out-deepfake-detection-tool-for-public-figures-to-fight-back-against-disinfor",
-          "source": "Euronews",
+          "headline": "Instagram finally lets you edit a Story after posting it, for 15 minutes",
+          "summary": "You can now fix the text, music, stickers or drawings on a Story for up to 15 minutes after sharing it, without losing views, likes or replies. You can't swap the photo or video itself; find it under Edit Story in the three-dot menu.",
+          "why_it_matters": "A typo on a promo Story no longer means deleting it and losing the views you already earned.",
+          "link": "https://9to5mac.com/2026/11/18/instagram-finally-lets-users-edit-stories-after-publishing-but-theres-a-catch/",
+          "source": "9to5Mac",
           "tag": "Platform Change",
           "opportunity": {
-            "video": 5,
+            "video": 4,
             "social": 6,
-            "community": 6,
-            "act_now": false
+            "community": 7,
+            "act_now": false,
+            "angle": "Instagram just gave you a 15 minute undo button"
           }
         }
       ]
