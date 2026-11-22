@@ -1,0 +1,120 @@
+{
+  "generated_at_iso": "2026-11-21T03:10:12-10:00",
+  "generated_label": "Saturday, November 21 · 3:10 AM HST",
+  "edition": "morning",
+  "categories": [
+    {
+      "id": "claude-anthropic",
+      "title": "Claude & Anthropic",
+      "items": [
+        {
+          "headline": "Claude can now use the computer for Team and Enterprise accounts (beta)",
+          "summary": "As of November 20, Claude's computer use feature, where it looks at your screen and works inside the desktop apps you allow, is in beta for Team and Enterprise plans. It's rolling out gradually, and an admin has to switch it on.",
+          "why_it_matters": "If your small team is on a Claude Team plan, you can soon hand Claude repetitive clicking jobs (filling forms, moving data between apps) instead of doing them yourself.",
+          "link": "https://support.claude.com/en/articles/12138966-release-notes",
+          "source": "Claude Help Center release notes",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 5,
+            "social": 4,
+            "community": 5,
+            "act_now": false
+          }
+        },
+        {
+          "headline": "An Anthropic researcher claims he and Claude proved the Riemann hypothesis, math's most famous unsolved problem",
+          "summary": "Anthropic mathematician Levent Alpöge released a computer-checked proof he says he built with Claude, but no written paper or outside expert review exists yet. The same day, a Stanford professor posted a separate, all-human proof attempt.",
+          "why_it_matters": "Don't take the headlines as settled: this is an unverified claim for now, but it's a sign AI is starting to help with genuinely hard thinking work, not just writing emails.",
+          "link": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
+          "source": "TechCrunch",
+          "tag": "Research",
+          "opportunity": {
+            "video": 3,
+            "social": 6,
+            "community": 3,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "ai-industry",
+      "title": "Wider AI World",
+      "items": [
+        {
+          "headline": "More banks say you're on the hook if an AI agent you give your login to goes wrong, even after a hack",
+          "summary": "Citi updated its online banking agreement so customers are responsible for whatever an outside AI agent (an AI assistant that acts for you, like booking or paying things) does in their account, even if the tool is hacked. JPMorgan, Bank of America and others have taken similar positions.",
+          "why_it_matters": "Before you let ChatGPT, Gemini or any AI helper log into your business or personal bank account, know that your bank may not cover the losses if something goes wrong.",
+          "link": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/",
+          "source": "TechCrunch",
+          "tag": "Policy",
+          "opportunity": {
+            "video": 4,
+            "social": 6,
+            "community": 7,
+            "act_now": false,
+            "angle": "Before you give an AI your bank login, read this"
+          }
+        }
+      ]
+    },
+    {
+      "id": "creator-tools",
+      "title": "Tools & Tips for Creators and Small Biz",
+      "items": [
+        {
+          "headline": "Synthesia now makes AI avatar videos right inside a Claude chat",
+          "summary": "Synthesia, the AI talking-avatar video service, launched a connector for Claude: you add it once, sign in, and then ask Claude to create or revise a video, choosing the avatar, voiceover, style and length. Videos use your normal Synthesia credits.",
+          "why_it_matters": "You can go from script idea to finished explainer or training video in one conversation, without learning another editing app.",
+          "link": "https://www.synthesia.io/post/synthesia-connector-claude",
+          "source": "Synthesia Blog",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 7,
+            "social": 4,
+            "community": 6,
+            "act_now": false,
+            "angle": "I made a whole training video without leaving Claude"
+          }
+        }
+      ]
+    },
+    {
+      "id": "content-social",
+      "title": "Content & Social Media Pulse",
+      "items": [
+        {
+          "headline": "YouTube now counts extra people watching on a TV in your public view count",
+          "summary": "When YouTube estimates several people watched one TV playback together, that one play can now add several views to the public count. Phone, tablet and computer views still count once, ad pay and Partner Program eligibility don't change, and Studio adds a new 'co-view rate' number.",
+          "why_it_matters": "Your view counts on TV-heavy videos may jump without your earnings moving, so don't read a spike as a sudden income boost, but it's a handy number to show sponsors.",
+          "link": "https://winbuzzer.com/2026/11/18/one-tv-playback-several-public-youtube-views-xcxwbn/",
+          "source": "WinBuzzer",
+          "tag": "Platform Change",
+          "opportunity": {
+            "video": 7,
+            "social": 7,
+            "community": 6,
+            "act_now": true,
+            "action_note": "Check your co-view rate in YouTube Studio this week and note it before your next sponsor pitch, since your public view counts now include it.",
+            "angle": "Why your YouTube views just went up (and your paycheck didn't)"
+          }
+        },
+        {
+          "headline": "Instagram finally lets you edit a Story after posting it, for 15 minutes",
+          "summary": "You can now fix the text, music, stickers or drawings on a Story for up to 15 minutes after sharing it, without losing views, likes or replies. You can't swap the photo or video itself; find it under Edit Story in the three-dot menu.",
+          "why_it_matters": "A typo on a promo Story no longer means deleting it and losing the views you already earned.",
+          "link": "https://9to5mac.com/2026/11/18/instagram-finally-lets-users-edit-stories-after-publishing-but-theres-a-catch/",
+          "source": "9to5Mac",
+          "tag": "Platform Change",
+          "opportunity": {
+            "video": 4,
+            "social": 6,
+            "community": 7,
+            "act_now": false,
+            "angle": "Instagram just gave you a 15 minute undo button"
+          }
+        }
+      ]
+    }
+  ]
+}
