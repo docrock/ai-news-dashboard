@@ -1,6 +1,6 @@
 {
-  "generated_at_iso": "2026-11-22T03:09:56-10:00",
-  "generated_label": "Sunday, November 22 · 3:09 AM HST",
+  "generated_at_iso": "2026-11-23T03:15:20-10:00",
+  "generated_label": "Monday, November 23 · 3:15 AM HST",
   "edition": "morning",
   "categories": [
     {
@@ -8,16 +8,16 @@
       "title": "Claude & Anthropic",
       "items": [
         {
-          "headline": "Claude's phone app gets a fresh new look, starting on iPhone",
-          "summary": "Anthropic began gradually rolling out a redesigned Claude mobile app on November 20, starting with iOS. Your chats, projects, and plan stay exactly the same, and there's nothing to switch on, but the new look needs iOS 26 or later.",
-          "why_it_matters": "If you use Claude on your phone and it suddenly looks different, nothing is broken or lost; just keep the app and your iPhone updated to get it.",
-          "link": "https://support.claude.com/en/articles/12138966-release-notes",
-          "source": "Claude Help Center (Release Notes)",
+          "headline": "Claude Code can now draw charts for you with a new built-in tool called easel",
+          "summary": "Anthropic's November 20 update to Claude Code (version 2.1.330) adds 'easel,' a built-in add-on that draws a chart whenever you ask for one, so you can see your numbers as a picture instead of a wall of text. It works on Pro and Max plans (and Team and Enterprise where offered) on Mac and Linux, and you can turn the automatic charts off in Claude Code's settings.",
+          "why_it_matters": "If you use Claude Code to crunch things like sales, ad spend, or channel stats, you can now ask for a chart in plain English and get one right there, no spreadsheet wrangling needed.",
+          "link": "https://github.com/anthropics/claude-code/releases",
+          "source": "Claude Code Release Notes (GitHub)",
           "tag": "Product Update",
           "opportunity": {
-            "video": 4,
+            "video": 5,
             "social": 4,
-            "community": 6,
+            "community": 4,
             "act_now": false
           }
         }
@@ -26,62 +26,17 @@
     {
       "id": "ai-industry",
       "title": "Wider AI World",
-      "items": [
-        {
-          "headline": "ChatGPT had a major outage Friday, with up to 75% of requests failing",
-          "summary": "OpenAI's own status page says a large share of ChatGPT and OpenAI requests failed between 1:48 and 5:21 PT on November 21, peaking at a 75% failure rate for both free and paid users. OpenAI has published a write-up of the incident.",
-          "why_it_matters": "If your business leans on one AI tool for daily work, a few hours of downtime can stall you, so it's worth having a second assistant (like Claude or Gemini) set up and ready.",
-          "link": "https://status.openai.com/incidents/n254wyd7nml7",
-          "source": "OpenAI Status",
-          "tag": "Outage",
-          "opportunity": {
-            "video": 2,
-            "social": 6,
-            "community": 6,
-            "act_now": false
-          }
-        }
-      ]
+      "items": []
     },
     {
       "id": "creator-tools",
       "title": "Tools & Tips for Creators and Small Biz",
-      "items": [
-        {
-          "headline": "HighLevel tests a free tool that shows whether AI chatbots mention your business",
-          "summary": "HighLevel (GoHighLevel), a marketing platform many small agencies use, opened a private beta of 'AI & Search Visibility.' It checks your website for SEO problems and tracks whether your business shows up in answers from ChatGPT, Gemini, and Google's AI Overviews and AI Mode.",
-          "why_it_matters": "More customers now ask an AI chatbot for recommendations instead of searching Google, so a tool that shows whether those bots know about you is a practical first step, if you're already a HighLevel user and get beta access.",
-          "link": "https://help.gohighlevel.com/support/solutions/articles/155000009595",
-          "source": "HighLevel Help Center",
-          "tag": "Product Update",
-          "opportunity": {
-            "video": 4,
-            "social": 4,
-            "community": 6,
-            "act_now": false
-          }
-        }
-      ]
+      "items": []
     },
     {
       "id": "content-social",
       "title": "Content & Social Media Pulse",
-      "items": [
-        {
-          "headline": "YouTube shows off a new lineup of creator-made shows and films",
-          "summary": "At its second Creator Premieres event in Los Angeles, YouTube announced a slate of recurring shows, documentaries, and interactive series from creators like Emma Chamberlain and Nick DiGiovanni, running through 2026 and 2027. Phil Rosenthal is even moving the new season of Somebody Feed Phil from Netflix to his own YouTube channel.",
-          "why_it_matters": "YouTube is betting that longer, TV-style series from creators are the future of the platform, a signal that a recurring show format on your channel lines up with where YouTube is pushing.",
-          "link": "https://blog.youtube/news-and-events/youtube-creator-premieres-slate-2026/",
-          "source": "YouTube Official Blog",
-          "tag": "Platform Change",
-          "opportunity": {
-            "video": 4,
-            "social": 5,
-            "community": 5,
-            "act_now": false
-          }
-        }
-      ]
+      "items": []
     }
   ]
 }
