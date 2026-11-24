@@ -1,0 +1,42 @@
+{
+  "generated_at_iso": "2026-11-23T03:15:20-10:00",
+  "generated_label": "Monday, November 23 · 3:15 AM HST",
+  "edition": "morning",
+  "categories": [
+    {
+      "id": "claude-anthropic",
+      "title": "Claude & Anthropic",
+      "items": [
+        {
+          "headline": "Claude Code can now draw charts for you with a new built-in tool called easel",
+          "summary": "Anthropic's November 20 update to Claude Code (version 2.1.330) adds 'easel,' a built-in add-on that draws a chart whenever you ask for one, so you can see your numbers as a picture instead of a wall of text. It works on Pro and Max plans (and Team and Enterprise where offered) on Mac and Linux, and you can turn the automatic charts off in Claude Code's settings.",
+          "why_it_matters": "If you use Claude Code to crunch things like sales, ad spend, or channel stats, you can now ask for a chart in plain English and get one right there, no spreadsheet wrangling needed.",
+          "link": "https://github.com/anthropics/claude-code/releases",
+          "source": "Claude Code Release Notes (GitHub)",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 5,
+            "social": 4,
+            "community": 4,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "ai-industry",
+      "title": "Wider AI World",
+      "items": []
+    },
+    {
+      "id": "creator-tools",
+      "title": "Tools & Tips for Creators and Small Biz",
+      "items": []
+    },
+    {
+      "id": "content-social",
+      "title": "Content & Social Media Pulse",
+      "items": []
+    }
+  ]
+}

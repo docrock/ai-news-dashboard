@@ -1,6 +1,6 @@
 {
-  "generated_at_iso": "2026-11-23T03:15:20-10:00",
-  "generated_label": "Monday, November 23 · 3:15 AM HST",
+  "generated_at_iso": "2026-11-24T03:14:28-10:00",
+  "generated_label": "Tuesday, November 24 · 3:14 AM HST",
   "edition": "morning",
   "categories": [
     {
@@ -8,16 +8,30 @@
       "title": "Claude & Anthropic",
       "items": [
         {
-          "headline": "Claude Code can now draw charts for you with a new built-in tool called easel",
-          "summary": "Anthropic's November 20 update to Claude Code (version 2.1.330) adds 'easel,' a built-in add-on that draws a chart whenever you ask for one, so you can see your numbers as a picture instead of a wall of text. It works on Pro and Max plans (and Team and Enterprise where offered) on Mac and Linux, and you can turn the automatic charts off in Claude Code's settings.",
-          "why_it_matters": "If you use Claude Code to crunch things like sales, ad spend, or channel stats, you can now ask for a chart in plain English and get one right there, no spreadsheet wrangling needed.",
-          "link": "https://github.com/anthropics/claude-code/releases",
-          "source": "Claude Code Release Notes (GitHub)",
+          "headline": "Anthropic launches Claude Ship, a team of AI helpers that review, fix and approve code changes",
+          "summary": "Claude Ship bundles Anthropic's existing Code Review tool with two new beta helpers: PR Steward, which fixes failing checks and merge conflicts, and Claude Approvals, which signs off on routine changes using rules your team writes in plain English. You can start it with a new /ship command in Claude Code, and it is billed by usage with an optional monthly spending cap.",
+          "why_it_matters": "If you've had Claude Code build a website or small app for your business, this is a step toward Claude checking and cleaning up its own work before it goes live, so there's less for you to babysit.",
+          "link": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+          "source": "TechCrunch",
           "tag": "Product Update",
           "opportunity": {
             "video": 5,
-            "social": 4,
-            "community": 4,
+            "social": 5,
+            "community": 3,
+            "act_now": false
+          }
+        },
+        {
+          "headline": "Big business customers can now keep their Claude chat records on their own servers",
+          "summary": "Anthropic released an early version of Enterprise Frontier Safeguards, which lets companies using its most powerful models store the prompts and replies Anthropic requires them to keep for 30 days in their own cloud accounts, locked with their own encryption keys. Anthropic's software scans that data for signs of misuse without being able to read it.",
+          "why_it_matters": "This one is aimed at banks and big companies, not solo creators, but it shows Anthropic tightening its privacy controls, which is worth knowing if a client ever asks whether their data is safe with Claude.",
+          "link": "https://qz.com/anthropic-enterprise-data-control-frontier-safeguards-112326",
+          "source": "Quartz",
+          "tag": "Policy",
+          "opportunity": {
+            "video": 1,
+            "social": 3,
+            "community": 2,
             "act_now": false
           }
         }
@@ -26,12 +40,73 @@
     {
       "id": "ai-industry",
       "title": "Wider AI World",
-      "items": []
+      "items": [
+        {
+          "headline": "ChatGPT Space, a shared workspace for pages and presentations, is reaching $20 Plus accounts",
+          "summary": "OpenAI is gradually rolling out Space to ChatGPT Plus subscribers 18 and older. It lets you build pages and slide-style presentations with ChatGPT and keep them updated from connected apps. You can share them, but only with people who also have a paid plan that includes Space.",
+          "why_it_matters": "It's ChatGPT's answer to shared docs, so if you already pay for Plus you can try it for things like a client proposal or a content calendar without adding another tool.",
+          "link": "https://help.openai.com/en/articles/20001549-getting-started-with-space-in-chatgpt",
+          "source": "OpenAI Help Center",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 5,
+            "social": 5,
+            "community": 6,
+            "act_now": false
+          }
+        },
+        {
+          "headline": "Google is offering up to 50% off its Gemini AI plans for Black Friday",
+          "summary": "Current Google AI and storage subscribers get early access to Black Friday prices through November 26, and the deals open to new customers on November 27. Reports put the yearly AI Pro plan at about $100 instead of $200, though the exact discount depends on the plan you have now.",
+          "why_it_matters": "If you've been thinking about paying for an AI assistant, this is the cheapest Gemini's paid tier is likely to get this year. Just know it may replace any discount you already have, and the lower price may only cover the first year.",
+          "link": "https://www.androidpolice.com/googles-ai-pro-plan-black-friday-steal-year/",
+          "source": "Android Police",
+          "tag": "Pricing",
+          "opportunity": {
+            "video": 3,
+            "social": 6,
+            "community": 7,
+            "act_now": false,
+            "angle": "Black Friday AI deals: which subscription is actually worth it for a small business?"
+          }
+        }
+      ]
     },
     {
       "id": "creator-tools",
       "title": "Tools & Tips for Creators and Small Biz",
-      "items": []
+      "items": [
+        {
+          "headline": "Descript's saved templates stop working November 30, so convert them to skills now",
+          "summary": "Descript is replacing the templates in its AI editing assistant, Underlord, with reusable instructions called skills. Templates you saved yourself won't switch over on their own. To keep one, go to Settings, then Skills, then View templates, and click Save as skill on each.",
+          "why_it_matters": "If you've built Descript templates for your intros, show notes or clip workflows, you have six days to save them or you'll have to rebuild them from scratch.",
+          "link": "https://feedback.descript.com/changelog",
+          "source": "Descript Changelog",
+          "tag": "Deadline",
+          "opportunity": {
+            "video": 4,
+            "social": 5,
+            "community": 8,
+            "act_now": true,
+            "action_note": "Open Descript, go to Settings > Skills > View templates and click Save as skill on every template you rely on before November 30, then post a heads-up in the Creator Sandbox so members don't lose theirs.",
+            "angle": "Descript users: you've got six days before your saved templates disappear"
+          }
+        },
+        {
+          "headline": "Gemini can now make short looping GIFs from a text description or a photo",
+          "summary": "Google added GIF making to the Gemini app, powered by its Gemini Omni video model. It turns a text prompt, image or video into a roughly three-second looping clip. Paid subscribers get it first, and Google says free users in eight countries, including the US, are getting it too, though its help pages list narrower rules.",
+          "why_it_matters": "It's an easy way to make reaction GIFs, product loops or little animated graphics for social posts and emails without opening an editing app.",
+          "link": "https://www.androidauthority.com/gemini-gif-generation-rollout-3737901/",
+          "source": "Android Authority",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 5,
+            "social": 6,
+            "community": 6,
+            "act_now": false
+          }
+        }
+      ]
     },
     {
       "id": "content-social",
