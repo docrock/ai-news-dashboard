@@ -1,6 +1,6 @@
 {
-  "generated_at_iso": "2026-11-25T03:13:14-10:00",
-  "generated_label": "Wednesday, November 25 · 3:13 AM HST",
+  "generated_at_iso": "2026-11-26T03:10:30-10:00",
+  "generated_label": "Thursday, November 26 · 3:10 AM HST",
   "edition": "morning",
   "categories": [
     {
@@ -8,19 +8,17 @@
       "title": "Claude & Anthropic",
       "items": [
         {
-          "headline": "Claude can now turn the little apps it builds for you into real desktop apps (beta)",
-          "summary": "A new 'Install as App' option lets you take an artifact (an interactive tool, calculator, tracker or mini-app Claude makes in a chat) and install it on your Mac or Windows computer, where it gets its own window and icon and opens like any other program. It's in beta for all paid Claude subscribers; Team plans have it on by default, Enterprise admins have to switch it on, and you need to be online and signed in to Claude for the app to open.",
-          "why_it_matters": "That pricing calculator, content planner or client-intake form you had Claude whip up no longer has to live buried in an old chat. You can pin it to your dock and use it every day like software you bought, without knowing how to code.",
-          "link": "https://www.macrumors.com/2026/11/25/claude-install-artifacts-desktop-apps/",
-          "source": "MacRumors",
-          "tag": "Product Update",
+          "headline": "Anthropic CEO Dario Amodei says it's 'absurd' to claim he wants people to hand control over to AI",
+          "summary": "In a long post on X on Wednesday, Amodei pushed back on rival AI bosses and an Axios piece that suggested he wants humans to 'surrender free will' to AI. He drew a line between AI taking over specific jobs like writing software or helping design drugs, which he supports, and handing AI control over the big decisions in society, which he says he does not, and he added that 'we may want limits' on AI improving itself.",
+          "why_it_matters": "The company behind the Claude tools you use is publicly staking out where it thinks AI should and shouldn't be in charge. That's useful context if clients or your audience ask whether these tools are safe to lean on.",
+          "link": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
+          "source": "TechCrunch",
+          "tag": "Opinion/Analysis",
           "opportunity": {
-            "video": 8,
-            "social": 7,
-            "community": 8,
-            "act_now": true,
-            "action_note": "Open an artifact you already use in Claude, install it as an app this week, and screen-record the before-and-after for a quick tutorial.",
-            "angle": "I turned a Claude chat into a real app on my dock in 30 seconds, no coding"
+            "video": 3,
+            "social": 6,
+            "community": 4,
+            "act_now": false
           }
         }
       ]
@@ -30,16 +28,16 @@
       "title": "Wider AI World",
       "items": [
         {
-          "headline": "Character.AI's chat logs could be sold at a December 1 bankruptcy auction, and 40 state attorneys general are pushing back",
-          "summary": "Character.AI, the popular chat-with-a-character app, is in Chapter 11 bankruptcy, and its AI models and users' private conversations are part of what's up for sale at an auction set for December 1, with opening bids from Disney and a newly formed company. Attorneys general from 39 states plus D.C. have asked the court to require age checks, safety protections and a way for users to delete their data before any sale goes through.",
-          "why_it_matters": "It's a real-world reminder that what you type into an AI app can outlive the company. Before you paste client details or personal stuff into any chatbot, check who runs it and whether you can delete your history.",
-          "link": "https://ppc.land/character-ai-users-chats-face-a-10m-sale-to-smirks-and-pangs/",
-          "source": "PPC Land",
-          "tag": "Policy",
+          "headline": "ChatGPT is moving to one shared usage limit, and heavy users may run out sooner",
+          "summary": "OpenAI is folding ChatGPT's separate Chat and Work areas into one experience with a single usage meter. It started with a small group of Pro subscribers on November 24, and from December, Plus, Pro and Business subscribers will draw both ChatGPT and Codex (OpenAI's coding helper) from one shared allowance. Chats with the fast 'Instant' model stay unlimited, and OpenAI says most people won't notice a difference, but it hasn't published the exact limits.",
+          "why_it_matters": "If you pay for ChatGPT and lean on it hard for scripts, emails or research, you could start hitting the wall mid-project in December. Keep an eye on it and have a backup tool like Claude ready for crunch days.",
+          "link": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+          "source": "TechCrunch",
+          "tag": "Pricing",
           "opportunity": {
-            "video": 3,
+            "video": 4,
             "social": 6,
-            "community": 5,
+            "community": 6,
             "act_now": false
           }
         }
@@ -48,27 +46,27 @@
     {
       "id": "creator-tools",
       "title": "Tools & Tips for Creators and Small Biz",
-      "items": [
-        {
-          "headline": "Canva's connector for AI assistants is now open to everyone, no waitlist",
-          "summary": "Canva has made its MCP server (a plug-in standard that lets AI assistants like Claude or ChatGPT reach into another app) generally available, along with its developer APIs and command-line tool. That means AI assistants and the tools built on them can now search, create and edit designs in your Canva account directly instead of you copying things back and forth.",
-          "why_it_matters": "Expect more AI tools to offer a 'make it in Canva' button soon. If you already pay for Canva and use Claude, asking Claude to draft social graphics straight into your Canva account gets easier and more reliable.",
-          "link": "https://www.canva.dev/blog/developers/canva-mcp-ga/",
-          "source": "Canva Developers Blog",
-          "tag": "Product Update",
-          "opportunity": {
-            "video": 5,
-            "social": 4,
-            "community": 5,
-            "act_now": false
-          }
-        }
-      ]
+      "items": []
     },
     {
       "id": "content-social",
       "title": "Content & Social Media Pulse",
-      "items": []
+      "items": [
+        {
+          "headline": "X adds TikTok-style vertical video tools, paid clipping and a bonus for original videos",
+          "summary": "X (formerly Twitter) upgraded its built-in video editor so you can record in segments, use a green screen, auto-generate captions, turn horizontal video vertical, trim, add text and pick a custom thumbnail. A new clipping feature lets people cut a short piece of a longer video with credit and a link back, and both the clipper and the original poster can earn from the views; X is also running an invite-only bonus of up to $3,000 for creators who post original vertical videos regularly. Availability varies by region.",
+          "why_it_matters": "If X is already one of your channels, you can now cut and caption a vertical clip right in the app instead of in a separate editor, and clipping could send viewers from short clips back to your longer videos.",
+          "link": "https://www.analyticsinsight.net/news/elon-musks-x-launches-vertical-video-tools-to-take-on-tiktok-reels-and-shorts",
+          "source": "Analytics Insight",
+          "tag": "Platform Change",
+          "opportunity": {
+            "video": 5,
+            "social": 5,
+            "community": 4,
+            "act_now": false
+          }
+        }
+      ]
     }
   ]
 }

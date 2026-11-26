@@ -1,0 +1,74 @@
+{
+  "generated_at_iso": "2026-11-25T03:13:14-10:00",
+  "generated_label": "Wednesday, November 25 · 3:13 AM HST",
+  "edition": "morning",
+  "categories": [
+    {
+      "id": "claude-anthropic",
+      "title": "Claude & Anthropic",
+      "items": [
+        {
+          "headline": "Claude can now turn the little apps it builds for you into real desktop apps (beta)",
+          "summary": "A new 'Install as App' option lets you take an artifact (an interactive tool, calculator, tracker or mini-app Claude makes in a chat) and install it on your Mac or Windows computer, where it gets its own window and icon and opens like any other program. It's in beta for all paid Claude subscribers; Team plans have it on by default, Enterprise admins have to switch it on, and you need to be online and signed in to Claude for the app to open.",
+          "why_it_matters": "That pricing calculator, content planner or client-intake form you had Claude whip up no longer has to live buried in an old chat. You can pin it to your dock and use it every day like software you bought, without knowing how to code.",
+          "link": "https://www.macrumors.com/2026/11/25/claude-install-artifacts-desktop-apps/",
+          "source": "MacRumors",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 8,
+            "social": 7,
+            "community": 8,
+            "act_now": true,
+            "action_note": "Open an artifact you already use in Claude, install it as an app this week, and screen-record the before-and-after for a quick tutorial.",
+            "angle": "I turned a Claude chat into a real app on my dock in 30 seconds, no coding"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ai-industry",
+      "title": "Wider AI World",
+      "items": [
+        {
+          "headline": "Character.AI's chat logs could be sold at a December 1 bankruptcy auction, and 40 state attorneys general are pushing back",
+          "summary": "Character.AI, the popular chat-with-a-character app, is in Chapter 11 bankruptcy, and its AI models and users' private conversations are part of what's up for sale at an auction set for December 1, with opening bids from Disney and a newly formed company. Attorneys general from 39 states plus D.C. have asked the court to require age checks, safety protections and a way for users to delete their data before any sale goes through.",
+          "why_it_matters": "It's a real-world reminder that what you type into an AI app can outlive the company. Before you paste client details or personal stuff into any chatbot, check who runs it and whether you can delete your history.",
+          "link": "https://ppc.land/character-ai-users-chats-face-a-10m-sale-to-smirks-and-pangs/",
+          "source": "PPC Land",
+          "tag": "Policy",
+          "opportunity": {
+            "video": 3,
+            "social": 6,
+            "community": 5,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "creator-tools",
+      "title": "Tools & Tips for Creators and Small Biz",
+      "items": [
+        {
+          "headline": "Canva's connector for AI assistants is now open to everyone, no waitlist",
+          "summary": "Canva has made its MCP server (a plug-in standard that lets AI assistants like Claude or ChatGPT reach into another app) generally available, along with its developer APIs and command-line tool. That means AI assistants and the tools built on them can now search, create and edit designs in your Canva account directly instead of you copying things back and forth.",
+          "why_it_matters": "Expect more AI tools to offer a 'make it in Canva' button soon. If you already pay for Canva and use Claude, asking Claude to draft social graphics straight into your Canva account gets easier and more reliable.",
+          "link": "https://www.canva.dev/blog/developers/canva-mcp-ga/",
+          "source": "Canva Developers Blog",
+          "tag": "Product Update",
+          "opportunity": {
+            "video": 5,
+            "social": 4,
+            "community": 5,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "content-social",
+      "title": "Content & Social Media Pulse",
+      "items": []
+    }
+  ]
+}
