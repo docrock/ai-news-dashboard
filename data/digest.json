@@ -1,6 +1,6 @@
 {
-  "generated_at_iso": "2026-11-26T03:10:30-10:00",
-  "generated_label": "Thursday, November 26 · 3:10 AM HST",
+  "generated_at_iso": "2026-11-27T03:11:46-10:00",
+  "generated_label": "Friday, November 27 · 3:11 AM HST",
   "edition": "morning",
   "categories": [
     {
@@ -8,16 +8,16 @@
       "title": "Claude & Anthropic",
       "items": [
         {
-          "headline": "Anthropic CEO Dario Amodei says it's 'absurd' to claim he wants people to hand control over to AI",
-          "summary": "In a long post on X on Wednesday, Amodei pushed back on rival AI bosses and an Axios piece that suggested he wants humans to 'surrender free will' to AI. He drew a line between AI taking over specific jobs like writing software or helping design drugs, which he supports, and handing AI control over the big decisions in society, which he says he does not, and he added that 'we may want limits' on AI improving itself.",
-          "why_it_matters": "The company behind the Claude tools you use is publicly staking out where it thinks AI should and shouldn't be in charge. That's useful context if clients or your audience ask whether these tools are safe to lean on.",
-          "link": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
-          "source": "TechCrunch",
-          "tag": "Opinion/Analysis",
+          "headline": "Apps you connect to Claude can now bring their own 'how-to' know-how, and run long jobs in the background",
+          "summary": "Anthropic says services you plug into Claude through MCP (the standard way outside apps connect to Claude) can now ship 'skills', step-by-step instructions Claude loads only when a task needs them. It's a public beta, on by default for Pro, Max and Ultra plans. Connected apps can also run slow jobs in the background and pause to ask you before anything paid or destructive.",
+          "why_it_matters": "If you connect Claude to tools like Shopify or HubSpot, Claude should now follow those companies' own best-practice steps instead of guessing, and it will check with you before it spends money or deletes something.",
+          "link": "https://claude.com/resources/articles/skills-over-mcp-tasks-and-more",
+          "source": "Claude (Anthropic)",
+          "tag": "Product Update",
           "opportunity": {
-            "video": 3,
-            "social": 6,
-            "community": 4,
+            "video": 5,
+            "social": 4,
+            "community": 6,
             "act_now": false
           }
         }
@@ -28,16 +28,16 @@
       "title": "Wider AI World",
       "items": [
         {
-          "headline": "ChatGPT is moving to one shared usage limit, and heavy users may run out sooner",
-          "summary": "OpenAI is folding ChatGPT's separate Chat and Work areas into one experience with a single usage meter. It started with a small group of Pro subscribers on November 24, and from December, Plus, Pro and Business subscribers will draw both ChatGPT and Codex (OpenAI's coding helper) from one shared allowance. Chats with the fast 'Instant' model stay unlimited, and OpenAI says most people won't notice a difference, but it hasn't published the exact limits.",
-          "why_it_matters": "If you pay for ChatGPT and lean on it hard for scripts, emails or research, you could start hitting the wall mid-project in December. Keep an eye on it and have a backup tool like Claude ready for crunch days.",
-          "link": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
-          "source": "TechCrunch",
-          "tag": "Pricing",
+          "headline": "New York bans AI chatbot toys for five years, but not until after the holidays",
+          "summary": "Gov. Kathy Hochul signed a law banning the making and selling of toys with built-in AI chatbots, like talking stuffed animals and robots, after watchdog tests found some had inappropriate conversations with kids. It kicks in 90 days after signing, around late February, so these toys can still be sold this holiday season. New York is the second state after California to do this.",
+          "why_it_matters": "If you're shopping for kids or grandkids this season, think twice about 'AI-powered' talking toys, and if you sell products with AI baked in, states are clearly willing to step in when kids are involved.",
+          "link": "https://www.nbcnews.com/tech/tech-news/new-york-governor-kathy-hochul-sign-ai-toy-ban-law-rcna610962",
+          "source": "NBC News",
+          "tag": "Policy",
           "opportunity": {
-            "video": 4,
-            "social": 6,
-            "community": 6,
+            "video": 1,
+            "social": 5,
+            "community": 3,
             "act_now": false
           }
         }
@@ -53,16 +53,16 @@
       "title": "Content & Social Media Pulse",
       "items": [
         {
-          "headline": "X adds TikTok-style vertical video tools, paid clipping and a bonus for original videos",
-          "summary": "X (formerly Twitter) upgraded its built-in video editor so you can record in segments, use a green screen, auto-generate captions, turn horizontal video vertical, trim, add text and pick a custom thumbnail. A new clipping feature lets people cut a short piece of a longer video with credit and a link back, and both the clipper and the original poster can earn from the views; X is also running an invite-only bonus of up to $3,000 for creators who post original vertical videos regularly. Availability varies by region.",
-          "why_it_matters": "If X is already one of your channels, you can now cut and caption a vertical clip right in the app instead of in a separate editor, and clipping could send viewers from short clips back to your longer videos.",
-          "link": "https://www.analyticsinsight.net/news/elon-musks-x-launches-vertical-video-tools-to-take-on-tiktok-reels-and-shorts",
-          "source": "Analytics Insight",
-          "tag": "Platform Change",
+          "headline": "Whatnot drops its seller fee to 0% for Black Friday as live shopping gets crowded",
+          "summary": "The live-selling app Whatnot is charging sellers no commission on Black Friday (and on Saturday for eligible small sellers), then half off through Cyber Monday, with giveaway streams from big names like MrBeast and Kai Cenat running Nov 27 to 30. eBay is offering 0% on its own live sales too, as both chase TikTok Shop.",
+          "why_it_matters": "Selling on a livestream is becoming a real option for small businesses with physical products, and platforms are now cutting fees to win sellers, so it's a cheap weekend to see if live selling fits your business.",
+          "link": "https://www.valueaddedresource.net/ebay-whatnot-black-friday-2026/",
+          "source": "Value Added Resource",
+          "tag": "Pricing",
           "opportunity": {
-            "video": 5,
+            "video": 3,
             "social": 5,
-            "community": 4,
+            "community": 6,
             "act_now": false
           }
         }

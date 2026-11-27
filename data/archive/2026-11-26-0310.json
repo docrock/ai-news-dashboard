@@ -1,0 +1,72 @@
+{
+  "generated_at_iso": "2026-11-26T03:10:30-10:00",
+  "generated_label": "Thursday, November 26 · 3:10 AM HST",
+  "edition": "morning",
+  "categories": [
+    {
+      "id": "claude-anthropic",
+      "title": "Claude & Anthropic",
+      "items": [
+        {
+          "headline": "Anthropic CEO Dario Amodei says it's 'absurd' to claim he wants people to hand control over to AI",
+          "summary": "In a long post on X on Wednesday, Amodei pushed back on rival AI bosses and an Axios piece that suggested he wants humans to 'surrender free will' to AI. He drew a line between AI taking over specific jobs like writing software or helping design drugs, which he supports, and handing AI control over the big decisions in society, which he says he does not, and he added that 'we may want limits' on AI improving itself.",
+          "why_it_matters": "The company behind the Claude tools you use is publicly staking out where it thinks AI should and shouldn't be in charge. That's useful context if clients or your audience ask whether these tools are safe to lean on.",
+          "link": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
+          "source": "TechCrunch",
+          "tag": "Opinion/Analysis",
+          "opportunity": {
+            "video": 3,
+            "social": 6,
+            "community": 4,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "ai-industry",
+      "title": "Wider AI World",
+      "items": [
+        {
+          "headline": "ChatGPT is moving to one shared usage limit, and heavy users may run out sooner",
+          "summary": "OpenAI is folding ChatGPT's separate Chat and Work areas into one experience with a single usage meter. It started with a small group of Pro subscribers on November 24, and from December, Plus, Pro and Business subscribers will draw both ChatGPT and Codex (OpenAI's coding helper) from one shared allowance. Chats with the fast 'Instant' model stay unlimited, and OpenAI says most people won't notice a difference, but it hasn't published the exact limits.",
+          "why_it_matters": "If you pay for ChatGPT and lean on it hard for scripts, emails or research, you could start hitting the wall mid-project in December. Keep an eye on it and have a backup tool like Claude ready for crunch days.",
+          "link": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+          "source": "TechCrunch",
+          "tag": "Pricing",
+          "opportunity": {
+            "video": 4,
+            "social": 6,
+            "community": 6,
+            "act_now": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "creator-tools",
+      "title": "Tools & Tips for Creators and Small Biz",
+      "items": []
+    },
+    {
+      "id": "content-social",
+      "title": "Content & Social Media Pulse",
+      "items": [
+        {
+          "headline": "X adds TikTok-style vertical video tools, paid clipping and a bonus for original videos",
+          "summary": "X (formerly Twitter) upgraded its built-in video editor so you can record in segments, use a green screen, auto-generate captions, turn horizontal video vertical, trim, add text and pick a custom thumbnail. A new clipping feature lets people cut a short piece of a longer video with credit and a link back, and both the clipper and the original poster can earn from the views; X is also running an invite-only bonus of up to $3,000 for creators who post original vertical videos regularly. Availability varies by region.",
+          "why_it_matters": "If X is already one of your channels, you can now cut and caption a vertical clip right in the app instead of in a separate editor, and clipping could send viewers from short clips back to your longer videos.",
+          "link": "https://www.analyticsinsight.net/news/elon-musks-x-launches-vertical-video-tools-to-take-on-tiktok-reels-and-shorts",
+          "source": "Analytics Insight",
+          "tag": "Platform Change",
+          "opportunity": {
+            "video": 5,
+            "social": 5,
+            "community": 4,
+            "act_now": false
+          }
+        }
+      ]
+    }
+  ]
+}
